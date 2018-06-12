@@ -1,8 +1,8 @@
-name: Shockjaw Blades
-description: A Slayer's chain blades forged with Shockjaw trophies.
+name: Fireblades
+description: A Slayer's chain blades forged with Firebrand trophies.
 type: Chain Blades
 damage: Slashing
-elemental: Shock
+elemental: Blaze
 cells: [Technique, Utility]
 tier: 5
 power:
@@ -17,14 +17,13 @@ power:
   9: 418
   10: 430
 perks:
-  - name: Energized
+  - name: Aetherhunter
     value: 1
     from: 0
     to: 5
-  - name: Energized
+  - name: Aetherhunter
     value: 2
     from: 6
     to: 10
-unique_effects:
-  - name: lifesteal_wounded_parts
-    value: 1.05
+  - name: Rage
+    value: 2

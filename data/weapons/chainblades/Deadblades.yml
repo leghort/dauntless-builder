@@ -1,6 +1,6 @@
-name: Deadeye Ripper
-description: A Slayer's sword forged with Deadeye trophies.
-type: Sword
+name: Deadblades
+description: A Slayer's chain blades forged with Deadeye trophies.
+type: Chain Blades
 damage: Slashing
 elemental: null
 cells: [Technique, Defence]
@@ -17,8 +17,6 @@ power:
   9: 418
   10: 430
 perks:
-  - name: Barbed
-    value: 2
   - name: Acidic
     value: 1
     from: 0
@@ -27,3 +25,5 @@ perks:
     value: 2
     from: 6
     to: 10
+  - name: Barbed
+    value: 2

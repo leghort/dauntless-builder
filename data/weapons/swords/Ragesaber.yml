@@ -5,6 +5,7 @@ type: Sword
 damage: Slashing
 elemental: null
 cells: [Utility, Defence]
+tier: 5
 power:
   0: 310
   1: 322
