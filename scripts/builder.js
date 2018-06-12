@@ -22,7 +22,7 @@ function build(path) {
 Promise.all([
     build("data/armors/*.yml"),
     build("data/behemoths/*.yml"),
-    build("data/cells/*.yml"),
+    build("data/cells/*/*.yml"),
     build("data/perks/*.yml"),
     build("data/weapons/*/*.yml"),
 ]).then(data => {

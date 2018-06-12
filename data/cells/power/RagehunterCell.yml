@@ -1,0 +1,9 @@
+name: Ragehunter Cell
+slot: Power
+cells:
+  "+1 Ragehunter Cell":
+    Ragehunter: 1
+  "+2 Ragehunter Cell":
+    Ragehunter: 2
+  "+3 Ragehunter Cell":
+    Ragehunter: 3

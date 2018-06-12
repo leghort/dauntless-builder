@@ -1,0 +1,29 @@
+name: Ragetail Touque
+description: Head protection forged from Ragetail trophies.
+type: Head
+strength: null
+weakness: null
+cells: Defense
+resistance:
+  0: 78
+  1: 81
+  2: 84
+  3: 87
+  4: 90
+  5: 93
+  6: 96
+  7: 99
+  8: 102
+  9: 105
+  10: 108
+perks:
+  - from: 0
+    to: 5
+    perks:
+      Tough: 1
+      Bloodless: 1
+  - from: 6
+    to: 10
+    perks:
+      Tough: 1
+      Bloodless: 2
