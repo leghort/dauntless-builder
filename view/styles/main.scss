@@ -1,0 +1,23 @@
+$bgcolor: #e3e3e3;
+
+html, body {
+    background: $bgcolor;
+
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding: 20px;
+}
+
+.footers {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #AAA;
+}
