@@ -1,0 +1,28 @@
+name: Razorwing Sword
+description: A Slayer's sword forged with Razorwing trophies.
+type: Sword
+damage: Slashing
+elemental: null
+cells: [Technique, Mobility]
+power:
+  0: 310
+  1: 322
+  3: 346
+  4: 358
+  5: 370
+  6: 382
+  7: 384
+  8: 406
+  9: 418
+  10: 430
+perks:
+  - name: Bladestorm
+    value: 2
+  - name: Sharpened
+    value: 1
+    from: 0
+    to: 5
+  - name: Sharpened
+    value: 2
+    from: 6
+    to: 10

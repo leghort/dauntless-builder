@@ -1,0 +1,22 @@
+name: The Hunger
+description: stuff?.
+type: Sword
+damage: Slashing
+elemental: Umbral
+cells: [Power, Utility]
+power:
+  0: 310
+  1: 322
+  3: 346
+  4: 358
+  5: 370
+  6: 382
+  7: 384
+  8: 406
+  9: 418
+  10: 430
+unique_effects:
+  - name: meter_damage
+    value: 1.25
+  - name: feast
+    value: 1.75
