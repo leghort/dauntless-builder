@@ -1,5 +1,6 @@
 name: Ragesaber
 description: A Slayer's sword forged with Ragetail trophies.
+icon: assets/icons/weapons/swords/Ragesaber.png
 type: Sword
 damage: Slashing
 elemental: null
