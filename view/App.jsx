@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import IndexView from "./views/IndexView";
 import BuildView from "./views/BuildView";
 
-import "styles/main.scss";
+require("styles/main.scss");
 
 class App extends React.Component {
     render() {
