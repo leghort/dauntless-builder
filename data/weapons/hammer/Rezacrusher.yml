@@ -1,9 +1,9 @@
-name: Rezakatana
-description: A Slayer's sword forged with Rezakiri trophies.
-type: Sword
-damage: Slashing
+name: Rezacrusher
+description: A Slayer's hammer forged with Rezakiri trophies.
+type: Hammer
+damage: Blunt
 elemental: Radiant
-cells: [Technique, Utility]
+cells: [Power, Mobility]
 tier: 5
 power:
   0: 310
@@ -17,6 +17,8 @@ power:
   9: 418
   10: 430
 unique_effects:
+  - name: null
+    value: null
   - name: hit_twice
     value: 1.05
     from: 0
@@ -25,5 +27,3 @@ unique_effects:
     value: 1.10
     from: 6
     to: 10
-  - name: bonus_part_damage
-    value: 3

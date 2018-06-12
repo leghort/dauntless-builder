@@ -1,9 +1,9 @@
-name: Rezakatana
-description: A Slayer's sword forged with Rezakiri trophies.
-type: Sword
+name: Rezakirir's Fangs
+description: A Slayer's chain blades forged with Rezakiri trophies.
+type: Chain Blades
 damage: Slashing
 elemental: Radiant
-cells: [Technique, Utility]
+cells: [Technique, Power]
 tier: 5
 power:
   0: 310
@@ -18,12 +18,12 @@ power:
   10: 430
 unique_effects:
   - name: hit_twice
-    value: 1.05
+    value: null
     from: 0
     to: 5
   - name: hit_twice
-    value: 1.10
+    value: 
     from: 6
     to: 10
-  - name: bonus_part_damage
+  - name: seven_hit_part_damage
     value: 3

@@ -1,9 +1,9 @@
-name: Shrowd Slicer
-description: A Slayer's sword forged with Shrowd trophies.
-type: Sword
+name: Shrowd Blades
+description: A Slayer's chain blades forged with Shrowd trophies.
+type: Chain Blades
 damage: Slashing
 elemental: Umbral
-cells: [Power, Utility]
+cells: [Technique, Utility]
 tier: 5
 power:
   0: 310

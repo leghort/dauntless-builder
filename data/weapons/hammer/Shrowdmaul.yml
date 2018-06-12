@@ -1,7 +1,7 @@
-name: Shrowd Slicer
-description: A Slayer's sword forged with Shrowd trophies.
-type: Sword
-damage: Slashing
+name: Shrowdmaul
+description: A Slayer's hammer forged with Shrowd trophies.
+type: Hammer
+damage: Blunt
 elemental: Umbral
 cells: [Power, Utility]
 tier: 5
