@@ -27,3 +27,14 @@ perks:
     perks:
       Ragehunter: 2
       Rage: 2
+perks:
+  - name: Ragehunter
+    value: 2
+  - name: Rage
+    value: 1
+    from: 0
+    to: 5
+  - name: Rage
+    value: 2
+    from: 6
+    to: 10
