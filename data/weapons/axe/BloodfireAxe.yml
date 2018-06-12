@@ -1,0 +1,24 @@
+name: Bloodfire Axe
+description: A Slayer's hammer forged with Bloodfire trophies.
+type: Axe
+damage: Slashing
+elemental: Blaze
+cells: [Power, Mobility]
+tier: 5
+power:
+  0: 310
+  1: 322
+  3: 346
+  4: 358
+  5: 370
+  6: 382
+  7: 384
+  8: 406
+  9: 418
+  10: 430
+perks:
+  - name: Wild Frenzy
+    value: 2
+unique_effects:
+  - name: null
+    value: null

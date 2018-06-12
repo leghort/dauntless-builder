@@ -1,0 +1,29 @@
+name: Firecutter
+description: A Slayer's hammer forged with Firebrand trophies.
+type: Axe
+damage: Cutting
+elemental: Blaze
+cells: [Power, Defence]
+tier: 5
+power:
+  0: 310
+  1: 322
+  3: 346
+  4: 358
+  5: 370
+  6: 382
+  7: 384
+  8: 406
+  9: 418
+  10: 430
+perks:
+  - name: Rage
+    value: 2
+  - name: Aetherhunter
+    value: 1
+    from: 0
+    to: 5
+  - name: Aetherhunter
+    value: 2
+    from: 6
+    to: 10
