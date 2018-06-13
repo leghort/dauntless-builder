@@ -55,7 +55,17 @@ export default class ItemComponent extends React.Component {
 
     render() {
         if(!this.props.item) {
-            return <div>No item</div>;
+            return <div className="item-title-wrapper">
+                <div className="item-wrapper">
+                    <div className="item no-item">
+                        <i className="fas fa-question no-item-icon"></i>
+                        <div className="item-data">
+                            <h3 className="subtitle">No <strong>{this.props.title}</strong> selected.</h3>
+                            <div>Click here to select one.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         }
 
         let cells = [];

@@ -164,7 +164,7 @@ export default class BuildView extends React.Component {
 
                     <ItemComponent
                         parent={this}
-                        title="Armor - Head"
+                        title="Head Armor"
                         item={this.findArmor(this.state.build.head_name)}
                         level={this.state.build.head_level}
                         cells={[
@@ -173,7 +173,7 @@ export default class BuildView extends React.Component {
 
                     <ItemComponent
                         parent={this}
-                        title="Armor - Torso"
+                        title="Torso Armor"
                         item={this.findArmor(this.state.build.torso_name)}
                         level={this.state.build.torso_level}
                         cells={[
@@ -182,7 +182,7 @@ export default class BuildView extends React.Component {
 
                     <ItemComponent
                         parent={this}
-                        title="Armor - Arms"
+                        title="Arms Armor"
                         item={this.findArmor(this.state.build.arms_name)}
                         level={this.state.build.arms_level}
                         cells={[
@@ -191,7 +191,7 @@ export default class BuildView extends React.Component {
 
                     <ItemComponent
                         parent={this}
-                        title="Armor - Legs"
+                        title="Legs Armor"
                         item={this.findArmor(this.state.build.legs_name)}
                         level={this.state.build.legs_level}
                         cells={[
