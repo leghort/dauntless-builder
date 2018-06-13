@@ -56,6 +56,26 @@ export default class BuildView extends React.Component {
         }, () => this.updateUrl());
     }
 
+    findWeapon(name) {
+        if(name in this.state.itemData.weapons) {
+            return this.state.itemData.weapons[name];
+        }
+
+        return null;
+    }
+
+    findCellByVariantName(variantName) {
+        for(let cellKey in this.state.itemData.cells) {
+            let cell = this.state.itemData.cells[cellKey];
+
+            if(variantName in cell.variants) {
+                return cell;
+            }
+        }
+
+        return null;
+    }
+
     render() {
         if(!this.state.ready) {
             return <div>...</div>;
@@ -65,7 +85,11 @@ export default class BuildView extends React.Component {
             <div className="column is-two-thirds">
                 <button onClick={() => this.dummyData()} className="button is-warning">Add dummy data</button>
 
-                <ItemComponent title="Weapon" item={this.state.itemData.weapons[this.state.build.weapon_name]} />
+                <ItemComponent
+                    parent={this}
+                    title="Weapon"
+                    item={this.findWeapon(this.state.build.weapon_name)}
+                    level={this.state.build.weapon_level} />
             </div>
             <div className="column is-one-third">
                 <code><pre>{JSON.stringify({build: this.state.build}, null, "    ")}</pre></code>

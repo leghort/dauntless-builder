@@ -5,6 +5,8 @@ export default class ItemComponent extends React.Component {
         super(props, context);
 
         this.state = {};
+
+        console.log(this.props.parent.findCellByVariantName("+3 Ragehunter Cell"));
     }
 
     getIcon() {
