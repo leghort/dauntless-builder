@@ -80,7 +80,7 @@ export default class ItemComponent extends React.Component {
                 stats = <span>Power: {this.props.item.power[this.props.level]}</span>
                 break;
             case "Armor":
-                stats = <span>Resistance: ${this.props.item.resistance[this.props.level]}</span>
+                stats = <span>Resistance: {this.props.item.resistance[this.props.level]}</span>
                 break;
         }
 
