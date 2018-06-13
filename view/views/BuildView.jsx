@@ -3,6 +3,9 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 import BuildModel from "../models/BuildModel";
+import DataUtil from "../utils/DataUtil";
+
+import ItemComponent from "../components/ItemComponent";
 
 export default class BuildView extends React.Component {
 
@@ -17,9 +20,14 @@ export default class BuildView extends React.Component {
     componentDidMount() {
         const buildData = this.props.match.params.buildData;
 
-        BuildModel.tryDeserialize(buildData).then(build => {
+        Promise.all([
+            DataUtil.data(),
+            BuildModel.tryDeserialize(buildData)
+        ]).then(res => {
+            let [itemData, build] = res;
+
             this.setState({
-                build, ready: true
+                itemData, build, ready: true
             });
 
             build.serialize().then(string => {
@@ -29,9 +37,23 @@ export default class BuildView extends React.Component {
     }
 
     updateUrl() {
-        let buildData = this.state.build.serialize();
+        this.state.build.serialize().then(buildData => {
+            window.history.replaceState({}, "Dauntless Builder: " + buildData, "/b/" + buildData);
+        });
+    }
 
-        window.history.replaceState({}, "Dauntless Builder: " + buildData, "/b/" + buildData);
+    dummyData() {
+        let build = this.state.build;
+
+        // weapon
+        build.weapon_name = "Ragesaber";
+        build.weapon_level = 10;
+        build.weapon_cell0 = "+3 Ragehunter Cell";
+        build.weapon_cell1 = "+3 Ragehunter Cell";
+
+        this.setState({
+            build
+        }, () => this.updateUrl());
     }
 
     render() {
@@ -41,11 +63,12 @@ export default class BuildView extends React.Component {
 
         return <div className="columns">
             <div className="column is-two-thirds">
-                yolo
+                <button onClick={() => this.dummyData()} className="button is-warning">Add dummy data</button>
+
+                <ItemComponent title="Weapon" item={this.state.itemData.weapons[this.state.build.weapon_name]} />
             </div>
             <div className="column is-one-third">
-                <code><pre>{JSON.stringify(this.props, null, "    ")}</pre></code>
-                <code><pre>{JSON.stringify(this.state, null, "    ")}</pre></code>
+                <code><pre>{JSON.stringify({build: this.state.build}, null, "    ")}</pre></code>
             </div>
         </div>;
     }

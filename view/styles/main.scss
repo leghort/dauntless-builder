@@ -21,3 +21,53 @@ html, body {
     font-size: 13px;
     color: #AAA;
 }
+
+.item-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 150px;
+
+    position: relative;
+
+    background: red;
+
+    img {
+        width: auto;
+        height: 100%;
+    }
+
+    .item {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        flex-grow: 2;
+
+        background: green;
+
+        height: 150px;
+        padding: 20px;
+
+        .item-title {
+            font-size: 24px;
+        }
+    }
+
+    .cells {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+
+        .cell {
+            height: 150px;
+            padding: 20px;
+
+            background: purple;
+        }
+    }
+}
