@@ -16,8 +16,31 @@ export default class ItemComponent extends React.Component {
             return this.props.item.icon;
         }
 
-        // TODO: find placeholder icon by item type
-        return "/assets/icons/weapons/swords/Ragesaber.png";
+        let name = this.props.item.type;
+
+        if(!name) {
+            name = this.getItemType();
+        }
+
+        return "/assets/icons/general/" + name + ".png"
+    }
+
+    getItemType() {
+        switch(this.props.item.type) {
+            case "Sword":
+            case "Chain Blades":
+            case "Axe":
+            case "Hammer":
+            case "War Pike":
+                return "Weapon"
+            case "Head":
+            case "Torso":
+            case "Arms":
+            case "Legs":
+                return "Armor"
+        }
+
+        return "Lantern";
     }
 
     render() {
@@ -50,24 +73,15 @@ export default class ItemComponent extends React.Component {
             levelString = `+${this.props.level}`;
         }
 
-        let statString = "";
+        let stats = null;
 
-        switch(this.props.item.type) {
-            case "Sword":
-            case "Chain Blades":
-            case "Axe":
-            case "Hammer":
-            case "War Pike":
-                statString = `Power: ${this.props.item.power[this.props.level]}`
+        switch(this.getItemType()) {
+            case "Weapon":
+                stats = <span>Power: {this.props.item.power[this.props.level]}</span>
                 break;
-            case "Head":
-            case "Chest":
-            case "Gloves":
-            case "Legs":
-                statString = `Resistance: ${this.props.item.resistance[this.props.level]}`
+            case "Armor":
+                stats = <span>Resistance: ${this.props.item.resistance[this.props.level]}</span>
                 break;
-            default:
-                statString = "???";
         }
 
         return <div className="item-title-wrapper">
@@ -77,7 +91,7 @@ export default class ItemComponent extends React.Component {
                     <img src={this.getIcon()} />
                     <div className="item-data">
                         <h3 className="item-title">{this.props.item.name} {levelString}</h3>
-                        <span>{statString}</span>
+                        {stats}
                     </div>
                 </div>
                 <div className="cells">

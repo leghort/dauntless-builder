@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/swords/Ragesaber.png
 type: Sword
 damage: Slashing
 elemental: null
-cells: [Utility, Defence]
+cells: [Utility, Defense]
 tier: 5
 power:
   0: 310

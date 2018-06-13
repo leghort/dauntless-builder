@@ -3,7 +3,7 @@ description: A Slayer's hammer forged with Frostback trophies.
 type: Hammer
 damage: Blunt
 elemental: Frost
-cells: [Power, Defence]
+cells: [Power, Defense]
 tier: 5
 power:
   0: 310

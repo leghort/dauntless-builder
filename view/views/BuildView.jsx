@@ -53,6 +53,17 @@ export default class BuildView extends React.Component {
         build.head_name = "Ragetail Touque";
         build.head_level = 10;
         build.head_cell = "+3 Ragehunter Cell";
+        build.torso_name = "Ragetail Cloak";
+        build.torso_level = 10;
+        build.torso_cell = "+3 Ragehunter Cell";
+        build.arms_name = "Ragetail Grips";
+        build.arms_level = 10;
+        build.arms_cell = "+3 Ragehunter Cell";
+        build.legs_name = "Ragetail Treads";
+        build.legs_level = 9;
+        build.legs_cell = "+3 Ragehunter Cell";
+        build.lantern_name = "Shrike's Zeal";
+        build.lantern_cell = "+3 Ragehunter Cell";
 
         this.setState({
             build
@@ -70,6 +81,14 @@ export default class BuildView extends React.Component {
     findArmor(name) {
         if(name in this.state.itemData.armors) {
             return this.state.itemData.armors[name];
+        }
+
+        return null;
+    }
+
+    findLantern(name) {
+        if(name in this.state.itemData.lanterns) {
+            return this.state.itemData.lanterns[name];
         }
 
         return null;
@@ -117,6 +136,29 @@ export default class BuildView extends React.Component {
                         title="Armor - Head"
                         item={this.findArmor(this.state.build.head_name)}
                         level={this.state.build.head_level} />
+
+                    <ItemComponent
+                        parent={this}
+                        title="Armor - Torso"
+                        item={this.findArmor(this.state.build.torso_name)}
+                        level={this.state.build.torso_level} />
+
+                    <ItemComponent
+                        parent={this}
+                        title="Armor - Arms"
+                        item={this.findArmor(this.state.build.arms_name)}
+                        level={this.state.build.arms_level} />
+
+                    <ItemComponent
+                        parent={this}
+                        title="Armor - Legs"
+                        item={this.findArmor(this.state.build.legs_name)}
+                        level={this.state.build.legs_level} />
+
+                    <ItemComponent
+                        parent={this}
+                        title="Lantern"
+                        item={this.findLantern(this.state.build.lantern_name)} />
                 </div>
                 <div className="column is-one-third">
                     <br />

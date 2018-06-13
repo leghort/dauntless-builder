@@ -1,10 +1,10 @@
-name: Ragetail Touque
-description: Head protection forged from Ragetail trophies.
-icon: /assets/icons/armors/RagetailTouque.png
-type: Head
+name: Ragetail Treads
+description: Leg and foot protection forged from Ragetail trophies.
+icon: /assets/icons/armors/RagetailTreads.png
+type: Legs
 strength: null
 weakness: null
-cells: Defense
+cells: Power
 resistance:
   0: 78
   1: 81
@@ -18,7 +18,7 @@ resistance:
   9: 105
   10: 108
 perks:
-  - name: Tough
+  - name: Ragehunter
     value: 1
   - name: Bloodless
     value: 1

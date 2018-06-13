@@ -1,10 +1,10 @@
-name: Ragetail Touque
-description: Head protection forged from Ragetail trophies.
-icon: /assets/icons/armors/RagetailTouque.png
-type: Head
+name: Ragetail Grips
+description: Arms protection forged from Ragetail trophies.
+icon: /assets/icons/armors/RagetailGrips.png
+type: Arms
 strength: null
 weakness: null
-cells: Defense
+cells: Power
 resistance:
   0: 78
   1: 81
@@ -20,11 +20,11 @@ resistance:
 perks:
   - name: Tough
     value: 1
-  - name: Bloodless
+  - name: Ragehunter
     value: 1
     from: 0
     to: 5
-  - name: Bloodless
+  - name: Ragehunter
     value: 2
     from: 6
     to: 10

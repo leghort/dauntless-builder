@@ -59,6 +59,7 @@ Promise.all([
     build("data/armors/*.yml"),
     build("data/behemoths/*.yml"),
     build("data/cells/*/*.yml"),
+    build("data/lanterns/*.yml"),
     build("data/perks/*.yml"),
     build("data/weapons/*/*.yml"),
 ]).then(data => {
@@ -66,8 +67,9 @@ Promise.all([
         armors: data[0],
         behemoths: data[1],
         cells: data[2],
-        perks: data[3],
-        weapons: data[4],
+        lanterns: data[3],
+        perks: data[4],
+        weapons: data[5],
     }
 
     fs.writeFileSync("./dist/data.json", JSON.stringify(object));

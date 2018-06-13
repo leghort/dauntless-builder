@@ -1,7 +1,7 @@
-name: Ragetail Touque
-description: Head protection forged from Ragetail trophies.
-icon: /assets/icons/armors/RagetailTouque.png
-type: Head
+name: Ragetail Cloak
+description: Torso protection forged from Ragetail trophies.
+icon: /assets/icons/armors/RagetailCloak.png
+type: Torso
 strength: null
 weakness: null
 cells: Defense
@@ -18,13 +18,13 @@ resistance:
   9: 105
   10: 108
 perks:
-  - name: Tough
-    value: 1
   - name: Bloodless
+    value: 1
+  - name: Tough
     value: 1
     from: 0
     to: 5
-  - name: Bloodless
+  - name: Tough
     value: 2
     from: 6
     to: 10

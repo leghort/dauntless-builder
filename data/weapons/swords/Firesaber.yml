@@ -3,7 +3,7 @@ description: A Slayer's sword forged with Firebrand trophies.
 type: Sword
 damage: Cutting
 elemental: Blaze
-cells: [Power, Defence]
+cells: [Power, Defense]
 tier: 5
 power:
   0: 310

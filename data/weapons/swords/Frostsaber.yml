@@ -3,7 +3,7 @@ description: A Slayer's sword forged with Frostback trophies.
 type: Sword
 damage: Slashing
 elemental: Frost
-cells: [Power, Defence]
+cells: [Power, Defense]
 tier: 5
 power:
   0: 310

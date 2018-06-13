@@ -3,7 +3,7 @@ description: A Slayer's sword forged with Deadeye trophies.
 type: Sword
 damage: Slashing
 elemental: null
-cells: [Technique, Defence]
+cells: [Technique, Defense]
 tier: 5
 power:
   0: 310
