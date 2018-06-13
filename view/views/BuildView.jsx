@@ -27,7 +27,7 @@ export default class BuildView extends React.Component {
             let [itemData, build] = res;
 
             this.setState({
-                itemData, build, ready: true
+                itemData, build, buildData, ready: true
             });
 
             build.serialize().then(string => {
@@ -39,6 +39,10 @@ export default class BuildView extends React.Component {
     updateUrl() {
         this.state.build.serialize().then(buildData => {
             window.history.replaceState({}, "Dauntless Builder: " + buildData, "/b/" + buildData);
+
+            this.setState({
+                buildData
+            })
         });
     }
 
@@ -106,17 +110,26 @@ export default class BuildView extends React.Component {
         return null;
     }
 
+    copyToClipboard() {
+        document.querySelector("#clipboard").select();
+        document.execCommand("copy");
+
+        // TODO: add popup that says "copied"
+    }
+
     render() {
         if(!this.state.ready) {
             return <div>...</div>;
         }
 
         return <React.Fragment>
+            <input id="clipboard" type="hidden" value={window.location.origin + "/b/" + this.state.buildData} />
+
             <div className="quick-actions">
                 <button onClick={() => this.dummyData()} className="button is-warning">
                     <i className="fas fa-database"></i>&nbsp;Add Dummy Data
                 </button>
-                <button className="button is-dark" title="Copy to clipboard" disabled>
+                <button className="button is-dark" title="Copy to clipboard" onClick={() => this.copyToClipboard()}>
                     <i className="fas fa-copy"></i>
                 </button>
                 <button className="button is-dark" title="Save build" disabled>

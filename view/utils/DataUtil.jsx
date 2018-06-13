@@ -33,16 +33,16 @@ export default class DataUtil {
     }
 
     static data() {
-        if(DataUtil.__data_cache) {
-            return Promise.resolve(DataUtil.__data_cache);
+        if(window.__db_data_cache) {
+            return Promise.resolve(window.__db_data_cache);
         }
 
         return DataUtil.get("/dist/data.json");
     }
 
     static stringMap(version = 1) {
-        if(DataUtil[`__stringmap_cache_v${version}`]) {
-            return DataUtil[`__stringmap_cache_v${version}`];
+        if(window[`__db_stringmap_cache_v${version}`]) {
+            return window[`__db_stringmap_cache_v${version}`];
         }
 
         return DataUtil.get(`/dist/map_v${version}.json`);
