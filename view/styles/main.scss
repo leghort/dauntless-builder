@@ -1,8 +1,10 @@
 $bgcolor: #e3e3e3;
 
-$rarity-common-color: white;
-$rarity-rare-color: blue;
-$rarity-epic-color: purple;
+
+$rarity-empty-color: #CCC;
+$rarity-common-color: #00CA3C;
+$rarity-rare-color: #0072EB;
+$rarity-epic-color: #BA00FF;
 
 html, body {
     background: $bgcolor;
@@ -125,6 +127,11 @@ html, body {
                 background: black;
                 border-radius: 200px;
                 padding: 15px;
+
+                &.empty {
+                    border-color: $rarity-empty-color;
+                    background: $rarity-empty-color;
+                }
 
                 &.common {
                     border-color: $rarity-common-color;

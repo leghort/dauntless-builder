@@ -8,8 +8,8 @@ export default class CellComponent extends React.Component {
     render() {
 
         return <div className="cell">
-            <img className="epic" src={"/assets/icons/perks/" + this.props.type + ".png"} />
-            <span className="cell-title">+3 Ragehunter Cell</span>
+            <img className="empty" src={"/assets/icons/perks/" + this.props.type + ".png"} />
+            <span className="cell-title"></span>
         </div>;
     }
 }
