@@ -1,5 +1,7 @@
 import React from "react";
 
+import {Link} from "react-router-dom";
+
 import {CopyToClipboard} from "react-copy-to-clipboard";
 
 import BuildModel from "../models/BuildModel";
@@ -20,6 +22,10 @@ export default class BuildView extends React.Component {
     componentDidMount() {
         const buildData = this.props.match.params.buildData;
 
+        this.loadBuild(buildData);
+    }
+
+    loadBuild(buildData) {
         Promise.all([
             DataUtil.data(),
             BuildModel.tryDeserialize(buildData)
@@ -31,7 +37,7 @@ export default class BuildView extends React.Component {
             });
 
             build.serialize().then(string => {
-                console.log(string);
+                console.log("Build ID: ", string);
             })
         });
     }
@@ -123,17 +129,26 @@ export default class BuildView extends React.Component {
 
         return <React.Fragment>
             <div className="quick-actions">
-                <button onClick={() => this.dummyData()} className="button is-warning">
-                    <i className="fas fa-database"></i>&nbsp;Add Dummy Data
-                </button>
-                <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} onCopy={() => this.onCopyToClipboard()}>
-                    <button className="button is-dark" title="Copy to clipboard">
-                        <i className="fas fa-copy"></i>
+                <div className="qa-left">
+                    <Link to="/b/new">
+                        <button className="button is-light" onClick={() => this.loadBuild("new")}>
+                            <i className="fas fa-plus"></i>&nbsp;New
+                        </button>
+                    </Link>
+                </div>
+                <div className="qa-right">
+                    <button onClick={() => this.dummyData()} className="button is-light">
+                        <i className="fas fa-database"></i>&nbsp;Add Dummy Data
                     </button>
-                </CopyToClipboard>
-                <button className="button is-dark" title="Save build" disabled>
-                    <i className="far fa-heart"></i>
-                </button>
+                    <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} onCopy={() => this.onCopyToClipboard()}>
+                        <button className="button is-light" title="Copy to clipboard">
+                            <i className="fas fa-copy"></i>
+                        </button>
+                    </CopyToClipboard>
+                    <button className="button is-light" title="Save build" disabled>
+                        <i className="far fa-heart"></i>
+                    </button>
+                </div>
             </div>
             <div className="columns">
                 <div className="column is-two-thirds">
