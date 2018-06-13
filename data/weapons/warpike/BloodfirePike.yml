@@ -1,0 +1,29 @@
+name: Bloodfire Pike
+description: A Slayer's war pike forged with Bloodfire trophies.
+type: War Pike
+damage: Piercing
+elemental: Blaze
+cells: [Technique, Mobility]
+tier: 5
+power:
+  0: 310
+  1: 322
+  3: 346
+  4: 358
+  5: 370
+  6: 382
+  7: 384
+  8: 406
+  9: 418
+  10: 430
+unique_effects:
+  - name: attack_speed_on_special_attack_hit
+    value: 1.30
+  - name: seventh_hit_wound_damage
+    value: 200
+    from: 0
+    to: 5
+  - name: seventh_hit_wound_damage
+    value: 200
+    from: 6
+    to: 10

@@ -1,0 +1,21 @@
+name: The Godhand
+description: stuff?.
+type: War Pike
+damage: Piercing
+elemental: Radiant
+cells: [Power, Technique]
+tier: 5
+power:
+  0: 310
+  1: 322
+  3: 346
+  4: 358
+  5: 370
+  6: 382
+  7: 384
+  8: 406
+  9: 418
+  10: 430
+unique_effects:
+  - name: beam_meter_damage
+    value: 3

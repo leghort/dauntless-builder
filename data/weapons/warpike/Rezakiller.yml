@@ -1,0 +1,29 @@
+name: Rezakiller
+description: A Slayer's war pike forged with Rezakiri trophies.
+type: War Pike
+damage: Piercing
+elemental: Radiant
+cells: [Technique, Power]
+tier: 5
+power:
+  0: 310
+  1: 322
+  3: 346
+  4: 358
+  5: 370
+  6: 382
+  7: 384
+  8: 406
+  9: 418
+  10: 430
+unique_effects:
+  - name: hit_twice
+    value: 1.05
+    from: 0
+    to: 5
+  - name: hit_twice
+    value: 1.10
+    from: 6
+    to: 10
+  - name: seventh_hit_wound_damage
+    value: 200
