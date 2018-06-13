@@ -1,5 +1,7 @@
 import React from "react";
 
+import CellComponent from "./CellComponent";
+
 export default class ItemComponent extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -23,23 +25,40 @@ export default class ItemComponent extends React.Component {
             return <div>No item</div>;
         }
 
+        let cells = [];
+
+        let cellSlots = this.props.item.cells;
+
+        if(!Array.isArray(cellSlots)) {
+            cellSlots = [cellSlots];
+        }
+
+        for(let slot of cellSlots) {
+            cells.push(
+                <CellComponent
+                    parent={this.props.parent}
+                    type={slot} />
+            );
+        }
+
+        let levelString = "";
+
+        if(this.props.level && this.props.level > 0) {
+            levelString = `+${this.props.level}`;
+        }
+
         return <React.Fragment>
             <h2 className="subtitle">{this.props.title}</h2>
             <div className="item-wrapper">
-                <div className="item">
+                <div className="item" title={this.props.item.description}>
                     <img src={this.getIcon()} />
                     <div className="item-data">
-                        <h3 className="item-title">Ragesaber</h3>
-                        <span>Power: 10</span>
+                        <h3 className="item-title">Ragesaber {levelString}</h3>
+                        <span>Power: {this.props.item.power[this.props.level]}</span>
                     </div>
                 </div>
                 <div className="cells">
-                    <div className="cell">
-                        <img src="/assets/icons/weapons/swords/Ragesaber.png" />
-                    </div>
-                    <div className="cell">
-                        <img src="/assets/icons/weapons/swords/Ragesaber.png" />
-                    </div>
+                    {cells}
                 </div>
             </div>
         </React.Fragment>;

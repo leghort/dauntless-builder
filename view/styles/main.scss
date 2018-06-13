@@ -1,5 +1,9 @@
 $bgcolor: #e3e3e3;
 
+$rarity-common-color: white;
+$rarity-rare-color: blue;
+$rarity-epic-color: purple;
+
 html, body {
     background: $bgcolor;
 
@@ -32,8 +36,6 @@ html, body {
 
     position: relative;
 
-    background: red;
-
     img {
         width: auto;
         height: 100%;
@@ -42,18 +44,37 @@ html, body {
     .item {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
 
         flex-grow: 2;
 
-        background: green;
-
         height: 150px;
         padding: 20px;
 
-        .item-title {
-            font-size: 24px;
+        background: #EEE;
+
+        user-select: none;
+
+        transition: background 0.3s ease, transform 0.3s ease;
+
+        &:hover {
+            cursor: pointer;
+            background: #CCC;
+        }
+
+        &:active {
+            transform: translateY(5px);
+        }
+
+        margin-right: 10px;
+
+        .item-data {
+            margin-left: 20px;
+
+            .item-title {
+                font-size: 24px;
+            }
         }
     }
 
@@ -67,7 +88,63 @@ html, body {
             height: 150px;
             padding: 20px;
 
-            background: purple;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+
+            background: #EEE;
+            margin-left: 5px;
+            margin-right: 5px;
+
+            user-select: none;
+
+            transition: background 0.3s ease, transform 0.3s ease;
+
+            &:hover {
+                cursor: pointer;
+                background: #CCC;
+            }
+
+            &:active {
+                transform: translateY(5px);
+            }
+
+            &:first-of-type {
+                margin-left: 0px;
+            }
+
+            &:last-of-type {
+                margin-right: 0px;
+            }
+
+            img {
+                height: 96px;
+
+                border: 1px solid black;
+                background: black;
+                border-radius: 200px;
+                padding: 15px;
+
+                &.common {
+                    border-color: $rarity-common-color;
+                    background: $rarity-common-color;
+                }
+
+                &.rare {
+                    border-color: $rarity-rare-color;
+                    background: $rarity-rare-color;
+                }
+
+                &.epic {
+                    border-color: $rarity-epic-color;
+                    background: $rarity-epic-color;
+                }
+            }
+
+            .cell-title {
+                margin-top: 5px;
+            }
         }
     }
 }
