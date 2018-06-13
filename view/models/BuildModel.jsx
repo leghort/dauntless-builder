@@ -40,26 +40,27 @@ export default class BuildModel {
         let numbers = hashids.decode(str);
 
         return DataUtil.stringMap(numbers[0]).then(stringMap => {
+            let idcounter = 0;
             return new BuildModel({
-                __version: numbers[0],
-                weapon_name: stringMap[numbers[1]],
-                weapon_level: numbers[2],
-                weapon_cell0: stringMap[numbers[3]],
-                weapon_cell1: stringMap[numbers[4]],
-                chest_name: stringMap[numbers[5]],
-                chest_level: numbers[6],
-                chest_cell: stringMap[numbers[7]],
-                gloves_name: stringMap[numbers[8]],
-                gloves_level: numbers[9],
-                gloves_cell: stringMap[numbers[10]],
-                legs_name: stringMap[numbers[11]],
-                legs_level: numbers[12],
-                legs_cell: stringMap[numbers[13]],
-                head_name: stringMap[numbers[14]],
-                head_level: numbers[15],
-                head_cell: stringMap[numbers[16]],
-                lantern_name: stringMap[numbers[17]],
-                lantern_cell: stringMap[numbers[18]]
+                __version: numbers[idcounter++],
+                weapon_name: stringMap[numbers[idcounter++]],
+                weapon_level: numbers[idcounter++],
+                weapon_cell0: stringMap[numbers[idcounter++]],
+                weapon_cell1: stringMap[numbers[idcounter++]],
+                head_name: stringMap[numbers[idcounter++]],
+                head_level: numbers[idcounter++],
+                head_cell: stringMap[numbers[idcounter++]],
+                chest_name: stringMap[numbers[idcounter++]],
+                chest_level: numbers[idcounter++],
+                chest_cell: stringMap[numbers[idcounter++]],
+                gloves_name: stringMap[numbers[idcounter++]],
+                gloves_level: numbers[idcounter++],
+                gloves_cell: stringMap[numbers[idcounter++]],
+                legs_name: stringMap[numbers[idcounter++]],
+                legs_level: numbers[idcounter++],
+                legs_cell: stringMap[numbers[idcounter++]],
+                lantern_name: stringMap[numbers[idcounter++]],
+                lantern_cell: stringMap[numbers[idcounter++]]
             });
         });
     }

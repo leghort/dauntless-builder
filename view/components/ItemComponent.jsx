@@ -47,20 +47,40 @@ export default class ItemComponent extends React.Component {
             levelString = `+${this.props.level}`;
         }
 
-        return <React.Fragment>
+        let statString = "";
+
+        switch(this.props.item.type) {
+            case "Sword":
+            case "Chain Blades":
+            case "Axe":
+            case "Hammer":
+            case "War Pike":
+                statString = `Power: ${this.props.item.power[this.props.level]}`
+                break;
+            case "Head":
+            case "Chest":
+            case "Gloves":
+            case "Legs":
+                statString = `Resistance: ${this.props.item.resistance[this.props.level]}`
+                break;
+            default:
+                statString = "???";
+        }
+
+        return <div className="item-title-wrapper">
             <h2 className="subtitle">{this.props.title}</h2>
             <div className="item-wrapper">
                 <div className="item" title={this.props.item.description}>
                     <img src={this.getIcon()} />
                     <div className="item-data">
-                        <h3 className="item-title">Ragesaber {levelString}</h3>
-                        <span>Power: {this.props.item.power[this.props.level]}</span>
+                        <h3 className="item-title">{this.props.item.name} {levelString}</h3>
+                        <span>{statString}</span>
                     </div>
                 </div>
                 <div className="cells">
                     {cells}
                 </div>
             </div>
-        </React.Fragment>;
+        </div>;
     }
 }

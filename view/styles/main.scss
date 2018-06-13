@@ -28,6 +28,29 @@ html, body {
     color: #AAA;
 }
 
+.quick-actions {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+
+    button {
+        margin-left: 5px;
+        margin-right: 5px;
+
+        &:first-of-type {
+            margin-left: 0px;
+        }
+
+        &::last-of-type {
+            margin-right: 0px;
+        }
+    }
+}
+
+.item-title-wrapper {
+    margin-top: 20px;
+}
+
 .item-wrapper {
     display: flex;
     flex-flow: row nowrap;

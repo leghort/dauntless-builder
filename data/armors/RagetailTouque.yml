@@ -1,9 +1,10 @@
 name: Ragetail Touque
 description: Head protection forged from Ragetail trophies.
+icon: /assets/icons/armors/RagetailTouque.png
 type: Head
 strength: null
 weakness: null
-cells: Defense
+cells: Defence
 resistance:
   0: 78
   1: 81
