@@ -58,22 +58,22 @@ export default class BuildView extends React.Component {
         // weapon
         build.weapon_name = "Ragesaber";
         build.weapon_level = 10;
-        build.weapon_cell0 = "+3 Ragehunter Cell";
-        build.weapon_cell1 = "+3 Ragehunter Cell";
+        build.weapon_cell0 = "+3 Energized Cell";
+        build.weapon_cell1 = "+1 Tough Cell";
         build.head_name = "Ragetail Touque";
         build.head_level = 10;
-        build.head_cell = "+3 Ragehunter Cell";
+        build.head_cell = "+3 Tough Cell";
         build.torso_name = "Ragetail Cloak";
         build.torso_level = 10;
-        build.torso_cell = "+3 Ragehunter Cell";
+        build.torso_cell = "+2 Tough Cell";
         build.arms_name = "Ragetail Grips";
         build.arms_level = 10;
-        build.arms_cell = "+3 Ragehunter Cell";
+        build.arms_cell = "+2 Ragehunter Cell";
         build.legs_name = "Ragetail Treads";
         build.legs_level = 9;
         build.legs_cell = "+3 Ragehunter Cell";
         build.lantern_name = "Shrike's Zeal";
-        build.lantern_cell = "+3 Ragehunter Cell";
+        build.lantern_cell = "+2 Energized Cell";
 
         this.setState({
             build
@@ -156,36 +156,55 @@ export default class BuildView extends React.Component {
                         parent={this}
                         title="Weapon"
                         item={this.findWeapon(this.state.build.weapon_name)}
-                        level={this.state.build.weapon_level} />
+                        level={this.state.build.weapon_level}
+                        cells={[
+                            [this.state.build.weapon_cell0, this.findCellByVariantName(this.state.build.weapon_cell0)],
+                            [this.state.build.weapon_cell1, this.findCellByVariantName(this.state.build.weapon_cell1)],
+                        ]} />
 
                     <ItemComponent
                         parent={this}
                         title="Armor - Head"
                         item={this.findArmor(this.state.build.head_name)}
-                        level={this.state.build.head_level} />
+                        level={this.state.build.head_level}
+                        cells={[
+                            [this.state.build.head_cell, this.findCellByVariantName(this.state.build.head_cell)]
+                        ]} />
 
                     <ItemComponent
                         parent={this}
                         title="Armor - Torso"
                         item={this.findArmor(this.state.build.torso_name)}
-                        level={this.state.build.torso_level} />
+                        level={this.state.build.torso_level}
+                        cells={[
+                            [this.state.build.torso_cell, this.findCellByVariantName(this.state.build.torso_cell)]
+                        ]} />
 
                     <ItemComponent
                         parent={this}
                         title="Armor - Arms"
                         item={this.findArmor(this.state.build.arms_name)}
-                        level={this.state.build.arms_level} />
+                        level={this.state.build.arms_level}
+                        cells={[
+                            [this.state.build.arms_cell, this.findCellByVariantName(this.state.build.arms_cell)]
+                        ]} />
 
                     <ItemComponent
                         parent={this}
                         title="Armor - Legs"
                         item={this.findArmor(this.state.build.legs_name)}
-                        level={this.state.build.legs_level} />
+                        level={this.state.build.legs_level}
+                        cells={[
+                            [this.state.build.legs_cell, this.findCellByVariantName(this.state.build.legs_cell)]
+                        ]} />
 
                     <ItemComponent
                         parent={this}
                         title="Lantern"
-                        item={this.findLantern(this.state.build.lantern_name)} />
+                        item={this.findLantern(this.state.build.lantern_name)}
+                        cells={[
+                            [this.state.build.lantern_cell, this.findCellByVariantName(this.state.build.lantern_cell)]
+                        ]} />
                 </div>
                 <div className="column is-one-third">
                     <br />

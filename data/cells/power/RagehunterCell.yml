@@ -2,8 +2,14 @@ name: Ragehunter Cell
 slot: Power
 variants:
   "+1 Ragehunter Cell":
-    Ragehunter: 1
+    rarity: uncommon
+    perks:
+      Ragehunter: 1
   "+2 Ragehunter Cell":
-    Ragehunter: 2
+    rarity: rare
+    perks:
+      Ragehunter: 2
   "+3 Ragehunter Cell":
-    Ragehunter: 3
+    rarity: epic
+    perks:
+      Ragehunter: 3

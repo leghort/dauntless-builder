@@ -5,11 +5,19 @@ export default class CellComponent extends React.Component {
         super(props, context);
     }
 
+    getRarity() {
+        if(this.props.cell) {
+            return this.props.cell.variants[this.props.variant].rarity;
+        }
+
+        return "empty";
+    }
+
     render() {
 
-        return <div className="cell">
-            <img className="empty" src={"/assets/icons/perks/" + this.props.type + ".png"} />
-            <span className="cell-title"></span>
+        return <div className={"cell " + this.getRarity()}>
+            <img src={"/assets/icons/perks/" + this.props.type + ".png"} />
+            <span className="cell-title">{this.props.variant}</span>
         </div>;
     }
 }

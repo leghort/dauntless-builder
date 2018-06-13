@@ -7,8 +7,6 @@ export default class ItemComponent extends React.Component {
         super(props, context);
 
         this.state = {};
-
-        console.log(this.props.parent.findCellByVariantName("+3 Ragehunter Cell"));
     }
 
     getIcon() {
@@ -23,6 +21,18 @@ export default class ItemComponent extends React.Component {
         }
 
         return "/assets/icons/general/" + name + ".png"
+    }
+
+    getPerks() {
+        if(!this.props.item.perks) {
+            return [];
+        }
+
+        return this.props.item.perks.filter(
+            perk =>
+                !(perk.from && perk.to) ||
+                (perk.from >= this.props.level && perk.to <= this.props.level)
+        );
     }
 
     getItemType() {
@@ -49,6 +59,7 @@ export default class ItemComponent extends React.Component {
         }
 
         let cells = [];
+        let cellCounter = 0;
 
         let cellSlots = this.props.item.cells;
 
@@ -56,15 +67,30 @@ export default class ItemComponent extends React.Component {
             cellSlots = [cellSlots];
         }
 
-        let cellCounter = 0;
+        let assignedCells = this.props.cells.slice();
 
         for(let slot of cellSlots) {
-            cells.push(
-                <CellComponent
-                    parent={this.props.parent}
-                    key={"cell_" + (cellCounter++)}
-                    type={slot} />
-            );
+            let index = assignedCells.findIndex(cellHandle => cellHandle[1] && cellHandle[1].slot === slot);
+
+            if(index > -1) {
+                cells.push(
+                    <CellComponent
+                        parent={this.props.parent}
+                        key={"cell_" + (cellCounter++)}
+                        type={assignedCells[index][1].slot}
+                        variant={assignedCells[index][0]}
+                        cell={assignedCells[index][1]} />
+                );
+
+                assignedCells.splice(index, 1);
+            } else {
+                cells.push(
+                    <CellComponent
+                        parent={this.props.parent}
+                        key={"cell_" + (cellCounter++)}
+                        type={slot} />
+                );
+            }
         }
 
         let levelString = "";
@@ -73,19 +99,38 @@ export default class ItemComponent extends React.Component {
             levelString = `+${this.props.level}`;
         }
 
+        let perkElement = null;
+
+        let perks = this.getPerks().map(perk => `+${perk.value} ${perk.name}`);
+
+        if(perks.length > 0) {
+            perkElement = <div><strong>Perks</strong>: {perks.join(", ")}</div>;
+        }
+
         let stats = null;
 
         switch(this.getItemType()) {
             case "Weapon":
-                stats = <span>Power: {this.props.item.power[this.props.level]}</span>
+                stats = <React.Fragment>
+                    <div><strong>Power</strong>: {this.props.item.power[this.props.level]}</div>
+                    {perkElement}
+                </React.Fragment>;
                 break;
             case "Armor":
-                stats = <span>Resistance: {this.props.item.resistance[this.props.level]}</span>
+                stats = <React.Fragment>
+                    <div><strong>Resistance</strong>: {this.props.item.resistance[this.props.level]}</div>
+                    {perkElement}
+                </React.Fragment>;
                 break;
+            case "Lantern":
+                stats = <React.Fragment>
+                    <div><strong>Instant</strong>: {this.props.item.lantern_ability.instant}</div>
+                    <div><strong>Hold</strong>: {this.props.item.lantern_ability.hold}</div>
+                    {perkElement}
+                </React.Fragment>;
         }
 
         return <div className="item-title-wrapper">
-            <h2 className="subtitle">{this.props.title}</h2>
             <div className="item-wrapper">
                 <div className="item" title={this.props.item.description}>
                     <img src={this.getIcon()} />

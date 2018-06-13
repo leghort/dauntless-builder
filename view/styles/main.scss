@@ -2,7 +2,7 @@ $bgcolor: #e3e3e3;
 
 
 $rarity-empty-color: #CCC;
-$rarity-common-color: #00CA3C;
+$rarity-uncommon-color: #00CA3C;
 $rarity-rare-color: #0072EB;
 $rarity-epic-color: #BA00FF;
 
@@ -10,6 +10,10 @@ html, body {
     background: $bgcolor;
 
     text-align: center;
+}
+
+strong {
+    font-weight: 600;
 }
 
 .logo {
@@ -141,9 +145,11 @@ html, body {
             margin-left: 5px;
             margin-right: 5px;
 
+            min-width: 160px;
+
             user-select: none;
 
-            transition: background 0.3s ease, transform 0.3s ease;
+            transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
 
             &:hover {
                 cursor: pointer;
@@ -162,6 +168,37 @@ html, body {
                 margin-right: 0px;
             }
 
+            &.empty {
+                img {
+                    border-color: $rarity-empty-color;
+                    background: $rarity-empty-color;
+                }
+            }
+
+            &.uncommon {
+                &:hover, img {
+                    color: white;
+                    border-color: $rarity-uncommon-color;
+                    background: $rarity-uncommon-color;
+                }
+            }
+
+            &.rare {
+                &:hover, img {
+                    color: white;
+                    border-color: $rarity-rare-color;
+                    background: $rarity-rare-color;
+                }
+            }
+
+            &.epic {
+                &:hover, img {
+                    color: white;
+                    border-color: $rarity-epic-color;
+                    background: $rarity-epic-color;
+                }
+            }
+
             img {
                 height: 96px;
 
@@ -169,30 +206,11 @@ html, body {
                 background: black;
                 border-radius: 200px;
                 padding: 15px;
-
-                &.empty {
-                    border-color: $rarity-empty-color;
-                    background: $rarity-empty-color;
-                }
-
-                &.common {
-                    border-color: $rarity-common-color;
-                    background: $rarity-common-color;
-                }
-
-                &.rare {
-                    border-color: $rarity-rare-color;
-                    background: $rarity-rare-color;
-                }
-
-                &.epic {
-                    border-color: $rarity-epic-color;
-                    background: $rarity-epic-color;
-                }
             }
 
             .cell-title {
                 margin-top: 5px;
+                font-size: 14px;
             }
         }
     }
