@@ -94,13 +94,18 @@ export default class BuildView extends React.Component {
 
         return <React.Fragment>
             <div className="quick-actions">
-                <button className="button is-dark" title="Copy to clipboard" disabled><i className="fas fa-copy"></i></button>
-                <button className="button is-dark" title="Save build" disabled><i className="far fa-heart"></i></button>
+                <button onClick={() => this.dummyData()} className="button is-warning">
+                    <i className="fas fa-database"></i>&nbsp;Add Dummy Data
+                </button>
+                <button className="button is-dark" title="Copy to clipboard" disabled>
+                    <i className="fas fa-copy"></i>
+                </button>
+                <button className="button is-dark" title="Save build" disabled>
+                    <i className="far fa-heart"></i>
+                </button>
             </div>
             <div className="columns">
                 <div className="column is-two-thirds">
-                    <button onClick={() => this.dummyData()} className="button is-warning">Add dummy data</button>
-
                     <ItemComponent
                         parent={this}
                         title="Weapon"

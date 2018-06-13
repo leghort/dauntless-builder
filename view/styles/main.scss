@@ -14,6 +14,9 @@ html, body {
 
 .logo {
     margin-bottom: 50px;
+    max-width: 300px;
+    height: auto;
+    filter: invert(1);
 }
 
 .card {
@@ -24,8 +27,18 @@ html, body {
 
 .footers {
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 16px;
     color: #AAA;
+
+    a {
+        color: #AAA;
+
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: black;
+        }
+    }
 }
 
 .quick-actions {

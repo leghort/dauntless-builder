@@ -13,7 +13,9 @@ class App extends React.Component {
         return <Router>
             <React.Fragment>
                 <div className="container">
-                    <Link to="/"><div className="logo">Logo?</div></Link>
+                    <Link to="/">
+                        <img className="logo" src="/assets/logo.png" />
+                    </Link>
 
                     <div className="card">
                         <Route exact path="/" component={IndexView} />
