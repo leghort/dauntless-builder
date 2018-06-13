@@ -119,7 +119,8 @@ export default class BuildView extends React.Component {
                         level={this.state.build.head_level} />
                 </div>
                 <div className="column is-one-third">
-                    <code><pre>{JSON.stringify({build: this.state.build}, null, "    ")}</pre></code>
+                    <br />
+                    <pre><code>{JSON.stringify({build: this.state.build}, null, "    ")}</code></pre>
                 </div>
             </div>
         </React.Fragment>;

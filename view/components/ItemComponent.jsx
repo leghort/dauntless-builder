@@ -33,10 +33,13 @@ export default class ItemComponent extends React.Component {
             cellSlots = [cellSlots];
         }
 
+        let cellCounter = 0;
+
         for(let slot of cellSlots) {
             cells.push(
                 <CellComponent
                     parent={this.props.parent}
+                    key={"cell_" + (cellCounter++)}
                     type={slot} />
             );
         }
