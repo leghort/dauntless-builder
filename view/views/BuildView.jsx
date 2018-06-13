@@ -28,6 +28,12 @@ export default class BuildView extends React.Component {
         });
     }
 
+    updateUrl() {
+        let buildData = this.state.build.serialize();
+
+        window.history.replaceState({}, "Dauntless Builder: " + buildData, "/b/" + buildData);
+    }
+
     render() {
         if(!this.state.ready) {
             return <div>...</div>;
