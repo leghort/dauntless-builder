@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Link} from "react-router-dom";
+import {CopyToClipboard} from "react-copy-to-clipboard";
 
 import BuildModel from "../models/BuildModel";
 import DataUtil from "../utils/DataUtil";
@@ -110,9 +110,8 @@ export default class BuildView extends React.Component {
         return null;
     }
 
-    copyToClipboard() {
-        document.querySelector("#clipboard").select();
-        document.execCommand("copy");
+    onCopyToClipboard() {
+        console.log("Copied to clipboard:", window.location.origin + "/b/" + this.state.buildData)
 
         // TODO: add popup that says "copied"
     }
@@ -123,15 +122,15 @@ export default class BuildView extends React.Component {
         }
 
         return <React.Fragment>
-            <input id="clipboard" type="hidden" value={window.location.origin + "/b/" + this.state.buildData} />
-
             <div className="quick-actions">
                 <button onClick={() => this.dummyData()} className="button is-warning">
                     <i className="fas fa-database"></i>&nbsp;Add Dummy Data
                 </button>
-                <button className="button is-dark" title="Copy to clipboard" onClick={() => this.copyToClipboard()}>
-                    <i className="fas fa-copy"></i>
-                </button>
+                <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} onCopy={() => this.onCopyToClipboard()}>
+                    <button className="button is-dark" title="Copy to clipboard">
+                        <i className="fas fa-copy"></i>
+                    </button>
+                </CopyToClipboard>
                 <button className="button is-dark" title="Save build" disabled>
                     <i className="far fa-heart"></i>
                 </button>
