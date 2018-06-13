@@ -28,11 +28,13 @@ export default class ItemComponent extends React.Component {
             return [];
         }
 
+        let level = Number(this.props.level);
+
         return this.props.item.perks.filter(
             perk =>
-                !(perk.from && perk.to) ||
-                (perk.from >= this.props.level && perk.to <= this.props.level)
-        );
+                !("from" in perk && "to" in perk) ||
+                    (level >= perk.from && level <= perk.to)
+            );
     }
 
     getItemType() {
