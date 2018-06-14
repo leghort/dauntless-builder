@@ -38,7 +38,14 @@ export default class ItemComponent extends React.Component {
     }
 
     getItemType() {
-        switch(this.props.item.type) {
+        let type = this.props.defaultType;
+
+        if(this.props.item) {
+            type = this.props.item.type;
+        }
+
+        switch(type) {
+            case "Weapon":
             case "Sword":
             case "Chain Blades":
             case "Axe":
@@ -55,11 +62,21 @@ export default class ItemComponent extends React.Component {
         return "Lantern";
     }
 
+    onClicked() {
+        let type = this.getItemType();
+
+        if(type === "Armor") {
+            type = this.props.item ? this.props.item.type : this.props.defaultType;
+        }
+
+        this.props.onItemClicked([{type}]);
+    }
+
     render() {
         if(!this.props.item) {
             return <div className="item-title-wrapper">
                 <div className="item-wrapper">
-                    <div className="item no-item">
+                    <div className="item no-item" onClick={() => this.onClicked()}>
                         <i className="fas fa-question no-item-icon"></i>
                         <div className="item-data">
                             <h3 className="subtitle">No <strong>{this.props.title}</strong> selected.</h3>
@@ -88,6 +105,7 @@ export default class ItemComponent extends React.Component {
                 cells.push(
                     <CellComponent
                         parent={this.props.parent}
+                        onCellClicked={this.props.onCellClicked}
                         key={"cell_" + (cellCounter++)}
                         type={assignedCells[index][1].slot}
                         variant={assignedCells[index][0]}
@@ -99,6 +117,7 @@ export default class ItemComponent extends React.Component {
                 cells.push(
                     <CellComponent
                         parent={this.props.parent}
+                        onCellClicked={this.props.onCellClicked}
                         key={"cell_" + (cellCounter++)}
                         type={slot} />
                 );
@@ -144,7 +163,7 @@ export default class ItemComponent extends React.Component {
 
         return <div className="item-title-wrapper">
             <div className="item-wrapper">
-                <div className="item" title={this.props.item.description}>
+                <div className="item" title={this.props.item.description} onClick={() => this.onClicked()}>
                     <img src={this.getIcon()} />
                     <div className="item-data">
                         <h3 className="item-title">{this.props.item.name} {levelString}</h3>

@@ -13,9 +13,13 @@ export default class CellComponent extends React.Component {
         return "empty";
     }
 
+    onClicked() {
+        this.props.onCellClicked([{slot: this.props.type}]);
+    }
+
     render() {
 
-        return <div className={"cell " + this.getRarity()}>
+        return <div className={"cell " + this.getRarity()} onClick={() => this.onClicked()}>
             <img src={"/assets/icons/perks/" + this.props.type + ".png"} />
             <span className="cell-title">{this.props.variant}</span>
         </div>;

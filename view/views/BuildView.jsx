@@ -122,6 +122,14 @@ export default class BuildView extends React.Component {
         // TODO: add popup that says "copied"
     }
 
+    onItemClicked(filterOptions) {
+        console.log("on item clicked", ...filterOptions);
+    }
+
+    onCellClicked(filterOptions) {
+        console.log("on cell clicked", ...filterOptions);
+    }
+
     render() {
         if(!this.state.ready) {
             return <div>...</div>;
@@ -154,7 +162,9 @@ export default class BuildView extends React.Component {
                 <div className="column is-two-thirds">
                     <ItemComponent
                         parent={this}
-                        title="Weapon"
+                        onItemClicked={this.onItemClicked.bind(this)}
+                        onCellClicked={this.onCellClicked.bind(this)}
+                        title="Weapon" defaultType="Weapon"
                         item={this.findWeapon(this.state.build.weapon_name)}
                         level={this.state.build.weapon_level}
                         cells={[
@@ -164,7 +174,9 @@ export default class BuildView extends React.Component {
 
                     <ItemComponent
                         parent={this}
-                        title="Head Armor"
+                        onItemClicked={this.onItemClicked.bind(this)}
+                        onCellClicked={this.onCellClicked.bind(this)}
+                        title="Head Armor" defaultType="Head"
                         item={this.findArmor(this.state.build.head_name)}
                         level={this.state.build.head_level}
                         cells={[
@@ -173,7 +185,9 @@ export default class BuildView extends React.Component {
 
                     <ItemComponent
                         parent={this}
-                        title="Torso Armor"
+                        onItemClicked={this.onItemClicked.bind(this)}
+                        onCellClicked={this.onCellClicked.bind(this)}
+                        title="Torso Armor" defaultType="Torso"
                         item={this.findArmor(this.state.build.torso_name)}
                         level={this.state.build.torso_level}
                         cells={[
@@ -182,7 +196,9 @@ export default class BuildView extends React.Component {
 
                     <ItemComponent
                         parent={this}
-                        title="Arms Armor"
+                        onItemClicked={this.onItemClicked.bind(this)}
+                        onCellClicked={this.onCellClicked.bind(this)}
+                        title="Arms Armor" defaultType="Arms"
                         item={this.findArmor(this.state.build.arms_name)}
                         level={this.state.build.arms_level}
                         cells={[
@@ -191,7 +207,9 @@ export default class BuildView extends React.Component {
 
                     <ItemComponent
                         parent={this}
-                        title="Legs Armor"
+                        onItemClicked={this.onItemClicked.bind(this)}
+                        onCellClicked={this.onCellClicked.bind(this)}
+                        title="Legs Armor" defaultType="Legs"
                         item={this.findArmor(this.state.build.legs_name)}
                         level={this.state.build.legs_level}
                         cells={[
@@ -200,7 +218,9 @@ export default class BuildView extends React.Component {
 
                     <ItemComponent
                         parent={this}
-                        title="Lantern"
+                        onItemClicked={this.onItemClicked.bind(this)}
+                        onCellClicked={this.onCellClicked.bind(this)}
+                        title="Lantern" defaultType="Lantern"
                         item={this.findLantern(this.state.build.lantern_name)}
                         cells={[
                             [this.state.build.lantern_cell, this.findCellByVariantName(this.state.build.lantern_cell)]
