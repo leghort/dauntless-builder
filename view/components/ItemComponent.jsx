@@ -56,20 +56,32 @@ export default class ItemComponent extends React.Component {
             case "Torso":
             case "Arms":
             case "Legs":
-                return "Armor"
+                return "Armour"
         }
 
         return "Lantern";
     }
 
     onClicked() {
-        let type = this.getItemType();
+        let filterOption = {};
+        filterOption.__itemType = this.getItemType();
+        filterOption.filters = [];
 
-        if(type === "Armor") {
-            type = this.props.item ? this.props.item.type : this.props.defaultType;
+        if(this.props.item && filterOption.__itemType === "Weapon") {
+            filterOption.filters.push({
+                field: "type",
+                value: this.props.item.type
+            });
         }
 
-        this.props.onItemClicked([{type}]);
+        if(filterOption.__itemType === "Armour") {
+            filterOption.filters.push({
+                field: "type",
+                value: this.props.defaultType
+            });
+        }
+
+        this.props.onItemClicked(filterOption);
     }
 
     render() {
@@ -147,7 +159,7 @@ export default class ItemComponent extends React.Component {
                     {perkElement}
                 </React.Fragment>;
                 break;
-            case "Armor":
+            case "Armour":
                 stats = <React.Fragment>
                     <div><strong>Resistance</strong>: {this.props.item.resistance[this.props.level]}</div>
                     {perkElement}

@@ -8,6 +8,8 @@ import BuildModel from "../models/BuildModel";
 import DataUtil from "../utils/DataUtil";
 
 import ItemComponent from "../components/ItemComponent";
+import ItemSelectModalComponent from "../components/ItemSelectModalComponent";
+import DebugComponent from "../components/DebugComponent";
 
 export default class BuildView extends React.Component {
 
@@ -15,7 +17,10 @@ export default class BuildView extends React.Component {
         super(props, context);
 
         this.state = {
-            ready: false
+            ready: false,
+            itemSelectModalOpen: false,
+            cellSelectModalOpen: false,
+            modalData: {}
         };
     }
 
@@ -88,7 +93,7 @@ export default class BuildView extends React.Component {
         return null;
     }
 
-    findArmor(name) {
+    findArmour(name) {
         if(name in this.state.itemData.armours) {
             return this.state.itemData.armours[name];
         }
@@ -123,11 +128,33 @@ export default class BuildView extends React.Component {
     }
 
     onItemClicked(filterOptions) {
-        console.log("on item clicked", ...filterOptions);
+        this.setState({
+            itemSelectModalOpen: true,
+            modalData: {filterOptions}
+        })
     }
 
     onCellClicked(filterOptions) {
-        console.log("on cell clicked", ...filterOptions);
+        this.setState({
+            itemSelectModalOpen: true,
+            modalData: {filterOptions}
+        })
+    }
+
+    onNewItemSelected() {
+
+    }
+
+    onNewCellSelected() {
+
+    }
+
+    onModalCanceled() {
+        this.setState({
+            itemSelectModalOpen: false,
+            cellSelectModalOpen: false,
+            modalData: {}
+        });
     }
 
     render() {
@@ -176,8 +203,8 @@ export default class BuildView extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Head Armor" defaultType="Head"
-                        item={this.findArmor(this.state.build.head_name)}
+                        title="Head Armour" defaultType="Head"
+                        item={this.findArmour(this.state.build.head_name)}
                         level={this.state.build.head_level}
                         cells={[
                             [this.state.build.head_cell, this.findCellByVariantName(this.state.build.head_cell)]
@@ -187,8 +214,8 @@ export default class BuildView extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Torso Armor" defaultType="Torso"
-                        item={this.findArmor(this.state.build.torso_name)}
+                        title="Torso Armour" defaultType="Torso"
+                        item={this.findArmour(this.state.build.torso_name)}
                         level={this.state.build.torso_level}
                         cells={[
                             [this.state.build.torso_cell, this.findCellByVariantName(this.state.build.torso_cell)]
@@ -198,8 +225,8 @@ export default class BuildView extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Arms Armor" defaultType="Arms"
-                        item={this.findArmor(this.state.build.arms_name)}
+                        title="Arms Armour" defaultType="Arms"
+                        item={this.findArmour(this.state.build.arms_name)}
                         level={this.state.build.arms_level}
                         cells={[
                             [this.state.build.arms_cell, this.findCellByVariantName(this.state.build.arms_cell)]
@@ -209,8 +236,8 @@ export default class BuildView extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Legs Armor" defaultType="Legs"
-                        item={this.findArmor(this.state.build.legs_name)}
+                        title="Legs Armour" defaultType="Legs"
+                        item={this.findArmour(this.state.build.legs_name)}
                         level={this.state.build.legs_level}
                         cells={[
                             [this.state.build.legs_cell, this.findCellByVariantName(this.state.build.legs_cell)]
@@ -228,9 +255,15 @@ export default class BuildView extends React.Component {
                 </div>
                 <div className="column is-one-third">
                     <br />
-                    <pre><code>{JSON.stringify({build: this.state.build}, null, "    ")}</code></pre>
+                    <DebugComponent data={this.state.build} />
                 </div>
             </div>
+            <ItemSelectModalComponent
+                data={this.state.modalData}
+                itemData={this.state.itemData}
+                onSelected={this.onNewItemSelected.bind(this)}
+                onCanceled={this.onModalCanceled.bind(this)}
+                isOpen={this.state.itemSelectModalOpen} />
         </React.Fragment>;
     }
 }

@@ -45,6 +45,14 @@ strong {
     }
 }
 
+.modal-card {
+    max-height: 80vh;
+
+    .item-modal-list {
+        overflow-y: auto;
+    }
+}
+
 .quick-actions {
     display: flex;
     flex-flow: row nowrap;
@@ -223,6 +231,25 @@ strong {
                 font-size: 14px;
             }
         }
+    }
+}
+
+pre.debug {
+    border: 2px solid hsl(348, 100%, 61%);
+    position: relative;
+    padding-top: 40px;
+
+    &::before {
+        content: "DEBUG";
+        color: white;
+
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+
+        padding: 5px;
+        background: hsl(348, 100%, 61%);
     }
 }
 
