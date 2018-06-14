@@ -1,0 +1,29 @@
+name: Reza Helm
+description: Head protection forged from Rezakiri trophies.
+type: Head
+strength: Radiant
+weakness: Umbral
+cells: Technique
+resistance:
+  0: 78
+  1: 81
+  2: 84
+  3: 87
+  4: 90
+  5: 93
+  6: 96
+  7: 99
+  8: 102
+  9: 105
+  10: 108
+perks:
+  - name: Cunning
+    value: 1
+  - name: Energized
+    value: 1
+    from: 0
+    to: 5
+  - name: Energized
+    value: 2
+    from: 6
+    to: 10

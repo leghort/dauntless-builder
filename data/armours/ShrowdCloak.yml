@@ -1,0 +1,29 @@
+name: Shrowd Cloak
+description: Torso protection forged from Shrowd trophies.
+type: Torso
+strength: Umbral
+weakness: Radiant
+cells: Power
+resistance:
+  0: 78
+  1: 81
+  2: 84
+  3: 87
+  4: 90
+  5: 93
+  6: 96
+  7: 99
+  8: 102
+  9: 105
+  10: 108
+perks:
+  - name: Rage
+    value: 1
+  - name: Nine Lives
+    value: 1
+    from: 0
+    to: 5
+  - name: Nine Lives
+    value: 2
+    from: 6
+    to: 10
