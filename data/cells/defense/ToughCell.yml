@@ -1,5 +1,5 @@
 name: Tough Cell
-slot: Defense
+slot: Defence
 variants:
   "+1 Tough Cell":
     rarity: uncommon

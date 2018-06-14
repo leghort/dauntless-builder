@@ -89,8 +89,8 @@ export default class BuildView extends React.Component {
     }
 
     findArmor(name) {
-        if(name in this.state.itemData.armors) {
-            return this.state.itemData.armors[name];
+        if(name in this.state.itemData.armours) {
+            return this.state.itemData.armours[name];
         }
 
         return null;

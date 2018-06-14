@@ -56,7 +56,7 @@ function build(path) {
 }
 
 Promise.all([
-    build("data/armors/*.yml"),
+    build("data/armours/*.yml"),
     build("data/behemoths/*.yml"),
     build("data/cells/*/*.yml"),
     build("data/lanterns/*.yml"),
@@ -64,7 +64,7 @@ Promise.all([
     build("data/weapons/*/*.yml"),
 ]).then(data => {
     let object = {
-        armors: data[0],
+        armours: data[0],
         behemoths: data[1],
         cells: data[2],
         lanterns: data[3],

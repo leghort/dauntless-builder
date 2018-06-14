@@ -3,7 +3,7 @@ description: A Slayer's axe forged with Frostback trophies.
 type: Axe
 damage: Slashing
 elemental: Frost
-cells: [Power, Defense]
+cells: [Power, Defence]
 tier: 5
 power:
   0: 310

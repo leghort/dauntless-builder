@@ -1,10 +1,10 @@
-name: Ragetail Cloak
-description: Torso protection forged from Ragetail trophies.
-icon: /assets/icons/armours/RagetailCloak.png
-type: Torso
+name: Ragetail Treads
+description: Leg and foot protection forged from Ragetail trophies.
+icon: /assets/icons/armours/RagetailTreads.png
+type: Legs
 strength: null
 weakness: null
-cells: Defence
+cells: Power
 resistance:
   0: 78
   1: 81
@@ -18,13 +18,13 @@ resistance:
   9: 105
   10: 108
 perks:
-  - name: Bloodless
+  - name: Ragehunter
     value: 1
-  - name: Tough
+  - name: Bloodless
     value: 1
     from: 0
     to: 5
-  - name: Tough
+  - name: Bloodless
     value: 2
     from: 6
     to: 10

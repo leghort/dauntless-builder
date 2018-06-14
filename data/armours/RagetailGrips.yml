@@ -1,7 +1,7 @@
-name: Ragetail Treads
-description: Leg and foot protection forged from Ragetail trophies.
-icon: /assets/icons/armors/RagetailTreads.png
-type: Legs
+name: Ragetail Grips
+description: Arms protection forged from Ragetail trophies.
+icon: /assets/icons/armours/RagetailGrips.png
+type: Arms
 strength: null
 weakness: null
 cells: Power
@@ -18,13 +18,13 @@ resistance:
   9: 105
   10: 108
 perks:
-  - name: Ragehunter
+  - name: Tough
     value: 1
-  - name: Bloodless
+  - name: Ragehunter
     value: 1
     from: 0
     to: 5
-  - name: Bloodless
+  - name: Ragehunter
     value: 2
     from: 6
     to: 10

@@ -3,7 +3,7 @@ description: A Slayer's hammer forged with Firebrand trophies.
 type: Hammer
 damage: Blunt
 elemental: Blaze
-cells: [Power, Defense]
+cells: [Power, Defence]
 tier: 5
 power:
   0: 310

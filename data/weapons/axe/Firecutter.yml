@@ -3,7 +3,7 @@ description: A Slayer's axe forged with Firebrand trophies.
 type: Axe
 damage: Cutting
 elemental: Blaze
-cells: [Power, Defense]
+cells: [Power, Defence]
 tier: 5
 power:
   0: 310

@@ -3,7 +3,7 @@ description: A Slayer's axe forged with Deadeye trophies.
 type: Axe
 damage: Slashing
 elemental: null
-cells: [Technique, Defense]
+cells: [Technique, Defence]
 tier: 5
 power:
   0: 310

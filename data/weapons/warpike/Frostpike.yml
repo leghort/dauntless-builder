@@ -3,7 +3,7 @@ description: A Slayer's war pike forged with Frostback trophies.
 type: War Pike
 damage: Piercing
 elemental: Frost
-cells: [Technique, Defense]
+cells: [Technique, Defence]
 tier: 5
 power:
   0: 310
