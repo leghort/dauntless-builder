@@ -1,0 +1,25 @@
+name: Prismatic Grace
+description: stuff?
+type: Head
+strength: Radiant
+weakness: Umbral
+cells: Technique
+resistance:
+  0: 78
+  1: 81
+  2: 84
+  3: 87
+  4: 90
+  5: 93
+  6: 96
+  7: 99
+  8: 102
+  9: 105
+  10: 108
+unique_effects:
+  - name: revive_prism_invulnerable
+    value: 5
+  - name: lethal_damage_prism_invulnerable
+    value: 10
+  - name: active_revive_prism_heal
+    value: 1
