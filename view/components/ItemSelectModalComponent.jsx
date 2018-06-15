@@ -89,12 +89,13 @@ export default class ItemSelectModalComponent extends React.Component {
     getDynamicFilters() {
         let filters = [];
 
+        // apply search filter
         if(this.state.searchQuery.length > 0) {
             filters.push({
-                field: "name",
+                field: ["name", "description"],
                 value: this.state.searchQuery,
                 method: (item, filter) =>
-                    item[filter.field].toLowerCase().indexOf(filter.value.toLowerCase()) > -1
+                    filter.field.some(f => item[f].toLowerCase().indexOf(filter.value.toLowerCase()) > -1)
             });
         }
 
