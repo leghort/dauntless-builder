@@ -64,10 +64,15 @@ export default class ItemSelectModalComponent extends React.Component {
             });
         };
 
+        let filterOptions = [];
+
+        filterOptions = filterOptions.concat(this.props.data.filterOptions.filters);
+        filterOptions = filterOptions.concat(this.getDynamicFilters());
+
         for(let itemName in this.props.itemData[key]) {
             let item = this.props.itemData[key][itemName];
 
-            if(filtersApply(item, this.props.data.filterOptions.filters)) {
+            if(filtersApply(item, filterOptions)) {
                 let itemsToRender = this["render" + itemType](item);
 
                 if(!Array.isArray(itemsToRender)) {
@@ -79,6 +84,21 @@ export default class ItemSelectModalComponent extends React.Component {
         }
 
         return items;
+    }
+
+    getDynamicFilters() {
+        let filters = [];
+
+        if(this.state.searchQuery.length > 0) {
+            filters.push({
+                field: "name",
+                value: this.state.searchQuery,
+                method: (item, filter) =>
+                    item[filter.field].toLowerCase().indexOf(filter.value.toLowerCase()) > -1
+            });
+        }
+
+        return filters;
     }
 
     renderWeapon(item) {
