@@ -1,4 +1,7 @@
 import React from "react";
+import Select from "react-select";
+
+require("react-select/dist/react-select.css");
 
 import DebugComponent from "./DebugComponent";
 
@@ -8,7 +11,8 @@ export default class ItemSelectModalComponent extends React.Component {
 
         this.state = {
             open: !!this.props.isOpen,
-            searchQuery: ""
+            searchQuery: "",
+            perkFilter: null
         }
     }
 
@@ -31,7 +35,7 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 
     onClose() {
-        this.setState({open: false}, () => {
+        this.setState({open: false, searchQuery: "", perkFilter: null}, () => {
             if(this.props.onCanceled) {
                 this.props.onCanceled();
             }
@@ -57,7 +61,12 @@ export default class ItemSelectModalComponent extends React.Component {
         const filtersApply = (item, filters) => {
             return filters.every(filter => {
                 if(filter.method) {
-                    return filter.method(item, filter);
+                    try {
+                        return filter.method(item, filter);
+                    } catch(ex) {
+                        console.warn(ex);
+                        return false;
+                    }
                 }
 
                 return item[filter.field] === filter.value
@@ -99,7 +108,42 @@ export default class ItemSelectModalComponent extends React.Component {
             });
         }
 
+        if(this.state.perkFilter && this.state.perkFilter.value) {
+            filters.push({
+                field: "perks",
+                value: this.state.perkFilter.value,
+                method: (item, filter) =>
+                    item.perks.some(p => p.name === filter.value)
+            });
+        }
+
         return filters;
+    }
+
+    getPerkOptions() {
+        let perks = Object.keys(this.props.itemData.perks).map(perk => {
+            return {value: perk, label: perk};
+        });
+
+        return perks;
+    }
+
+    renderFilterFields() {
+        let fields = [];
+
+        if(["Weapon", "Armour", "Cell"].indexOf(this.props.data.filterOptions.__itemType) > -1) {
+            fields.push(
+                <div className="field">
+                    <Select
+                        placeholder="Select perk..."
+                        onChange={perk => this.setState({perkFilter: perk})}
+                        value={this.state.perkFilter}
+                        options={this.getPerkOptions()} />
+                </div>
+            );
+        }
+
+        return fields;
     }
 
     renderWeapon(item) {
@@ -141,6 +185,7 @@ export default class ItemSelectModalComponent extends React.Component {
                             </span>
                         </p>
                     </div>
+                    {this.renderFilterFields()}
 
                     <div className="item-modal-list">
                         {this.getAvailableItems()}
