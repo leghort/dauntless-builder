@@ -53,6 +53,10 @@ strong {
     }
 }
 
+.disable-scrolling {
+    overflow-y: hidden !important;
+}
+
 .quick-actions {
     display: flex;
     flex-flow: row nowrap;

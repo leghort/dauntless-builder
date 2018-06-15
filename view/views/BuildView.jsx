@@ -127,7 +127,12 @@ export default class BuildView extends React.Component {
         // TODO: add popup that says "copied"
     }
 
+    onModalOpen() {
+        document.querySelector("html").classList.add("disable-scrolling");
+    }
+
     onItemClicked(filterOptions) {
+        this.onModalOpen();
         this.setState({
             itemSelectModalOpen: true,
             modalData: {filterOptions}
@@ -135,6 +140,7 @@ export default class BuildView extends React.Component {
     }
 
     onCellClicked(filterOptions) {
+        this.onModalOpen();
         this.setState({
             itemSelectModalOpen: true,
             modalData: {filterOptions}
@@ -142,19 +148,27 @@ export default class BuildView extends React.Component {
     }
 
     onNewItemSelected() {
+        this.onModalClosed();
 
     }
 
     onNewCellSelected() {
+        this.onModalClosed();
 
     }
 
     onModalCanceled() {
+        this.onModalClosed();
+
         this.setState({
             itemSelectModalOpen: false,
             cellSelectModalOpen: false,
             modalData: {}
         });
+    }
+
+    onModalClosed() {
+        document.querySelector("html").classList.remove("disable-scrolling");
     }
 
     render() {
