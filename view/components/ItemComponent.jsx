@@ -67,6 +67,10 @@ export default class ItemComponent extends React.Component {
         filterOption.__itemType = this.getItemType();
         filterOption.filters = [];
 
+        if(filterOption.__itemType === "Weapon" && this.props.item) {
+            filterOption.__weaponType = this.props.item.type;
+        }
+
         if(filterOption.__itemType === "Armour") {
             filterOption.filters.push({
                 field: "type",

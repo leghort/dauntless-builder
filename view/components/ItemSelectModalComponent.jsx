@@ -12,13 +12,29 @@ export default class ItemSelectModalComponent extends React.Component {
         this.state = {
             open: !!this.props.isOpen,
             searchQuery: "",
-            perkFilter: null
+            perkFilter: null,
+            weaponTypeFilter: null
+        }
+
+        this.defaultState = {
+            open: false,
+            searchQuery: "",
+            perkFilter: null,
+            weaponTypeFilter: null
         }
     }
 
     componentWillReceiveProps(nextProps) {
         if(nextProps.isOpen !== this.state.open) {
             this.setState({open: nextProps.isOpen});
+        }
+
+        if(nextProps.data && nextProps.data.filterOptions && nextProps.data.filterOptions.__weaponType) {
+            this.setState({weaponTypeFilter: {
+                    value: nextProps.data.filterOptions.__weaponType,
+                    label: nextProps.data.filterOptions.__weaponType,
+                }
+            });
         }
     }
 
@@ -35,7 +51,7 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 
     onClose() {
-        this.setState({open: false, searchQuery: "", perkFilter: null}, () => {
+        this.setState(this.defaultState, () => {
             if(this.props.onCanceled) {
                 this.props.onCanceled();
             }
@@ -117,6 +133,13 @@ export default class ItemSelectModalComponent extends React.Component {
             });
         }
 
+        if(this.state.weaponTypeFilter && this.state.weaponTypeFilter.value) {
+            filters.push({
+                field: "type",
+                value: this.state.weaponTypeFilter.value
+            });
+        }
+
         return filters;
     }
 
@@ -131,9 +154,41 @@ export default class ItemSelectModalComponent extends React.Component {
     renderFilterFields() {
         let fields = [];
 
-        if(["Weapon", "Armour", "Cell"].indexOf(this.props.data.filterOptions.__itemType) > -1) {
+        const isType = (type) => {
+            if(!Array.isArray(type)) {
+                type = [type];
+            }
+
+            return type.indexOf(this.props.data.filterOptions.__itemType) > -1;
+        }
+
+        if(isType(["Weapon"])) {
+            let options = [];
+
+            for(let weaponName in this.props.itemData.weapons) {
+                let weapon = this.props.itemData.weapons[weaponName];
+
+                if(weapon.type && options.indexOf(weapon.type) == -1) {
+                    options.push(weapon.type);
+                }
+            }
+
+            options = options.sort().map(option => ({value: option, label: option}));
+
             fields.push(
-                <div className="field">
+                <div key="weaponTypeFilter" className="field">
+                    <Select
+                        placeholder="Select weapon type..."
+                        onChange={weaponType => this.setState({weaponTypeFilter: weaponType})}
+                        value={this.state.weaponTypeFilter}
+                        options={options} />
+                </div>
+            );
+        }
+
+        if(isType(["Weapon", "Armour", "Cell"])) {
+            fields.push(
+                <div key="perkFilter" className="field">
                     <Select
                         placeholder="Select perk..."
                         onChange={perk => this.setState({perkFilter: perk})}
