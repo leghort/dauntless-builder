@@ -44,10 +44,10 @@ export default class ItemSelectModalComponent extends React.Component {
         return this.state.open ? "is-active" : "";
     }
 
-    onSelected() {
+    onItemSelected(itemType, itemName) {
         this.setState({open: false}, () => {
             if(this.props.onSelected) {
-                this.props.onSelected();
+                this.props.onSelected(itemType, itemName, this.props.data.filterOptions);
             }
         })
     }
@@ -259,7 +259,19 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 
     renderCell(item) {
-        return <div key={item.name}>Cell: {item.name}</div>;
+        let variants = Object.keys(item.variants).map(v =>
+            <div key={v} className={"cell " + item.variants[v].rarity} onClick={() => this.onItemSelected("Cell", v)}>
+                <img src={"/assets/icons/perks/" + item.slot + ".png"} />
+                <span className="cell-title">{v}</span>
+            </div>
+        );
+
+        return <React.Fragment key={item.name}>
+            <h3 className="subtitle cell-title-line">{item.name}</h3>
+            <div className="cells">
+                {variants}
+            </div>
+        </React.Fragment>
     }
 
     render() {

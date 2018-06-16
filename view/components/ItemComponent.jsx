@@ -107,6 +107,8 @@ export default class ItemComponent extends React.Component {
 
         let assignedCells = this.props.cells.slice();
 
+        let slotIndex = 0;
+
         for(let slot of cellSlots) {
             let index = assignedCells.findIndex(cellHandle => cellHandle[1] && cellHandle[1].slot === slot);
 
@@ -114,6 +116,8 @@ export default class ItemComponent extends React.Component {
                 cells.push(
                     <CellComponent
                         parent={this.props.parent}
+                        parentType={this.props.defaultType}
+                        slotPosition={slotIndex}
                         onCellClicked={this.props.onCellClicked}
                         key={"cell_" + (cellCounter++)}
                         type={assignedCells[index][1].slot}
@@ -126,11 +130,15 @@ export default class ItemComponent extends React.Component {
                 cells.push(
                     <CellComponent
                         parent={this.props.parent}
+                        parentType={this.props.defaultType}
+                        slotPosition={slotIndex}
                         onCellClicked={this.props.onCellClicked}
                         key={"cell_" + (cellCounter++)}
                         type={slot} />
                 );
             }
+
+            slotIndex++;
         }
 
         let levelString = "";

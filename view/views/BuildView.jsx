@@ -135,21 +135,21 @@ export default class BuildView extends React.Component {
     }
 
     onCellClicked(filterOptions) {
-        this.onModalOpen();
-        this.setState({
-            itemSelectModalOpen: true,
-            modalData: {filterOptions}
-        })
+        this.onItemClicked(filterOptions);
     }
 
-    onNewItemSelected() {
-        this.onModalClosed();
+    onNewItemSelected(itemType, itemName, data) {
+        let changes = {};
 
-    }
+        if(itemType === "Cell") {
+            if(data.__parentType === "Weapon") {
+                changes["weapon_cell" + data.__slotPosition] = itemName;
+            } else {
+                changes[data.__parentType.toLowerCase() + "_cell"] = itemName;
+            }
+        }
 
-    onNewCellSelected() {
-        this.onModalClosed();
-
+        this.applyItemSelection(changes);
     }
 
     onModalCanceled() {
@@ -157,13 +157,25 @@ export default class BuildView extends React.Component {
 
         this.setState({
             itemSelectModalOpen: false,
-            cellSelectModalOpen: false,
             modalData: {}
         });
     }
 
     onModalClosed() {
         document.querySelector("html").classList.remove("disable-scrolling");
+    }
+
+    applyItemSelection(changes) {
+        let build = this.state.build;
+
+        for(let key in changes) {
+            build[key] = changes[key];
+        }
+
+        this.setState({build, itemSelectModalOpen: false}, () => {
+            this.updateUrl()
+            this.onModalClosed();
+        });
     }
 
     render() {

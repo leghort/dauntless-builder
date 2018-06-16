@@ -14,7 +14,11 @@ export default class CellComponent extends React.Component {
     }
 
     onClicked() {
-        this.props.onCellClicked({__itemType: "Cell", filters: [
+        this.props.onCellClicked({
+            __itemType: "Cell",
+            __parentType: this.props.parentType,
+            __slotPosition: this.props.slotPosition,
+            filters: [
             {
                 field: "slot",
                 value: this.props.type
