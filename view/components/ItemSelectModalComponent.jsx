@@ -162,6 +162,25 @@ export default class ItemSelectModalComponent extends React.Component {
             return type.indexOf(this.props.data.filterOptions.__itemType) > -1;
         }
 
+        // add search filter
+        fields.push(
+            <div className="field">
+                <p className="control has-icons-left has-icons-right">
+                    <input
+                        autoFocus={true}
+                        className="input"
+                        type="text"
+                        placeholder="Search..."
+                        value={this.state.searchQuery}
+                        onChange={e => this.setState({searchQuery: e.target.value})} />
+                    <span className="icon is-small is-left">
+                        <i className="fas fa-search"></i>
+                    </span>
+                </p>
+            </div>
+        );
+
+        // add Weapon Type filter
         if(isType(["Weapon"])) {
             let options = [];
 
@@ -186,7 +205,8 @@ export default class ItemSelectModalComponent extends React.Component {
             );
         }
 
-        if(isType(["Weapon", "Armour", "Cell"])) {
+        // add Perk filter
+        if(isType(["Weapon", "Armour"])) {
             fields.push(
                 <div key="perkFilter" className="field">
                     <Select
@@ -226,20 +246,6 @@ export default class ItemSelectModalComponent extends React.Component {
             <div className="modal-background"></div>
             <div className="modal-content">
                 <div className="card modal-card">
-                    <div className="field">
-                        <p className="control has-icons-left has-icons-right">
-                            <input
-                                autoFocus={true}
-                                className="input"
-                                type="text"
-                                placeholder="Search..."
-                                value={this.state.searchQuery}
-                                onChange={e => this.setState({searchQuery: e.target.value})} />
-                            <span className="icon is-small is-left">
-                                <i className="fas fa-search"></i>
-                            </span>
-                        </p>
-                    </div>
                     {this.renderFilterFields()}
 
                     <div className="item-modal-list">
