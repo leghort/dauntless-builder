@@ -1,6 +1,7 @@
 import React from "react";
 
 import CellComponent from "./CellComponent";
+import BuildModel from "../models/BuildModel";
 
 export default class ItemComponent extends React.Component {
     constructor(props, context) {
@@ -24,17 +25,7 @@ export default class ItemComponent extends React.Component {
     }
 
     getPerks() {
-        if(!this.props.item.perks) {
-            return [];
-        }
-
-        let level = Number(this.props.level);
-
-        return this.props.item.perks.filter(
-            perk =>
-                !("from" in perk && "to" in perk) ||
-                    (level >= perk.from && level <= perk.to)
-            );
+        return BuildModel.getAvailablePerksByLevel(this.props.item.name, this.getItemType(), this.props.level);
     }
 
     getItemType() {

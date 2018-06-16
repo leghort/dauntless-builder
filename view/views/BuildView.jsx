@@ -11,6 +11,7 @@ import ItemComponent from "../components/ItemComponent";
 import ItemSelectModalComponent from "../components/ItemSelectModalComponent";
 import DebugComponent from "../components/DebugComponent";
 import DebugButtonComponent from "../components/DebugButtonComponent";
+import PerkListComponent from "../components/PerkListComponent";
 
 export default class BuildView extends React.Component {
 
@@ -78,42 +79,6 @@ export default class BuildView extends React.Component {
         this.setState({
             build
         }, () => this.updateUrl());
-    }
-
-    findWeapon(name) {
-        if(name in this.state.itemData.weapons) {
-            return this.state.itemData.weapons[name];
-        }
-
-        return null;
-    }
-
-    findArmour(name) {
-        if(name in this.state.itemData.armours) {
-            return this.state.itemData.armours[name];
-        }
-
-        return null;
-    }
-
-    findLantern(name) {
-        if(name in this.state.itemData.lanterns) {
-            return this.state.itemData.lanterns[name];
-        }
-
-        return null;
-    }
-
-    findCellByVariantName(variantName) {
-        for(let cellKey in this.state.itemData.cells) {
-            let cell = this.state.itemData.cells[cellKey];
-
-            if(variantName in cell.variants) {
-                return cell;
-            }
-        }
-
-        return null;
     }
 
     onCopyToClipboard() {
@@ -189,6 +154,15 @@ export default class BuildView extends React.Component {
         document.querySelector("html").classList.remove("disable-scrolling");
     }
 
+    getOrderedPerks() {
+        let perks = Object.keys(this.state.build.perks).map(perkName =>
+            ({name: perkName, value: this.state.build.perks[perkName]}));
+
+        perks.sort((a, b) => b.value - a.value || a.name.localeCompare(b.name));
+
+        return perks;
+    }
+
     applyItemSelection(changes) {
         let build = this.state.build;
 
@@ -240,11 +214,11 @@ export default class BuildView extends React.Component {
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
                         title="Weapon" defaultType="Weapon"
-                        item={this.findWeapon(this.state.build.weapon_name)}
+                        item={BuildModel.findWeapon(this.state.build.weapon_name)}
                         level={this.state.build.weapon_level}
                         cells={[
-                            [this.state.build.weapon_cell0, this.findCellByVariantName(this.state.build.weapon_cell0)],
-                            [this.state.build.weapon_cell1, this.findCellByVariantName(this.state.build.weapon_cell1)],
+                            [this.state.build.weapon_cell0, BuildModel.findCellByVariantName(this.state.build.weapon_cell0)],
+                            [this.state.build.weapon_cell1, BuildModel.findCellByVariantName(this.state.build.weapon_cell1)],
                         ]} />
 
                     <ItemComponent
@@ -252,10 +226,10 @@ export default class BuildView extends React.Component {
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
                         title="Head Armour" defaultType="Head"
-                        item={this.findArmour(this.state.build.head_name)}
+                        item={BuildModel.findArmour(this.state.build.head_name)}
                         level={this.state.build.head_level}
                         cells={[
-                            [this.state.build.head_cell, this.findCellByVariantName(this.state.build.head_cell)]
+                            [this.state.build.head_cell, BuildModel.findCellByVariantName(this.state.build.head_cell)]
                         ]} />
 
                     <ItemComponent
@@ -263,10 +237,10 @@ export default class BuildView extends React.Component {
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
                         title="Torso Armour" defaultType="Torso"
-                        item={this.findArmour(this.state.build.torso_name)}
+                        item={BuildModel.findArmour(this.state.build.torso_name)}
                         level={this.state.build.torso_level}
                         cells={[
-                            [this.state.build.torso_cell, this.findCellByVariantName(this.state.build.torso_cell)]
+                            [this.state.build.torso_cell, BuildModel.findCellByVariantName(this.state.build.torso_cell)]
                         ]} />
 
                     <ItemComponent
@@ -274,10 +248,10 @@ export default class BuildView extends React.Component {
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
                         title="Arms Armour" defaultType="Arms"
-                        item={this.findArmour(this.state.build.arms_name)}
+                        item={BuildModel.findArmour(this.state.build.arms_name)}
                         level={this.state.build.arms_level}
                         cells={[
-                            [this.state.build.arms_cell, this.findCellByVariantName(this.state.build.arms_cell)]
+                            [this.state.build.arms_cell, BuildModel.findCellByVariantName(this.state.build.arms_cell)]
                         ]} />
 
                     <ItemComponent
@@ -285,10 +259,10 @@ export default class BuildView extends React.Component {
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
                         title="Legs Armour" defaultType="Legs"
-                        item={this.findArmour(this.state.build.legs_name)}
+                        item={BuildModel.findArmour(this.state.build.legs_name)}
                         level={this.state.build.legs_level}
                         cells={[
-                            [this.state.build.legs_cell, this.findCellByVariantName(this.state.build.legs_cell)]
+                            [this.state.build.legs_cell, BuildModel.findCellByVariantName(this.state.build.legs_cell)]
                         ]} />
 
                     <ItemComponent
@@ -296,15 +270,19 @@ export default class BuildView extends React.Component {
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
                         title="Lantern" defaultType="Lantern"
-                        item={this.findLantern(this.state.build.lantern_name)}
+                        item={BuildModel.findLantern(this.state.build.lantern_name)}
                         cells={[
-                            [this.state.build.lantern_cell, this.findCellByVariantName(this.state.build.lantern_cell)]
+                            [this.state.build.lantern_cell, BuildModel.findCellByVariantName(this.state.build.lantern_cell)]
                         ]} />
                 </div>
                 <div className="column is-one-third">
+                    <PerkListComponent perks={this.getOrderedPerks()} />
                     <br />
                     <DebugButtonComponent onClick={() => this.dummyData()}>
                         <i className="fas fa-database"></i>&nbsp;Add Dummy Data
+                    </DebugButtonComponent>
+                    <DebugButtonComponent onClick={() => console.log(this.getOrderedPerks())}>
+                        <i className="fas fa-check"></i>&nbsp;Perks
                     </DebugButtonComponent>
                     <DebugComponent data={this.state.build} active={true} />
                 </div>

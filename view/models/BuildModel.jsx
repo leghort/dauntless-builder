@@ -66,6 +66,151 @@ export default class BuildModel {
         });
     }
 
+    get weapon() {
+        return BuildModel.findWeapon(this.weapon_name);
+    }
+
+    get weaponLevel() {
+        return this.weapon_level;
+    }
+
+    get weaponCells() {
+        return [
+            [this.weapon_cell0, BuildModel.findCellByVariantName(this.weapon_cell0)],
+            [this.weapon_cell1, BuildModel.findCellByVariantName(this.weapon_cell1)],
+        ];
+    }
+
+    get armour() {
+        return {
+            head: BuildModel.findArmour(this.head_name),
+            torso: BuildModel.findArmour(this.torso_name),
+            arms: BuildModel.findArmour(this.arms_name),
+            legs: BuildModel.findArmour(this.legs_name),
+        }
+    }
+
+    get armourCells() {
+        return {
+            head: [this.head_cell, BuildModel.findCellByVariantName(this.head_cell)],
+            torso: [this.torso_cell, BuildModel.findCellByVariantName(this.torso_cell)],
+            arms: [this.arms_cell, BuildModel.findCellByVariantName(this.arms_cell)],
+            legs: [this.legs_cell, BuildModel.findCellByVariantName(this.legs_cell)]
+        }
+    }
+
+    get lantern() {
+        return BuildModel.findLantern(this.lantern_name);
+    }
+
+    get perks() {
+        let perks = {};
+
+        let insertPerk = (perkName, perkValue) => {
+            if(!(perkName in perks)) {
+                perks[perkName] = perkValue;
+            } else {
+                perks[perkName] += perkValue;
+            }
+        };
+
+        let insertCellPerks = cells => {
+            for(let [variantName, cell] of cells) {
+
+                if(!variantName || !cell) {
+                    continue;
+                }
+
+                for(let perk in cell.variants[variantName].perks) {
+                    insertPerk(perk, cell.variants[variantName].perks[perk]);
+                }
+            }
+        };
+
+        let insertItemPerks = (itemName, itemType, specificItemType, itemLevel) => {
+            const item = BuildModel["find" + itemType](itemName);
+
+            if(item) {
+                let itemPerks = BuildModel.getAvailablePerksByLevel(itemName, itemType, itemLevel);
+
+                for(let perk of itemPerks) {
+                    insertPerk(perk.name, perk.value);
+                }
+
+                if(itemType === "Weapon") {
+                    insertCellPerks(this.weaponCells);
+                } else {
+                    const name = (specificItemType || itemType).toLowerCase();
+
+                    insertCellPerks([
+                        [this[name + "_cell"], BuildModel.findCellByVariantName(this[name + "_cell"])]
+                    ]);
+                }
+            }
+        }
+
+        insertItemPerks(this.weapon_name, "Weapon", null, this.weapon_level);
+        insertItemPerks(this.head_name, "Armour", "Head", this.head_level);
+        insertItemPerks(this.torso_name, "Armour", "Torso", this.torso_level);
+        insertItemPerks(this.arms_name, "Armour", "Arms", this.arms_level);
+        insertItemPerks(this.legs_name, "Armour", "Legs", this.legs_level);
+        insertItemPerks(this.lantern_name, "Lantern", null, 0);
+
+        return perks;
+    }
+
+    static findWeapon(name) {
+        if(name in DataUtil.data().weapons) {
+            return DataUtil.data().weapons[name];
+        }
+
+        return null;
+    }
+
+    static findArmour(name) {
+        if(name in DataUtil.data().armours) {
+            return DataUtil.data().armours[name];
+        }
+
+        return null;
+    }
+
+    static findLantern(name) {
+        if(name in DataUtil.data().lanterns) {
+            return DataUtil.data().lanterns[name];
+        }
+
+        return null;
+    }
+
+    static findCellByVariantName(variantName) {
+        for(let cellKey in DataUtil.data().cells) {
+            let cell = DataUtil.data().cells[cellKey];
+
+            if(variantName in cell.variants) {
+                return cell;
+            }
+        }
+
+        return null;
+    }
+
+    static getAvailablePerksByLevel(itemName, itemType, level) {
+        const item = DataUtil.data()[itemType.toLowerCase() + "s"][itemName];
+
+        if(!item.perks) {
+            return [];
+        }
+
+        level = Number(level);
+
+        return item.perks.filter(
+            perk =>
+                !("from" in perk && "to" in perk) ||
+                    (level >= perk.from && level <= perk.to)
+        );
+    }
+
     static tryDeserialize(str) {
         if(BuildModel.isValid(str)) {
             return BuildModel.deserialize(str);
