@@ -181,6 +181,13 @@ export default class ItemComponent extends React.Component {
                 </React.Fragment>;
         }
 
+        let uniqueEffects = [];
+
+        if(this.props.item.unique_effects) {
+            uniqueEffects = this.props.item.unique_effects.map(uniqueEffect =>
+                <div key={uniqueEffect.name} className="unique-effects">{uniqueEffect.description}</div>);
+        }
+
         return <div className="item-title-wrapper">
             <div className="item-wrapper">
                 <div className="item" title={this.props.item.description} onClick={() => this.onClicked()}>
@@ -188,6 +195,7 @@ export default class ItemComponent extends React.Component {
                     <div className="item-data">
                         <h3 className="item-title">{this.props.item.name} {levelString}</h3>
                         {stats}
+                        {uniqueEffects}
                     </div>
                 </div>
                 <div className="cells">

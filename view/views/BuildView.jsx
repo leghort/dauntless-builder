@@ -192,6 +192,11 @@ export default class BuildView extends React.Component {
                     <button className="button is-light" disabled>
                         <i className="fas fa-folder-open"></i>&nbsp;My builds
                     </button>
+                    <Link to="/dev">
+                        <DebugButtonComponent>
+                            <i className="fas fa-code"></i>&nbsp;Dev Menu
+                        </DebugButtonComponent>
+                    </Link>
                 </div>
                 <div className="qa-right">
                     <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} onCopy={() => this.onCopyToClipboard()}>
@@ -281,8 +286,8 @@ export default class BuildView extends React.Component {
                     <DebugButtonComponent onClick={() => this.dummyData()}>
                         <i className="fas fa-database"></i>&nbsp;Add Dummy Data
                     </DebugButtonComponent>
-                    <DebugButtonComponent onClick={() => console.log(this.getOrderedPerks())}>
-                        <i className="fas fa-check"></i>&nbsp;Perks
+                    <DebugButtonComponent onClick={() => console.log(BuildModel.getUniqueEffects("The Hunger", "Weapon"))}>
+                        <i className="fas fa-check"></i>&nbsp;Unique Effects of The Hunger
                     </DebugButtonComponent>
                     <DebugComponent data={this.state.build} active={true} />
                 </div>

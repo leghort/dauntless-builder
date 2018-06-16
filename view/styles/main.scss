@@ -72,7 +72,8 @@ strong {
     margin-right: -20px;
     margin-top: -20px;
 
-    button {
+    & > div > button,
+    & > div > a {
         margin-left: 5px;
         margin-right: 5px;
     }
@@ -234,7 +235,12 @@ strong {
             margin-left: 10px;
 
             .item-title {
-                font-size: 24px;
+                font-size: 22px;
+            }
+
+            .unique-effects {
+                line-height: 1;
+                font-size: 12px;
             }
         }
     }
@@ -305,6 +311,13 @@ pre.debug {
 button.is-debug-button {
     width: 100%;
     margin: 5px 0px;
+}
+
+.quick-actions {
+    .is-debug-button {
+        width: unset;
+        margin: unset;
+    }
 }
 
 @keyframes pulsating {

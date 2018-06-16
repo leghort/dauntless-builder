@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Route, Link, Switch, Redirect} from "react-router-dom";
 
 import IndexView from "./views/IndexView";
 import BuildView from "./views/BuildView";
+import DevView from "./views/DevView";
+
+import DebugButtonComponent from "./components/DebugButtonComponent";
 
 require("styles/main.scss");
 
@@ -18,8 +21,13 @@ class App extends React.Component {
                     </Link>
 
                     <div className="card">
-                        <Route exact path="/" component={IndexView} />
-                        <Route path="/b/:buildData" component={BuildView} />
+                        <Switch>
+                            <Route exact path="/" component={IndexView} />
+                            <Route path="/b/:buildData" component={BuildView} />
+                            <Route path="/dev/:tab" component={DevView} />
+                            <Route path="/dev" render={() => <Redirect to="/dev/Main" />} />
+                            <Redirect to="/" />
+                        </Switch>
                     </div>
 
                     <div className="footers">

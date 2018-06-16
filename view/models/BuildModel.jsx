@@ -205,6 +205,16 @@ export default class BuildModel {
         return null;
     }
 
+    static getUniqueEffects(itemName, itemType) {
+        const item = DataUtil.data()[itemType.toLowerCase() + "s"][itemName];
+
+        if(!item.unique_effects) {
+            return [];
+        }
+
+        return item.unique_effects;
+    }
+
     static getAvailablePerksByLevel(itemName, itemType, level) {
         const item = DataUtil.data()[itemType.toLowerCase() + "s"][itemName];
 
