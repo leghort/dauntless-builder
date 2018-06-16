@@ -46,7 +46,10 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 
     onItemSelected(itemType, itemName) {
-        this.setState({open: false}, () => {
+        let newState = Object.assign({}, this.defaultState);
+        newState.open = false;
+
+        this.setState(newState, () => {
             if(this.props.onSelected) {
                 this.props.onSelected(itemType, itemName, this.props.data.filterOptions);
             }
