@@ -72,14 +72,6 @@ strong {
     button {
         margin-left: 5px;
         margin-right: 5px;
-
-        &:first-of-type {
-            margin-left: 0px;
-        }
-
-        &::last-of-type {
-            margin-right: 0px;
-        }
     }
 }
 
@@ -256,6 +248,11 @@ pre.debug {
         padding: 5px;
         background: hsl(348, 100%, 61%);
     }
+}
+
+button.is-debug-button {
+    width: 100%;
+    margin: 5px 0px;
 }
 
 @keyframes pulsating {

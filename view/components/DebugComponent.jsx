@@ -1,6 +1,14 @@
 import React from "react";
+import DebugButtonComponent from "./DebugButtonComponent";
 
 export default class DebugComponent extends React.Component {
+    constructor(props, context) {
+        super(props, context);
+
+        this.state = {
+            active: this.props.active
+        }
+    }
 
     filteredData() {
         // don't filter arrays
@@ -26,6 +34,16 @@ export default class DebugComponent extends React.Component {
             return null;
         }
 
-        return <pre className="debug"><code>{JSON.stringify(this.filteredData(), null, "    ")}</code></pre>;
+        let debugComponent = <DebugButtonComponent onClick={() => this.setState({active: true})}>
+            <i className="fas fa-bug"></i>&nbsp;Show debug data
+        </DebugButtonComponent>;
+
+        if(this.state.active) {
+            debugComponent = <pre className="debug">
+                <code>{JSON.stringify(this.filteredData(), null, "    ")}</code>
+            </pre>
+        }
+
+        return debugComponent;
     }
 }

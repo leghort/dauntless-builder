@@ -10,6 +10,7 @@ import DataUtil from "../utils/DataUtil";
 import ItemComponent from "../components/ItemComponent";
 import ItemSelectModalComponent from "../components/ItemSelectModalComponent";
 import DebugComponent from "../components/DebugComponent";
+import DebugButtonComponent from "../components/DebugButtonComponent";
 
 export default class BuildView extends React.Component {
 
@@ -178,11 +179,11 @@ export default class BuildView extends React.Component {
                             <i className="fas fa-plus"></i>&nbsp;New
                         </button>
                     </Link>
+                    <button className="button is-light" disabled>
+                        <i className="fas fa-folder-open"></i>&nbsp;My builds
+                    </button>
                 </div>
                 <div className="qa-right">
-                    <button onClick={() => this.dummyData()} className="button is-light">
-                        <i className="fas fa-database"></i>&nbsp;Add Dummy Data
-                    </button>
                     <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} onCopy={() => this.onCopyToClipboard()}>
                         <button className="button is-light" title="Copy to clipboard">
                             <i className="fas fa-copy"></i>
@@ -190,6 +191,9 @@ export default class BuildView extends React.Component {
                     </CopyToClipboard>
                     <button className="button is-light" title="Save build" disabled>
                         <i className="far fa-heart"></i>
+                    </button>
+                    <button className="button is-light" title="Settings" disabled>
+                        <i className="fas fa-cog"></i>
                     </button>
                 </div>
             </div>
@@ -263,7 +267,10 @@ export default class BuildView extends React.Component {
                 </div>
                 <div className="column is-one-third">
                     <br />
-                    <DebugComponent data={this.state.build} />
+                    <DebugButtonComponent onClick={() => this.dummyData()}>
+                        <i className="fas fa-database"></i>&nbsp;Add Dummy Data
+                    </DebugButtonComponent>
+                    <DebugComponent data={this.state.build} active={true} />
                 </div>
             </div>
             <ItemSelectModalComponent
