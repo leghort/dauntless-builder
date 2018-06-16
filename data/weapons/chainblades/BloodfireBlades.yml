@@ -27,6 +27,6 @@ perks:
     to: 10
   - name: Barbed
     value: 2
-unique_effects:
+wip_unique_effects:
   - name: tenth_hit_bonus
     value: null

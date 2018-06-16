@@ -16,7 +16,7 @@ power:
   8: 406
   9: 418
   10: 430
-unique_effects:
+wip_unique_effects:
   - name: attack_speed_on_special_attack_hit
     value: 1.30
   - name: seventh_hit_wound_damage

@@ -16,6 +16,6 @@ power:
   8: 406
   9: 418
   10: 430
-unique_effects:
+wip_unique_effects:
   - name: beam_meter_damage
     value: 3

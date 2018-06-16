@@ -195,6 +195,16 @@ export default class BuildModel {
         return null;
     }
 
+    static findPerkByName(perkName) {
+        for(let perk in DataUtil.data().perks) {
+            if(perk === perkName) {
+                return DataUtil.data().perks[perkName];
+            }
+        }
+
+        return null;
+    }
+
     static getAvailablePerksByLevel(itemName, itemType, level) {
         const item = DataUtil.data()[itemType.toLowerCase() + "s"][itemName];
 

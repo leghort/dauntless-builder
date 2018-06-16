@@ -16,7 +16,7 @@ resistance:
   8: 102
   9: 105
   10: 108
-unique_effects:
+wip_unique_effects:
   - name: death_revive_dps
     value: 2
   - name: death_revive_time

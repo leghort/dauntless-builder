@@ -19,6 +19,6 @@ power:
 perks:
   - name: Wild Frenzy
     value: 2
-unique_effects:
+wip_unique_effects:
   - name: null
     value: null

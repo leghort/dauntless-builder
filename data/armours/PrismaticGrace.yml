@@ -16,7 +16,7 @@ resistance:
   8: 102
   9: 105
   10: 108
-unique_effects:
+wip_unique_effects:
   - name: revive_prism_invulnerable
     value: 5
   - name: lethal_damage_prism_invulnerable

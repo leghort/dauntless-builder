@@ -25,6 +25,6 @@ perks:
     value: 3
     from: 6
     to: 10
-unique_effects:
+wip_unique_effects:
   - name: low_hp_bonus_damage
     value: 1.5
