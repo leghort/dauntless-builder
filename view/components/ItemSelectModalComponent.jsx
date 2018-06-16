@@ -289,6 +289,13 @@ export default class ItemSelectModalComponent extends React.Component {
                         {this.getAvailableItems()}
                     </div>
 
+                    <button
+                        className="button is-light"
+                        onClick={() =>
+                            this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
+                        <i className="fas fa-times"></i>&nbsp;Empty {this.props.data.filterOptions.__itemType} selection.
+                    </button>
+
                     <DebugComponent data={{filterOptions: this.props.data.filterOptions, state: this.state}} />
                 </div>
             </div>
