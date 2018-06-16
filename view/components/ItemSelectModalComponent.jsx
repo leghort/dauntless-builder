@@ -236,7 +236,7 @@ export default class ItemSelectModalComponent extends React.Component {
         }
 
         // add Slot filter
-        if(isType(["Weapon", "Armour", "Lantern"])) {
+        if(isType(["Weapon", "Armour"])) {
             fields.push(
                 <div key="slotFilter" className="field">
                     <Select
