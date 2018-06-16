@@ -308,7 +308,7 @@ export default class ItemSelectModalComponent extends React.Component {
         }
 
         return <div className={`modal ${this.getIsActive()}`}>
-            <div className="modal-background"></div>
+            <div className="modal-background" onClick={() => this.onClose()}></div>
             <div className="modal-content">
                 <div className="card modal-card">
                     {this.renderFilterFields()}
