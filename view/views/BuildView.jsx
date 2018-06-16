@@ -141,7 +141,31 @@ export default class BuildView extends React.Component {
     onNewItemSelected(itemType, itemName, data) {
         let changes = {};
 
-        if(itemType === "Cell") {
+        console.log("Selected: ", itemType, itemName, data);
+
+        if(itemType === "Weapon") {
+            changes.weapon_name = itemName;
+            changes.weapon_level = itemName ?
+                // find highest level TODO: add something to select levels yourself?
+                Math.max(...Object.keys(this.state.itemData.weapons[itemName].power).map(k => Number(k))) :
+                // else: Empty level selection
+                0;
+            changes.weapon_cell0 = "";
+            changes.weapon_cell1 = "";
+        } else if(itemType === "Armour") {
+            let type = data.__armourType.toLowerCase();
+
+            changes[`${type}_name`] = itemName;
+            changes[`${type}_level`] = itemName ?
+                // find highest level TODO: add something to select levels yourself?
+                Math.max(...Object.keys(this.state.itemData.armours[itemName].resistance).map(k => Number(k))) :
+                // else: Empty level selection
+                0;
+            changes[`${type}_cell`] = "";
+        } else if(itemType === "Lantern") {
+            changes.lantern_name = itemName;
+            changes.lantern_cell = "";
+        }else if(itemType === "Cell") {
             if(data.__parentType === "Weapon") {
                 changes["weapon_cell" + data.__slotPosition] = itemName;
             } else {
