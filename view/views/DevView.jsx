@@ -69,12 +69,12 @@ export default class DevView extends React.Component {
 
     renderBrokenUnique() {
         let weapons = Object.keys(DataUtil.data().weapons).filter(weaponName =>
-            !("wip_unique_effects" in DataUtil.data().weapons[weaponName])).sort((a, b) =>
+            ("wip_unique_effects" in DataUtil.data().weapons[weaponName])).sort((a, b) =>
                 a.localeCompare(b)).map(weaponName =>
                     <li key={weaponName}><a>{weaponName}</a></li>);
 
         let armours = Object.keys(DataUtil.data().armours).filter(armourName =>
-            !("wip_unique_effects" in DataUtil.data().armours[armourName])).sort((a, b) =>
+            ("wip_unique_effects" in DataUtil.data().armours[armourName])).sort((a, b) =>
                 a.localeCompare(b)).map(armourName =>
                     <li key={armourName}><a>{armourName}</a></li>);
 
