@@ -119,8 +119,13 @@ export default class ItemSelectModalComponent extends React.Component {
             filters.push({
                 field: ["name", "description"],
                 value: this.state.searchQuery,
-                method: (item, filter) =>
-                    filter.field.some(f => item[f].toLowerCase().indexOf(filter.value.toLowerCase()) > -1)
+                method: (item, filter) => filter.field.some(f => {
+                    if(!item[f]) {
+                        return false;
+                    }
+
+                    return item[f].toLowerCase().indexOf(filter.value.toLowerCase()) > -1;
+                })
             });
         }
 
