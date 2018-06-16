@@ -31,29 +31,23 @@ export default class BuildView extends React.Component {
     }
 
     loadBuild(buildData) {
-        Promise.all([
-            DataUtil.data(),
-            BuildModel.tryDeserialize(buildData)
-        ]).then(res => {
-            let [itemData, build] = res;
+        const itemData = DataUtil.data();
+        const build = BuildModel.tryDeserialize(buildData);
 
-            this.setState({
-                itemData, build, buildData, ready: true
-            });
-
-            build.serialize().then(string => {
-                console.log("Build ID: ", string);
-            })
+        this.setState({
+            itemData, build, buildData, ready: true
         });
+
+        console.log("Build:", build.serialize());
     }
 
     updateUrl() {
-        this.state.build.serialize().then(buildData => {
-            window.history.replaceState({}, "Dauntless Builder: " + buildData, "/b/" + buildData);
+        const buildData = this.state.build.serialize();
 
-            this.setState({
-                buildData
-            })
+        window.history.replaceState({}, "Dauntless Builder: " + buildData, "/b/" + buildData);
+
+        this.setState({
+            buildData
         });
     }
 

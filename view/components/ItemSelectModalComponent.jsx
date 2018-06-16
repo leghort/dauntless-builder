@@ -164,7 +164,7 @@ export default class ItemSelectModalComponent extends React.Component {
 
         // add search filter
         fields.push(
-            <div className="field">
+            <div key="searchFilter" className="field">
                 <p className="control has-icons-left has-icons-right">
                     <input
                         autoFocus={true}

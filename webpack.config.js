@@ -26,11 +26,12 @@ module.exports = {
                     "sass-loader"
                 ]
             }
-        ]
+        ],
     },
     resolve: {
         modules: [
             path.join(__dirname, "view"),
+            path.join(__dirname, "data"),
             "node_modules"
         ],
         extensions: [".js", ".jsx"]

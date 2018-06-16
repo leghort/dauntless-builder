@@ -1,25 +1,7 @@
+import Data from "../../dist/data.json";
+import MapV1 from "../../dist/map_v1.json";
+
 export default class DataUtil {
-    static get(url) {
-        return new Promise((resolve, reject) => {
-            let request = new XMLHttpRequest();
-            request.open("GET", url, true);
-
-            request.onload = function () {
-                if (request.status >= 200 && request.status < 400) {
-                    resolve(JSON.parse(request.responseText));
-                } else {
-                    reject(request.status, request.responseText);
-                }
-            };
-
-            request.onerror = function () {
-                reject("ERROR");
-            };
-
-            request.send();
-        })
-    }
-
     static getKeyByValue(object, value) {
         for(let prop in object) {
             if(object.hasOwnProperty(prop)) {
@@ -33,18 +15,14 @@ export default class DataUtil {
     }
 
     static data() {
-        if(window.__db_data_cache) {
-            return Promise.resolve(window.__db_data_cache);
-        }
-
-        return DataUtil.get("/dist/data.json");
+        return Data;
     }
 
     static stringMap(version = 1) {
-        if(window[`__db_stringmap_cache_v${version}`]) {
-            return window[`__db_stringmap_cache_v${version}`];
+        switch(version) {
+            case 1: return MapV1;
         }
 
-        return DataUtil.get(`/dist/map_v${version}.json`);
+        return null;
     }
 }
