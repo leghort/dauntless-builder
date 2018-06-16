@@ -99,7 +99,7 @@ export default class DevView extends React.Component {
     }
 
     render() {
-        if(localStorage.getItem("__db_developer_mode") !== "enabled") {
+        if(!window.isDeveloperModeEnabled()) {
             return <Redirect to="/" />
         }
 
@@ -117,7 +117,7 @@ export default class DevView extends React.Component {
 
                 <div style={{marginBottom: "20px"}}></div>
 
-                <button className="button is-dark" onClick={() => {localStorage.removeItem("__db_developer_mode"); location.reload()}}>
+                <button className="button is-dark" onClick={window.disableDeveloperMode}>
                     Disable Developer Mode
                 </button>
             </div>

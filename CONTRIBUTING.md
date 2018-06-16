@@ -31,6 +31,17 @@ Done, you have a version of this app running on whatever port http-serve decided
 Because Dauntless is developed by a Canadian company, we decided to use canadian/british english instead of
 american english (which I usually prefer).
 
+## How to enable Developer Mode
+
+Dauntless-Builder.com has a special developer menu / mode which gives you access to some extra information
+that might help you contributing. To enable developer mode, open the console of your web browser and enter:
+
+```js
+enableDeveloperMode();
+```
+
+And confirm that with an ENTER.
+
 ## Contact
 
 If for some reason you need to contact me, just hit me up via email [me(at)atomicptr.de](mailto:me@atomicptr.de).

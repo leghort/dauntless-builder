@@ -2,7 +2,7 @@ import React from "react";
 
 export default class DebugButtonComponent extends React.Component {
     render() {
-        if(localStorage.getItem("__db_developer_mode") !== "enabled") {
+        if(!window.isDeveloperModeEnabled()) {
             return null;
         }
 
