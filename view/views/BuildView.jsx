@@ -286,9 +286,6 @@ export default class BuildView extends React.Component {
                     <DebugButtonComponent onClick={() => this.dummyData()}>
                         <i className="fas fa-database"></i>&nbsp;Add Dummy Data
                     </DebugButtonComponent>
-                    <DebugButtonComponent onClick={() => console.log(BuildModel.getUniqueEffects("The Hunger", "Weapon"))}>
-                        <i className="fas fa-check"></i>&nbsp;Unique Effects of The Hunger
-                    </DebugButtonComponent>
                     <DebugComponent data={this.state.build} active={true} />
                 </div>
             </div>

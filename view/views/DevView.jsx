@@ -114,6 +114,12 @@ export default class DevView extends React.Component {
             <h3 className="subtitle"><i className="fas fa-code"></i> Developer Menu</h3>
             <div style={{marginBottom: "20px"}}>
                 This menu offers you certain functionality that makes it easier to debug the application.
+
+                <div style={{marginBottom: "20px"}}></div>
+
+                <button className="button is-dark" onClick={() => {localStorage.removeItem("__db_developer_mode"); location.reload()}}>
+                    Disable Developer Mode
+                </button>
             </div>
 
             <div className="tabs">

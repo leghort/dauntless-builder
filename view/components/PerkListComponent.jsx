@@ -28,8 +28,6 @@ export default class PerkListComponent extends React.Component {
 
         let effect = perk.effects[Math.max(0, Math.min(6, perkValue))];
 
-        console.log(effect);
-
         let elems = [];
 
         for(let i = 0; i < effectCount; i++) {
