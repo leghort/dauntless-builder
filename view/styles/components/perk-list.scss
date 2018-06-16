@@ -30,5 +30,33 @@
         &:hover {
             background: #333;
         }
+
+        &.perk-max {
+            background: hsl(141, 71%, 48%);
+        }
+
+        &.perk-overload {
+            background: hsl(14, 100%, 53%);
+        }
+
+        &.perk-level-1 {
+            background: hsl(0, 0%, 71%);
+        }
+
+        &.perk-level-2 {
+            background: hsl(0, 0%, 48%);
+        }
+
+        &.perk-level-3 {
+            background: hsl(0, 0%, 29%);
+        }
+
+        &.perk-level-4 {
+            background: hsl(0, 0%, 21%);
+        }
+
+        &.perk-level-5 {
+            background: hsl(0, 0%, 14%);
+        }
     }
 }
