@@ -172,9 +172,20 @@ export default class ItemComponent extends React.Component {
                 </React.Fragment>;
                 break;
             case "Lantern":
+                let instant = null;
+                let hold = null;
+
+                if(this.props.item.lantern_ability.instant) {
+                    instant = <div><strong>Instant</strong>: {this.props.item.lantern_ability.instant}</div>;
+                }
+
+                if(this.props.item.lantern_ability.hold) {
+                    hold = <div><strong>Hold</strong>: {this.props.item.lantern_ability.hold}</div>;
+                }
+
                 stats = <React.Fragment>
-                    <div><strong>Instant</strong>: {this.props.item.lantern_ability.instant}</div>
-                    <div><strong>Hold</strong>: {this.props.item.lantern_ability.hold}</div>
+                    {instant}
+                    {hold}
                     {perkElement}
                 </React.Fragment>;
         }

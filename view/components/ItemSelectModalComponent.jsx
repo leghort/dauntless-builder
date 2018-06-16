@@ -252,22 +252,41 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 
     renderWeapon(item) {
-        return <div key={item.name}>Weapon: {item.name}</div>;
+        return this.renderItem(item, "Weapon");
     }
 
     renderArmour(item) {
-        return <div key={item.name}>Armour: {item.name}</div>;
+        return this.renderItem(item, "Armour");
     }
 
     renderLantern(item) {
-        return <div key={item.name}>Lantern: {item.name}</div>;
+        return this.renderItem(item, "Lantern");
+    }
+
+    renderItem(item, type) {
+        return <button className="button is-success is-debug-button" onClick={() => this.onItemSelected(type, item.name)}>[PH] {item.name}</button>
     }
 
     renderCell(item) {
+        let getPerkDescription = perk => {
+            if(perk in this.props.itemData.perks) {
+                return this.props.itemData.perks[perk].description;
+            }
+
+            return null;
+        };
+
+        let getDescriptions = variant => {
+            return Object.keys(variant.perks).map(perk => getPerkDescription(perk)).join(", ");
+        };
+
         let variants = Object.keys(item.variants).map(v =>
             <div key={v} className={"cell " + item.variants[v].rarity} onClick={() => this.onItemSelected("Cell", v)}>
                 <img src={"/assets/icons/perks/" + item.slot + ".png"} />
-                <span className="cell-title">{v}</span>
+                <div>
+                    <div className="cell-title">{v}</div>
+                    <div className="perks">{getDescriptions(item.variants[v])}</div>
+                </div>
             </div>
         );
 
