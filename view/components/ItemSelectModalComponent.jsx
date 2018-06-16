@@ -13,14 +13,16 @@ export default class ItemSelectModalComponent extends React.Component {
             open: !!this.props.isOpen,
             searchQuery: "",
             perkFilter: null,
-            weaponTypeFilter: null
+            weaponTypeFilter: null,
+            slotFilter: null
         }
 
         this.defaultState = {
             open: false,
             searchQuery: "",
             perkFilter: null,
-            weaponTypeFilter: null
+            weaponTypeFilter: null,
+            slotFilter: null
         }
     }
 
@@ -60,8 +62,6 @@ export default class ItemSelectModalComponent extends React.Component {
 
     getAvailableItems() {
         let items = [];
-
-        console.log(this.props.data.filterOptions);
 
         let itemType = this.props.data.filterOptions.__itemType;
 
@@ -137,6 +137,17 @@ export default class ItemSelectModalComponent extends React.Component {
             filters.push({
                 field: "type",
                 value: this.state.weaponTypeFilter.value
+            });
+        }
+
+        if(this.state.slotFilter && this.state.slotFilter.value) {
+            filters.push({
+                field: "cells",
+                value: this.state.slotFilter.value,
+                method: (item, filter) => {
+                    let cells = Array.isArray(item.cells) ? item.cells : [item.cells];
+                    return cells.some(slotType => filter.value === slotType);
+                }
             });
         }
 
@@ -216,6 +227,20 @@ export default class ItemSelectModalComponent extends React.Component {
                         options={this.getPerkOptions()} />
                 </div>
             );
+        }
+
+        // add Slot filter
+        if(isType(["Weapon", "Armour", "Lantern"])) {
+            fields.push(
+                <div key="slotFilter" className="field">
+                    <Select
+                        placeholder="Select cell slot..."
+                        onChange={slot => this.setState({slotFilter: slot})}
+                        value={this.state.slotFilter}
+                        options={["Defence", "Mobility", "Power", "Technique", "Utility"].map(
+                            slot => ({value: slot, label: slot}))} />
+                </div>
+            )
         }
 
         return fields;
