@@ -217,7 +217,7 @@ export default class ItemSelectModalComponent extends React.Component {
             fields.push(
                 <div key="weaponTypeFilter" className="field">
                     <Select
-                        placeholder="Select weapon type..."
+                        placeholder="Filter by weapon type..."
                         onChange={weaponType => this.setState({weaponTypeFilter: weaponType})}
                         value={this.state.weaponTypeFilter}
                         options={options} />
@@ -230,7 +230,7 @@ export default class ItemSelectModalComponent extends React.Component {
             fields.push(
                 <div key="perkFilter" className="field">
                     <Select
-                        placeholder="Select perk..."
+                        placeholder="Filter by perk..."
                         onChange={perk => this.setState({perkFilter: perk})}
                         value={this.state.perkFilter}
                         options={this.getPerkOptions()} />
@@ -243,7 +243,7 @@ export default class ItemSelectModalComponent extends React.Component {
             fields.push(
                 <div key="slotFilter" className="field">
                     <Select
-                        placeholder="Select cell slot..."
+                        placeholder="Filter by cell slot..."
                         onChange={slot => this.setState({slotFilter: slot})}
                         value={this.state.slotFilter}
                         options={["Defence", "Mobility", "Power", "Technique", "Utility"].map(
