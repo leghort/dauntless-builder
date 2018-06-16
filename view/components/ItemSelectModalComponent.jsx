@@ -31,7 +31,8 @@ export default class ItemSelectModalComponent extends React.Component {
             this.setState({open: nextProps.isOpen});
         }
 
-        if(nextProps.data && nextProps.data.filterOptions && nextProps.data.filterOptions.__weaponType) {
+        if(nextProps.data && nextProps.data.filterOptions &&
+                nextProps.data.filterOptions.__itemType === "Weapon" && nextProps.data.filterOptions.__weaponType) {
             this.setState({weaponTypeFilter: {
                     value: nextProps.data.filterOptions.__weaponType,
                     label: nextProps.data.filterOptions.__weaponType,
@@ -138,7 +139,7 @@ export default class ItemSelectModalComponent extends React.Component {
             });
         }
 
-        if(this.state.weaponTypeFilter && this.state.weaponTypeFilter.value) {
+        if(this.props.data.filterOptions.__itemType === "Weapon" && this.state.weaponTypeFilter && this.state.weaponTypeFilter.value) {
             filters.push({
                 field: "type",
                 value: this.state.weaponTypeFilter.value
