@@ -9,12 +9,14 @@ export default class DevView extends React.Component {
 
         this.tabs = [
             "Icons",
-            "BrokenUnique"
+            "BrokenUnique",
+            "MissingPerks"
         ]
 
         this.tabTitles = {
             "Icons": "Items without Icons",
-            "BrokenUnique": "Broken Unique Effects"
+            "BrokenUnique": "Broken Unique Effects",
+            "MissingPerks": "Missing Perks"
         }
 
         this.state = {
@@ -64,6 +66,30 @@ export default class DevView extends React.Component {
                     </ul>
                 </div>
             </div>
+        </React.Fragment>
+    }
+
+    renderMissingPerks() {
+        let perksFromWeapons = Object.values(DataUtil.data().weapons).map(weapon => weapon.perks ? weapon.perks.map(p => p.name) : []);
+        let perksFromArmours = Object.values(DataUtil.data().armours).map(armour => armour.perks ? armour.perks.map(p => p.name) : []);
+        let perksFromCells = Object.values(DataUtil.data().cells).map(cell => Object.values(cell.variants).map(p => Object.keys(p.perks)));
+
+        let all = [].concat(...perksFromWeapons, ...perksFromArmours, ...perksFromCells);
+        all = [].concat(...all.filter(e => Array.isArray(e)));
+        all = all.sort();
+        all = all.filter((perk, index) => all.indexOf(perk) === index);
+
+        let unknownPerks = all.filter(perk => !(perk in DataUtil.data().perks));
+
+        let unknownPerksElements = unknownPerks.map(perk =>
+            <li key={perk}><a>{perk}</a></li>)
+
+        return <React.Fragment>
+            <h3 className="title is-4">Perks that are used but don't exist</h3>
+
+            <ul className="menu-list">
+                {unknownPerksElements}
+            </ul>
         </React.Fragment>
     }
 
