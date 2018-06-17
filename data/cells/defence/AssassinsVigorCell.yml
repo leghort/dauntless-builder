@@ -1,0 +1,15 @@
+name: Assassin's Vigor Cell
+slot: Defence
+variants:
+  "+1 Assassin's Vigor Cell":
+    rarity: uncommon
+    perks:
+      Assassin's Vigor: 1
+  "+2 Assassin's Vigor Cell":
+    rarity: rare
+    perks:
+      Assassin's Vigor: 2
+  "+3 Assassin's Vigor Cell":
+    rarity: epic
+    perks:
+      Assassin's Vigor: 3
