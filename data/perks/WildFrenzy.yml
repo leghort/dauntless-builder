@@ -1,0 +1,22 @@
+name: Wild Frenzy
+description: Increases Attack Speed when at low health.
+key: low_hp_attack_speed
+effects:
+  1:
+    description: When under 30% health, increase attack speed by 5%
+    value: 1.05
+  2:
+    description: When under 30% health, increase attack speed by 8%
+    value: 1.08
+  3:
+    description: When under 50% health, increase attack speed by 12%
+    value: 1.12
+  4:
+    description: When under 50% health, increase attack speed by 16%
+    value: 1.16
+  5:
+    description: When under 50% health, increase attack speed by 20%
+    value: 1.2
+  6:
+    description: When under 50% health, increase attack speed by 25%
+    value: 1.25
