@@ -1,5 +1,6 @@
 name: Shrowd Boots
 description: Leg and foot protection forged from Shrowd trophies.
+#icon: /assets/icons/armours/ShrowdBoots.png
 type: Legs
 strength: Umbral
 weakness: Radiant

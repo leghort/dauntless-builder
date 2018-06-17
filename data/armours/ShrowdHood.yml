@@ -1,5 +1,6 @@
 name: Shrowd Hood
 description: Head protection forged from Shrowd trophies.
+#icon: /assets/icons/armours/ShrowdHood.png
 type: Head
 strength: Umbral
 weakness: Radiant
