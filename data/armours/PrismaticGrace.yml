@@ -17,7 +17,7 @@ resistance:
   8: 102
   9: 105
   10: 108
-wip_unique_effects:
+unique_effects:
   - name: PrismaticGraceRevivePrism
     description: After reviving another player, grant them a Radiant Prism that blocks incoming damage for 5 seconds.
     value: 5

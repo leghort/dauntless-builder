@@ -26,12 +26,14 @@ perks:
     value: 3
     from: 6
     to: 10
-wip_unique_effects:
-  - name: seventh_part_damage
+unique_effects:
+  - name: BloodfireSaberPartDamage
+    discription: The seventh hit in a row deals +200% part damage
     value: 3
     from: 0
     to: 5
-  - name: seventh_part_damage
+  - name: BloodfireSaberPartDamage
+    description: The seventh hit in a row deals +250% part damage
     value: 5.5
     from: 6
     to: 10

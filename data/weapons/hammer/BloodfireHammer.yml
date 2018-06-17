@@ -17,8 +17,10 @@ power:
   8: 406
   9: 418
   10: 430
-wip_unique_effects:
-  - name: null
-    value: null
-  - name: null
-    value: null
+unique_effects:
+  - name: BloodfireHammerAttackSpeed
+    description: +25% Attack Speed for 8 seconds after landing a Hammer Blast
+    value: 1.25
+  - name: BloodfireHammerStaggerDamage
+    description: The fifth hit in a row deals +100% Stagger damage
+    value: 2
