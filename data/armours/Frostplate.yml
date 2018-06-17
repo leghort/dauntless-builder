@@ -1,5 +1,6 @@
 name: Frostplate
 description: Torso protection forged from Frostback trophies.
+icon: /assets/icons/armours/Frostplate.png
 type: Torso
 strength: Frost
 weakness: Blaze

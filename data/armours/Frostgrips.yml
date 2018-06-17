@@ -1,5 +1,6 @@
 name: Frostgrips
 description: Arms protection forged from Frostback trophies.
+icon: /assets/icons/armours/Frostgrips.png
 type: Arms
 strength: Frost
 weakness: Blaze

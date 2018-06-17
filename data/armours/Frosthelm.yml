@@ -1,5 +1,6 @@
 name: Frosthelm
 description: Head protection forged from Frostback trophies.
+icon: /assets/icons/armours/Frosthelm.png
 type: Head
 strength: Frost
 weakness: Blaze

@@ -1,5 +1,6 @@
 name: Bloodfire Plate
 description: Torso protection forged from Bloodfire trophies.
+icon: /assets/icons/armours/BloodfirePlate.png
 type: Torso
 strength: Blaze
 weakness: Shock
