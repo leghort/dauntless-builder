@@ -1,0 +1,22 @@
+name: Aetheric Frenzy
+description: Gains a flat amount of Lantern Charge on each weapon hit.
+key: flat_lantern_charge
+effects:
+  1:
+    description: +1 Lantern Charge on Hit
+    value: 1
+  2:
+    description: +2 Lantern Charge on Hit
+    value: 2
+  3:
+    description: +4 Lantern Charge on Hit
+    value: 4
+  4:
+    description: +6 Lantern Charge on Hit
+    value: 6
+  5:
+    description: +8 Lantern Charge on Hit
+    value: 8
+  6:
+    description: +10 Lantern Charge on Hit
+    value: 10

@@ -1,22 +1,22 @@
 name: Acidic
 description: Increases Wound damage at the cost of Part damage.
-key: [wound_damage, part_damage]
+key: [part_to_wound_damage, percent_part_damage]
 effects:
   1:
     description: [Converts 30% of Part Damage to Wound Damage, null]
-    value: [1.3, null]
+    value: [0.3, null]
   2:
     description: [Converts 40% of Part Damage to Wound Damage, null]
-    value: [1.4, null]
+    value: [0.4, null]
   3:
     description: [Converts 50% of Part Damage to Wound Damage, null]
-    value: [1.5, null]
+    value: [0.5, null]
   4:
     description: [Converts 50% of Part Damage to Wound Damage, +10% Part damage]
-    value: [1.5, 1.1]
+    value: [0.5, 1.1]
   5:
     description: [Converts 50% of Part Damage to Wound Damage, +15% Part damage]
-    value: [1.5, 1.15]
+    value: [0.5, 1.15]
   6:
     description: [Converts 50% of Part Damage to Wound Damage, +20% Part damage]
-    value: [1.5, 1.2]
+    value: [0.5, 1.2]

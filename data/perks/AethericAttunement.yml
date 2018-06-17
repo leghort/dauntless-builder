@@ -1,0 +1,22 @@
+name: Aetheric Attunement
+description: Percent increase to Lantern Charge gained from attacks.
+key: percent_lantern_charge
+effects:
+  1:
+    description: +10% Lantern Charge
+    value: 1.1
+  2:
+    description: +20% Lantern Charge
+    value: 1.2
+  3:
+    description: +40% Lantern Charge
+    value: 1.4
+  4:
+    description: +60% Lantern Charge
+    value: 1.6
+  5:
+    description: +80% Lantern Charge
+    value: 1.8
+  6:
+    description: +100% Lantern Charge
+    value: 2

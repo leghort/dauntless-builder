@@ -1,0 +1,22 @@
+name: Tough
+description: Increases Max Health.
+key: max_hp
+effects:
+  1:
+    description: Increases Max Health by 50
+    value: 50
+  2:
+    description: Increases Max Health by 100
+    value: 100
+  3:
+    description: Increases Max Health by 150
+    value: 150
+  4:
+    description: Increases Max Health by 250
+    value: 250
+  5:
+    description: Increases Max Health by 300
+    value: 300
+  6:
+    description: Increases Max Health by 500
+    value: 500
