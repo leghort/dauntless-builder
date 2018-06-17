@@ -1,5 +1,6 @@
 name: Rezakatana
 description: A Slayer's sword forged with Rezakiri trophies.
+icon: /assets/icons/weapons/swords/Rezakatana.png
 type: Sword
 damage: Slashing
 elemental: Radiant

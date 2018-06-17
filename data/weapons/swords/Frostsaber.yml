@@ -1,5 +1,6 @@
 name: Frostsaber
 description: A Slayer's sword forged with Frostback trophies.
+icon: /assets/icons/weapons/swords/Frostsaber.png
 type: Sword
 damage: Slashing
 elemental: Frost

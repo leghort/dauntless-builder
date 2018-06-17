@@ -1,5 +1,6 @@
 name: Ragepike
 description: A Slayer's war pike forged with Ragetail trophies.
+icon: /assets/icons/weapons/warpike/Ragepike.png
 type: War Pike
 damage: Piercing
 elemental: null

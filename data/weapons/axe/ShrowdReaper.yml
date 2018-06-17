@@ -1,5 +1,6 @@
 name: Shrowd Reaper
 description: A Slayer's axe forged with Shrowd trophies.
+#icon: /assets/icons/weapons/axe/ShrowdReaper.png
 type: Axe
 damage: Slashing
 elemental: Umbral

@@ -1,5 +1,6 @@
 name: Bloodfire Saber
 description: A Slayer's sword forged with Bloodfire trophies.
+icon: /assets/icons/weapons/swords/BloodfireSaber.png
 type: Sword
 damage: Slashing
 elemental: Blaze

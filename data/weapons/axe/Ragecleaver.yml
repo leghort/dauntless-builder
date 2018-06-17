@@ -1,5 +1,6 @@
 name: Ragecleaver
 description: A Slayer's axe forged with Ragetail trophies.
+icon: /assets/icons/weapons/axe/Ragecleaver.png
 type: Axe
 damage: Slashing
 elemental: null

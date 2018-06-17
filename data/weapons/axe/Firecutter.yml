@@ -1,5 +1,6 @@
 name: Firecutter
 description: A Slayer's axe forged with Firebrand trophies.
+icon: /assets/icons/weapons/axe/Firecutter.png
 type: Axe
 damage: Cutting
 elemental: Blaze

@@ -1,5 +1,6 @@
 name: Razorwing Axe
 description: A Slayer's axe forged with Razorwing trophies.
+icon: /assets/icons/weapons/axe/RazorwingAxe.png
 type: Axe
 damage: Slashing
 elemental: null

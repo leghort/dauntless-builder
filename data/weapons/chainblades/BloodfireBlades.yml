@@ -1,5 +1,6 @@
 name: Bloodfire Blades
 description: A Slayer's chain blades forged with Bloodfire trophies.
+icon: /assets/icons/weapons/chainblades/BloodfireBlades.png
 type: Chain Blades
 damage: Slashing
 elemental: Blaze

@@ -1,5 +1,6 @@
 name: Deadeye Hammer
 description: A Slayer's hammer forged with Deadeye trophies.
+icon: /assets/icons/weapons/hammer/DeadeyeHammer.png
 type: Hammer
 damage: Blunt
 elemental: null

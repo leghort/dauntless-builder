@@ -1,5 +1,6 @@
 name: Rageblades
 description: A Slayer's chain blades forged with Ragetail trophies.
+icon: /assets/icons/weapons/chainblades/Rageblades.png
 type: Chain Blades
 damage: Slashing
 elemental: null

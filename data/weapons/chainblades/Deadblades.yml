@@ -1,5 +1,6 @@
 name: Deadblades
 description: A Slayer's chain blades forged with Deadeye trophies.
+icon: /assets/icons/weapons/chainblades/Deadblades.png
 type: Chain Blades
 damage: Slashing
 elemental: null

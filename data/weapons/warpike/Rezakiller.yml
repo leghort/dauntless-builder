@@ -1,5 +1,6 @@
 name: Rezakiller
 description: A Slayer's war pike forged with Rezakiri trophies.
+icon: /assets/icons/weapons/warpike/Rezakiller.png
 type: War Pike
 damage: Piercing
 elemental: Radiant

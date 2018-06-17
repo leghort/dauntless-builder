@@ -1,5 +1,6 @@
 name: Razorwing Sword
 description: A Slayer's sword forged with Razorwing trophies.
+icon: /assets/icons/weapons/swords/RazorwingSword.png
 type: Sword
 damage: Slashing
 elemental: null

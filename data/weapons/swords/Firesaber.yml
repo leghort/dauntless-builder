@@ -1,5 +1,6 @@
 name: Firesaber
 description: A Slayer's sword forged with Firebrand trophies.
+icon: /assets/icons/weapons/swords/Firesaber.png
 type: Sword
 damage: Cutting
 elemental: Blaze

@@ -1,5 +1,6 @@
 name: Razorwing Hammer
 description: A Slayer's hammer forged with Razorwing trophies.
+icon: /assets/icons/weapons/hammer/RazorwingHammer.png
 type: Hammer
 damage: Blunt
 elemental: null

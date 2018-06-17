@@ -1,5 +1,6 @@
 name: Bloodfire Hammer
 description: A Slayer's hammer forged with Bloodfire trophies.
+icon: /assets/icons/weapons/hammer/BloodfireHammer.png
 type: Hammer
 damage: Blunt
 elemental: Blaze

@@ -1,5 +1,6 @@
 name: Fireblades
 description: A Slayer's chain blades forged with Firebrand trophies.
+icon: /assets/icons/weapons/chainblades/Fireblades.png
 type: Chain Blades
 damage: Slashing
 elemental: Blaze

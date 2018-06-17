@@ -1,5 +1,6 @@
 name: Shrowdpike
 description: A Slayer's war pike forged with Shrowd trophies.
+#icon: /assets/icons/weapons/warpike/Shrowdpike.png
 type: War Pike
 damage: Piercing
 elemental: Umbral

@@ -1,5 +1,6 @@
 name: Frostmaul
 description: A Slayer's hammer forged with Frostback trophies.
+icon: /assets/icons/weapons/hammer/Frostmaul.png
 type: Hammer
 damage: Blunt
 elemental: Frost

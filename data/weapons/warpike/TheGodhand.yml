@@ -1,5 +1,6 @@
 name: The Godhand
 description: null
+#icon: /assets/icons/weapons/warpike/TheGodhand.png
 type: War Pike
 damage: Piercing
 elemental: Radiant

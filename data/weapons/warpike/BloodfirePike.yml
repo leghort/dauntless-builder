@@ -1,5 +1,6 @@
 name: Bloodfire Pike
 description: A Slayer's war pike forged with Bloodfire trophies.
+icon: /assets/icons/weapons/warpike/BloodfirePike.png
 type: War Pike
 damage: Piercing
 elemental: Blaze

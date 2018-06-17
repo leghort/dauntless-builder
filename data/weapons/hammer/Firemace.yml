@@ -1,5 +1,6 @@
 name: Firemace
 description: A Slayer's hammer forged with Firebrand trophies.
+icon: /assets/icons/weapons/hammer/Firemace.png
 type: Hammer
 damage: Blunt
 elemental: Blaze

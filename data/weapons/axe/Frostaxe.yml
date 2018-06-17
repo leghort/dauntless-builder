@@ -1,5 +1,6 @@
 name: Frostaxe
 description: A Slayer's axe forged with Frostback trophies.
+icon: /assets/icons/weapons/axe/Frostaxe.png
 type: Axe
 damage: Slashing
 elemental: Frost

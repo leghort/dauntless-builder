@@ -1,5 +1,6 @@
 name: Deadeye Pike
 description: A Slayer's war pike forged with Deadeye trophies.
+icon: /assets/icons/weapons/warpike/DeadeyePike.png
 type: War Pike
 damage: Piercing
 elemental: null

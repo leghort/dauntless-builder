@@ -1,5 +1,6 @@
 name: Deadeye Axe
 description: A Slayer's axe forged with Deadeye trophies.
+icon: /assets/icons/weapons/axe/DeadeyeAxe.png
 type: Axe
 damage: Slashing
 elemental: null

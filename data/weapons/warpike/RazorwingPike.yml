@@ -1,5 +1,6 @@
 name: Razorwing Pike
 description: A Slayer's war pike forged with Razorwing trophies.
+icon: /assets/icons/weapons/warpike/RazorwingPike.png
 type: War Pike
 damage: Piercing
 elemental: null

@@ -1,5 +1,6 @@
 name: Rezacrusher
 description: A Slayer's hammer forged with Rezakiri trophies.
+icon: /assets/icons/weapons/hammer/Rezacrusher.png
 type: Hammer
 damage: Blunt
 elemental: Radiant

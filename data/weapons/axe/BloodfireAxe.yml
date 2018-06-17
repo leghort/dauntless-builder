@@ -1,5 +1,6 @@
 name: Bloodfire Axe
 description: A Slayer's axe forged with Bloodfire trophies.
+icon: /assets/icons/weapons/axe/BloodfireAxe.png
 type: Axe
 damage: Slashing
 elemental: Blaze

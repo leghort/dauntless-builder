@@ -1,5 +1,6 @@
 name: Firepike
 description: A Slayer's war pike forged with Firebrand trophies.
+icon: /assets/icons/weapons/warpike/Firepike.png
 type: War Pike
 damage: Piercing
 elemental: Blaze

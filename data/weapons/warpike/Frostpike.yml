@@ -1,5 +1,6 @@
 name: Frostpike
 description: A Slayer's war pike forged with Frostback trophies.
+icon: /assets/icons/weapons/warpike/Frostpike.png
 type: War Pike
 damage: Piercing
 elemental: Frost

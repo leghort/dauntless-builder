@@ -1,5 +1,6 @@
 name: Rezacutter
 description: A Slayer's axe forged with Rezakiri trophies.
+icon: /assets/icons/weapons/axe/Rezacutter.png
 type: Axe
 damage: Slashing
 elemental: Radiant
