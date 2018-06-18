@@ -10,8 +10,8 @@ export default class ItemComponent extends React.Component {
         this.state = {};
     }
 
-    getIcon() {
-        if(this.props.item.icon) {
+    getIcon(forceDefaultIcon = false) {
+        if(this.props.item.icon && !forceDefaultIcon) {
             return this.props.item.icon;
         }
 
@@ -191,7 +191,7 @@ export default class ItemComponent extends React.Component {
         return <div className="item-title-wrapper">
             <div className="item-wrapper">
                 <div className="item" title={this.props.item.description} onClick={() => this.onClicked()}>
-                    <img src={this.getIcon()} />
+                    <img src={this.getIcon()} onError={e => e.target.src = this.getIcon(true)} />
                     <div className="item-data">
                         <h3 className="item-title">{this.props.item.name} {levelString}</h3>
                         {stats}

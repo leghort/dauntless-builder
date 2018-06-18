@@ -319,6 +319,43 @@ strong {
 }
 
 .item-modal-list {
+    .item-wrapper {
+        height: unset;
+
+        .item {
+            height: unset;
+
+            img {
+                height: 64px;
+            }
+
+            .cell-line {
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+
+                &:first-of-type {
+                    margin-top: 5px;
+                }
+
+                &:last-of-type {
+                    margin-bottom: 10px;
+                }
+
+                img {
+                    height: 20px;
+                    width: 20px;
+                    padding: 2px;
+                    background: #363636;
+                    border-radius: 40px;
+
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+
     .cell-title-line {
         border-bottom: 1px solid #ddd;
         padding-bottom: 5px;
