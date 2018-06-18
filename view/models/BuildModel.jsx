@@ -231,6 +231,22 @@ export default class BuildModel {
         );
     }
 
+    static getAvailableUniqueEffectsByLevel(itemName, itemType, level) {
+        const item = DataUtil.data()[itemType.toLowerCase() + "s"][itemName];
+
+        if(!item.unique_effects) {
+            return [];
+        }
+
+        level = Number(level);
+
+        return item.unique_effects.filter(
+            uniqueEffect =>
+                !("from" in uniqueEffect && "to" in uniqueEffect) ||
+                    (level >= uniqueEffect.from && level <= uniqueEffect.to)
+        );
+    }
+
     static tryDeserialize(str) {
         if(BuildModel.isValid(str)) {
             return BuildModel.deserialize(str);

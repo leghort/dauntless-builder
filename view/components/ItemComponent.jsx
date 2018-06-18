@@ -184,7 +184,7 @@ export default class ItemComponent extends React.Component {
         let uniqueEffects = [];
 
         if(this.props.item.unique_effects) {
-            uniqueEffects = this.props.item.unique_effects.map(uniqueEffect =>
+            uniqueEffects = BuildModel.getAvailableUniqueEffectsByLevel(this.props.item.name, this.getItemType(), this.props.level).map(uniqueEffect =>
                 <div key={uniqueEffect.name} className="unique-effects">{uniqueEffect.description}</div>);
         }
 
