@@ -21,7 +21,7 @@ export default class IndexView extends React.Component {
 
                 <div className="columns">
                     <div className="column">
-                        <Link to="/fav">
+                        <Link to="/favorites">
                             <div className="tile notification is-danger feature-tile">
                                 <p className="title">My Builds</p>
                                 <div className="feature-tile-background">
