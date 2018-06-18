@@ -17,7 +17,7 @@ power:
   8: 406
   9: 418
   10: 430
-wip_unique_effects:
+unique_effects:
   - name: HitTwice
     description: 5% chance for attacks to Hit twice.
     value: 1.05
