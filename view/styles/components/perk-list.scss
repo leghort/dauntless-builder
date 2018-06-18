@@ -16,6 +16,9 @@
 
         width: 100%;
         user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
 
         margin: 5px 0px;
 
@@ -25,6 +28,11 @@
 
         &:last-of-type {
             margin-bottom: 0px;
+        }
+
+        & > h2 {
+            font-size: 24px;
+            text-transform: uppercase;
         }
 
         &.perk-max {

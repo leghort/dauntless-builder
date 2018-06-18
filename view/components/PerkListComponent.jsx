@@ -60,6 +60,10 @@ export default class PerkListComponent extends React.Component {
         }
 
         return <ul className="perk-list">
+            <li className="perk-title-line">
+                <h2>Perks</h2>
+            </li>
+
             {perks}
         </ul>;
     }

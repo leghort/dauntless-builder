@@ -117,7 +117,7 @@ export default class ModalItemListItemComponent extends React.Component {
 
         if(item.cells) {
             cellLine = <div className="cell-slots">{cells.map(cell =>
-                <span className="cell-line">
+                <span key={"CellLine_" + cell} className="cell-line">
                     <img className="cell-icon" src={"/assets/icons/perks/" + cell + ".png"} /> {cell}
                 </span>
             )}</div>;
