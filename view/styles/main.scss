@@ -58,6 +58,24 @@ strong {
         max-height: 60vh;
 
         margin: 10px 0px;
+
+        flex-grow: 2;
+
+        .no-item-found {
+            background: #ff3860;
+            padding: 30px;
+            text-align: center;
+            font-weight: 600;
+            color: white;
+            margin: 20px 0px;
+        }
+    }
+
+    .modal-card-foot {
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-bottom: -20px;
+        justify-content: flex-end;
     }
 }
 

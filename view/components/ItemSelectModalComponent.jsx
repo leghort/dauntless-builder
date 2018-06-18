@@ -307,6 +307,14 @@ export default class ItemSelectModalComponent extends React.Component {
             return null;
         }
 
+        let items = this.getAvailableItems();
+
+        if(items.length === 0) {
+            items.push(
+                <div key="no-item-found" className="no-item-found">No items found matching your filter options.</div>
+            );
+        }
+
         return <div className={`modal ${this.getIsActive()}`}>
             <div className="modal-background" onClick={() => this.onClose()}></div>
             <div className="modal-content">
@@ -314,17 +322,19 @@ export default class ItemSelectModalComponent extends React.Component {
                     {this.renderFilterFields()}
 
                     <div className="item-modal-list">
-                        {this.getAvailableItems()}
+                        {items}
                     </div>
 
-                    <button
-                        className="button is-light"
-                        onClick={() =>
-                            this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
-                        <i className="fas fa-times"></i>&nbsp;Empty {this.props.data.filterOptions.__itemType} selection.
-                    </button>
-
-                    <DebugComponent data={{filterOptions: this.props.data.filterOptions, state: this.state}} />
+                    <footer className="modal-card-foot">
+                        <DebugComponent data={{filterOptions: this.props.data.filterOptions, state: this.state}} />
+                        <button
+                            className="button"
+                            onClick={() =>
+                                this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
+                            Select&nbsp;<strong>No {this.props.data.filterOptions.__itemType}</strong>.
+                        </button>
+                        <button className="button" onClick={() => this.onClose()}>Cancel</button>
+                    </footer>
                 </div>
             </div>
             <button className="modal-close is-large" onClick={() => this.onClose()}></button>
