@@ -12,6 +12,7 @@ import ItemSelectModalComponent from "../components/ItemSelectModalComponent";
 import DebugComponent from "../components/DebugComponent";
 import DebugButtonComponent from "../components/DebugButtonComponent";
 import PerkListComponent from "../components/PerkListComponent";
+import FavoriteBuildsModel from "../models/FavoriteBuildsModel";
 
 export default class BuildView extends React.Component {
 
@@ -176,6 +177,19 @@ export default class BuildView extends React.Component {
         });
     }
 
+    toggleFavorite() {
+        const buildData = this.state.buildData;
+
+        if(FavoriteBuildsModel.isFavorite(buildData)) {
+            FavoriteBuildsModel.delete(buildData);
+        } else {
+            // TODO replace prompt with popper
+            FavoriteBuildsModel.add(buildData, prompt("Build name"));
+        }
+
+        this.setState({});
+    }
+
     render() {
         if(!this.state.ready) {
             return <div>...</div>;
@@ -189,9 +203,11 @@ export default class BuildView extends React.Component {
                             <i className="fas fa-plus"></i>&nbsp;New
                         </button>
                     </Link>
-                    <button className="button is-light" disabled>
-                        <i className="fas fa-folder-open"></i>&nbsp;My builds
-                    </button>
+                    <Link to="/favorites">
+                        <button className="button is-light">
+                            <i className="fas fa-folder-open"></i>&nbsp;My builds
+                        </button>
+                    </Link>
                     <Link to="/dev">
                         <DebugButtonComponent>
                             <i className="fas fa-code"></i>&nbsp;Dev Menu
@@ -204,8 +220,8 @@ export default class BuildView extends React.Component {
                             <i className="fas fa-copy"></i>
                         </button>
                     </CopyToClipboard>
-                    <button className="button is-light" title="Save build" disabled>
-                        <i className="far fa-heart"></i>
+                    <button className="button is-light" title="Save build" onClick={() => this.toggleFavorite()}>
+                        <i className={(FavoriteBuildsModel.isFavorite(this.state.buildData) ? "fas" : "far") + " fa-heart"}></i>
                     </button>
                     <button className="button is-light" title="Settings" disabled>
                         <i className="fas fa-cog"></i>

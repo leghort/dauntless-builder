@@ -440,3 +440,79 @@ button.is-debug-button {
         transform: scale(0.7);
     }
 }
+
+.my-builds-list {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    .build-item {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 600px;
+        padding: 20px;
+
+        a:hover {
+            & + .build-actions {
+                background: #363636;
+                color: white;
+            }
+        }
+
+        .build-content {
+            display: flex;
+            flex-flow: column nowrap;
+
+            background: #EEE;
+            padding: 20px;
+
+            &:hover {
+                background: #363636;
+
+                .build-title {
+                    color: white;
+                }
+            }
+
+            .build-title {
+                font-size: 22px;
+                color: #363636;
+            }
+
+            .build-tags {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                .tag {
+                    margin-right: 5px;
+                    margin-top: 5px;
+
+                    &:last-of-type {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+
+        .build-actions {
+            background: #EEE;
+
+            height: 100%;
+            padding: 20px;
+
+            .delete-action {
+                cursor: pointer;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}

@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Link, Switch, Redirect} from "react-rout
 
 import IndexView from "./views/IndexView";
 import BuildView from "./views/BuildView";
+import FavoritesView from "./views/FavoritesView";
 import DevView from "./views/DevView";
 
 import DebugButtonComponent from "./components/DebugButtonComponent";
@@ -24,6 +25,7 @@ class App extends React.Component {
                         <Switch>
                             <Route exact path="/" component={IndexView} />
                             <Route path="/b/:buildData" component={BuildView} />
+                            <Route path="/favorites" component={FavoritesView} />
                             <Route path="/dev/:tab" component={DevView} />
                             <Route path="/dev" render={() => <Redirect to="/dev/Main" />} />
                             <Redirect to="/" />
