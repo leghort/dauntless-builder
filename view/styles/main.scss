@@ -58,6 +58,24 @@ strong {
         max-height: 60vh;
 
         margin: 10px 0px;
+
+        flex-grow: 2;
+
+        .no-item-found {
+            background: #ff3860;
+            padding: 30px;
+            text-align: center;
+            font-weight: 600;
+            color: white;
+            margin: 20px 0px;
+        }
+    }
+
+    .modal-card-foot {
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-bottom: -20px;
+        justify-content: flex-end;
     }
 }
 
@@ -157,7 +175,7 @@ strong {
             margin-left: 5px;
             margin-right: 5px;
 
-            min-width: 160px;
+            width: 180px;
 
             user-select: none;
 
@@ -301,6 +319,43 @@ strong {
 }
 
 .item-modal-list {
+    .item-wrapper {
+        height: unset;
+
+        .item {
+            height: unset;
+
+            img {
+                height: 64px;
+            }
+
+            .cell-line {
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+
+                &:first-of-type {
+                    margin-top: 5px;
+                }
+
+                &:last-of-type {
+                    margin-bottom: 10px;
+                }
+
+                img {
+                    height: 20px;
+                    width: 20px;
+                    padding: 2px;
+                    background: #363636;
+                    border-radius: 40px;
+
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+
     .cell-title-line {
         border-bottom: 1px solid #ddd;
         padding-bottom: 5px;

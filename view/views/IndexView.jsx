@@ -21,11 +21,11 @@ export default class IndexView extends React.Component {
 
                 <div className="columns">
                     <div className="column">
-                        <Link to="/fav">
+                        <Link to="/favorites">
                             <div className="tile notification is-danger feature-tile">
-                                <p className="title">Favorite Builds</p>
+                                <p className="title">My Builds</p>
                                 <div className="feature-tile-background">
-                                    <i className="fas fa-heart"></i>
+                                    <i className="fas fa-folder-open"></i>
                                 </div>
                             </div>
                         </Link>
@@ -34,7 +34,7 @@ export default class IndexView extends React.Component {
                     <div className="column">
                         <a href="https://github.com/atomicptr/dauntless-builder" target="_blank">
                             <div className="tile notification is-light feature-tile">
-                                <p className="title">GitHub</p>
+                                <p className="title">Source Code</p>
                                 <div className="feature-tile-background">
                                     <i className="fab fa-github"></i>
                                 </div>
@@ -47,7 +47,7 @@ export default class IndexView extends React.Component {
                             <div className="tile notification is-light feature-tile">
                                 <p className="title">Support Me</p>
                                 <div className="feature-tile-background">
-                                    <i className="fas fa-coffee"></i>
+                                    <i className="fas fa-heart"></i>
                                 </div>
                             </div>
                         </a>

@@ -51,6 +51,14 @@ export default class PerkListComponent extends React.Component {
             </li>
         );
 
+        if(perks.length === 0) {
+            perks.push(
+                <li key="no-perks-found" className="perk-level-5">
+                    <div className="perk-title">No perks available.</div>
+                </li>
+            );
+        }
+
         return <ul className="perk-list">
             {perks}
         </ul>;

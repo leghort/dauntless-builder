@@ -4,6 +4,8 @@ import Select from "react-select";
 require("react-select/dist/react-select.css");
 
 import DebugComponent from "./DebugComponent";
+import ModalCellListItemComponent from "./modal/ModalCellListItemComponent";
+import ModalItemListItemComponent from "./modal/ModalItemListItemComponent";
 
 export default class ItemSelectModalComponent extends React.Component {
     constructor(props, context) {
@@ -268,43 +270,33 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 
     renderItem(item, type) {
-        return <button className="button is-success is-debug-button" onClick={() => this.onItemSelected(type, item.name)}>[PH] {item.name}</button>
+        return <ModalItemListItemComponent
+            key={type + "-" + item.name}
+            item={item}
+            type={type}
+            itemData={this.props.itemData}
+            onSelected={this.onItemSelected.bind(this)} />;
     }
 
     renderCell(item) {
-        let getPerkDescription = perk => {
-            if(perk in this.props.itemData.perks) {
-                return this.props.itemData.perks[perk].description;
-            }
-
-            return null;
-        };
-
-        let getDescriptions = variant => {
-            return Object.keys(variant.perks).map(perk => getPerkDescription(perk)).join(", ");
-        };
-
-        let variants = Object.keys(item.variants).map(v =>
-            <div key={v} className={"cell " + item.variants[v].rarity} onClick={() => this.onItemSelected("Cell", v)}>
-                <img src={"/assets/icons/perks/" + item.slot + ".png"} />
-                <div>
-                    <div className="cell-title">{v}</div>
-                    <div className="perks">{getDescriptions(item.variants[v])}</div>
-                </div>
-            </div>
-        );
-
-        return <React.Fragment key={item.name}>
-            <h3 className="subtitle cell-title-line">{item.name}</h3>
-            <div className="cells">
-                {variants}
-            </div>
-        </React.Fragment>
+        return <ModalCellListItemComponent
+            key={"Cell-" + item.name}
+            item={item}
+            itemData={this.props.itemData}
+            onSelected={this.onItemSelected.bind(this)} />;
     }
 
     render() {
         if(!this.state.open) {
             return null;
+        }
+
+        let items = this.getAvailableItems();
+
+        if(items.length === 0) {
+            items.push(
+                <div key="no-item-found" className="no-item-found">No items found matching your filter options.</div>
+            );
         }
 
         return <div className={`modal ${this.getIsActive()}`}>
@@ -314,17 +306,19 @@ export default class ItemSelectModalComponent extends React.Component {
                     {this.renderFilterFields()}
 
                     <div className="item-modal-list">
-                        {this.getAvailableItems()}
+                        {items}
                     </div>
 
-                    <button
-                        className="button is-light"
-                        onClick={() =>
-                            this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
-                        <i className="fas fa-times"></i>&nbsp;Empty {this.props.data.filterOptions.__itemType} selection.
-                    </button>
-
-                    <DebugComponent data={{filterOptions: this.props.data.filterOptions, state: this.state}} />
+                    <footer className="modal-card-foot">
+                        <DebugComponent data={{filterOptions: this.props.data.filterOptions, state: this.state}} />
+                        <button
+                            className="button"
+                            onClick={() =>
+                                this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
+                            Select&nbsp;<strong>No {this.props.data.filterOptions.__itemType}</strong>.
+                        </button>
+                        <button className="button" onClick={() => this.onClose()}>Cancel</button>
+                    </footer>
                 </div>
             </div>
             <button className="modal-close is-large" onClick={() => this.onClose()}></button>
