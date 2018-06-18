@@ -5,6 +5,7 @@ require("react-select/dist/react-select.css");
 
 import DebugComponent from "./DebugComponent";
 import ModalCellListItemComponent from "./modal/ModalCellListItemComponent";
+import ModalItemListItemComponent from "./modal/ModalItemListItemComponent";
 
 export default class ItemSelectModalComponent extends React.Component {
     constructor(props, context) {
@@ -269,7 +270,12 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 
     renderItem(item, type) {
-        return <button className="button is-success is-debug-button" onClick={() => this.onItemSelected(type, item.name)}>[PH] {item.name}</button>
+        return <ModalItemListItemComponent
+            key={type + "-" + item.name}
+            item={item}
+            type={type}
+            itemData={this.props.itemData}
+            onSelected={this.onItemSelected.bind(this)} />;
     }
 
     renderCell(item) {
