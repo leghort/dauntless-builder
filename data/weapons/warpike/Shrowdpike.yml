@@ -26,6 +26,7 @@ perks:
     value: 3
     from: 6
     to: 10
-wip_unique_effects:
-  - name: low_hp_bonus_damage
+unique_effects:
+  - name: LowHpDamage
+    description: When under 20% health, deal 150% damage.
     value: 1.5

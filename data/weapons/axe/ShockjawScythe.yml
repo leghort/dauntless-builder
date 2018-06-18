@@ -26,6 +26,7 @@ perks:
     value: 2
     from: 6
     to: 10
-wip_unique_effects:
-  - name: vertical_attack_heal
+unique_effects:
+  - name: VerticalAttackHeal
+    description: Heal 200 on perfectly charged vertial attacks.
     value: 200

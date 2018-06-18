@@ -29,6 +29,6 @@ perks:
   - name: Barbed
     value: 2
 unique_effects:
-  - name: BloodfireBladesBonusDamage
-    description: The tenth hit in quick succession deals 150 bonus damage
+  - name: TenthHitBonusDamage
+    description: The tenth hit in quick succession deals 150 bonus damage.
     value: 150

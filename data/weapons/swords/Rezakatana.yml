@@ -17,14 +17,17 @@ power:
   8: 406
   9: 418
   10: 430
-wip_unique_effects:
-  - name: hit_twice
+unique_effects:
+  - name: HitTwice
+    description: 5% chance for attacks to Hit twice.
     value: 1.05
     from: 0
     to: 5
-  - name: hit_twice
+  - name: HitTwice
+    description: 10% chance for attacks to Hit twice.
     value: 1.10
     from: 6
     to: 10
-  - name: bonus_part_damage
+  - name: SeventhHitPartDamage
+    discription: The seventh hit in a row deals +200% part damage.
     value: 3

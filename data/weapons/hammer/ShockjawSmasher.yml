@@ -26,6 +26,7 @@ perks:
     value: 2
     from: 6
     to: 10
-wip_unique_effects:
-  - name: heal_on_behemoth_stagger
+unique_effects:
+  - name: StaggerHeal
+    description: Heal for 300 whenever a Behemoth is Staggered.
     value: 300
