@@ -26,6 +26,7 @@ perks:
     value: 2
     from: 6
     to: 10
-wip_unique_effects:
-  - name: combo_finisher_bonus_damage
+unique_effects:
+  - name: ComboFinisherDamage
+    description: Combo finishers deal 200 bonus damage.
     value: 200

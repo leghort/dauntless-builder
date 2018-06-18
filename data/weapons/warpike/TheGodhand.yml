@@ -16,6 +16,7 @@ power:
   8: 406
   9: 418
   10: 430
-wip_unique_effects:
-  - name: beam_meter_damage
+unique_effects:
+  - name: BeamChannelDamage
+    description: Channel a beam that deals increasing damage, up to 200%, while it continues to hit a target.
     value: 3

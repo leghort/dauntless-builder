@@ -26,6 +26,7 @@ perks:
     value: 2
     from: 6
     to: 10
-wip_unique_effects:
-  - name: lifesteal_wounded_parts
+unique_effects:
+  - name: WoundedPartsLifesteal
+    description: +5% Lifesteal vs Wounded parts.
     value: 1.05
