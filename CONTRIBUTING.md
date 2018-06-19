@@ -1,9 +1,5 @@
 # Contribution guide
 
-## DON'T COMMIT DIST UPDATES
-
-Updates to the data in dist/ is usually made by an automated process or in some cases by me. Please do not include them in your pull requests or I'll have to decline them.
-
 ## Setup development environment
 
 You need to have the current [Node LTS version](https://nodejs.org/en/) installed and for the sake of simplicity I assume
@@ -29,6 +25,10 @@ http-serve
 ```
 
 Done, you have a version of this app running on whatever port http-serve decided to run on (usually :8080).
+
+## Updates to .map/vX.json
+
+If your pull request changes something in data/ make sure to make a build and update the string map cache in .map.
 
 ## English Language
 
