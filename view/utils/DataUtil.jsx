@@ -1,5 +1,5 @@
 import Data from "../../dist/data.json";
-import MapV1 from "../../dist/map_v1.json";
+import MapV1 from "../../.map/v1.json";
 
 export default class DataUtil {
     static getKeyByValue(object, value) {

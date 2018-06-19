@@ -19,8 +19,9 @@ rm -rf deploy
 git clone --depth 1 --branch gh-pages $GIT_REMOTE_URL deploy
 
 ### copy files and assets
-rsync -r dist/ deploy/dist/
 rsync -r assets/ deploy/assets/
+mkdir -p deploy/dist/
+cp dist/dauntless-builder.js deploy/dist/
 cp *.html deploy/
 cp CNAME deploy/
 

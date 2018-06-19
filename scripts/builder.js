@@ -3,12 +3,14 @@ const yaml = require("js-yaml");
 const fs = require("fs");
 const pathlib = require("path");
 
-let stringVersion = 1;
+// DO NOT CHANGE THIS
+const stringVersion = 1;
+
 let stringMap = {};
 let stringCounter = 1; // 0 is empty value
 
-if(fs.existsSync(`./dist/map_v${stringVersion}.json`)) {
-    let data = fs.readFileSync(`./dist/map_v${stringVersion}.json`)
+if(fs.existsSync(`./.map/v${stringVersion}.json`)) {
+    let data = fs.readFileSync(`./.map/v${stringVersion}.json`)
     stringMap = JSON.parse(data);
 }
 
@@ -76,7 +78,7 @@ Promise.all([
 
     console.log("Built data.json");
 
-    fs.writeFileSync(`./dist/map_v${stringVersion}.json`, JSON.stringify(stringMap));
+    fs.writeFileSync(`./.map/v${stringVersion}.json`, JSON.stringify(stringMap));
 
     console.log("Build string map with " + Object.keys(stringMap).length + " entries.");
 });
