@@ -8,7 +8,8 @@
   "scripts": {
     "build": "yarn build-data && yarn build-frontend",
     "build-frontend": "node ./node_modules/webpack/bin/webpack.js",
-    "build-data": "node ./scripts/builder.js"
+    "build-data": "node ./scripts/builder.js",
+    "prod": "yarn build-data && yarn build-frontend --production"
   },
   "dependencies": {
     "glob": "^7.1.2",

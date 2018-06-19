@@ -162,6 +162,14 @@ export default class ItemSelectModalComponent extends React.Component {
             });
         }
 
+        // apply tier filter
+        if(this.props.data.filterOptions.__itemType === "Weapon" || this.props.data.filterOptions.__itemType === "Armour") {
+            filters.push({
+                field: "tier",
+                value: 5
+            });
+        }
+
         return filters;
     }
 
