@@ -5,6 +5,7 @@ type: Torso
 strength: Blaze
 weakness: Frost
 cells: Utility
+tier: 5
 resistance:
   0: 78
   1: 81

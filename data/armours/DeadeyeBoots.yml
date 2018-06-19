@@ -5,6 +5,7 @@ type: Legs
 strength: null
 weakness: null
 cells: Technique
+tier: 5
 resistance:
   0: 78
   1: 81

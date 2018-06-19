@@ -5,6 +5,7 @@ type: Arms
 strength: Shock
 weakness: Frost
 cells: Utility
+tier: 5
 resistance:
   0: 78
   1: 81

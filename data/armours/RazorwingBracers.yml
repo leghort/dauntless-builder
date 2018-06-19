@@ -5,6 +5,7 @@ type: Arms
 strength: null
 weakness: null
 cells: Mobility
+tier: 5
 resistance:
   0: 78
   1: 81

@@ -5,6 +5,7 @@ type: Torso
 strength: Radiant
 weakness: Umbral
 cells: Utility
+tier: 5
 resistance:
   0: 78
   1: 81

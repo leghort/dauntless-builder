@@ -5,6 +5,7 @@ type: Legs
 strength: Blaze
 weakness: Shock
 cells: Defence
+tier: 5
 resistance:
   0: 78
   1: 81

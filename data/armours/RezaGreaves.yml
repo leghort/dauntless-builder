@@ -5,6 +5,7 @@ type: Legs
 strength: Radiant
 weakness: Umbral
 cells: Mobility
+tier: 5
 resistance:
   0: 78
   1: 81

@@ -5,6 +5,7 @@ type: Arms
 strength: Frost
 weakness: Blaze
 cells: Defence
+tier: 5
 resistance:
   0: 78
   1: 81
