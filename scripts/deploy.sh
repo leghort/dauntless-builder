@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+### Used Variables
+# GIT_REMOTE_URL
+# COMMIT_MESSAGE
+
+if [ -z "$GIT_REMOTE_URL" ]; then
+    GIT_REMOTE_URL="git@github.com:atomicptr/dauntless-builder.git"
+fi
+
+if [ -z "$COMMIT_MESSAGE" ]; then
+    COMMIT_MESSAGE="manual build"
+fi
+
+### delete old version of the repository
+rm -rf deploy
+
+### clone new version
+git clone --depth 1 --branch gh-pages $GIT_REMOTE_URL deploy
+
+### copy files and assets
+rsync -r dist/ deploy/dist/
+rsync -r assets/ deploy/assets/
+cp *.html deploy/
+cp CNAME deploy/
+
+### go into deploy and actually deploy
+pushd deploy
+git add -A
+git commit -m "$COMMIT_MESSAGE"
+git push origin gh-pages
+popd

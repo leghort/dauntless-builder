@@ -1,3 +1,5 @@
+/deploy
+/dist
 /.vscode
 
 # Created by https://www.gitignore.io/api/go,node,linux,macos,windows
