@@ -1,6 +1,6 @@
 name: Shockjaw Pike
 description: A Slayer's war pike forged with Shockjaw trophies.
-#icon: /assets/icons/weapons/warpike/ShockjawPike.png
+icon: /assets/icons/weapons/warpike/ShockjawPike.png
 type: War Pike
 damage: Piercing
 elemental: Shock

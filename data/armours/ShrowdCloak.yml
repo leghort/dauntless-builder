@@ -1,6 +1,6 @@
 name: Shrowd Cloak
 description: Torso protection forged from Shrowd trophies.
-#icon: /assets/icons/armours/ShrowdCloak.png
+icon: /assets/icons/armours/ShrowdCloak.png
 type: Torso
 strength: Umbral
 weakness: Radiant

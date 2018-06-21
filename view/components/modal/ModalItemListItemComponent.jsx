@@ -1,21 +1,9 @@
 import React from "react";
 import BuildModel from "../../models/BuildModel";
 
+import ItemIconComponent from "../ItemIconComponent";
+
 export default class ModalItemListItemComponent extends React.Component {
-
-    getIcon(forceDefaultImage = false) {
-        if(this.props.item.icon && !forceDefaultImage) {
-            return this.props.item.icon;
-        }
-
-        let name = this.props.item.type;
-
-        if(!name) {
-            name = this.getItemType();
-        }
-
-        return "/assets/icons/general/" + name + ".png"
-    }
 
     getItemType() {
         let type = this.props.item.type;
@@ -126,7 +114,7 @@ export default class ModalItemListItemComponent extends React.Component {
         return <div className="item-title-wrapper">
             <div className="item-wrapper">
                 <div className="item" title={item.description} onClick={() => this.props.onSelected(type, item.name)}>
-                    <img src={this.getIcon()} onError={e => e.target.src = this.getIcon(true)} />
+                    <ItemIconComponent item={item} />
                     <div className="item-data">
                         <h3 className="item-title">{item.name} {levelString}</h3>
                         {stats}

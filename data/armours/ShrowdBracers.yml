@@ -1,6 +1,6 @@
 name: Shrowd Bracers
 description: Arms protection forged from Shrowd trophies.
-#icon: /assets/icons/armours/ShrowdBracers.png
+icon: /assets/icons/armours/ShrowdBracers.png
 type: Arms
 strength: Umbral
 weakness: Radiant

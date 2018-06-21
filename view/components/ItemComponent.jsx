@@ -3,25 +3,13 @@ import React from "react";
 import CellComponent from "./CellComponent";
 import BuildModel from "../models/BuildModel";
 
+import ItemIconComponent from "./ItemIconComponent";
+
 export default class ItemComponent extends React.Component {
     constructor(props, context) {
         super(props, context);
 
         this.state = {};
-    }
-
-    getIcon(forceDefaultIcon = false) {
-        if(this.props.item.icon && !forceDefaultIcon) {
-            return this.props.item.icon;
-        }
-
-        let name = this.props.item.type;
-
-        if(!name) {
-            name = this.getItemType();
-        }
-
-        return "/assets/icons/general/" + name + ".png"
     }
 
     getPerks() {
@@ -192,7 +180,7 @@ export default class ItemComponent extends React.Component {
             <h2 className="subtitle hidden-on-large-screens">{this.getItemType()} - {this.props.item.type}</h2>
             <div className="item-wrapper">
                 <div className="item" title={this.props.item.description} onClick={() => this.onClicked()}>
-                    <img src={this.getIcon()} onError={e => e.target.src = this.getIcon(true)} />
+                    <ItemIconComponent item={this.props.item} />
                     <div className="item-data">
                         <h3 className="item-title">{this.props.item.name} {levelString}</h3>
                         {stats}

@@ -1,6 +1,6 @@
 name: Shrowd Slicer
 description: A Slayer's sword forged with Shrowd trophies.
-#icon: /assets/icons/weapons/swords/ShrowdSlicer.png
+icon: /assets/icons/weapons/swords/ShrowdSlicer.png
 type: Sword
 damage: Slashing
 elemental: Umbral
