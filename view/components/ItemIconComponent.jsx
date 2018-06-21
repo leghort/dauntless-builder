@@ -12,6 +12,14 @@ export default class ItemIconComponent extends React.Component {
         }
     }
 
+    componentWillReceiveProps(nextProps) {
+        let icon = nextProps.item.icon || this.getDefaultIcon();
+
+        if(icon !== this.state.src) {
+            this.setState({src: icon});
+        }
+    }
+
     getDefaultIcon() {
         let type = this.props.item.type;
 
