@@ -217,14 +217,15 @@ export default class BuildView extends React.Component {
                 <div className="qa-right">
                     <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} onCopy={() => this.onCopyToClipboard()}>
                         <button className="button is-light" title="Copy to clipboard">
-                            <i className="fas fa-copy"></i>
+                            <i className="fas fa-copy"></i><span class="only-on-very-small">&nbsp;Copy to clipboard</span>
                         </button>
                     </CopyToClipboard>
                     <button className="button is-light" title="Save build" onClick={() => this.toggleFavorite()}>
                         <i className={(FavoriteBuildsModel.isFavorite(this.state.buildData) ? "fas" : "far") + " fa-heart"}></i>
+                        <span class="only-on-very-small">&nbsp;Save to favorites</span>
                     </button>
                     <button className="button is-light" title="Settings" disabled>
-                        <i className="fas fa-cog"></i>
+                        <i className="fas fa-cog"></i><span class="only-on-very-small">&nbsp;Settings</span>
                     </button>
                 </div>
             </div>
