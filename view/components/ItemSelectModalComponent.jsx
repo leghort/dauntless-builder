@@ -197,7 +197,7 @@ export default class ItemSelectModalComponent extends React.Component {
             <div key="searchFilter" className="field">
                 <p className="control has-icons-left has-icons-right">
                     <input
-                        autoFocus={true}
+                        autoFocus={window.innerWidth >= 700}
                         className="input"
                         type="text"
                         placeholder="Search..."
