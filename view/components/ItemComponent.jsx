@@ -180,7 +180,7 @@ export default class ItemComponent extends React.Component {
             <h2 className="subtitle hidden-on-large-screens">{this.getItemType()} - {this.props.item.type}</h2>
             <div className="item-wrapper">
                 <div className="item" title={this.props.item.description} onClick={() => this.onClicked()}>
-                    <ItemIconComponent item={this.props.item} />
+                    <ItemIconComponent item={this.props.item} defaultType={this.props.defaultType} />
                     <div className="item-data">
                         <h3 className="item-title">{this.props.item.name} {levelString}</h3>
                         {stats}

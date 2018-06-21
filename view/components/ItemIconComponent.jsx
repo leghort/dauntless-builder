@@ -13,7 +13,13 @@ export default class ItemIconComponent extends React.Component {
     }
 
     getDefaultIcon() {
-        return "/assets/icons/general/" + this.props.item.type + ".png";
+        let type = this.props.item.type;
+
+        if(!type) {
+            type = this.props.defaultType;
+        }
+
+        return "/assets/icons/general/" + type + ".png";
     }
 
     onFailedToLoadImage(e) {

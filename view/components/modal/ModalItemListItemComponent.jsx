@@ -114,7 +114,7 @@ export default class ModalItemListItemComponent extends React.Component {
         return <div className="item-title-wrapper">
             <div className="item-wrapper">
                 <div className="item" title={item.description} onClick={() => this.props.onSelected(type, item.name)}>
-                    <ItemIconComponent item={item} />
+                    <ItemIconComponent item={item} defaultType={this.getItemType()} />
                     <div className="item-data">
                         <h3 className="item-title">{item.name} {levelString}</h3>
                         {stats}
