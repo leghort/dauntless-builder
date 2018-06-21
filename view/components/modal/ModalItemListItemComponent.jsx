@@ -142,8 +142,10 @@ export default class ModalItemListItemComponent extends React.Component {
         }
 
         if(item.cells) {
+            let cellLineCounter = 0;
+
             cellLine = <div className="cell-slots">{cells.map(cell =>
-                <span key={"CellLine_" + cell} className="cell-line">
+                <span key={"CellLine_" + cell + (cellLineCounter++)} className="cell-line">
                     <img className="cell-icon" src={"/assets/icons/perks/" + cell + ".png"} /> {cell}
                 </span>
             )}</div>;

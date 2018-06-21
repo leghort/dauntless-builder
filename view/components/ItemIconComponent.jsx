@@ -16,7 +16,7 @@ export default class ItemIconComponent extends React.Component {
         let icon = nextProps.item.icon || this.getDefaultIcon();
 
         if(icon !== this.state.src) {
-            this.setState({src: icon});
+            this.setState({src: icon, triedDefaultIcon: false, errorPersistsAfterDefault: false});
         }
     }
 
