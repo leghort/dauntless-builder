@@ -1,4 +1,5 @@
 import React from "react";
+import ReactTooltip from "react-tooltip";
 
 import "../styles/components/perk-list.scss";
 
@@ -43,12 +44,37 @@ export default class PerkListComponent extends React.Component {
         </React.Fragment>
     }
 
+    renderPerkTooltipData(perkName, perkValue) {
+        let perk = BuildModel.findPerkByName(perkName);
+
+        let effectCount = Array.isArray(perk.key) ? perk.key.length : 1;
+
+        let elems = Object.keys(perk.effects).map(effectKey => {
+            let description = Array.isArray(perk.effects[effectKey].description) ?
+                perk.effects[effectKey].description : [perk.effects[effectKey].description];
+
+            return <div key={effectKey} className={"tp-effect " + (Number(perkValue) === Number(effectKey) ? "active" : "")}>
+                {description.map(d => <span key={d}>{d}</span>)}
+            </div>;
+        });
+
+        return <React.Fragment>
+            {elems}
+        </React.Fragment>;
+    }
+
     render() {
         let perks = this.props.perks.map(perk =>
-            <li key={perk.name} className={this.getPerkLevelClass(perk.value)}>
-                <div className="perk-title">+{perk.value} {perk.name}</div>
-                {this.renderPerkEffect(perk.name, perk.value)}
-            </li>
+            <React.Fragment key={perk.name}>
+                <li className={this.getPerkLevelClass(perk.value)} data-tip data-for={"PerkTooltip-" + perk.name}>
+                    <div className="perk-title">+{perk.value} {perk.name}</div>
+                    {this.renderPerkEffect(perk.name, perk.value)}
+                </li>
+
+                <ReactTooltip id={"PerkTooltip-" + perk.name} place="bottom" type="dark" effect="solid">
+                    {this.renderPerkTooltipData(perk.name, perk.value)}
+                </ReactTooltip>
+            </React.Fragment>
         );
 
         if(perks.length === 0) {

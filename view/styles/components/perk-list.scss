@@ -64,3 +64,21 @@
         }
     }
 }
+
+.tp-effect {
+    text-align: center;
+
+    span {
+        display: block;
+    }
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    &.active {
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
