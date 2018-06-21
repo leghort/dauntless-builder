@@ -314,6 +314,45 @@ strong {
                 line-height: 1;
                 font-size: 12px;
             }
+
+            .stat-data {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .elementals {
+                display: inline-flex;
+                margin-left: 5px;
+
+                .elemental {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: center;
+                    align-items: center;
+
+                    background: black;
+                    color: white;
+
+                    padding: 5px 10px;
+
+                    margin-right: 5px;
+
+                    img {
+                        padding-top: 2px;
+                        height: 20px;
+                    }
+
+                    &.elemental-strength {
+                        background: #23d160;
+                    }
+
+                    &.elemental-weakness {
+                        background: #ff3860;
+                    }
+                }
+            }
         }
     }
 }
@@ -604,6 +643,10 @@ button.is-debug-button {
 }
 
 @media screen and (max-width: 700px) {
+    .only-desktop {
+        display: none;
+    }
+
     .section {
         padding-left: 0px;
         padding-right: 0px;
@@ -611,6 +654,23 @@ button.is-debug-button {
 
     .only-on-very-small {
         display: block;
+    }
+
+    .cell-slots {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 10px;
+
+        .cell-line {
+            margin: 0 !important;
+        }
+    }
+
+    .stat-data {
+        justify-content: center !important;
     }
 
     .quick-actions {

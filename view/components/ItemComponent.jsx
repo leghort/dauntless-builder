@@ -61,6 +61,43 @@ export default class ItemComponent extends React.Component {
         this.props.onItemClicked(filterOption);
     }
 
+    renderElementalAffinities() {
+        let strength = null;
+        let weakness = null;
+
+        if(this.getItemType() === "Weapon" && this.props.item.elemental) {
+            strength = <span className="elemental elemental-strength">
+                +&nbsp;<img src={"/assets/icons/elements/" + this.props.item.elemental + ".png"} />
+                <span className="only-desktop">&nbsp;{this.props.item.elemental}</span>
+            </span>;
+        }
+
+        if(this.getItemType() === "Armour") {
+            if(this.props.item.strength) {
+                strength = <span className="elemental elemental-strength">
+                    +&nbsp;<img src={"/assets/icons/elements/" + this.props.item.strength + ".png"} />
+                    <span className="only-desktop">&nbsp;{this.props.item.strength}</span>
+                </span>;
+            }
+
+            if(this.props.item.weakness) {
+                weakness = <span className="elemental elemental-weakness">
+                    -&nbsp;<img src={"/assets/icons/elements/" + this.props.item.weakness + ".png"} />
+                    <span className="only-desktop">&nbsp;{this.props.item.weakness}</span>
+                </span>;
+            }
+        }
+
+        if(!strength && !weakness) {
+            return null;
+        }
+
+        return <span className="elementals">
+            {strength}
+            {weakness}
+        </span>
+    }
+
     render() {
         if(!this.props.item) {
             return <div className="item-title-wrapper">
@@ -140,13 +177,13 @@ export default class ItemComponent extends React.Component {
         switch(this.getItemType()) {
             case "Weapon":
                 stats = <React.Fragment>
-                    <div><strong>Power</strong>: {this.props.item.power[this.props.level]}</div>
+                    <div className="stat-data"><strong>Power</strong>: {this.props.item.power[this.props.level]} {this.renderElementalAffinities()}</div>
                     {perkElement}
                 </React.Fragment>;
                 break;
             case "Armour":
                 stats = <React.Fragment>
-                    <div><strong>Resistance</strong>: {this.props.item.resistance[this.props.level]}</div>
+                    <div className="stat-data"><strong>Resistance</strong>: {this.props.item.resistance[this.props.level]} {this.renderElementalAffinities()}</div>
                     {perkElement}
                 </React.Fragment>;
                 break;

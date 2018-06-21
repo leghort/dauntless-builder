@@ -34,6 +34,44 @@ export default class ModalItemListItemComponent extends React.Component {
         return Math.max(...Object.keys(this.props.item[this.props.type === "Weapon" ? "power" : "resistance"]).map(k => Number(k)));
     }
 
+    // TODO: copied from ItemComponent, needs refactoring cuz DRY
+    renderElementalAffinities(item) {
+        let strength = null;
+        let weakness = null;
+
+        if(this.getItemType() === "Weapon" && item.elemental) {
+            strength = <span className="elemental elemental-strength">
+                +&nbsp;<img src={"/assets/icons/elements/" + item.elemental + ".png"} />
+                <span className="only-desktop">&nbsp;{item.elemental}</span>
+            </span>;
+        }
+
+        if(this.getItemType() === "Armour") {
+            if(item.strength) {
+                strength = <span className="elemental elemental-strength">
+                    +&nbsp;<img src={"/assets/icons/elements/" + item.strength + ".png"} />
+                    <span className="only-desktop">&nbsp;{item.strength}</span>
+                </span>;
+            }
+
+            if(item.weakness) {
+                weakness = <span className="elemental elemental-weakness">
+                    -&nbsp;<img src={"/assets/icons/elements/" + item.weakness + ".png"} />
+                    <span className="only-desktop">&nbsp;{item.weakness}</span>
+                </span>;
+            }
+        }
+
+        if(!strength && !weakness) {
+            return null;
+        }
+
+        return <span className="elementals">
+            {strength}
+            {weakness}
+        </span>
+    }
+
     render() {
         const item = this.props.item;
         const type = this.props.type;
@@ -59,13 +97,13 @@ export default class ModalItemListItemComponent extends React.Component {
         switch(this.getItemType()) {
             case "Weapon":
                 stats = <React.Fragment>
-                    <div><strong>Power</strong>: {item.power[level]}</div>
+                    <div className="stat-data"><strong>Power</strong>: {item.power[level]} {this.renderElementalAffinities(item)}</div>
                     {perkElement}
                 </React.Fragment>;
                 break;
             case "Armour":
                 stats = <React.Fragment>
-                    <div><strong>Resistance</strong>: {item.resistance[level]}</div>
+                    <div className="stat-data"><strong>Resistance</strong>: {item.resistance[level]} {this.renderElementalAffinities(item)}</div>
                     {perkElement}
                 </React.Fragment>;
                 break;

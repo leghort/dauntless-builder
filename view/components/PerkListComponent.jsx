@@ -53,14 +53,14 @@ export default class PerkListComponent extends React.Component {
             let description = Array.isArray(perk.effects[effectKey].description) ?
                 perk.effects[effectKey].description : [perk.effects[effectKey].description];
 
+            let counter = 0;
+
             return <div key={effectKey} className={"tp-effect " + (Number(perkValue) === Number(effectKey) ? "active" : "")}>
-                {description.map(d => <span key={d}>{d}</span>)}
+                {description.map(d => <span key={"desc" + (counter++)}>{d}</span>)}
             </div>;
         });
 
-        return <React.Fragment>
-            {elems}
-        </React.Fragment>;
+        return elems;
     }
 
     render() {
