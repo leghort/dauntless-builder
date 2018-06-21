@@ -230,6 +230,7 @@ export default class BuildView extends React.Component {
             </div>
             <div className="columns">
                 <div className="column is-two-thirds">
+
                     <ItemComponent
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}

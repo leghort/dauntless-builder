@@ -189,6 +189,7 @@ export default class ItemComponent extends React.Component {
         }
 
         return <div className="item-title-wrapper">
+            <h2 className="subtitle hidden-on-large-screens">{this.getItemType()} - {this.props.item.type}</h2>
             <div className="item-wrapper">
                 <div className="item" title={this.props.item.description} onClick={() => this.onClicked()}>
                     <img src={this.getIcon()} onError={e => e.target.src = this.getIcon(true)} />

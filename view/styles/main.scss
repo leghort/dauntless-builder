@@ -517,65 +517,77 @@ button.is-debug-button {
     }
 }
 
-.hidden-on-mobile {
+.hidden-on-large-screens {
     display: none;
 }
 
 // start changing tile layout a bit earlier to better support smaller screens
 // for items like the hunger
 @media screen and (max-width: 1300px) {
-    .hidden-on-mobile {
+    .hidden-on-large-screens {
         display: block;
     }
 
-    .item-wrapper {
-        flex-flow: column nowrap;
-        height: unset;
+    .item-title-wrapper {
 
-        .item {
-            flex-flow: column nowrap;
-            height: unset;
-            margin-right: 0px;
+        .subtitle {
+            text-align: center;
+            margin-top: 15px;
 
-            width: 100%;
+            padding-bottom: 10px;
 
-            img {
-                max-height: 150px;
-            }
+            border-bottom: 1px solid #EEE;
         }
 
-        .cells {
+        .item-wrapper {
             flex-flow: column nowrap;
-            justify-content: space-around;
-            align-items: center;
+            height: unset;
 
-            width: 100%;
-            padding: 5px 0px;
+            .item {
+                flex-flow: column nowrap;
+                height: unset;
+                margin-right: 0px;
 
-            .cell {
-                height: auto;
                 width: 100%;
 
-                flex-flow: row nowrap;
+                img {
+                    max-height: 150px;
+                }
+            }
+
+            .cells {
+                flex-flow: column nowrap;
+                justify-content: space-around;
                 align-items: center;
 
-                margin-left: 0px !important;
-                margin-right: 0px !important;
+                width: 100%;
+                padding: 5px 0px;
 
-                margin-top: 5px;
-                margin-bottom: 5px;
+                .cell {
+                    height: auto;
+                    width: 100%;
 
-                img {
-                    width: 48px;
-                    height: 48px;
-                    padding: 4px;
-                    margin-right: 20px;
-                }
+                    flex-flow: row nowrap;
+                    align-items: center;
 
-                .perks {
-                    font-size: 13px;
-                    text-align: center;
-                    max-width: 250px;
+                    margin-left: 0px !important;
+                    margin-right: 0px !important;
+
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+
+                    img {
+                        width: 48px;
+                        height: 48px;
+                        padding: 4px;
+                        margin-right: 20px;
+                    }
+
+                    .perks {
+                        font-size: 13px;
+                        text-align: center;
+                        max-width: 250px;
+                    }
                 }
             }
         }
