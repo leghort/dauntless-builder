@@ -1,8 +1,11 @@
 import React from "react";
+import ReactDOM from "react-dom";
 
 import {Link} from "react-router-dom";
 
 import {CopyToClipboard} from "react-copy-to-clipboard";
+
+import ReactTooltip from "react-tooltip";
 
 import BuildModel from "../models/BuildModel";
 import DataUtil from "../utils/DataUtil";
@@ -83,9 +86,7 @@ export default class BuildView extends React.Component {
     }
 
     onCopyToClipboard() {
-        console.log("Copied to clipboard:", window.location.origin + "/b/" + this.state.buildData)
-
-        // TODO: add popup that says "copied"
+        console.log("Copied to clipboard:", window.location.origin + "/b/" + this.state.buildData);
     }
 
     onModalOpen() {
@@ -215,9 +216,10 @@ export default class BuildView extends React.Component {
                     </Link>
                 </div>
                 <div className="qa-right">
-                    <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} onCopy={() => this.onCopyToClipboard()}>
-                        <button className="button is-light" title="Copy to clipboard">
+                    <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} refs="copyButton"  onCopy={() => this.onCopyToClipboard()}>
+                        <button className="button is-light" title="Copy to clipboard" data-tip="Copied link to clipboard." data-event="click">
                             <i className="fas fa-copy"></i><span className="only-on-very-small">&nbsp;Copy to clipboard</span>
+                            <ReactTooltip globalEventOff="click" place="top" type="dark" effect="solid" />
                         </button>
                     </CopyToClipboard>
                     <button className="button is-light" title="Save build" onClick={() => this.toggleFavorite()}>
