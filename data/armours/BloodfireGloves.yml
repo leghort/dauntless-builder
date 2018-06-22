@@ -21,11 +21,11 @@ resistance:
 perks:
   - name: Evasion
     value: 1
-  - name: Fireproof
+  - name: Evasive Fury
     value: 1
     from: 0
     to: 5
-  - name: Fireproof
+  - name: Evasive Fury
     value: 2
     from: 6
     to: 10
