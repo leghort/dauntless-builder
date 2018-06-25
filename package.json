@@ -7,9 +7,9 @@
   "private": true,
   "scripts": {
     "build": "yarn build-data && yarn build-frontend",
-    "build-frontend": "node ./node_modules/webpack/bin/webpack.js",
     "build-data": "node ./scripts/builder.js",
-    "prod": "yarn build-data && yarn build-frontend --production"
+    "build-frontend": "webpack --mode=production",
+    "build-dev": "webpack --mode=development"
   },
   "dependencies": {
     "glob": "^7.1.2",

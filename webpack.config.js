@@ -1,7 +1,6 @@
 const path = require("path");
 
 module.exports = {
-    mode: process.argv.indexOf("--production") > -1 ? "production" : "development",
     entry: "./src/App.jsx",
     output: {
         path: path.join(__dirname, "dist"),
