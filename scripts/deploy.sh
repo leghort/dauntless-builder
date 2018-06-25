@@ -26,8 +26,10 @@ cp *.html deploy/
 cp CNAME deploy/
 
 ### go into deploy and actually deploy
-pushd deploy
-git add -A
-git commit -m "$COMMIT_MESSAGE"
-git push origin gh-pages
-popd
+if [[ $1 == "--commit" ]]; then
+    pushd deploy
+    git add -A
+    git commit -m "$COMMIT_MESSAGE"
+    git push origin gh-pages
+    popd
+fi
