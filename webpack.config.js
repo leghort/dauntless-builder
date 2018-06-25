@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     mode: process.argv.indexOf("--production") > -1 ? "production" : "development",
-    entry: "./view/App.jsx",
+    entry: "./src/App.jsx",
     output: {
         path: path.join(__dirname, "dist"),
         libraryTarget: "umd",
@@ -30,7 +30,7 @@ module.exports = {
     },
     resolve: {
         modules: [
-            path.join(__dirname, "view"),
+            path.join(__dirname, "src"),
             path.join(__dirname, "data"),
             "node_modules"
         ],
