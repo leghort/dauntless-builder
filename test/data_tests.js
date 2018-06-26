@@ -31,6 +31,28 @@ describe("Dauntless Builder Data", () => {
                 done();
             });
         });
+
+        const checkIfItemIsInDataFor = (field, checkFunction) => {
+            if(!checkFunction) {
+                checkFunction = itemName => Object.values(localMap.v1).indexOf(itemName) > -1;
+            }
+
+            return () => {
+                for(let itemName in data[field]) {
+                    assert.ok(
+                        checkFunction(itemName),
+                        `${itemName} is not in the map, rebuilt map to fix.`
+                    );
+                }
+            }
+        }
+
+        it("should contain every weapon", checkIfItemIsInDataFor("weapons"));
+        it("should contain every armour piece", checkIfItemIsInDataFor("armours"));
+        it("should contain every lantern", checkIfItemIsInDataFor("lanterns"));
+        it("should contain every perk", checkIfItemIsInDataFor("perks"));
+        it("should contain every cell", checkIfItemIsInDataFor("cells", cellName =>
+            Object.keys(data.cells[cellName].variants).every(variant => Object.values(localMap.v1).indexOf(variant) > -1)));
     });
 
     describe("Validity of built data", () => {
