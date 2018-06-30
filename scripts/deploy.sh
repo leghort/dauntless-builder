@@ -25,6 +25,11 @@ cp dist/dauntless-builder.js deploy/dist/
 cp *.html deploy/
 cp CNAME deploy/
 
+### copy data files to deploy
+mkdir -p deploy/map/
+cp dist/data.json deploy/data.json
+cp .map/*.json deploy/map/
+
 ### go into deploy and actually deploy
 if [[ $1 == "--commit" ]]; then
     pushd deploy
