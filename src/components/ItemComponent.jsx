@@ -223,8 +223,6 @@ export default class ItemComponent extends React.Component {
                 <div key={uniqueEffect.name} className="unique-effects">{uniqueEffect.description}</div>);
         }
 
-        console.log(cells);
-
         return <div className="item-title-wrapper">
             <h2 className="subtitle hidden-on-large-screens">{this.getItemType()} - {this.props.item.type}</h2>
             <div className="item-wrapper">
