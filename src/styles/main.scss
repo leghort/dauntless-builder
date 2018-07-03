@@ -291,6 +291,10 @@ strong {
 
         margin-right: 10px;
 
+        &.no-cells {
+            margin-right: 0px;
+        }
+
         &.no-item {
             margin-right: 0px;
 
