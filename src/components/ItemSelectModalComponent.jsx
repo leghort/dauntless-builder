@@ -19,7 +19,7 @@ export default class ItemSelectModalComponent extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            tierFilter: null
+            tierFilter: {value: 5, label: MiscUtils.getTierName(5)}
         }
 
         this.defaultState = {
