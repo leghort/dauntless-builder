@@ -14,11 +14,11 @@ export default class MiscUtils {
     }
 
     static maxLevel(collection, itemName) {
-        if(!itemName || collection in DataUtil.data()) {
+        if(!itemName || !(collection in DataUtil.data())) {
             return 0;
         }
 
-        levelKey = null;
+        let levelKey = null;
 
         switch(collection) {
             case "weapons": levelKey = "power"; break;
@@ -29,6 +29,6 @@ export default class MiscUtils {
             return 0;
         }
 
-        return Math.max(...Object.keys(DataUtil.data()[collection][levelKey]).map(k => Number(k)));
+        return Math.max(...Object.keys(DataUtil.data()[collection][itemName][levelKey]).map(k => Number(k)));
     }
 }
