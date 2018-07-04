@@ -719,6 +719,14 @@ button.is-debug-button {
 
         .item-modal-list {
             max-height: unset;
+
+            margin-bottom: 70px;
+        }
+
+        .cells {
+            .cell {
+                width: 100%;
+            }
         }
 
         .modal-card-foot {

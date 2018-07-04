@@ -235,7 +235,7 @@ export default class ItemComponent extends React.Component {
         }
 
         return <div className="item-title-wrapper">
-            <h2 className="subtitle hidden-on-large-screens">{this.getItemType()} - {this.props.item.type}</h2>
+            <h2 className="subtitle hidden-on-large-screens">{this.getItemType() + (this.props.item.type ? ` - ${this.props.item.type}` : "")}</h2>
             <div className="item-wrapper">
                 <div className={"item"+ (cells.length === 0 ? " no-cells" : "")} title={this.props.item.description} onClick={() => this.onClicked()}>
                     <ItemIconComponent item={this.props.item} defaultType={this.props.defaultType} />

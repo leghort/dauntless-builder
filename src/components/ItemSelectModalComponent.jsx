@@ -256,7 +256,7 @@ export default class ItemSelectModalComponent extends React.Component {
         // add Perk filter
         if(this.isType(["Weapon", "Armour"])) {
             fields.push(
-                <div key="perkFilter" className="field">
+                <div key="perkFilter" className="field is-hidden-touch">
                     <Select
                         placeholder="Filter by perk..."
                         onChange={perk => this.setState({perkFilter: perk})}
@@ -269,7 +269,7 @@ export default class ItemSelectModalComponent extends React.Component {
         // add Slot filter
         if(this.isType(["Weapon", "Armour"])) {
             fields.push(
-                <div key="slotFilter" className="field">
+                <div key="slotFilter" className="field is-hidden-touch">
                     <Select
                         placeholder="Filter by cell slot..."
                         onChange={slot => this.setState({slotFilter: slot})}
