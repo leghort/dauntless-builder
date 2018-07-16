@@ -1,15 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-CellComponent.propTypes = {
-    cell: PropTypes.object,
-    variant: PropTypes.string,
-    parentType: PropTypes.string,
-    type: PropTypes.string,
-    onCellClicked: PropTypes.func,
-    slotPosition: PropTypes.number
-};
-
 export default class CellComponent extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -45,4 +36,11 @@ export default class CellComponent extends React.Component {
     }
 }
 
-
+CellComponent.propTypes = {
+    cell: PropTypes.object,
+    variant: PropTypes.string,
+    parentType: PropTypes.string,
+    type: PropTypes.string,
+    onCellClicked: PropTypes.func,
+    slotPosition: PropTypes.number
+};

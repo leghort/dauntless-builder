@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default class ItemIconComponent extends React.Component {
 
@@ -9,11 +10,11 @@ export default class ItemIconComponent extends React.Component {
             src: this.props.item.icon || this.getDefaultIcon(),
             triedDefaultIcon: false,
             errorPersistsAfterDefault: false
-        }
+        };
     }
 
-    componentWillReceiveProps(nextProps) {
-        let icon = nextProps.item.icon || this.getDefaultIcon();
+    componentDidUpdate(prevProps) {
+        let icon = prevProps.item.icon || this.getDefaultIcon();
 
         if(icon !== this.state.src) {
             this.setState({src: icon, triedDefaultIcon: false, errorPersistsAfterDefault: false});
@@ -30,7 +31,7 @@ export default class ItemIconComponent extends React.Component {
         return "/assets/icons/general/" + type + ".png";
     }
 
-    onFailedToLoadImage(e) {
+    onFailedToLoadImage() {
         if(!this.state.triedDefaultIcon) {
             this.setState({src: this.getDefaultIcon(), triedDefaultIcon: true});
             console.log("Icon for", this.props.item ? this.props.item.name : "???",
@@ -51,6 +52,15 @@ export default class ItemIconComponent extends React.Component {
             }}></i>;
         }
 
-        return <img src={this.state.src} onError={this.onFailedToLoadImage.bind(this)} />
+        return <img src={this.state.src} onError={this.onFailedToLoadImage.bind(this)} />;
     }
 }
+
+ItemIconComponent.propTypes = {
+    defaultType: PropTypes.string,
+    item: PropTypes.shape({
+        name: PropTypes.string,
+        icon: PropTypes.string,
+        type: PropTypes.string,
+    })
+};

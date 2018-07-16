@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import CellComponent from "./CellComponent";
 import BuildModel from "../models/BuildModel";
@@ -30,12 +31,12 @@ export default class ItemComponent extends React.Component {
             case "Axe":
             case "Hammer":
             case "War Pike":
-                return "Weapon"
+                return "Weapon";
             case "Head":
             case "Torso":
             case "Arms":
             case "Legs":
-                return "Armour"
+                return "Armour";
         }
 
         return "Lantern";
@@ -106,7 +107,7 @@ export default class ItemComponent extends React.Component {
         return <span className="elementals">
             {strength}
             {weakness}
-        </span>
+        </span>;
     }
 
     renderCells() {
@@ -174,7 +175,7 @@ export default class ItemComponent extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>;
         }
 
         let cells = this.renderCells();
@@ -208,7 +209,7 @@ export default class ItemComponent extends React.Component {
                     {perkElement}
                 </React.Fragment>;
                 break;
-            case "Lantern":
+            case "Lantern": {
                 let instant = null;
                 let hold = null;
 
@@ -225,6 +226,7 @@ export default class ItemComponent extends React.Component {
                     {hold}
                     {perkElement}
                 </React.Fragment>;
+            }
         }
 
         let uniqueEffects = [];
@@ -252,3 +254,30 @@ export default class ItemComponent extends React.Component {
         </div>;
     }
 }
+
+ItemComponent.propTypes = {
+    item: PropTypes.shape({
+        name: PropTypes.string,
+        description: PropTypes.string,
+        type: PropTypes.string,
+        tier: PropTypes.number,
+        strength: PropTypes.string,
+        weakness: PropTypes.string,
+        elemental: PropTypes.string,
+        cells: PropTypes.node,
+        power: PropTypes.object,
+        resistance: PropTypes.object,
+        lantern_ability: PropTypes.shape({
+            instant: PropTypes.string,
+            hold: PropTypes.string
+        }),
+        unique_effects: PropTypes.array
+    }),
+    title: PropTypes.string,
+    parent: PropTypes.object,
+    cells: PropTypes.array,
+    defaultType: PropTypes.string,
+    level: PropTypes.number,
+    onItemClicked: PropTypes.func,
+    onCellClicked: PropTypes.func
+};

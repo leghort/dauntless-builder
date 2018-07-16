@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import BuildModel from "../../models/BuildModel";
 
 import ItemIconComponent from "../ItemIconComponent";
@@ -15,12 +17,12 @@ export default class ModalItemListItemComponent extends React.Component {
             case "Axe":
             case "Hammer":
             case "War Pike":
-                return "Weapon"
+                return "Weapon";
             case "Head":
             case "Torso":
             case "Arms":
             case "Legs":
-                return "Armour"
+                return "Armour";
         }
 
         return "Lantern";
@@ -69,7 +71,7 @@ export default class ModalItemListItemComponent extends React.Component {
         return <span className="elementals">
             {strength}
             {weakness}
-        </span>
+        </span>;
     }
 
     render() {
@@ -107,7 +109,7 @@ export default class ModalItemListItemComponent extends React.Component {
                     {perkElement}
                 </React.Fragment>;
                 break;
-            case "Lantern":
+            case "Lantern": {
                 let instant = null;
                 let hold = null;
 
@@ -124,6 +126,7 @@ export default class ModalItemListItemComponent extends React.Component {
                     {hold}
                     {perkElement}
                 </React.Fragment>;
+            }
         }
 
         let uniqueEffects = [];
@@ -166,3 +169,11 @@ export default class ModalItemListItemComponent extends React.Component {
         </div>;
     }
 }
+
+ModalItemListItemComponent.propTypes = {
+    type: PropTypes.string,
+    item: PropTypes.shape({
+        type: PropTypes.string
+    }),
+    onSelected: PropTypes.func
+};

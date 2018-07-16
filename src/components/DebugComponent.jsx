@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import DebugButtonComponent from "./DebugButtonComponent";
 
 export default class DebugComponent extends React.Component {
@@ -7,7 +9,7 @@ export default class DebugComponent extends React.Component {
 
         this.state = {
             active: this.props.active
-        }
+        };
     }
 
     filteredData() {
@@ -41,9 +43,15 @@ export default class DebugComponent extends React.Component {
         if(this.state.active) {
             debugComponent = <pre className="debug">
                 <code>{JSON.stringify(this.filteredData(), null, "    ")}</code>
-            </pre>
+            </pre>;
         }
 
         return debugComponent;
     }
 }
+
+DebugComponent.propTypes = {
+    active: PropTypes.bool,
+    ignore: PropTypes.array,
+    data: PropTypes.object
+};

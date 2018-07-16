@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import DataUtil from "../../utils/DataUtil";
 import MiscUtils from "../../utils/MiscUtils";
 
@@ -15,7 +17,7 @@ export default class EmbedItem extends React.Component {
     renderItem(itemName, type) {
         if(!(itemName in DataUtil.data()[type])) {
             return <span className="dauntless-builder-error">
-                Dauntless Builder: Unknown {type} \"{itemName}\"
+                Dauntless Builder: Unknown {type} {`"${itemName}"`}
             </span>;
         }
 
@@ -34,7 +36,7 @@ export default class EmbedItem extends React.Component {
             <span className="dauntless-builder-item-embed-text">{itemName}</span>
 
             {this.renderTooltip(id, item, type)}
-        </span>
+        </span>;
     }
 
     renderTooltip(id, item, type, level = null, isSolid = true) {
@@ -54,7 +56,7 @@ export default class EmbedItem extends React.Component {
                 subline = <div><b>Power</b>: {item.power[level]}</div>;
             }
 
-            extras = <div>{item.description}</div>
+            extras = <div>{item.description}</div>;
         } else if(type === "armours") {
             let resistanceLow = item.resistance[0];
             let resistanceMax = item.resistance[MiscUtils.maxLevel("armours", itemName)];
@@ -65,7 +67,7 @@ export default class EmbedItem extends React.Component {
                 subline = <div><b>Power</b>: {item.resistance[level]}</div>;
             }
 
-            extras = <div>{item.description}</div>
+            extras = <div>{item.description}</div>;
         } else if(type === "lanterns") {
             iconUrl = "https://www.dauntless-builder.com/assets/icons/general/Lantern.png";
 
@@ -93,13 +95,13 @@ export default class EmbedItem extends React.Component {
     }
 
     renderWikiLink(itemName) {
-        return <a href={"https://dauntless.gamepedia.com/" + (itemName.replace(" ", "_"))} target="_blank">
+        return <a href={"https://dauntless.gamepedia.com/" + (itemName.replace(" ", "_"))} target="_blank" rel="noopener noreferrer">
             Wiki
-        </a>
+        </a>;
     }
 
     renderBuild(buildId) {
-        let match = new RegExp(/^https:\/\/(?:www\.)?dauntless-builder\.com\/b\/(.*)/g).exec(buildId)
+        let match = new RegExp(/^https:\/\/(?:www\.)?dauntless-builder\.com\/b\/(.*)/g).exec(buildId);
 
         if(match) {
             buildId = match[1];
@@ -150,7 +152,7 @@ export default class EmbedItem extends React.Component {
                     {this.renderTooltip(id, item, type, level, false)}
                 </div>
             );
-        }
+        };
 
         if(weapon) insertItem(weapon, "weapons", build.weaponCells, build.weapon_level);
         if(head) insertItem(head, "armours", build.armourCells.head, build.head_level);
@@ -163,7 +165,10 @@ export default class EmbedItem extends React.Component {
         ]);
 
         return <div className="dauntless-builder-build">
-            <a href={`https://www.dauntless-builder.com/b/${buildId}`} target="_blank" className="dauntless-builder-build-header">
+            <a href={`https://www.dauntless-builder.com/b/${buildId}`} target="_blank"
+                rel="noopener noreferrer"
+                className="dauntless-builder-build-header">
+
                 <img src="https://www.dauntless-builder.com/assets/icon.png" />
                 Dauntless-Builder.com
             </a>
@@ -180,8 +185,13 @@ export default class EmbedItem extends React.Component {
             case "build": return this.renderBuild(this.props.value);
         }
 
-        return <span className="dauntless-builder-error">Dauntless Builder: Unknown Embed Type: "{this.props.type}"</span>
+        return <span className="dauntless-builder-error">Dauntless Builder: Unknown Embed Type: {`"${this.props.type}"`}</span>;
     }
 }
+
+EmbedItem.propTypes = {
+    type: PropTypes.string,
+    value: PropTypes.object
+};
 
 EmbedItem._IDCOUNTER = 0;

@@ -1,11 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-DebugButtonComponent.propTypes = {
-    onClick: PropTypes.func,
-    children: PropTypes.element
-};
-
 export default class DebugButtonComponent extends React.Component {
     render() {
         if(!window.isDeveloperModeEnabled()) {
@@ -17,3 +12,8 @@ export default class DebugButtonComponent extends React.Component {
         </button>;
     }
 }
+
+DebugButtonComponent.propTypes = {
+    onClick: PropTypes.func,
+    children: PropTypes.array
+};

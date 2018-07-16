@@ -99,7 +99,7 @@ export default class FavoritesView extends React.Component {
         if(favs.length === 0) {
             return <div>
                 <h1 className="title">My builds</h1>
-                <h2 className="subtitle">You haven't saved any builds yet.</h2>
+                <h2 className="subtitle">You have not saved any builds yet.</h2>
                 {makeNewBuildsButton}
             </div>;
         }

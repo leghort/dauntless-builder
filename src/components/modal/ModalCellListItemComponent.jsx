@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default class ModalCellListItemComponent extends React.Component {
     render() {
@@ -31,6 +32,12 @@ export default class ModalCellListItemComponent extends React.Component {
             <div className="cells">
                 {variants}
             </div>
-        </React.Fragment>
+        </React.Fragment>;
     }
 }
+
+ModalCellListItemComponent.propTypes = {
+    item: PropTypes.object,
+    itemData: PropTypes.object,
+    onSelected: PropTypes.func
+};

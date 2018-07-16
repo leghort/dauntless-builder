@@ -5,9 +5,9 @@ export default class DataUtil {
     static getKeyByValue(object, value) {
         for(let prop in object) {
             if(object.hasOwnProperty(prop)) {
-                 if(object[prop] === value) {
+                if(object[prop] === value) {
                     return prop;
-                 }
+                }
             }
         }
 

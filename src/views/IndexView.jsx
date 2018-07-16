@@ -32,7 +32,7 @@ export default class IndexView extends React.Component {
                     </div>
 
                     <div className="column">
-                        <a href="https://github.com/atomicptr/dauntless-builder" target="_blank">
+                        <a href="https://github.com/atomicptr/dauntless-builder" target="_blank" rel="noopener noreferrer">
                             <div className="tile notification is-light feature-tile">
                                 <p className="title">Source Code</p>
                                 <div className="feature-tile-background">
@@ -43,7 +43,7 @@ export default class IndexView extends React.Component {
                     </div>
 
                     <div className="column">
-                        <a href="https://buymeacoff.ee/atomicptr" target="_blank">
+                        <a href="https://buymeacoff.ee/atomicptr" target="_blank" rel="noopener noreferrer">
                             <div className="tile notification is-light feature-tile">
                                 <p className="title">Support Me</p>
                                 <div className="feature-tile-background">
@@ -56,7 +56,7 @@ export default class IndexView extends React.Component {
 
                 <div className="columns">
                     <div className="column">
-                        <a href="https://reddit.com/r/dauntless" target="_blank">
+                        <a href="https://reddit.com/r/dauntless" target="_blank" rel="noopener noreferrer">
                             <div className="tile notification is-light feature-tile">
                                 <p className="title">/r/dauntless</p>
                                 <div className="feature-tile-background">
@@ -67,7 +67,7 @@ export default class IndexView extends React.Component {
                     </div>
 
                     <div className="column">
-                        <a href="https://discord.gg/dauntless" target="_blank">
+                        <a href="https://discord.gg/dauntless" target="_blank" rel="noopener noreferrer">
                             <div className="tile notification is-light feature-tile">
                                 <p className="title">Dauntless Discord</p>
                                 <div className="feature-tile-background">

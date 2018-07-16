@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import EmbedItem from "./components/embed/EmbedItem";
 
-require("./styles/embeds.scss");
+import "./styles/embeds.scss";
 
 function instantiate(type) {
     return function(elem) {
@@ -11,7 +11,7 @@ function instantiate(type) {
 
         ReactDOM.render(
             <EmbedItem type={type} value={value} />, elem);
-    }
+    };
 }
 
 window.addEventListener("load", function() {

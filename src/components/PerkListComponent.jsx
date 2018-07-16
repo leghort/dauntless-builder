@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import ReactTooltip from "react-tooltip";
 
 import "../styles/components/perk-list.scss";
@@ -41,13 +43,11 @@ export default class PerkListComponent extends React.Component {
 
         return <React.Fragment>
             {elems}
-        </React.Fragment>
+        </React.Fragment>;
     }
 
     renderPerkTooltipData(perkName, perkValue) {
         let perk = BuildModel.findPerkByName(perkName);
-
-        let effectCount = Array.isArray(perk.key) ? perk.key.length : 1;
 
         let elems = Object.keys(perk.effects).map(effectKey => {
             let description = Array.isArray(perk.effects[effectKey].description) ?
@@ -96,3 +96,7 @@ export default class PerkListComponent extends React.Component {
         </ul>;
     }
 }
+
+PerkListComponent.propTypes = {
+    perks: PropTypes.array
+};

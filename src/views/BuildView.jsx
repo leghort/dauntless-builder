@@ -18,14 +18,6 @@ import PerkListComponent from "../components/PerkListComponent";
 import FavoriteBuildsModel from "../models/FavoriteBuildsModel";
 import MiscUtils from "../utils/MiscUtils";
 
-BuildView.propTypes = {
-    match: PropTypes.shape({
-        params: PropTypes.shape({
-            buildData: PropTypes.string,
-        }),
-    }).isRequired
-};
-
 export default class BuildView extends React.Component {
 
     constructor(props, context) {
@@ -319,3 +311,11 @@ export default class BuildView extends React.Component {
         </React.Fragment>;
     }
 }
+
+BuildView.propTypes = {
+    match: PropTypes.shape({
+        params: PropTypes.shape({
+            buildData: PropTypes.string,
+        }),
+    }).isRequired
+};

@@ -87,7 +87,7 @@ export default class BuildModel {
             torso: BuildModel.findArmour(this.torso_name),
             arms: BuildModel.findArmour(this.arms_name),
             legs: BuildModel.findArmour(this.legs_name),
-        }
+        };
     }
 
     get armourCells() {
@@ -96,7 +96,7 @@ export default class BuildModel {
             torso: [this.torso_cell, BuildModel.findCellByVariantName(this.torso_cell)],
             arms: [this.arms_cell, BuildModel.findCellByVariantName(this.arms_cell)],
             legs: [this.legs_cell, BuildModel.findCellByVariantName(this.legs_cell)]
-        }
+        };
     }
 
     get lantern() {
@@ -147,7 +147,7 @@ export default class BuildModel {
                     ]);
                 }
             }
-        }
+        };
 
         insertItemPerks(this.weapon_name, "Weapon", null, this.weapon_level);
         insertItemPerks(this.head_name, "Armour", "Head", this.head_level);

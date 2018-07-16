@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import {Redirect, Link} from "react-router-dom";
 import DataUtil from "../utils/DataUtil";
@@ -70,9 +71,9 @@ export default class DevView extends React.Component {
             <li key={tab}
                 className={tab === this.state.currentTab ? "is-active" : ""}
                 onClick={() => this.setState({currentTab: tab})}>
-                    <Link to={"/dev/" + tab}>{tab in this.tabTitles ? this.tabTitles[tab] : tab}</Link>
+                <Link to={"/dev/" + tab}>{tab in this.tabTitles ? this.tabTitles[tab] : tab}</Link>
             </li>
-        ))
+        ));
     }
 
     renderCustomBuilds() {
@@ -258,19 +259,19 @@ export default class DevView extends React.Component {
             </div>
             <br />
             <button className="button is-primary is-large" onClick={() => this.openBuild()}>Open Build</button>
-        </React.Fragment>
+        </React.Fragment>;
     }
 
     renderIcons() {
         let weapons = Object.keys(DataUtil.data().weapons).filter(weaponName =>
             !("icon" in DataUtil.data().weapons[weaponName])).sort((a, b) =>
-                a.localeCompare(b)).map(weaponName =>
-                    <li key={weaponName}><a>{weaponName}</a></li>);
+            a.localeCompare(b)).map(weaponName =>
+            <li key={weaponName}><a>{weaponName}</a></li>);
 
         let armours = Object.keys(DataUtil.data().armours).filter(armourName =>
             !("icon" in DataUtil.data().armours[armourName])).sort((a, b) =>
-                a.localeCompare(b)).map(armourName =>
-                    <li key={armourName}><a>{armourName}</a></li>);
+            a.localeCompare(b)).map(armourName =>
+            <li key={armourName}><a>{armourName}</a></li>);
 
         return <React.Fragment>
             <h3 className="title is-4">Items without icons</h3>
@@ -289,7 +290,7 @@ export default class DevView extends React.Component {
                     </ul>
                 </div>
             </div>
-        </React.Fragment>
+        </React.Fragment>;
     }
 
     renderMissingPerks() {
@@ -305,25 +306,25 @@ export default class DevView extends React.Component {
         let unknownPerks = all.filter(perk => !(perk in DataUtil.data().perks));
 
         let unknownPerksElements = unknownPerks.map(perk =>
-            <li key={perk}><a>{perk}</a></li>)
+            <li key={perk}><a>{perk}</a></li>);
 
         return <React.Fragment>
-            <h3 className="title is-4">Perks that are used but don't exist</h3>
+            <h3 className="title is-4">Perks that are used but do not exist</h3>
 
             <ul className="menu-list">
                 {unknownPerksElements}
             </ul>
-        </React.Fragment>
+        </React.Fragment>;
     }
 
     render() {
         if(!window.isDeveloperModeEnabled()) {
-            return <Redirect to="/" />
+            return <Redirect to="/" />;
         }
 
         if(this.tabs.indexOf(this.state.currentTab) === -1) {
             this.setState({currentTab: this.tabs[0]});
-            return <Redirect to={"/dev/" + this.tabs[0]} />
+            return <Redirect to={"/dev/" + this.tabs[0]} />;
         }
 
         return <section className="section">
@@ -350,3 +351,11 @@ export default class DevView extends React.Component {
         </section>;
     }
 }
+
+DevView.propTypes = {
+    match: PropTypes.shape({
+        params: PropTypes.shape({
+            tab: PropTypes.string,
+        }),
+    }).isRequired
+};
