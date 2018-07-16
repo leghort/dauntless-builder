@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import PropTypes from "prop-types";
 
 import {Link} from "react-router-dom";
 
@@ -17,6 +17,14 @@ import DebugButtonComponent from "../components/DebugButtonComponent";
 import PerkListComponent from "../components/PerkListComponent";
 import FavoriteBuildsModel from "../models/FavoriteBuildsModel";
 import MiscUtils from "../utils/MiscUtils";
+
+BuildView.propTypes = {
+    match: PropTypes.shape({
+        params: PropTypes.shape({
+            buildData: PropTypes.string,
+        }),
+    }).isRequired
+};
 
 export default class BuildView extends React.Component {
 
@@ -99,7 +107,7 @@ export default class BuildView extends React.Component {
         this.setState({
             itemSelectModalOpen: true,
             modalData: {filterOptions}
-        })
+        });
     }
 
     onCellClicked(filterOptions) {
@@ -166,7 +174,7 @@ export default class BuildView extends React.Component {
         }
 
         this.setState({build, itemSelectModalOpen: false}, () => {
-            this.updateUrl()
+            this.updateUrl();
             this.onModalClosed();
         });
     }

@@ -1,4 +1,14 @@
 import React from "react";
+import PropTypes from "prop-types";
+
+CellComponent.propTypes = {
+    cell: PropTypes.object,
+    variant: PropTypes.string,
+    parentType: PropTypes.string,
+    type: PropTypes.string,
+    onCellClicked: PropTypes.func,
+    slotPosition: PropTypes.number
+};
 
 export default class CellComponent extends React.Component {
     constructor(props, context) {
@@ -19,11 +29,11 @@ export default class CellComponent extends React.Component {
             __parentType: this.props.parentType,
             __slotPosition: this.props.slotPosition,
             filters: [
-            {
-                field: "slot",
-                value: this.props.type
-            }
-        ]});
+                {
+                    field: "slot",
+                    value: this.props.type
+                }
+            ]});
     }
 
     render() {

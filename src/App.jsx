@@ -8,10 +8,9 @@ import BuildView from "./views/BuildView";
 import FavoritesView from "./views/FavoritesView";
 import DevView from "./views/DevView";
 
-import DebugButtonComponent from "./components/DebugButtonComponent";
 import Footer from "./components/Footer";
 
-require("styles/main.scss");
+import "styles/main.scss";
 
 class App extends React.Component {
     render() {

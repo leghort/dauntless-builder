@@ -12,13 +12,13 @@ export default class DevView extends React.Component {
             "CustomBuilds",
             "Icons",
             "MissingPerks"
-        ]
+        ];
 
         this.tabTitles = {
             "CustomBuilds": "Custom Builds",
             "Icons": "Items without Icons",
             "MissingPerks": "Missing Perks"
-        }
+        };
 
         this.state = {
             currentTab: this.tabs[0],
@@ -44,7 +44,7 @@ export default class DevView extends React.Component {
                 lantern_name: "",
                 lantern_cell: ""
             }
-        }
+        };
     }
 
     componentDidMount() {

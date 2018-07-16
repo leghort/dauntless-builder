@@ -14,7 +14,9 @@ export default class EmbedItem extends React.Component {
 
     renderItem(itemName, type) {
         if(!(itemName in DataUtil.data()[type])) {
-            return <span className="dauntless-builder-error">Dauntless Builder: Unknown {type} "{itemName}"</span>
+            return <span className="dauntless-builder-error">
+                Dauntless Builder: Unknown {type} \"{itemName}\"
+            </span>;
         }
 
         let item = DataUtil.data()[type][itemName];
