@@ -47,6 +47,9 @@ function build(path) {
                     for(let v of Object.keys(doc.variants)) {
                         tryInsertToStringMap(v);
                     }
+                } else if(file.indexOf("misc.yml") > -1) { // don't use string maps on misc
+                    data = doc;
+                    data.build_time = new Date().getTime();
                 } else {
                     tryInsertToStringMap(doc.name);
                 }
@@ -64,6 +67,7 @@ Promise.all([
     build("data/lanterns/*.yml"),
     build("data/perks/*.yml"),
     build("data/weapons/*/*.yml"),
+    build("data/misc.yml")
 ]).then(data => {
     let object = {
         armours: data[0],
@@ -72,6 +76,7 @@ Promise.all([
         lanterns: data[3],
         perks: data[4],
         weapons: data[5],
+        misc: data[6]
     }
 
     if(!fs.existsSync("./dist")) {
