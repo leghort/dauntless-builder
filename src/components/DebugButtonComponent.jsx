@@ -7,7 +7,7 @@ export default class DebugButtonComponent extends React.Component {
             return null;
         }
 
-        return <button className="button is-danger is-debug-button" onClick={() => this.props.onClick()}>
+        return <button className="button is-danger is-debug-button" onClick={() => this.props.onClick && this.props.onClick()}>
             {this.props.children}
         </button>;
     }
