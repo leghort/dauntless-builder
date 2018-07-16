@@ -38,6 +38,14 @@ strong {
     font-size: 16px;
     color: #AAA;
 
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
     a {
         color: #AAA;
 
@@ -736,6 +744,16 @@ button.is-debug-button {
             bottom: 0px;
             width: 100vw;
             margin: 0px;
+        }
+    }
+
+    .footers {
+        flex-flow: column nowrap;
+        justify-content: space-around;
+
+        .footer-link {
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
     }
 }

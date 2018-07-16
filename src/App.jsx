@@ -9,6 +9,7 @@ import FavoritesView from "./views/FavoritesView";
 import DevView from "./views/DevView";
 
 import DebugButtonComponent from "./components/DebugButtonComponent";
+import Footer from "./components/Footer";
 
 require("styles/main.scss");
 
@@ -32,9 +33,7 @@ class App extends React.Component {
                         </Switch>
                     </div>
 
-                    <div className="footers">
-                        <a href="https://github.com/atomicptr/dauntless-builder" target="_blank"><i className="fab fa-github"></i></a>
-                    </div>
+                    <Footer />
                 </div>
             </React.Fragment>
         </Router>;

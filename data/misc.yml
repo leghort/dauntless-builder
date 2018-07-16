@@ -1,1 +1,4 @@
+# Dauntless Game Version
+# Don't forget to update both strings
 dauntless_version: 0.4.4
+patchnotes_version_string: ob-0-4-4
