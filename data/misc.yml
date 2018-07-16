@@ -1,4 +1,9 @@
 # Dauntless Game Version
-# Don't forget to update both strings
+# IMPORTANT: Don't forget to update both strings
 dauntless_version: 0.4.4
 patchnotes_version_string: ob-0-4-4
+
+# build_time is added automatically
+# it's updated every time the website/data is rebuilt
+# which doesn't necessarily mean that the data has changed
+build_time: This gets updated when the build script runs
