@@ -191,7 +191,7 @@ export default class EmbedItem extends React.Component {
 
 EmbedItem.propTypes = {
     type: PropTypes.string,
-    value: PropTypes.object
+    value: PropTypes.string
 };
 
 EmbedItem._IDCOUNTER = 0;

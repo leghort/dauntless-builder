@@ -210,16 +210,19 @@ export default class BuildView extends React.Component {
                 </div>
                 <div className="qa-right">
                     <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} refs="copyButton"  onCopy={() => this.onCopyToClipboard()}>
-                        <button className="button is-light" title="Copy to clipboard" data-tip="Copied link to clipboard." data-event="click">
+                        <button className="button is-light" data-tip="Copy to clipboard">
                             <i className="fas fa-copy"></i><span className="only-on-very-small">&nbsp;Copy to clipboard</span>
                             <ReactTooltip globalEventOff="click" place="top" type="dark" effect="solid" />
                         </button>
                     </CopyToClipboard>
-                    <button className="button is-light" title="Save build" onClick={() => this.toggleFavorite()}>
+                    <button className="button is-light"
+                        data-tip={FavoriteBuildsModel.isFavorite(this.state.buildData) ? "Unfavorite build" : "Favorite build"}
+                        onClick={() => this.toggleFavorite()}>
+
                         <i className={(FavoriteBuildsModel.isFavorite(this.state.buildData) ? "fas" : "far") + " fa-heart"}></i>
                         <span className="only-on-very-small">&nbsp;Save to favorites</span>
                     </button>
-                    <button className="button is-light" title="Settings" disabled>
+                    <button className="button is-light" data-tip="Settings" disabled>
                         <i className="fas fa-cog"></i><span className="only-on-very-small">&nbsp;Settings</span>
                     </button>
                 </div>
