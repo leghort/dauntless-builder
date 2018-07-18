@@ -12,8 +12,8 @@ export default class Footer extends React.Component {
                 <a
                     href={`https://playdauntless.com/patch-notes/${misc.patchnotes_version_string}`}
                     target="_blank" rel="noopener noreferrer"
-                    title={`Build time: ${buildTime.toDateString()} ${buildTime.toTimeString()}`}>
-                        Dauntless <b>v{misc.dauntless_version}</b>
+                    title={`Last website build: ${buildTime.toDateString()} ${buildTime.toTimeString()}`}>
+                        Dauntless <b>{misc.dauntless_version}</b>
                 </a>
             </span>
             <span className="footer-link">
