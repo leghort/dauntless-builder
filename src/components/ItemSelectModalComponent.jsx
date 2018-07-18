@@ -36,10 +36,11 @@ export default class ItemSelectModalComponent extends React.Component {
         };
     }
 
-    static getDerivedStateFromProps(nextProps, prevState) {
+    // TODO: refactor this, since componentWillReceiveProps is deprecated
+    UNSAFE_componentWillReceiveProps(nextProps) {
         let newState = {};
 
-        if(nextProps.isOpen !== prevState.open) {
+        if(nextProps.isOpen !== this.state.open) {
             newState.open = nextProps.isOpen;
         }
 
@@ -63,7 +64,9 @@ export default class ItemSelectModalComponent extends React.Component {
             };
         }
 
-        return newState;
+        if(Object.keys(newState).length > 0) {
+            this.setState(newState);
+        }
     }
 
     getIsActive() {
@@ -148,7 +151,7 @@ export default class ItemSelectModalComponent extends React.Component {
             filters.push({
                 field: ["name", "description"],
                 value: this.state.searchQuery,
-                method: (item, filter) => filter.field.some(f => {
+                method: (item, filter) => filter.field && filter.field.some(f => {
                     if(!item[f]) {
                         return false;
                     }
@@ -163,7 +166,7 @@ export default class ItemSelectModalComponent extends React.Component {
                 field: "perks",
                 value: this.state.perkFilter.value,
                 method: (item, filter) =>
-                    item.perks.some(p => p.name === filter.value)
+                    item.perks && item.perks.some(p => p.name === filter.value)
             });
         }
 
