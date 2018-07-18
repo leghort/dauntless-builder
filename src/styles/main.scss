@@ -247,6 +247,10 @@ strong {
                 padding: 15px;
             }
 
+            .cell-perk-wrapper {
+                width: 250px;
+            }
+
             .cell-title {
                 text-align: center;
                 margin-top: 5px;
@@ -570,6 +574,10 @@ button.is-debug-button {
 }
 
 .hidden-on-large-screens {
+    display: none;
+}
+
+.hidden {
     display: none;
 }
 

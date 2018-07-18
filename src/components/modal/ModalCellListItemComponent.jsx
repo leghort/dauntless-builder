@@ -2,6 +2,18 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export default class ModalCellListItemComponent extends React.Component {
+
+    filterRarity(variant) {
+        const {item, rarityFilter} = this.props;
+
+        // no rarity filter supplied?
+        if(!rarityFilter) {
+            return true;
+        }
+
+        return item.variants[variant].rarity === rarityFilter.value;
+    }
+
     render() {
         const item = this.props.item;
 
@@ -17,10 +29,10 @@ export default class ModalCellListItemComponent extends React.Component {
             return Object.keys(variant.perks).map(perk => getPerkDescription(perk)).join(", ");
         };
 
-        let variants = Object.keys(item.variants).map(v =>
+        let variants = Object.keys(item.variants).filter(this.filterRarity.bind(this)).map(v =>
             <div key={v} className={"cell " + item.variants[v].rarity} onClick={() => this.props.onSelected("Cell", v)}>
                 <img src={"/assets/icons/perks/" + item.slot + ".png"} />
-                <div>
+                <div className="cell-perk-wrapper">
                     <div className="cell-title">{v}</div>
                     <div className="perks">{getDescriptions(item.variants[v])}</div>
                 </div>
@@ -28,7 +40,7 @@ export default class ModalCellListItemComponent extends React.Component {
         );
 
         return <React.Fragment key={item.name}>
-            <h3 className="subtitle cell-title-line">{item.name}</h3>
+            <h3 className={"subtitle cell-title-line " + (this.props.rarityFilter ? "hidden" : "")}>{item.name}</h3>
             <div className="cells">
                 {variants}
             </div>
@@ -39,5 +51,8 @@ export default class ModalCellListItemComponent extends React.Component {
 ModalCellListItemComponent.propTypes = {
     item: PropTypes.object,
     itemData: PropTypes.object,
+    rarityFilter: PropTypes.shape({
+        value: PropTypes.string
+    }),
     onSelected: PropTypes.func
 };

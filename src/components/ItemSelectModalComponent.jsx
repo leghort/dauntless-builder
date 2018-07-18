@@ -1,7 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import Select from "react-select";
 
-require("react-select/dist/react-select.css");
+import "react-select/dist/react-select.css";
 
 import DebugComponent from "./DebugComponent";
 import ModalCellListItemComponent from "./modal/ModalCellListItemComponent";
@@ -19,8 +21,9 @@ export default class ItemSelectModalComponent extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
+            rarityFilter: null,
             tierFilter: {value: 5, label: MiscUtils.getTierName(5)}
-        }
+        };
 
         this.defaultState = {
             open: false,
@@ -28,33 +31,39 @@ export default class ItemSelectModalComponent extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
+            rarityFilter: null,
             tierFilter: {value: 5, label: MiscUtils.getTierName(5)}
-        }
+        };
     }
 
-    componentWillReceiveProps(nextProps) {
-        if(nextProps.isOpen !== this.state.open) {
-            this.setState({open: nextProps.isOpen});
+    static getDerivedStateFromProps(nextProps, prevState) {
+        let newState = {};
+
+        if(nextProps.isOpen !== prevState.open) {
+            newState.open = nextProps.isOpen;
         }
 
         if(nextProps.data && nextProps.data.filterOptions &&
-                nextProps.data.filterOptions.__itemType === "Weapon" && nextProps.data.filterOptions.__weaponType) {
-            this.setState({weaponTypeFilter: {
-                    value: nextProps.data.filterOptions.__weaponType,
-                    label: nextProps.data.filterOptions.__weaponType,
-                }
-            });
+            nextProps.data.filterOptions.__itemType === "Weapon" && nextProps.data.filterOptions.__weaponType) {
+
+            newState.weaponTypeFilter = {
+                value: nextProps.data.filterOptions.__weaponType,
+                label: nextProps.data.filterOptions.__weaponType,
+            };
         }
 
         if(nextProps.data && nextProps.data.filterOptions &&
             nextProps.data.filterOptions.__tier &&
             (nextProps.data.filterOptions.__itemType === "Weapon" ||
             nextProps.data.filterOptions.__itemType === "Armour")) {
-                this.setState({tierFilter: {
-                    value: nextProps.data.filterOptions.__tier,
-                    label: MiscUtils.getTierName(nextProps.data.filterOptions.__tier)
-                }});
-            }
+
+            newState.tierFilter = {
+                value: nextProps.data.filterOptions.__tier,
+                label: MiscUtils.getTierName(nextProps.data.filterOptions.__tier)
+            };
+        }
+
+        return newState;
     }
 
     getIsActive() {
@@ -69,7 +78,7 @@ export default class ItemSelectModalComponent extends React.Component {
             if(this.props.onSelected) {
                 this.props.onSelected(itemType, itemName, this.props.data.filterOptions);
             }
-        })
+        });
     }
 
     onClose() {
@@ -105,7 +114,7 @@ export default class ItemSelectModalComponent extends React.Component {
                     }
                 }
 
-                return item[filter.field] === filter.value
+                return item[filter.field] === filter.value;
             });
         };
 
@@ -277,7 +286,7 @@ export default class ItemSelectModalComponent extends React.Component {
                         options={["Defence", "Mobility", "Power", "Technique", "Utility"].map(
                             slot => ({value: slot, label: slot}))} />
                 </div>
-            )
+            );
         }
 
         // add tier filter
@@ -291,7 +300,21 @@ export default class ItemSelectModalComponent extends React.Component {
                         options={[5, 4, 3, 2, 1].map(
                             tier => ({value: tier, label: MiscUtils.getTierName(tier)}))} />
                 </div>
-            )
+            );
+        }
+
+        // add cell rarity filter
+        if(this.isType(["Cell"])) {
+            fields.push(
+                <div key="rarityFilter" className="field">
+                    <Select
+                        placeholder="Filter by rarity..."
+                        onChange={tier => this.setState({rarityFilter: tier})}
+                        value={this.state.rarityFilter}
+                        options={["Uncommon", "Rare", "Epic"].map(
+                            rarity => ({value: rarity.toLowerCase(), label: rarity}))} />
+                </div>
+            );
         }
 
         return fields;
@@ -323,7 +346,8 @@ export default class ItemSelectModalComponent extends React.Component {
             key={"Cell-" + item.name}
             item={item}
             itemData={this.props.itemData}
-            onSelected={this.onItemSelected.bind(this)} />;
+            onSelected={this.onItemSelected.bind(this)}
+            rarityFilter={this.state.rarityFilter} />;
     }
 
     render() {
@@ -366,3 +390,16 @@ export default class ItemSelectModalComponent extends React.Component {
         </div>;
     }
 }
+
+ItemSelectModalComponent.propTypes = {
+    isOpen: PropTypes.bool,
+    onSelected: PropTypes.func,
+    onCanceled: PropTypes.func,
+    data: PropTypes.shape({
+        filterOptions: PropTypes.object
+    }),
+    itemData: PropTypes.shape({
+        weapons: PropTypes.object,
+        perks: PropTypes.object
+    })
+};
