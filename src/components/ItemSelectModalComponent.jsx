@@ -306,10 +306,10 @@ export default class ItemSelectModalComponent extends React.Component {
         // add cell rarity filter
         if(this.isType(["Cell"])) {
             fields.push(
-                <div key="rarityFilter" className="field">
+                <div key="rarityFilter" className="field is-hidden-touch">
                     <Select
                         placeholder="Filter by rarity..."
-                        onChange={tier => this.setState({rarityFilter: tier})}
+                        onChange={rarity => this.setState({rarityFilter: rarity})}
                         value={this.state.rarityFilter}
                         options={["Uncommon", "Rare", "Epic"].map(
                             rarity => ({value: rarity.toLowerCase(), label: rarity}))} />
