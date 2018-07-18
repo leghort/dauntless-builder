@@ -92,7 +92,7 @@ export default class ItemSelectModalComponent extends React.Component {
         });
     }
 
-    getAvailableItems() {
+    getAvailableItems(ignoredFilters = []) {
         let items = [];
 
         let itemType = this.props.data.filterOptions.__itemType;
@@ -126,17 +126,19 @@ export default class ItemSelectModalComponent extends React.Component {
         filterOptions = filterOptions.concat(this.props.data.filterOptions.filters);
         filterOptions = filterOptions.concat(this.getDynamicFilters());
 
+        for(let ignoredFilter of ignoredFilters) {
+            const index = filterOptions.findIndex(f => f.field === ignoredFilter);
+
+            if(index > -1) {
+                filterOptions.splice(index, 1);
+            }
+        }
+
         for(let itemName in this.props.itemData[key]) {
             let item = this.props.itemData[key][itemName];
 
             if(filtersApply(item, filterOptions)) {
-                let itemsToRender = this["render" + itemType](item);
-
-                if(!Array.isArray(itemsToRender)) {
-                    itemsToRender = [itemsToRender];
-                }
-
-                itemsToRender.forEach(r => items.push(r));
+                items.push(item);
             }
         }
 
@@ -208,7 +210,24 @@ export default class ItemSelectModalComponent extends React.Component {
             return {value: perk, label: perk};
         });
 
-        return perks;
+        return perks.filter(perk => {
+            let items = this.getAvailableItems(["perks"]);
+
+            return items.some(item => item.perks && item.perks.some(p => p.name === perk.value));
+        });
+    }
+
+    getSlotOptions() {
+        const slots = ["Defence", "Mobility", "Power", "Technique", "Utility"];
+
+        return slots.filter(slot => {
+            let items = this.getAvailableItems(["cells"]);
+
+            return items.some(item => {
+                let cells = Array.isArray(item.cells) ? item.cells : [item.cells];
+                return cells.some(cellSlot => cellSlot === slot);
+            });
+        }).map(slot => ({value: slot, label: slot}));
     }
 
     isType(type) {
@@ -266,28 +285,29 @@ export default class ItemSelectModalComponent extends React.Component {
         }
 
         // add Perk filter
-        if(this.isType(["Weapon", "Armour"])) {
+        const perkOptions = this.getPerkOptions();
+        if(this.isType(["Weapon", "Armour"]) && perkOptions.length > 0) {
             fields.push(
                 <div key="perkFilter" className="field is-hidden-touch">
                     <Select
                         placeholder="Filter by perk..."
                         onChange={perk => this.setState({perkFilter: perk})}
                         value={this.state.perkFilter}
-                        options={this.getPerkOptions()} />
+                        options={perkOptions} />
                 </div>
             );
         }
 
         // add Slot filter
-        if(this.isType(["Weapon", "Armour"])) {
+        const slotOptions = this.getSlotOptions();
+        if(this.isType(["Weapon", "Armour"]) && slotOptions.length > 0) {
             fields.push(
                 <div key="slotFilter" className="field is-hidden-touch">
                     <Select
                         placeholder="Filter by cell slot..."
                         onChange={slot => this.setState({slotFilter: slot})}
                         value={this.state.slotFilter}
-                        options={["Defence", "Mobility", "Power", "Technique", "Utility"].map(
-                            slot => ({value: slot, label: slot}))} />
+                        options={slotOptions} />
                 </div>
             );
         }
@@ -321,6 +341,26 @@ export default class ItemSelectModalComponent extends React.Component {
         }
 
         return fields;
+    }
+
+    getAvailableItemsRendered() {
+        let items = this.getAvailableItems();
+
+        let renderables = [];
+
+        let itemType = this.props.data.filterOptions.__itemType;
+
+        for(let item of items) {
+            let itemsToRender = this["render" + itemType](item);
+
+            if(!Array.isArray(itemsToRender)) {
+                itemsToRender = [itemsToRender];
+            }
+
+            itemsToRender.forEach(r => renderables.push(r));
+        }
+
+        return renderables;
     }
 
     renderWeapon(item) {
@@ -358,7 +398,7 @@ export default class ItemSelectModalComponent extends React.Component {
             return null;
         }
 
-        let items = this.getAvailableItems();
+        let items = this.getAvailableItemsRendered();
 
         if(items.length === 0) {
             items.push(
