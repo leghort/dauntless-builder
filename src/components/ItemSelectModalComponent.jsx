@@ -179,8 +179,8 @@ export default class ItemSelectModalComponent extends React.Component {
 
                     return [
                         q => item.name.toLowerCase().indexOf(q) > -1,
-                        q => itemPerks.some(p => itemData.perks[p].name.indexOf(q) > -1 ||
-                            itemData.perks[p].description.indexOf(q) > -1)
+                        q => itemPerks.some(p => itemData.perks[p].name.toLowerCase().indexOf(q) > -1 ||
+                            itemData.perks[p].description.toLowerCase().indexOf(q) > -1)
                     ].some(test => test(q));
                 }
             });
