@@ -148,18 +148,57 @@ export default class ItemSelectModalComponent extends React.Component {
     getDynamicFilters() {
         let filters = [];
 
-        // apply search filter
-        if(this.state.searchQuery.length > 0) {
+        // apply search filter for weapon and armour
+        if(this.isType(["Weapon", "Armour"]) && this.state.searchQuery.length > 0) {
             filters.push({
-                field: ["name", "description"],
                 value: this.state.searchQuery,
-                method: (item, filter) => filter.field && filter.field.some(f => {
-                    if(!item[f]) {
-                        return false;
-                    }
+                method: (item, filter) => {
+                    const q = filter.value.toLowerCase();
 
-                    return item[f].toLowerCase().indexOf(filter.value.toLowerCase()) > -1;
-                })
+                    return [
+                        q => item.name.toLowerCase().indexOf(q) > -1,
+                        q => item.description && item.description.toLowerCase().indexOf(q) > -1,
+                        q => item.unique_effects && item.unique_effects.some(ue =>
+                            ue.description && ue.description.toLowerCase().indexOf(q) > -1),
+                    ].some(test => test(q));
+                }
+            });
+        }
+
+        // apply search filter for cells
+        if(this.isType(["Cell"]) && this.state.searchQuery.length > 0) {
+            filters.push({
+                value: this.state.searchQuery,
+                method: (item, filter) => {
+                    const q = filter.value.toLowerCase();
+                    const {itemData} = this.props;
+
+                    let itemPerks = Object.keys(item.variants).map(v => Object.keys(item.variants[v].perks));
+                    itemPerks = [].concat(...itemPerks);
+                    itemPerks = itemPerks.filter((p, index) => itemPerks.indexOf(p) === index);
+
+                    return [
+                        q => item.name.toLowerCase().indexOf(q) > -1,
+                        q => itemPerks.some(p => itemData.perks[p].name.indexOf(q) > -1 ||
+                            itemData.perks[p].description.indexOf(q) > -1)
+                    ].some(test => test(q));
+                }
+            });
+        }
+
+        // apply search filter for lanterns
+        if(this.isType(["Lantern"]) && this.state.searchQuery.length > 0) {
+            filters.push({
+                value: this.state.searchQuery,
+                method: (item, filter) => {
+                    const q = filter.value.toLowerCase();
+
+                    return [
+                        q => item.name.toLowerCase().indexOf(q) > -1,
+                        q => item.lantern_ability.instant && item.lantern_ability.instant.toLowerCase().indexOf(q) > -1,
+                        q => item.lantern_ability.hold && item.lantern_ability.hold.toLowerCase().indexOf(q) > -1,
+                    ].some(test => test(q));
+                }
             });
         }
 
