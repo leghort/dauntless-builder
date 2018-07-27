@@ -154,15 +154,32 @@ export default class EmbedItem extends React.Component {
             );
         };
 
-        if(weapon) insertItem(weapon, "weapons", build.weaponCells, build.weapon_level);
-        if(head) insertItem(head, "armours", build.armourCells.head, build.head_level);
-        if(torso) insertItem(torso, "armours", build.armourCells.torso, build.torso_level);
-        if(arms) insertItem(arms, "armours", build.armourCells.arms, build.arms_level);
-        if(legs) insertItem(legs, "armours", build.armourCells.legs, build.legs_level);
-        if(lantern) insertItem(lantern, "lanterns", [
-            build.lantern_cell,
-            BuildModel.findCellByVariantName(build.lantern_cell)
-        ]);
+        if(weapon) {
+            insertItem(weapon, "weapons", build.weaponCells, build.weapon_level);
+        }
+
+        if(head) {
+            insertItem(head, "armours", build.armourCells.head, build.head_level);
+        }
+
+        if(torso) {
+            insertItem(torso, "armours", build.armourCells.torso, build.torso_level);
+        }
+
+        if(arms) {
+            insertItem(arms, "armours", build.armourCells.arms, build.arms_level);
+        }
+
+        if(legs) {
+            insertItem(legs, "armours", build.armourCells.legs, build.legs_level);
+        }
+
+        if(lantern) {
+            insertItem(lantern, "lanterns", [
+                build.lantern_cell,
+                BuildModel.findCellByVariantName(build.lantern_cell)
+            ]);
+        }
 
         return <div className="dauntless-builder-build">
             <a href={`https://www.dauntless-builder.com/b/${buildId}`} target="_blank"

@@ -26,3 +26,5 @@ rules:
     - error
     - always
   no-console: 0
+  curly: error
+  strict: [error, global]
