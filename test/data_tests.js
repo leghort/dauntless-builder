@@ -75,5 +75,68 @@ describe("Dauntless Builder Data", () => {
 
         it("Weapons should not have invalid icons", checkIconsFor("weapons"));
         it("Armours should not have invalid icons", checkIconsFor("armours"));
-    })
+
+        const checkCellSlotsFor = field => {
+            return () => {
+                for(let itemName in data[field]) {
+                    let item = data[field][itemName];
+
+                    let cells = item.cells;
+
+                    if(!cells) {
+                        cells = [];
+                    }
+
+                    if(!Array.isArray(cells)) {
+                        cells = [item.cells];
+                    }
+
+                    const slots = ["Power", "Technique", "Defence", "Utility", "Mobility"];
+
+                    for(let cellSlot of cells) {
+                        assert.ok(
+                            slots.indexOf(cellSlot) > -1,
+                            `${item.name} has an unknown cell slot type: "${cellSlot}", must be one of the following: ${slots.join(", ")}`
+                        );
+                    }
+                }
+            };
+        }
+
+        it("Weapons should not have invalid cell slots", checkCellSlotsFor("weapons"));
+        it("Armours should not have invalid cell slots", checkCellSlotsFor("armours"));
+        it("Lanterns should not have invalid cell slots", checkCellSlotsFor("lanterns"));
+
+        const checkElementsFor = field => {
+            return () => {
+                for(let itemName in data[field]) {
+                    let item = data[field][itemName];
+
+                    const elements = ["Blaze", "Frost", "Shock", "Radiant", "Umbral"];
+
+                    let itemFields = [];
+
+                    if(field === "weapons") {
+                        itemFields = ["elemental"]
+                    } else if(field === "armours") {
+                        itemFields = ["strength", "weakness"];
+                    }
+
+                    let values = itemFields.map(field => item[field]);
+
+                    for(let value of values) {
+                        if(value) {
+                            assert.ok(
+                                elements.indexOf(value) > -1,
+                                `${item.name} has an unknown element: "${value}", must be one of the following: ${elements.join(", ")}`
+                            );
+                        }
+                    }
+                }
+            }
+        };
+
+        it("Weapons should not have invalid elements", checkElementsFor("weapons"));
+        it("Armours should not have invalid elements", checkElementsFor("armours"));
+    });
 });
