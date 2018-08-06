@@ -6,6 +6,7 @@ damage: Piercing
 elemental: Radiant
 cells: [Power, Technique]
 tier: 5
+rarity: exotic
 power:
   0: 310
   1: 322
