@@ -138,5 +138,34 @@ describe("Dauntless Builder Data", () => {
 
         it("Weapons should not have invalid elements", checkElementsFor("weapons"));
         it("Armours should not have invalid elements", checkElementsFor("armours"));
+
+        const checkPerksFor = (field, getPerksFunc) => {
+            return () => {
+                for(let itemName in data[field]) {
+                    let item = data[field][itemName];
+
+                    const perks = getPerksFunc(item);
+
+                    for(let perk of perks) {
+                        assert.ok(
+                            perk in data.perks,
+                            `${item.name} has an unknown perk: "${perk}".`
+                        );
+                    }
+                }
+            }
+        }
+
+        it("Weapons should not have invalid perks", checkPerksFor("weapons", item =>
+            item.perks ? item.perks.map(p => p.name) : []
+        ));
+
+        it("Armours should not have invalid perks", checkPerksFor("armours", item =>
+            item.perks ? item.perks.map(p => p.name) : []
+        ));
+
+        it("Cells should not have invalid perks", checkPerksFor("cells", item =>
+            [].concat(...Object.keys(item.variants).map(v => Object.keys(item.variants[v].perks)))
+        ));
     });
 });
