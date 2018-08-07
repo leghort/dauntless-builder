@@ -112,6 +112,16 @@ to all who are working on it :).
 
 <a href="https://www.buymeacoffee.com/atomicptr" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
+## Contact me
+
+If you want to contact me, you can do so via these methods:
+
+* E-Mail: me@atomicptr.de
+* Discord: Hecate#0001
+* Reddit: /u/SirNullptr
+
+Please use [Github Issues](https://github.com/atomicptr/dauntless-builder/issues) for feature requests, bug reports and stuff along those lines.
+
 ## License
 
 MIT
