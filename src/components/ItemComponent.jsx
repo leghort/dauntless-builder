@@ -31,6 +31,7 @@ export default class ItemComponent extends React.Component {
             case "Axe":
             case "Hammer":
             case "War Pike":
+            case "Repeater":
                 return "Weapon";
             case "Head":
             case "Torso":
