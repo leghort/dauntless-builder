@@ -241,6 +241,18 @@ export default class ItemSelectModalComponent extends React.Component {
             });
         }
 
+        filters.push({
+            field: "hidden",
+            value: false,
+            method: item => {
+                if(item.hidden && !window.isDeveloperModeEnabled()) {
+                    return false;
+                }
+
+                return true;
+            }
+        });
+
         return filters;
     }
 
@@ -306,6 +318,10 @@ export default class ItemSelectModalComponent extends React.Component {
                 let weapon = this.props.itemData.weapons[weaponName];
 
                 if(weapon.type && options.indexOf(weapon.type) == -1) {
+                    if(weapon.hidden && !window.isDeveloperModeEnabled()) {
+                        continue;
+                    }
+
                     options.push(weapon.type);
                 }
             }
