@@ -3,6 +3,8 @@ const request = require("request");
 const fs = require("fs");
 const path = require("path");
 
+const SchemaValidator = require("ajv");
+
 const remoteMapUrls = {
     v1: "https://raw.githubusercontent.com/atomicptr/dauntless-builder/master/.map/v1.json"
 };
@@ -167,5 +169,37 @@ describe("Dauntless Builder Data", () => {
         it("Cells should not have invalid perks", checkPerksFor("cells", item =>
             [].concat(...Object.keys(item.variants).map(v => Object.keys(item.variants[v].perks)))
         ));
+
+        const checkIfHasValidSchema = (field) => {
+            const schemaPath = path.join(__dirname, `../schemas/${field}.json`);
+
+            console.log(schemaPath);
+
+            if(!fs.existsSync(schemaPath)) {
+                return () => {
+                    assert.fail("No schema found for " + field);
+                };
+            }
+
+            const validator = new SchemaValidator();
+            const schema = JSON.parse(fs.readFileSync(schemaPath));
+
+            return () => {
+                for(let itemName in data[field]) {
+                    let item = data[field][itemName];
+
+                    assert.ok(
+                        validator.validate(schema, item),
+                        `${item.name} does not confirm to the schema defined in ${schemaPath}: ${validator.errorsText()}`
+                    );
+                }
+            }
+        }
+
+        it("Weapons format should have a valid schema", checkIfHasValidSchema("weapons"));
+        it("Armours format should have a valid schema", checkIfHasValidSchema("armours"));
+        it("Lanterns format should have a valid schema", checkIfHasValidSchema("lanterns"));
+        it("Cells format should have a valid schema", checkIfHasValidSchema("cells"));
+        it("Perks format should have a valid schema", checkIfHasValidSchema("perks"));
     });
 });
