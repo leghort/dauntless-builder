@@ -12,8 +12,8 @@ html, body {
     text-align: center;
 
     background: url(/assets/bg.jpg) fixed;
-        background-size: cover;
-        background-position: center center;
+    background-size: cover;
+    background-position: center center;
 }
 
 strong {
@@ -776,5 +776,36 @@ button.is-debug-button {
             margin-top: 10px;
             margin-bottom: 10px;
         }
+    }
+}
+
+.db-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .db-backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        background: url(/assets/bg.jpg) fixed;
+        background-size: cover;
+        background-position: center center;
+
+        filter: blur(15px);
+    }
+
+    .fa-spinner {
+        font-size: 48px;
+        color: white;
     }
 }

@@ -7,12 +7,38 @@ import BuildRoute from "../routes/BuildRoute";
 import FavoritesRoute from "../routes/FavoritesRoute";
 import DevRoute from "../routes/DevRoute";
 
+import DataUtility from "../utility/DataUtility";
+
+import LoadingIndicator from "../components/LoadingIndicator";
 import Footer from "../components/Footer";
 
 import "styles/main.scss";
 
 export default class AppContainer extends React.Component {
+
+    constructor(props, context) {
+        super(props, context);
+
+        this.state = {
+            loading: true
+        };
+    }
+
+    componentDidMount() {
+        DataUtility.loadData().then(success => {
+            if(success) {
+                this.setState({
+                    loading: false
+                });
+            }
+        });
+    }
+
     render() {
+        if(this.state.loading) {
+            return <LoadingIndicator />;
+        }
+
         return <Router>
             <React.Fragment>
                 <div className="container">
