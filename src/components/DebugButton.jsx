@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default class DebugButtonComponent extends React.Component {
+export default class DebugButton extends React.Component {
     render() {
         if(!window.isDeveloperModeEnabled()) {
             return null;
@@ -13,7 +13,7 @@ export default class DebugButtonComponent extends React.Component {
     }
 }
 
-DebugButtonComponent.propTypes = {
+DebugButton.propTypes = {
     onClick: PropTypes.func,
     children: PropTypes.array
 };

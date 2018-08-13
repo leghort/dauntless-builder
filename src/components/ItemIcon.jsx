@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import PropTypeUtility from "../utility/PropTypeUtility";
 
-export default class ItemIconComponent extends React.Component {
+export default class ItemIcon extends React.Component {
 
     constructor(props, context) {
         super(props, context);
@@ -56,11 +57,7 @@ export default class ItemIconComponent extends React.Component {
     }
 }
 
-ItemIconComponent.propTypes = {
+ItemIcon.propTypes = {
     defaultType: PropTypes.string,
-    item: PropTypes.shape({
-        name: PropTypes.string,
-        icon: PropTypes.string,
-        type: PropTypes.string,
-    })
+    item: PropTypeUtility.item()
 };

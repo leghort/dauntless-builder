@@ -5,13 +5,13 @@ import Select from "react-select";
 
 import "react-select/dist/react-select.css";
 
-import DebugComponent from "./DebugComponent";
-import ModalCellListItemComponent from "./ModalCellListItemComponent";
-import ModalItemListItemComponent from "./ModalItemListItemComponent";
+import Debug from "./Debug";
+import ModalCellListItem from "./ModalCellListItem";
+import ModalItemListItem from "./ModalItemListItem";
 
 import TierUtility from "../utility/TierUtility";
 
-export default class ItemSelectModalComponent extends React.Component {
+export default class ItemSelectModal extends React.Component {
     constructor(props, context) {
         super(props, context);
 
@@ -431,7 +431,7 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 
     renderItem(item, type) {
-        return <ModalItemListItemComponent
+        return <ModalItemListItem
             key={type + "-" + item.name}
             item={item}
             type={type}
@@ -440,7 +440,7 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 
     renderCell(item) {
-        return <ModalCellListItemComponent
+        return <ModalCellListItem
             key={"Cell-" + item.name}
             item={item}
             itemData={this.props.itemData}
@@ -471,7 +471,7 @@ export default class ItemSelectModalComponent extends React.Component {
                         {items}
                     </div>
 
-                    <DebugComponent data={{filterOptions: this.props.data.filterOptions, state: this.state}} />
+                    <Debug data={{filterOptions: this.props.data.filterOptions, state: this.state}} />
 
                     <footer className="modal-card-foot">
                         <button
@@ -489,7 +489,7 @@ export default class ItemSelectModalComponent extends React.Component {
     }
 }
 
-ItemSelectModalComponent.propTypes = {
+ItemSelectModal.propTypes = {
     isOpen: PropTypes.bool,
     onSelected: PropTypes.func,
     onCanceled: PropTypes.func,

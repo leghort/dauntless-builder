@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import DebugButtonComponent from "./DebugButtonComponent";
+import DebugButton from "./DebugButton";
 
-export default class DebugComponent extends React.Component {
+export default class Debug extends React.Component {
     constructor(props, context) {
         super(props, context);
 
@@ -36,9 +36,9 @@ export default class DebugComponent extends React.Component {
             return null;
         }
 
-        let debugComponent = <DebugButtonComponent onClick={() => this.setState({active: true})}>
+        let debugComponent = <DebugButton onClick={() => this.setState({active: true})}>
             <i className="fas fa-bug"></i>&nbsp;Show debug data
-        </DebugButtonComponent>;
+        </DebugButton>;
 
         if(this.state.active) {
             debugComponent = <pre className="debug">
@@ -50,7 +50,7 @@ export default class DebugComponent extends React.Component {
     }
 }
 
-DebugComponent.propTypes = {
+Debug.propTypes = {
     active: PropTypes.bool,
     ignore: PropTypes.array,
     data: PropTypes.object

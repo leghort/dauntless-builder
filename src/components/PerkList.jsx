@@ -7,7 +7,7 @@ import "../styles/components/perk-list.scss";
 
 import BuildModel from "../models/BuildModel";
 
-export default class PerkListComponent extends React.Component {
+export default class PerkList extends React.Component {
     getPerkLevelClass(perkValue) {
         if(perkValue >= 1 && perkValue < 6) {
             return "perk-ok perk-level-" + perkValue;
@@ -97,6 +97,6 @@ export default class PerkListComponent extends React.Component {
     }
 }
 
-PerkListComponent.propTypes = {
+PerkList.propTypes = {
     perks: PropTypes.array
 };

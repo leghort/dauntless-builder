@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import {CopyToClipboard} from "react-copy-to-clipboard";
 
-export default class BuildEmbeddedModalComponent extends React.Component {
+export default class BuildEmbeddedModal extends React.Component {
     constructor(props, context) {
         super(props, context);
 
@@ -68,7 +68,7 @@ export default class BuildEmbeddedModalComponent extends React.Component {
     }
 }
 
-BuildEmbeddedModalComponent.propTypes = {
+BuildEmbeddedModal.propTypes = {
     buildId: PropTypes.string,
     isOpen: PropTypes.bool,
     onClosed: PropTypes.func

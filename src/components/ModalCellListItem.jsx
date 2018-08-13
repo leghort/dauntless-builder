@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import PropTypeUtility from "../utility/PropTypeUtility";
 
-export default class ModalCellListItemComponent extends React.Component {
+export default class ModalCellListItem extends React.Component {
 
     filterRarity(variant) {
         const {item, rarityFilter} = this.props;
@@ -48,8 +49,8 @@ export default class ModalCellListItemComponent extends React.Component {
     }
 }
 
-ModalCellListItemComponent.propTypes = {
-    item: PropTypes.object,
+ModalCellListItem.propTypes = {
+    item: PropTypeUtility.item(),
     itemData: PropTypes.object,
     rarityFilter: PropTypes.shape({
         value: PropTypes.string

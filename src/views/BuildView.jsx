@@ -10,14 +10,14 @@ import ReactTooltip from "react-tooltip";
 import BuildModel from "../models/BuildModel";
 import DataUtility from "../utility/DataUtility";
 
-import ItemComponent from "../components/ItemComponent";
-import ItemSelectModalComponent from "../components/ItemSelectModalComponent";
-import DebugComponent from "../components/DebugComponent";
-import DebugButtonComponent from "../components/DebugButtonComponent";
-import PerkListComponent from "../components/PerkListComponent";
+import Item from "../components/Item";
+import ItemSelectModal from "../components/ItemSelectModal";
+import Debug from "../components/Debug";
+import DebugButton from "../components/DebugButton";
+import PerkList from "../components/PerkList";
 import FavoriteBuildsModel from "../models/FavoriteBuildsModel";
 import ItemUtility from "../utility/ItemUtility";
-import BuildEmbeddedModalComponent from "../components/BuildEmbeddedModalComponent";
+import BuildEmbeddedModal from "../components/BuildEmbeddedModal";
 
 export default class BuildRoute extends React.Component {
 
@@ -214,9 +214,9 @@ export default class BuildRoute extends React.Component {
                         </button>
                     </Link>
                     <Link to="/dev">
-                        <DebugButtonComponent>
+                        <DebugButton>
                             <i className="fas fa-code"></i>&nbsp;Dev Menu
-                        </DebugButtonComponent>
+                        </DebugButton>
                     </Link>
                 </div>
                 <div className="qa-right">
@@ -247,7 +247,7 @@ export default class BuildRoute extends React.Component {
             <div className="columns">
                 <div className="column is-two-thirds">
 
-                    <ItemComponent
+                    <Item
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
@@ -259,7 +259,7 @@ export default class BuildRoute extends React.Component {
                             [this.state.build.weapon_cell1, BuildModel.findCellByVariantName(this.state.build.weapon_cell1)],
                         ]} />
 
-                    <ItemComponent
+                    <Item
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
@@ -270,7 +270,7 @@ export default class BuildRoute extends React.Component {
                             [this.state.build.head_cell, BuildModel.findCellByVariantName(this.state.build.head_cell)]
                         ]} />
 
-                    <ItemComponent
+                    <Item
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
@@ -281,7 +281,7 @@ export default class BuildRoute extends React.Component {
                             [this.state.build.torso_cell, BuildModel.findCellByVariantName(this.state.build.torso_cell)]
                         ]} />
 
-                    <ItemComponent
+                    <Item
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
@@ -292,7 +292,7 @@ export default class BuildRoute extends React.Component {
                             [this.state.build.arms_cell, BuildModel.findCellByVariantName(this.state.build.arms_cell)]
                         ]} />
 
-                    <ItemComponent
+                    <Item
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
@@ -303,7 +303,7 @@ export default class BuildRoute extends React.Component {
                             [this.state.build.legs_cell, BuildModel.findCellByVariantName(this.state.build.legs_cell)]
                         ]} />
 
-                    <ItemComponent
+                    <Item
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
@@ -314,21 +314,21 @@ export default class BuildRoute extends React.Component {
                         ]} />
                 </div>
                 <div className="column is-one-third">
-                    <PerkListComponent perks={this.getOrderedPerks()} />
+                    <PerkList perks={this.getOrderedPerks()} />
                     <br />
-                    <DebugButtonComponent onClick={() => this.dummyData()}>
+                    <DebugButton onClick={() => this.dummyData()}>
                         <i className="fas fa-database"></i>&nbsp;Add Dummy Data
-                    </DebugButtonComponent>
-                    <DebugComponent data={this.state.build} active={true} />
+                    </DebugButton>
+                    <Debug data={this.state.build} active={true} />
                 </div>
             </div>
-            <ItemSelectModalComponent
+            <ItemSelectModal
                 data={this.state.modalData}
                 itemData={this.state.itemData}
                 onSelected={this.onNewItemSelected.bind(this)}
                 onCanceled={this.onModalCanceled.bind(this)}
                 isOpen={this.state.itemSelectModalOpen} />
-            <BuildEmbeddedModalComponent
+            <BuildEmbeddedModal
                 onClosed={this.onBuildEmbeddedModalClosed.bind(this)}
                 buildId={this.state.buildData}
                 isOpen={this.state.buildEmbedModalOpen} />

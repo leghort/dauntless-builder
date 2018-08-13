@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default class CellComponent extends React.Component {
+export default class Cell extends React.Component {
     constructor(props, context) {
         super(props, context);
     }
@@ -36,7 +36,7 @@ export default class CellComponent extends React.Component {
     }
 }
 
-CellComponent.propTypes = {
+Cell.propTypes = {
     cell: PropTypes.object,
     variant: PropTypes.string,
     parentType: PropTypes.string,
