@@ -72,7 +72,7 @@ class DataUtility {
     isCurrentDataStillValid() {
         const lastUpdate = this.retrieveData("__db_lastupdate");
 
-        if(!lastUpdate || window.isDeveloperModeEnabled()) {
+        if(!lastUpdate || ("isDeveloperModeEnabled" in window && window.isDeveloperModeEnabled())) {
             return false;
         }
 
