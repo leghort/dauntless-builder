@@ -36,11 +36,10 @@ export default class ItemSelectModal extends React.Component {
         };
     }
 
-    // TODO: refactor this, since componentWillReceiveProps is deprecated
-    UNSAFE_componentWillReceiveProps(nextProps) {
+    static getDerivedStateFromProps(nextProps, prevState) {
         let newState = {};
 
-        if(nextProps.isOpen !== this.state.open) {
+        if(nextProps.isOpen !== prevState.open) {
             newState.open = nextProps.isOpen;
         }
 
@@ -65,8 +64,10 @@ export default class ItemSelectModal extends React.Component {
         }
 
         if(Object.keys(newState).length > 0) {
-            this.setState(newState);
+            return newState;
         }
+
+        return null;
     }
 
     getIsActive() {
