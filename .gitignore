@@ -2,6 +2,10 @@
 /dist
 /.vscode
 
+# dev stuff
+/map
+/data.json
+
 # Created by https://www.gitignore.io/api/go,node,linux,macos,windows
 
 ### Go ###

@@ -17,8 +17,14 @@ npm install -g http-serve
 # Install/update all dependencies via
 yarn
 
+# You have to bootstrap stuff once, this will create symlinks to make stuff easier
+yarn bootstrap
+
 # And then finally build the assets with
 yarn build
+
+# Optional: You can also watch/build data...
+# yarn build-dev --watch
 
 # Next run your webserver via
 http-serve
