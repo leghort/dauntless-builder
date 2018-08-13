@@ -2,7 +2,7 @@ import React from "react";
 
 import {Link} from "react-router-dom";
 
-export default class IndexView extends React.Component {
+export default class IndexRoute extends React.Component {
     render() {
         return <div>
             <div className="featured">

@@ -6,8 +6,8 @@ import Select from "react-select";
 import "react-select/dist/react-select.css";
 
 import DebugComponent from "./DebugComponent";
-import ModalCellListItemComponent from "./modal/ModalCellListItemComponent";
-import ModalItemListItemComponent from "./modal/ModalItemListItemComponent";
+import ModalCellListItemComponent from "./ModalCellListItemComponent";
+import ModalItemListItemComponent from "./ModalItemListItemComponent";
 
 import MiscUtils from "../utils/MiscUtils";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import EmbedItem from "./components/embed/EmbedItem";
+import EmbedItem from "./components/EmbedItem";
 
 import "./styles/embeds.scss";
 

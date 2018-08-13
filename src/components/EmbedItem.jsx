@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import DataUtil from "../../utils/DataUtil";
-import MiscUtils from "../../utils/MiscUtils";
+import DataUtil from "../utils/DataUtil";
+import MiscUtils from "../utils/MiscUtils";
 
 import ReactTooltip from "react-tooltip";
 
 import md5 from "md5";
-import BuildModel from "../../models/BuildModel";
+import BuildModel from "../models/BuildModel";
 
 export default class EmbedItem extends React.Component {
     constructor(props, context) {

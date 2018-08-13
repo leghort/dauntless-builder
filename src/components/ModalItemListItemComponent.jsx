@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import BuildModel from "../../models/BuildModel";
+import BuildModel from "../models/BuildModel";
 
-import ItemIconComponent from "../ItemIconComponent";
+import ItemIconComponent from "./ItemIconComponent";
 
 export default class ModalItemListItemComponent extends React.Component {
 

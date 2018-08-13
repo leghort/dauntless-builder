@@ -19,7 +19,7 @@ import FavoriteBuildsModel from "../models/FavoriteBuildsModel";
 import MiscUtils from "../utils/MiscUtils";
 import BuildEmbeddedModalComponent from "../components/BuildEmbeddedModalComponent";
 
-export default class BuildView extends React.Component {
+export default class BuildRoute extends React.Component {
 
     constructor(props, context) {
         super(props, context);
@@ -336,7 +336,7 @@ export default class BuildView extends React.Component {
     }
 }
 
-BuildView.propTypes = {
+BuildRoute.propTypes = {
     match: PropTypes.shape({
         params: PropTypes.shape({
             buildData: PropTypes.string,

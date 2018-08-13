@@ -5,7 +5,7 @@ import {Redirect, Link} from "react-router-dom";
 import DataUtil from "../utils/DataUtil";
 import BuildModel from "../models/BuildModel";
 
-export default class DevView extends React.Component {
+export default class DevRoute extends React.Component {
     constructor(props, context) {
         super(props, context);
 
@@ -491,7 +491,7 @@ export default class DevView extends React.Component {
     }
 }
 
-DevView.propTypes = {
+DevRoute.propTypes = {
     match: PropTypes.shape({
         params: PropTypes.shape({
             tab: PropTypes.string,

@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import FavoriteBuildsModel from "../models/FavoriteBuildsModel";
 import BuildModel from "../models/BuildModel";
 
-export default class FavoritesView extends React.Component {
+export default class FavoritesRoute extends React.Component {
 
     deleteFavorite(buildId) {
         FavoriteBuildsModel.delete(buildId);
