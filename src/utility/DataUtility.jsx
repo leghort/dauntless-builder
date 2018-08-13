@@ -1,7 +1,7 @@
 import Data from "../../dist/data.json";
 import MapV1 from "../../.map/v1.json";
 
-export default class DataUtil {
+export default class DataUtility {
     static getKeyByValue(object, value) {
         for(let prop in object) {
             if(object.hasOwnProperty(prop)) {

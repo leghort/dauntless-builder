@@ -9,7 +9,7 @@ import DebugComponent from "./DebugComponent";
 import ModalCellListItemComponent from "./ModalCellListItemComponent";
 import ModalItemListItemComponent from "./ModalItemListItemComponent";
 
-import MiscUtils from "../utils/MiscUtils";
+import TierUtility from "../utility/TierUtility";
 
 export default class ItemSelectModalComponent extends React.Component {
     constructor(props, context) {
@@ -22,7 +22,7 @@ export default class ItemSelectModalComponent extends React.Component {
             weaponTypeFilter: null,
             slotFilter: null,
             rarityFilter: null,
-            tierFilter: {value: 5, label: MiscUtils.getTierName(5)}
+            tierFilter: {value: 5, label: TierUtility.getTierName(5)}
         };
 
         this.defaultState = {
@@ -32,7 +32,7 @@ export default class ItemSelectModalComponent extends React.Component {
             weaponTypeFilter: null,
             slotFilter: null,
             rarityFilter: null,
-            tierFilter: {value: 5, label: MiscUtils.getTierName(5)}
+            tierFilter: {value: 5, label: TierUtility.getTierName(5)}
         };
     }
 
@@ -60,7 +60,7 @@ export default class ItemSelectModalComponent extends React.Component {
 
             newState.tierFilter = {
                 value: nextProps.data.filterOptions.__tier,
-                label: MiscUtils.getTierName(nextProps.data.filterOptions.__tier)
+                label: TierUtility.getTierName(nextProps.data.filterOptions.__tier)
             };
         }
 
@@ -376,7 +376,7 @@ export default class ItemSelectModalComponent extends React.Component {
                         onChange={tier => this.setState({tierFilter: tier})}
                         value={this.state.tierFilter}
                         options={[5, 4, 3, 2, 1].map(
-                            tier => ({value: tier, label: MiscUtils.getTierName(tier)}))} />
+                            tier => ({value: tier, label: TierUtility.getTierName(tier)}))} />
                 </div>
             );
         }

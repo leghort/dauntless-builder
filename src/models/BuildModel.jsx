@@ -1,5 +1,5 @@
 import Hashids from "hashids";
-import DataUtil from "../utils/DataUtil";
+import DataUtility from "../utility/DataUtility";
 
 const hashids = new Hashids("spicy");
 
@@ -11,35 +11,35 @@ export default class BuildModel {
     }
 
     serialize() {
-        const stringMap = DataUtil.stringMap(this.__version);
+        const stringMap = DataUtility.stringMap(this.__version);
 
         return hashids.encode(
             this.__version,
-            DataUtil.getKeyByValue(stringMap, this.weapon_name),
+            DataUtility.getKeyByValue(stringMap, this.weapon_name),
             this.weapon_level,
-            DataUtil.getKeyByValue(stringMap, this.weapon_cell0),
-            DataUtil.getKeyByValue(stringMap, this.weapon_cell1),
-            DataUtil.getKeyByValue(stringMap, this.head_name),
+            DataUtility.getKeyByValue(stringMap, this.weapon_cell0),
+            DataUtility.getKeyByValue(stringMap, this.weapon_cell1),
+            DataUtility.getKeyByValue(stringMap, this.head_name),
             this.head_level,
-            DataUtil.getKeyByValue(stringMap, this.head_cell),
-            DataUtil.getKeyByValue(stringMap, this.torso_name),
+            DataUtility.getKeyByValue(stringMap, this.head_cell),
+            DataUtility.getKeyByValue(stringMap, this.torso_name),
             this.torso_level,
-            DataUtil.getKeyByValue(stringMap, this.torso_cell),
-            DataUtil.getKeyByValue(stringMap, this.arms_name),
+            DataUtility.getKeyByValue(stringMap, this.torso_cell),
+            DataUtility.getKeyByValue(stringMap, this.arms_name),
             this.arms_level,
-            DataUtil.getKeyByValue(stringMap, this.arms_cell),
-            DataUtil.getKeyByValue(stringMap, this.legs_name),
+            DataUtility.getKeyByValue(stringMap, this.arms_cell),
+            DataUtility.getKeyByValue(stringMap, this.legs_name),
             this.legs_level,
-            DataUtil.getKeyByValue(stringMap, this.legs_cell),
-            DataUtil.getKeyByValue(stringMap, this.lantern_name),
-            DataUtil.getKeyByValue(stringMap, this.lantern_cell),
+            DataUtility.getKeyByValue(stringMap, this.legs_cell),
+            DataUtility.getKeyByValue(stringMap, this.lantern_name),
+            DataUtility.getKeyByValue(stringMap, this.lantern_cell),
         );
     }
 
     static deserialize(str) {
         let numbers = hashids.decode(str);
 
-        const stringMap = DataUtil.stringMap(numbers[0]);
+        const stringMap = DataUtility.stringMap(numbers[0]);
 
         let idcounter = 0;
 
@@ -160,32 +160,32 @@ export default class BuildModel {
     }
 
     static findWeapon(name) {
-        if(name in DataUtil.data().weapons) {
-            return DataUtil.data().weapons[name];
+        if(name in DataUtility.data().weapons) {
+            return DataUtility.data().weapons[name];
         }
 
         return null;
     }
 
     static findArmour(name) {
-        if(name in DataUtil.data().armours) {
-            return DataUtil.data().armours[name];
+        if(name in DataUtility.data().armours) {
+            return DataUtility.data().armours[name];
         }
 
         return null;
     }
 
     static findLantern(name) {
-        if(name in DataUtil.data().lanterns) {
-            return DataUtil.data().lanterns[name];
+        if(name in DataUtility.data().lanterns) {
+            return DataUtility.data().lanterns[name];
         }
 
         return null;
     }
 
     static findCellByVariantName(variantName) {
-        for(let cellKey in DataUtil.data().cells) {
-            let cell = DataUtil.data().cells[cellKey];
+        for(let cellKey in DataUtility.data().cells) {
+            let cell = DataUtility.data().cells[cellKey];
 
             if(variantName in cell.variants) {
                 return cell;
@@ -196,9 +196,9 @@ export default class BuildModel {
     }
 
     static findPerkByName(perkName) {
-        for(let perk in DataUtil.data().perks) {
+        for(let perk in DataUtility.data().perks) {
             if(perk === perkName) {
-                return DataUtil.data().perks[perkName];
+                return DataUtility.data().perks[perkName];
             }
         }
 
@@ -206,7 +206,7 @@ export default class BuildModel {
     }
 
     static getUniqueEffects(itemName, itemType) {
-        const item = DataUtil.data()[itemType.toLowerCase() + "s"][itemName];
+        const item = DataUtility.data()[itemType.toLowerCase() + "s"][itemName];
 
         if(!item.unique_effects) {
             return [];
@@ -216,7 +216,7 @@ export default class BuildModel {
     }
 
     static getAvailablePerksByLevel(itemName, itemType, level) {
-        const item = DataUtil.data()[itemType.toLowerCase() + "s"][itemName];
+        const item = DataUtility.data()[itemType.toLowerCase() + "s"][itemName];
 
         if(!item.perks) {
             return [];
@@ -232,7 +232,7 @@ export default class BuildModel {
     }
 
     static getAvailableUniqueEffectsByLevel(itemName, itemType, level) {
-        const item = DataUtil.data()[itemType.toLowerCase() + "s"][itemName];
+        const item = DataUtility.data()[itemType.toLowerCase() + "s"][itemName];
 
         if(!item.unique_effects) {
             return [];

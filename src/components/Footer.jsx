@@ -1,10 +1,10 @@
 import React from "react";
 
-import DataUtil from "../utils/DataUtil";
+import DataUtility from "../utility/DataUtility";
 
 export default class Footer extends React.Component {
     render() {
-        const misc = DataUtil.data().misc;
+        const misc = DataUtility.data().misc;
         const buildTime = new Date(misc.build_time);
 
         return <div className="footers">

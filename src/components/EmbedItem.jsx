@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import DataUtil from "../utils/DataUtil";
-import MiscUtils from "../utils/MiscUtils";
+import DataUtility from "../utility/DataUtility";
+import ItemUtility from "../utility/ItemUtility";
 
 import ReactTooltip from "react-tooltip";
 
@@ -15,13 +15,13 @@ export default class EmbedItem extends React.Component {
     }
 
     renderItem(itemName, type) {
-        if(!(itemName in DataUtil.data()[type])) {
+        if(!(itemName in DataUtility.data()[type])) {
             return <span className="dauntless-builder-error">
                 Dauntless Builder: Unknown {type} {`"${itemName}"`}
             </span>;
         }
 
-        let item = DataUtil.data()[type][itemName];
+        let item = DataUtility.data()[type][itemName];
 
         let iconUrl = `https://www.dauntless-builder.com${item.icon}`;
 
@@ -48,7 +48,7 @@ export default class EmbedItem extends React.Component {
 
         if(type === "weapons") {
             let powerLow = item.power[0];
-            let powerMax = item.power[MiscUtils.maxLevel("weapons", itemName)];
+            let powerMax = item.power[ItemUtility.maxLevel("weapons", itemName)];
 
             subline = <div><b>Power</b>: {powerLow} - {powerMax}</div>;
 
@@ -59,7 +59,7 @@ export default class EmbedItem extends React.Component {
             extras = <div>{item.description}</div>;
         } else if(type === "armours") {
             let resistanceLow = item.resistance[0];
-            let resistanceMax = item.resistance[MiscUtils.maxLevel("armours", itemName)];
+            let resistanceMax = item.resistance[ItemUtility.maxLevel("armours", itemName)];
 
             subline = <div><b>Resistance</b>: {resistanceLow} - {resistanceMax}</div>;
 
