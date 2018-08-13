@@ -43,7 +43,7 @@ class DataUtility {
         });
     }
 
-    loadData() {
+    loadData(urlPrefix = "") {
         if(this.isCurrentDataStillValid()) {
             this._data = this.retrieveData("__db_data");
             this._map.v1 = this.retrieveData("__db_map_v1");
@@ -52,8 +52,8 @@ class DataUtility {
         }
 
         return Promise.all([
-            this.getJSON("/dist/data.json"),
-            this.getJSON("/.map/v1.json")
+            this.getJSON(urlPrefix + "/data.json"),
+            this.getJSON(urlPrefix + "/map/v1.json")
         ]).then(([data, mapV1]) => {
             this.persistData("__db_lastupdate", new Date().getTime());
             this.persistData("__db_data", data);

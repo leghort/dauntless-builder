@@ -17,7 +17,7 @@ function instantiate(type) {
 
 window.addEventListener("load", function() {
     if(!window.__dauntless_builder_embedded) {
-        DataUtility.loadData().then(success => {
+        DataUtility.loadData("https://www.dauntless-builder.com").then(success => {
             if(success) {
                 console.log("dauntless-builder.com initializing embeds...");
 
