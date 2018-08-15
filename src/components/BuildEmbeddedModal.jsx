@@ -12,18 +12,17 @@ export default class BuildEmbeddedModal extends React.Component {
         };
     }
 
-    static getDerivedStateFromProps(nextProps, prevState) {
+    // TODO: refactor this, since componentWillReceiveProps is deprecated
+    UNSAFE_componentWillReceiveProps(nextProps) {
         let newState = {};
 
-        if(nextProps.isOpen !== prevState.open) {
+        if(nextProps.isOpen !== this.state.open) {
             newState.open = nextProps.isOpen;
         }
 
         if(Object.keys(newState).length > 0) {
-            return newState;
+            this.setState(newState);
         }
-
-        return null;
     }
 
     onClose() {

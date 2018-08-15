@@ -178,6 +178,7 @@ export default class BuildRoute extends React.Component {
         if(FavoriteBuildsModel.isFavorite(buildData)) {
             FavoriteBuildsModel.delete(buildData);
         } else {
+            // TODO replace prompt with popper
             FavoriteBuildsModel.add(buildData, prompt("Build name"));
         }
 
