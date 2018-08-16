@@ -173,8 +173,6 @@ describe("Dauntless Builder Data", () => {
         const checkIfHasValidSchema = (field) => {
             const schemaPath = path.join(__dirname, `../schemas/${field}.json`);
 
-            console.log(schemaPath);
-
             if(!fs.existsSync(schemaPath)) {
                 return () => {
                     assert.fail("No schema found for " + field);
