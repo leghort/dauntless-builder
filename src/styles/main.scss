@@ -153,9 +153,17 @@ strong {
     margin-top: -20px;
 
     & > div > button,
-    & > div > a {
+    & > div > a,
+    & > div > .dropdown {
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    .dropdown {
+        .dropdown-item.disabled {
+            color: #CCC;
+            cursor: not-allowed;
+        }
     }
 }
 
@@ -720,7 +728,8 @@ button.is-debug-button {
         }
 
         & > div > button,
-        & > div > a {
+        & > div > a,
+        & > div > .dropdown {
             width: 100%;
             margin-left: 0px !important;
             margin-right: 0px !important;
@@ -729,6 +738,23 @@ button.is-debug-button {
 
             &:last-of-type {
                 margin-bottom: 0px;
+            }
+
+            .is-debug-button {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+
+            &.dropdown {
+                margin-top: 5px;
+
+                .dropdown-trigger {
+                    width: 100%;
+
+                    button {
+                        width: 100%;
+                    }
+                }
             }
         }
 

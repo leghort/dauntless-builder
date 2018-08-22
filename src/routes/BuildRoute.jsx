@@ -18,6 +18,7 @@ import PerkList from "../components/PerkList";
 import FavoriteBuildsModel from "../models/FavoriteBuildsModel";
 import ItemUtility from "../utility/ItemUtility";
 import BuildEmbeddedModal from "../components/BuildEmbeddedModal";
+import MenuDropdown from "../components/MenuDropdown";
 
 export default class BuildRoute extends React.Component {
 
@@ -233,15 +234,20 @@ export default class BuildRoute extends React.Component {
                         <i className={(FavoriteBuildsModel.isFavorite(this.state.buildData) ? "fas" : "far") + " fa-heart"}></i>
                         <span className="only-on-very-small">&nbsp;Save to favorites</span>
                     </button>
-                    <button className="button is-light only-desktop"
-                        data-tip="Embed build on other website"
-                        onClick={() => this.openBuildEmbeddedModal()}>
-
-                        <i className="fas fa-code"></i>
-                    </button>
-                    <button className="button is-light" data-tip="Settings" disabled>
-                        <i className="fas fa-cog"></i><span className="only-on-very-small">&nbsp;Settings</span>
-                    </button>
+                    <MenuDropdown label={
+                        <React.Fragment>
+                            <i className="fas fa-ellipsis-v" style={{margin: "0px 5px"}}></i>
+                            <span className="only-on-very-small">&nbsp;More</span>
+                        </React.Fragment>
+                    }>
+                        <a className="dropdown-item" onClick={() => this.openBuildEmbeddedModal()}>
+                            <i className="fas fa-code"></i> Embed build
+                        </a>
+                        <hr className="dropdown-divider" />
+                        <a className="dropdown-item disabled">
+                            <i className="fas fa-cog"></i> Settings
+                        </a>
+                    </MenuDropdown>
                 </div>
             </div>
             <div className="columns">
