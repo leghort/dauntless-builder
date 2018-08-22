@@ -36,9 +36,8 @@ strong {
 .footers {
     margin-top: 20px;
     font-size: 16px;
-    color: #AAA;
 
-    max-width: 500px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
 
@@ -47,12 +46,12 @@ strong {
     justify-content: space-around;
 
     a {
-        color: #AAA;
+        color: #FFF;
 
         transition: color 0.3s ease;
 
         &:hover {
-            color: white;
+            color: #3273dc;
         }
     }
 }

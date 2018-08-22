@@ -1,5 +1,7 @@
 import React from "react";
 
+import {Link} from "react-router-dom";
+
 import DataUtility from "../utility/DataUtility";
 
 export default class Footer extends React.Component {
@@ -25,6 +27,11 @@ export default class Footer extends React.Component {
                 <a href="https://github.com/atomicptr/dauntless-builder/issues" target="_blank" rel="noopener noreferrer">
                     <span className="icon"><i className="fas fa-comment"></i></span>Feedback
                 </a>
+            </span>
+            <span className="footer-link">
+                <Link to="/privacy">
+                    <span className="icon"><i className="far fa-eye"></i></span>Privacy
+                </Link>
             </span>
             <span className="footer-link">
                 <a href="https://buymeacoff.ee/atomicptr" target="_blank" rel="noopener noreferrer">

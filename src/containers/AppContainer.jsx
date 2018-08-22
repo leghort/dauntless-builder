@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Link, Switch, Redirect} from "react-rout
 import IndexRoute from "../routes/IndexRoute";
 import BuildRoute from "../routes/BuildRoute";
 import FavoritesRoute from "../routes/FavoritesRoute";
+import PrivacyRoute from "../routes/PrivacyRoute";
 import DevRoute from "../routes/DevRoute";
 
 import DataUtility from "../utility/DataUtility";
@@ -51,6 +52,7 @@ export default class AppContainer extends React.Component {
                             <Route exact path="/" component={IndexRoute} />
                             <Route path="/b/:buildData" component={BuildRoute} />
                             <Route path="/favorites" component={FavoritesRoute} />
+                            <Route path="/privacy" component={PrivacyRoute} />
                             <Route path="/dev/:tab" component={DevRoute} />
                             <Route path="/dev" render={() => <Redirect to="/dev/Main" />} />
                             <Redirect to="/" />
