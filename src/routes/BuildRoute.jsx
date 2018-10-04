@@ -20,6 +20,9 @@ import ItemUtility from "../utility/ItemUtility";
 import BuildEmbeddedModal from "../components/BuildEmbeddedModal";
 import MenuDropdown from "../components/MenuDropdown";
 
+import Repeater from "../components/Repeater";
+import RepeaterPartSelectModal from "../components/RepeaterPartSelectModal";
+
 export default class BuildRoute extends React.Component {
 
     constructor(props, context) {
@@ -29,6 +32,7 @@ export default class BuildRoute extends React.Component {
             ready: false,
             itemSelectModalOpen: false,
             buildEmbedModalOpen: false,
+            repeaterPartSelectModalOpen: false,
             modalData: {}
         };
     }
@@ -118,6 +122,17 @@ export default class BuildRoute extends React.Component {
             changes.weapon_level = ItemUtility.maxLevel("weapons", itemName);
             changes.weapon_cell0 = "";
             changes.weapon_cell1 = "";
+
+            if(ItemUtility.isRepeater({name: itemName})) {
+                changes.barrel_name = "";
+                changes.barrel_level = 0; // TODO: get max part level
+                changes.chamber_name = "";
+                changes.chamber_level = 0; // TODO: get max part level
+                changes.grip_name = "";
+                changes.grip_level = 0; // TODO: get max part level
+                changes.prism_name = "";
+                changes.prism_level = 0; // TODO: get max part level
+            }
         } else if(itemType === "Armour") {
             let type = data.__armourType.toLowerCase();
 
@@ -134,6 +149,17 @@ export default class BuildRoute extends React.Component {
                 changes[data.__parentType.toLowerCase() + "_cell"] = itemName;
             }
         }
+
+        this.applyItemSelection(changes);
+    }
+
+    onPartSelected(fieldPrefix, part) {
+        let changes = {};
+
+        const maxLevel = Math.max(...Object.keys(part.power).map(k => Number(k)));
+
+        changes[fieldPrefix + "_name"] = part.name;
+        changes[fieldPrefix + "_level"] = maxLevel;
 
         this.applyItemSelection(changes);
     }
@@ -186,6 +212,21 @@ export default class BuildRoute extends React.Component {
         this.setState({});
     }
 
+    openRepeaterPartSelectModal(partType, fieldName) {
+        this.onModalOpen();
+        this.setState({repeaterPartSelectModalOpen: true, modalData: {partType, fieldName}});
+    }
+
+    onRepeaterPartSelectModalClosed() {
+        this.onModalClosed();
+        this.setState({repeaterPartSelectModalOpen: false, modalData: {}});
+    }
+
+    onRepeaterPartSelected(fieldPrefix, part) {
+        this.onPartSelected(fieldPrefix, part);
+        this.onRepeaterPartSelectModalClosed();
+    }
+
     openBuildEmbeddedModal() {
         this.onModalOpen();
         this.setState({buildEmbedModalOpen: true});
@@ -194,6 +235,34 @@ export default class BuildRoute extends React.Component {
     onBuildEmbeddedModalClosed() {
         this.onModalClosed();
         this.setState({buildEmbedModalOpen: false});
+    }
+
+    renderWeapon() {
+        const weapon = BuildModel.findWeapon(this.state.build.weapon_name);
+
+        if(weapon && ItemUtility.isRepeater(weapon)) {
+            return <Repeater
+                parent={this}
+                onItemClicked={this.onItemClicked.bind(this)}
+                onCellClicked={this.onCellClicked.bind(this)}
+                item={weapon}
+                cells={[
+                    [this.state.build.weapon_cell0, BuildModel.findCellByVariantName(this.state.build.weapon_cell0)],
+                    [this.state.build.weapon_cell1, BuildModel.findCellByVariantName(this.state.build.weapon_cell1)],
+                ]} />;
+        }
+
+        return <Item
+            parent={this}
+            onItemClicked={this.onItemClicked.bind(this)}
+            onCellClicked={this.onCellClicked.bind(this)}
+            title="Weapon" defaultType="Weapon"
+            item={weapon}
+            level={this.state.build.weapon_level}
+            cells={[
+                [this.state.build.weapon_cell0, BuildModel.findCellByVariantName(this.state.build.weapon_cell0)],
+                [this.state.build.weapon_cell1, BuildModel.findCellByVariantName(this.state.build.weapon_cell1)],
+            ]} />;
     }
 
     render() {
@@ -252,18 +321,7 @@ export default class BuildRoute extends React.Component {
             </div>
             <div className="columns">
                 <div className="column is-two-thirds">
-
-                    <Item
-                        parent={this}
-                        onItemClicked={this.onItemClicked.bind(this)}
-                        onCellClicked={this.onCellClicked.bind(this)}
-                        title="Weapon" defaultType="Weapon"
-                        item={BuildModel.findWeapon(this.state.build.weapon_name)}
-                        level={this.state.build.weapon_level}
-                        cells={[
-                            [this.state.build.weapon_cell0, BuildModel.findCellByVariantName(this.state.build.weapon_cell0)],
-                            [this.state.build.weapon_cell1, BuildModel.findCellByVariantName(this.state.build.weapon_cell1)],
-                        ]} />
+                    {this.renderWeapon()}
 
                     <Item
                         parent={this}
@@ -334,6 +392,12 @@ export default class BuildRoute extends React.Component {
                 onSelected={this.onNewItemSelected.bind(this)}
                 onCanceled={this.onModalCanceled.bind(this)}
                 isOpen={this.state.itemSelectModalOpen} />
+            <RepeaterPartSelectModal
+                data={this.state.modalData}
+                itemData={this.state.itemData}
+                onClosed={this.onRepeaterPartSelectModalClosed.bind(this)}
+                onSelected={this.onRepeaterPartSelected.bind(this)}
+                isOpen={this.state.repeaterPartSelectModalOpen} />
             <BuildEmbeddedModal
                 onClosed={this.onBuildEmbeddedModalClosed.bind(this)}
                 buildId={this.state.buildData}
