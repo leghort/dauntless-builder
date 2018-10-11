@@ -109,7 +109,7 @@ describe("Dauntless Builder - Build IDs", () => {
                 {field: "lantern_cell", value: "+3 Aetherborne Cell"},
                 {field: "barrel_name", value: "Standard Barrel"},
                 {field: "barrel_level", value: 0},
-                {field: "chamber_name", value: "Ballistic Chamber",},
+                {field: "chamber_name", value: "Salvo Chamber",},
                 {field: "chamber_level", value: 0},
                 {field: "grip_name", value: "Captain's Grip"},
                 {field: "grip_level", value: 0},
