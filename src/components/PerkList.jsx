@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 
 import ReactTooltip from "react-tooltip";
 
-import "../styles/components/perk-list.scss";
-
 import BuildModel from "../models/BuildModel";
 
 export default class PerkList extends React.Component {
