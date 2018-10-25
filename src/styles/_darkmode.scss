@@ -159,4 +159,8 @@ $theme-input-border: #242424;
     .feature-tile .title {
         color: $theme-input-color;
     }
+
+    .item-title-wrapper .subtitle {
+        border-bottom: 1px solid $theme-input-border;
+    }
 }

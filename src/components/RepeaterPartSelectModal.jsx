@@ -47,7 +47,7 @@ export default class RepeaterPartSelectModal extends React.Component {
             const part = parts[partName];
 
             items.push(
-                <RepeaterPart key={partName} part={part} partType={partType} hideTitle={true}
+                <RepeaterPart key={partName} part={part} partType={partType}
                     onClicked={this.onPartSelected.bind(this)} />
             );
         }

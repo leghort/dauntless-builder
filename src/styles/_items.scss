@@ -342,11 +342,19 @@
                 width: 100%;
 
                 img {
-                    max-height: 150px;
+                    max-height: 64px;
                 }
 
                 .item-data {
                     text-align: center;
+                }
+
+                .repeater-image-wrapper > img {
+                    max-height: 64px !important;
+                }
+
+                &.no-item .no-item-icon {
+                    font-size: 32px;
                 }
             }
 

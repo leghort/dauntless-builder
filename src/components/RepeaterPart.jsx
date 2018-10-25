@@ -12,10 +12,7 @@ export default class RepeaterPart extends React.Component {
 
     render() {
         const part = this.props.part;
-        const partType = this.props.partType;
         const level = this.props.level ? this.props.level : Math.max(...Object.keys(part.power).map(k => Number(k)));
-
-        const capitalize = string => string.charAt(0).toUpperCase() + string.slice(1);
 
         const powerLevel = part.power[level];
 
@@ -30,14 +27,7 @@ export default class RepeaterPart extends React.Component {
             </span>;
         }
 
-        let title = null;
-
-        if(!this.props.hideTitle) {
-            title = <h2 className="subtitle hidden-on-large-screens">{capitalize(partType)}</h2>;
-        }
-
         return <div className="item-title-wrapper">
-            {title}
             <div className="item-wrapper">
                 <div className="item repeater-part no-cells" onClick={() => this.onClicked()}>
                     <div className="repeater-image-wrapper">
@@ -60,6 +50,5 @@ RepeaterPart.propTypes = {
     part: PropTypes.object,
     partType: PropTypes.string,
     onClicked: PropTypes.func,
-    hideTitle: PropTypes.bool,
     level: PropTypes.number
 };
