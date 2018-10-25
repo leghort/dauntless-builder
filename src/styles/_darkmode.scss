@@ -1,0 +1,173 @@
+/*
+#2C2C2D Background
+#383B41 +1 Cells
+#3F4751 +2 and +3 Cells
+#323336 +4, +5 and equipment overlay
+#2F894E Green +6
+#800000 Red +7+
+#2F2F31 Cell and equipment choosing menu overlay (not the background the square around em)
+#B2AE94 Font
+*/
+
+$theme-background-color: #2C2C2D;
+$theme-item-background-color: #2F2F31;
+$theme-item-background-color-hover: #242424;
+$theme-font-color: #B2AE94;
+
+$theme-button-background: #363636;
+$theme-button-color: #f5f5f5;
+
+$theme-quick-actions-bg: #242424;
+
+$theme-cell-empty: #242424;
+
+$theme-perk-level-1: #383B41;
+$theme-perk-level-2-3: #3F4751;
+$theme-perk-level-4-5: #323336;
+$theme-perk-level-max: #2F894E;
+$theme-perk-level-overload: #800000;
+
+$theme-input-background: #363636;
+$theme-input-color: #f5f5f5;
+$theme-input-border: #242424;
+
+.is-darkmode {
+    .title,
+    .subtitle {
+        color: $theme-font-color;
+    }
+
+    strong {
+        color: $theme-font-color;
+    }
+
+    .button.is-light {
+        background-color: $theme-button-background;
+        border-color: transparent;
+        color: $theme-button-color;
+    }
+
+    .card {
+        background: $theme-background-color;
+        color: $theme-font-color;
+    }
+
+    .quick-actions {
+        background: $theme-quick-actions-bg;
+    }
+
+    .item {
+        background: $theme-item-background-color;
+    }
+
+    .item:hover {
+        background: $theme-item-background-color-hover;
+    }
+
+    .cells {
+        .cell {
+            background: $theme-item-background-color;
+
+            &.empty img {
+                background: $theme-cell-empty;
+                border-color: $theme-cell-empty;
+            }
+        }
+    }
+
+    .perk-list {
+        .perk-level-1 {
+            background: $theme-perk-level-1;
+        }
+
+        .perk-level-2,
+        .perk-level-3 {
+            background: $theme-perk-level-2-3;
+        }
+
+        .perk-level-4,
+        .perk-level-5 {
+            background: $theme-perk-level-4-5;
+        }
+
+        .perk-max {
+            background: $theme-perk-level-max;
+        }
+
+        .perk-overload {
+            background: $theme-perk-level-overload;
+        }
+    }
+
+    .modal {
+        .button {
+            background-color: $theme-button-background;
+            border-color: transparent;
+            color: $theme-button-color;
+
+            strong {
+                color: $theme-button-color;
+            }
+        }
+
+        .modal-card-foot {
+            background: $theme-quick-actions-bg;
+            border-top: $theme-quick-actions-bg;
+        }
+    }
+
+    .input {
+        background-color: $theme-input-background;
+        color: $theme-input-color;
+        border-color: $theme-input-border;
+    }
+
+    .field {
+        .Select-placeholder {
+            background-color: $theme-input-background;
+            color: $theme-input-color;
+            border-color: $theme-input-border;
+        }
+
+        .Select-control {
+            background-color: $theme-input-background;
+            color: $theme-input-color;
+            border-color: $theme-input-border;
+        }
+
+        .Select-value-label {
+            color: $theme-input-color !important;
+        }
+
+        .Select-input > input {
+            color: $theme-input-color;
+        }
+    }
+
+    .dropdown {
+        .dropdown-content {
+            background: $theme-input-background;
+            color: $theme-input-color;
+        }
+
+        .dropdown-item {
+            color: $theme-input-color;
+
+            &.disabled {
+                color: $theme-input-border;
+            }
+        }
+
+        .dropdown-divider {
+            background: $theme-background-color;
+        }
+
+        .dropdown-item:hover {
+            background: $theme-background-color;
+        }
+    }
+
+    .feature-tile .title {
+        color: $theme-input-color;
+    }
+}

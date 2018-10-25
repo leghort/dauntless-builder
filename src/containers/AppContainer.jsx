@@ -14,6 +14,7 @@ import LoadingIndicator from "../components/LoadingIndicator";
 import Footer from "../components/Footer";
 
 import "styles/main.scss";
+import SettingsUtility from "../utility/SettingsUtility";
 
 export default class AppContainer extends React.Component {
 
@@ -35,6 +36,16 @@ export default class AppContainer extends React.Component {
         });
     }
 
+    getExtraClasses() {
+        let classes = [];
+
+        if(SettingsUtility.isDarkModeEnabled()) {
+            classes.push("is-darkmode");
+        }
+
+        return classes.join(" ");
+    }
+
     render() {
         if(this.state.loading) {
             return <LoadingIndicator />;
@@ -42,7 +53,7 @@ export default class AppContainer extends React.Component {
 
         return <Router>
             <React.Fragment>
-                <div className="container">
+                <div className={"container " + this.getExtraClasses()}>
                     <Link to="/">
                         <img className="logo" src="/assets/logo.png" />
                     </Link>

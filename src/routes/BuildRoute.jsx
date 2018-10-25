@@ -22,6 +22,7 @@ import MenuDropdown from "../components/MenuDropdown";
 
 import Repeater from "../components/Repeater";
 import RepeaterPartSelectModal from "../components/RepeaterPartSelectModal";
+import DarkModeToggle from "../components/DarkModeToggle";
 
 export default class BuildRoute extends React.Component {
 
@@ -312,6 +313,7 @@ export default class BuildRoute extends React.Component {
                         <a className="dropdown-item" onClick={() => this.openBuildEmbeddedModal()}>
                             <i className="fas fa-code"></i> Embed build
                         </a>
+                        <DarkModeToggle />
                         <hr className="dropdown-divider" />
                         <a className="dropdown-item disabled">
                             <i className="fas fa-cog"></i> Settings
