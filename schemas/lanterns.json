@@ -10,7 +10,7 @@
             "type": ["string", "null"]
         },
         "cells": {
-            "type": "string"
+            "type": ["string", "null"]
         },
         "lantern_ability": {
             "type": "object",
