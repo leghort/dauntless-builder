@@ -47,6 +47,10 @@ $theme-input-border: #242424;
 
     .item {
         background: $theme-item-background-color;
+
+        .perk-string-items img {
+            filter: unset;
+        }
     }
 
     .item:hover {
