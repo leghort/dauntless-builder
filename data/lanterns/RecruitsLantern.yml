@@ -1,6 +1,6 @@
 name: Recruit's Lantern
 description: null
-cells: Utility
+cells: null
 lantern_ability:
   instant: null
   hold: Disperses aether that allows the Slayer to track the Behemoth.
