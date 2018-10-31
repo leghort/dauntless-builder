@@ -16,4 +16,5 @@ function optimize_path () {
 echo "Optimizing images..."
 optimize_path ./assets/icons/armours
 optimize_path ./assets/icons/weapons
+optimize_path ./assets/icons/parts
 echo "...done"
