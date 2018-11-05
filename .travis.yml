@@ -1,16 +1,7 @@
 language: node_js
 node_js:
 - '8'
-env:
-  global:
-  - secure: cwNJQJdDNnp1xM4++j4Pev6Le59TWcimezr+aG0wq8X7DAeaWxLquR3RZyJqEhT3fisffdnGyrtfSVUJzkXxUmXcmAyVrPR6choqSex5SVXZH8fE2RbRULe7vcJcJnNL/J+UlmJK8Ka89u7QpsSCwKGSez/ZSvDJdo9bHeFVfxLSAnpasVvsqhXpUSJI2fohC8d1m8Va9gMDNqqxoatx7fvx1QnhFBqY0YCi9Zjy1u7dQdAl088W/ydxjUIMLL6dpqZAp0IO6/6fRBDgTQd3nw/Js2Qx0cy00Crde2cjnI6UTuWfkgXtBlnVZe4VY4PE5ceXvF+PglEg+o9nd5IDyufgjEhT646bko7vuZiF1sWCcUc/jcFrEueyzzJcftyx7pAMKNIsLSozvDNdPpnRHGnCxIC4Hu+UKVHDRn5qp0a2vx1zrFCnjkvTiJcF+zkDDoVk3bm7TNv69utwFrVtLzs1hsaozM/KgJw4eBjs9lOcjGSNbskNj20ueojYS8HIKF8DvAKWgOFl67slEGrFHnRsYOhv3ZJHfhV0gPjOB2fxY5thRgHJqaRCMZv8rhnsct/XJ8HebnmB0H8amt8BJrQqtvXGIImONbRIbEbFZHFvC43x3o8z1ONJrInAHv1hJ6lQOTBIQDPgU84copKzZVX2wtogmxZjeks9TPMaHro=
-before_script:
-- git config --global user.email "travis@travis-ci.org"
-- git config --global user.name "Travis CI"
 script:
 - yarn build-data
 - yarn build-frontend
 - yarn test
-after_script:
-- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./.travis/pr_after_script.sh; fi'
-- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./.travis/after_script.sh; fi'
