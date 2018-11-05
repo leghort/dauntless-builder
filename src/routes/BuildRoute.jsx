@@ -302,7 +302,7 @@ export default class BuildRoute extends React.Component {
             }
         }
 
-        let result = `Equipment: ${armourPieces.join(", ")} / Perks: ${metaPerks.join(", ")}`;
+        let result = `⚔️ ${armourPieces.join(", ")} | ${metaPerks.join(", ")}`;
 
         if(result.length > 140) {
             result = result.substring(0, 137) + "...";
