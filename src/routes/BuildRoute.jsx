@@ -7,6 +7,8 @@ import {CopyToClipboard} from "react-copy-to-clipboard";
 
 import ReactTooltip from "react-tooltip";
 
+import Helmet from "react-helmet";
+
 import BuildModel from "../models/BuildModel";
 import DataUtility from "../utility/DataUtility";
 
@@ -266,12 +268,39 @@ export default class BuildRoute extends React.Component {
             ]} />;
     }
 
+    getMetaTitle() {
+        if(this.state.build.weapon_name) {
+            return this.state.build.weapon_name + " - Dauntless Builder";
+        }
+
+        return "Dauntless Builder";
+    }
+
+    getMetaImage() {
+        if(this.state.build.weapon_name) {
+            const weapon = BuildModel.findWeapon(this.state.build.weapon_name);
+
+            if(weapon.icon) {
+                return `https://www.dauntless-builder.com${weapon.icon}`;
+            }
+        }
+
+        return "https://www.dauntless-builder.com/assets/icon.png";
+    }
+
     render() {
         if(!this.state.ready) {
             return <div>...</div>;
         }
 
         return <React.Fragment>
+            <Helmet>
+                <title>{this.getMetaTitle()}</title>
+                <meta property="og:site_name" content="Dauntless Builder" />
+                <meta property="og:title" content={this.getMetaTitle()} />
+                <meta property="og:image" content={this.getMetaImage()} />
+            </Helmet>
+
             <div className="quick-actions">
                 <div className="qa-left">
                     <Link to="/b/new">
