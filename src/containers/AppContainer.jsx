@@ -56,9 +56,10 @@ export default class AppContainer extends React.Component {
         return <React.Fragment>
             <Helmet>
                 <title>Dauntless Builder</title>
+                <meta name="description" content="Create and share Dauntless builds with your friends!" />
 
+                <meta property="og:site_name" content="Dauntless Builder" />
                 <meta property="og:title" content="Dauntless Builder" />
-                <meta property="description" content="Create and share Dauntless builds with your friends!" />
                 <meta property="og:description" content="Create and share Dauntless builds with your friends!" />
                 <meta property="og:url" content="https://www.dauntless-builder.com" />
                 <meta property="og:image" content="https://www.dauntless-builder.com/assets/icon.png" />

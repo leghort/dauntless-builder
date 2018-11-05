@@ -270,10 +270,45 @@ export default class BuildRoute extends React.Component {
 
     getMetaTitle() {
         if(this.state.build.weapon_name) {
-            return this.state.build.weapon_name + " - Dauntless Builder";
+            return this.state.build.weapon_name + " Build - Dauntless Builder";
         }
 
         return "Dauntless Builder";
+    }
+
+    getMetaDescription() {
+        const model = BuildModel.tryDeserialize(this.state.buildData);
+
+        let armourPieces = Object.values(model.armour)
+            .filter(piece => piece !== null)
+            .map(piece => piece.name);
+
+        if(model.lantern) {
+            armourPieces.push(model.lantern.name);
+        }
+
+        let metaPerks = [];
+
+        const perks = Object.keys(model.perks).map(perk =>
+            ({name: perk, value: model.perks[perk]})).sort((a, b) => b.value - a.value);
+
+        for(let p of perks) {
+            const perk = p.name;
+            const value = p.value;
+
+            // only show perks with at least +4
+            if(value >= 4) {
+                metaPerks.push(`+${value} ${perk}`);
+            }
+        }
+
+        let result = `Equipment: ${armourPieces.join(", ")} / Perks: ${metaPerks.join(", ")}`;
+
+        if(result.length > 140) {
+            result = result.substring(0, 137) + "...";
+        }
+
+        return result;
     }
 
     getMetaImage() {
@@ -296,8 +331,11 @@ export default class BuildRoute extends React.Component {
         return <React.Fragment>
             <Helmet>
                 <title>{this.getMetaTitle()}</title>
+                <meta name="description" content={this.getMetaDescription()} />
+
                 <meta property="og:site_name" content="Dauntless Builder" />
                 <meta property="og:title" content={this.getMetaTitle()} />
+                <meta property="og:description" content={this.getMetaDescription()} />
                 <meta property="og:image" content={this.getMetaImage()} />
             </Helmet>
 
