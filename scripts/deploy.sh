@@ -12,9 +12,7 @@ mkdir -p deploy/dist/
 cp dist/dauntless-builder.js deploy/dist/
 cp dist/embed.js deploy/dist/
 cp *.html deploy/
-cp CNAME deploy/
-cp _redirects deploy/
-cp _headers deploy/
+cp misc/* deploy/
 
 ### copy data files to deploy
 mkdir -p deploy/map/
