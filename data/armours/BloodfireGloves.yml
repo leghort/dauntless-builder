@@ -18,7 +18,7 @@ resistance:
   7: 99
   8: 102
   9: 105
-  10: 108
+  10: 107.5
 perks:
   - name: Evasion
     value: 1

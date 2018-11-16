@@ -18,7 +18,7 @@ resistance:
   7: 99
   8: 102
   9: 105
-  10: 108
+  10: 107.5
 unique_effects:
   - name: DamageStaminaShield
     description: 1.5% of all damage dealt becomes a stamina shield (max 50) that depletes first when spending stamina. Depletes slowly after 5 seconds not dealing damage.

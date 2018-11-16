@@ -47,7 +47,8 @@ export default class ItemData extends React.Component {
             case "Armour":
                 stats = <React.Fragment>
                     <div className="stat-data">
-                        <strong>Resistance</strong>: {this.props.item.resistance[this.props.level]} <ElementalAffinities item={this.props.item} />
+                        <strong>Resistance</strong>: {Math.ceil(this.props.item.resistance[this.props.level])}
+                        <ElementalAffinities item={this.props.item} />
                     </div>
                     {perkElement}
                 </React.Fragment>;
