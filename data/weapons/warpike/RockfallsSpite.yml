@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/warpike/RockfallsSpite.png
 type: War Pike
 damage: Slashing
 elemental: null
-cells: [Power, Defence]
+cells: [Technique, Defence]
 tier: 5
 rarity: rare
 power:
