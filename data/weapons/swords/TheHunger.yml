@@ -20,11 +20,7 @@ power:
   9: 418
   10: 430
 unique_effects:
-  - name: HungerDamageIncreaseMeter
-    description: Deal up to 25% increased damage as your meter increases.
-    value: 1.25
-  - name: HungerDamageIncreaseFeast
-    description: Activate at max meter to enter Feast, dealing 75% increased damage for 15 seconds, but taking damage after each hit.
-    value: 1.75
-  - name: HungerRegainHealth
-    description: Activate again during Feast to unleash an Umbral attack that can regain lost health.
+  - name: TheHungerEffect
+    description: >
+      Activate to enter Feast, taking damage over time but gaining significant lifesteal,
+      attack speed, and creating aetheric waves with each attack that deal area damage.
