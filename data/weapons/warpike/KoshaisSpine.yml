@@ -24,5 +24,5 @@ perks:
     value: 1
 unique_effects:
   - name: NoAttackDamage
-    description: After not dealing damage for 8 seconds, the next 5 attacks deal 25% increased damage.
+    description: After not dealing damage for 6 seconds, the next 5 attacks deal 25% increased damage.
     value: 1.25

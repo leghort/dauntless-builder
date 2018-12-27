@@ -31,6 +31,6 @@ perks:
 unique_effects:
   - name: ValomyrCharge
     description: >
-      Once charged, your next attack will deal 400 bonus radiant damage.
+      Once charged, your next attack will deal 550 bonus radiant damage.
       Charge rate increases with current health.
     value: 1.5

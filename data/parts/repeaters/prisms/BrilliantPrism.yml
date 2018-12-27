@@ -14,4 +14,4 @@ power:
   9: 30
   10: 55
 part_effect:
-  - Once charged, your next attack will deal 400 bonus radiant damage. Charge rate increases with current health.
+  - Once charged, your next attack will deal 550 bonus radiant damage. Charge rate increases with current health.
