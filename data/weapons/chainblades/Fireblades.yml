@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/chainblades/Fireblades.png
 type: Chain Blades
 damage: Slashing
 elemental: Blaze
-cells: [Technique, Utility]
+cells: [Technique, Defence]
 tier: 5
 rarity: rare
 power:
