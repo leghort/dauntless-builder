@@ -1,12 +1,13 @@
 // This exists to force a cache update on client. Simply increase the number.
-const SCRIPT_VERSION = 3;
+import ItemUtility from "./ItemUtility";
+
+const SCRIPT_VERSION = 4;
 
 class DataUtility {
     constructor() {
         this._data = null;
-        this._map = {
-            v1: null
-        };
+        this._meta = null;
+        this._map = null;
     }
 
     getKeyByValue(object, value) {
@@ -19,6 +20,34 @@ class DataUtility {
         }
 
         return "0";
+    }
+
+    getMapIdByValue(type, value) {
+        if (!(type in this._map)) {
+            return "0";
+        }
+
+        return this.getKeyByValue(this._map[type], value);
+    }
+
+    getWeaponId(value) {
+        return this.getMapIdByValue("Weapons", value);
+    }
+
+    getArmourId(value) {
+        return this.getMapIdByValue("Armours", value);
+    }
+
+    getLanternId(value) {
+        return this.getMapIdByValue("Lanterns", value);
+    }
+
+    getCellId(value) {
+        return this.getMapIdByValue("Cells", value);
+    }
+
+    getPartId(weaponType, value) {
+        return this.getMapIdByValue(`Parts:${ItemUtility.formatWeaponTypeForParts(weaponType).capitalize()}`, value);
     }
 
     getJSON(url) {
@@ -49,22 +78,26 @@ class DataUtility {
     loadData(urlPrefix = "") {
         if(this.isCurrentDataStillValid()) {
             this._data = this.retrieveData("__db_data");
-            this._map.v1 = this.retrieveData("__db_map_v1");
+            this._meta = this.retrieveData("__db_meta");
+            this._map = this.retrieveData("__db_map");
 
             return Promise.resolve(true);
         }
 
         return Promise.all([
             this.getJSON(urlPrefix + "/data.json"),
-            this.getJSON(urlPrefix + "/map/v1.json")
-        ]).then(([data, mapV1]) => {
+            this.getJSON(urlPrefix + "/meta.json"),
+            this.getJSON(urlPrefix + "/map/names.json")
+        ]).then(([data, meta, map]) => {
             this.persistData("__db_lastupdate", new Date().getTime());
             this.persistData("__db_data", data);
-            this.persistData("__db_map_v1", mapV1);
+            this.persistData("__db_meta", meta);
+            this.persistData("__db_map", map);
             this.persistData("__db_scriptversion", SCRIPT_VERSION);
 
             this._data = data;
-            this._map.v1 = mapV1;
+            this._meta = meta;
+            this._map = map;
 
             return true;
         }).catch(reason => {
@@ -106,12 +139,12 @@ class DataUtility {
         return this._data;
     }
 
-    stringMap(version = 1) {
-        switch(version) {
-            case 1: return this._map.v1;
-        }
+    meta() {
+        return this._meta;
+    }
 
-        return null;
+    stringMap() {
+        return this._map;
     }
 }
 

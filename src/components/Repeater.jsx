@@ -18,11 +18,19 @@ export default class Repeater extends React.Component {
     getTotalPower() {
         let total = 0;
 
-        const fields = ["barrel", "chamber", "grip", "prism"];
+        const fields = [
+            ["barrels", "part1"],
+            ["chambers", "part2"],
+            ["grips", "part3"],
+            ["prisms", "part4"]
+        ];
 
         for(let field of fields) {
-            const part = BuildModel.findPart("repeaters", field + "s", this.props.parent.state.build[field + "_name"]);
-            const level = this.props.parent.state.build[field + "_level"];
+            const partType = field[0];
+            const partName = this.props.parent.state.build["weapon_" + field[1] + "_name"];
+
+            const part = BuildModel.findPart("repeater", partType, partName);
+            const level = this.props.parent.state.build["weapon_" + field[1] + "_level"];
 
             if(part) {
                 total += part.power[level];
@@ -45,16 +53,15 @@ export default class Repeater extends React.Component {
     }
 
     renderPart(partType, fieldPrefix) {
-        const fieldName = fieldPrefix + "_name";
-        const capitalize = string => string.charAt(0).toUpperCase() + string.slice(1);
+        const fieldName = "weapon_" + fieldPrefix + "_name";
 
         const parts = this.props.parent.state.itemData.parts;
 
-        if(!parts.repeaters || !parts.repeaters[partType]) {
+        if(!parts.repeater || !(partType in parts.repeater)) {
             return null;
         }
 
-        const part = BuildModel.findPart("repeaters", partType, this.props.parent.state.build[fieldName]);
+        const part = BuildModel.findPart("repeater", partType, this.props.parent.state.build[fieldName]);
 
         if(!part) {
             return <div className="item-title-wrapper">
@@ -63,7 +70,7 @@ export default class Repeater extends React.Component {
                         <i className="fas fa-question no-item-icon"></i>
                         <div className="item-data">
                             <h3 className="subtitle">
-                                No <strong>{capitalize(partType).substring(0, partType.length - 1)}</strong> selected.
+                                No <strong>{partType.capitalize().substring(0, partType.length - 1)}</strong> selected.
                             </h3>
                             <div>Click here to select one.</div>
                         </div>
@@ -100,10 +107,10 @@ export default class Repeater extends React.Component {
                 </div>
             </div>
 
-            {this.renderPart("barrels", "barrel")}
-            {this.renderPart("chambers", "chamber")}
-            {this.renderPart("grips", "grip")}
-            {this.renderPart("prisms", "prism")}
+            {this.renderPart("barrels", "part1")}
+            {this.renderPart("chambers", "part2")}
+            {this.renderPart("grips", "part3")}
+            {this.renderPart("prisms", "part4")}
         </React.Fragment>;
     }
 }

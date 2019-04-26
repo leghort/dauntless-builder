@@ -31,11 +31,8 @@
         "hidden": {
             "type": "boolean"
         },
-        "tier": {
-            "type": ["array", "number"]
-        },
-        "rarity": {
-            "type": "string"
+        "restrict_specials": {
+            "type": "boolean"
         },
         "power": {
             "type": "object",
@@ -135,7 +132,8 @@
         }
     },
     "required": [
-        "name"
+        "name",
+        "type"
     ],
     "additionalProperties": false
 }

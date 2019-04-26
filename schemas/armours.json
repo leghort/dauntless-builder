@@ -27,12 +27,6 @@
         "hidden": {
             "type": "boolean"
         },
-        "tier": {
-            "type": "number"
-        },
-        "rarity": {
-            "type": "string"
-        },
         "resistance": {
             "type": "object",
             "properties": {

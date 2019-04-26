@@ -24,6 +24,8 @@ import MenuDropdown from "../components/MenuDropdown";
 import Repeater from "../components/Repeater";
 import RepeaterPartSelectModal from "../components/RepeaterPartSelectModal";
 import DarkModeToggle from "../components/DarkModeToggle";
+import WeaponPartSelectModal from "../components/WeaponPartSelectModal";
+import WeaponPart from "../components/WeaponPart";
 
 export default class BuildRoute extends React.Component {
 
@@ -34,12 +36,18 @@ export default class BuildRoute extends React.Component {
             ready: false,
             itemSelectModalOpen: false,
             repeaterPartSelectModalOpen: false,
+            weaponPartSelectModalOpen: false,
             modalData: {}
         };
     }
 
     componentDidMount() {
         const buildData = this.props.match.params.buildData;
+
+        // redirect all v1 builds to seperate v1 website
+        if (BuildModel.version(buildData) === 1) {
+            window.location.href = "https://v1.dauntless-builder.com/b/" + buildData;
+        }
 
         this.loadBuild(buildData);
     }
@@ -66,27 +74,29 @@ export default class BuildRoute extends React.Component {
     }
 
     dummyData() {
-        let build = this.state.build;
+        let build = BuildModel.empty()
 
         // weapon
-        build.weapon_name = "Ragesaber";
-        build.weapon_level = 10;
-        build.weapon_cell0 = "+3 Energized Cell";
-        build.weapon_cell1 = "+1 Tough Cell";
-        build.head_name = "Ragetail Touque";
-        build.head_level = 10;
-        build.head_cell = "+3 Tough Cell";
-        build.torso_name = "Ragetail Cloak";
-        build.torso_level = 10;
-        build.torso_cell = "+2 Tough Cell";
-        build.arms_name = "Ragetail Grips";
-        build.arms_level = 10;
-        build.arms_cell = "+2 Ragehunter Cell";
-        build.legs_name = "Ragetail Treads";
-        build.legs_level = 9;
-        build.legs_cell = "+3 Ragehunter Cell";
-        build.lantern_name = "Shrike's Zeal";
-        build.lantern_cell = "+2 Energized Cell";
+        build.weapon_name = "Brutality of Boreus";
+        build.weapon_level = 15;
+        build.weapon_part1_name = "Mighty Landbreaker";
+        build.weapon_part2_name = "Impulse Crown";
+        build.weapon_cell0 = "+3 Deconstruction Cell";
+        build.weapon_cell1 = "+3 Assassin's Vigour Cell";
+        build.torso_name = "Boreal Resolve";
+        build.torso_level = 15;
+        build.torso_cell = "+3 Iceborne Cell";
+        build.arms_name = "Boreal Might";
+        build.arms_level = 15;
+        build.arms_cell = "+3 Aetherhunter Cell";
+        build.legs_name = "Boreal March";
+        build.legs_level = 15;
+        build.legs_cell = "+3 Predator Cell";
+        build.head_name = "Boreal Epiphany";
+        build.head_level = 15;
+        build.head_cell = "+3 Aetheric Attunement Cell";
+        build.lantern_name = "Embermane's Rapture";
+        build.lantern_cell = "+3 Aetheric Attunement Cell";
 
         this.setState({
             build
@@ -123,17 +133,18 @@ export default class BuildRoute extends React.Component {
             changes.weapon_level = ItemUtility.maxLevel("weapons", itemName);
             changes.weapon_cell0 = "";
             changes.weapon_cell1 = "";
-
-            if(ItemUtility.isRepeater({name: itemName})) {
-                changes.barrel_name = "";
-                changes.barrel_level = 0; // TODO: get max part level
-                changes.chamber_name = "";
-                changes.chamber_level = 0; // TODO: get max part level
-                changes.grip_name = "";
-                changes.grip_level = 0; // TODO: get max part level
-                changes.prism_name = "";
-                changes.prism_level = 0; // TODO: get max part level
-            }
+            changes.weapon_part1_name = "";
+            changes.weapon_part1_level = 0;
+            changes.weapon_part2_name = "";
+            changes.weapon_part2_level = 0;
+            changes.weapon_part3_name = "";
+            changes.weapon_part3_level = 0;
+            changes.weapon_part4_name = "";
+            changes.weapon_part4_level = 0;
+            changes.weapon_part5_name = "";
+            changes.weapon_part5_level = 0;
+            changes.weapon_part6_name = "";
+            changes.weapon_part6_level = 0;
         } else if(itemType === "Armour") {
             let type = data.__armourType.toLowerCase();
 
@@ -157,10 +168,12 @@ export default class BuildRoute extends React.Component {
     onPartSelected(fieldPrefix, part) {
         let changes = {};
 
-        const maxLevel = Math.max(...Object.keys(part.power).map(k => Number(k)));
-
         changes[fieldPrefix + "_name"] = part.name;
-        changes[fieldPrefix + "_level"] = maxLevel;
+
+        if (part.power) {
+            const maxLevel = Math.max(...Object.keys(part.power).map(k => Number(k)));
+            changes[fieldPrefix + "_level"] = maxLevel;
+        }
 
         this.applyItemSelection(changes);
     }
@@ -228,6 +241,21 @@ export default class BuildRoute extends React.Component {
         this.onRepeaterPartSelectModalClosed();
     }
 
+    openWeaponPartSelectModal(weaponType, partType, fieldName) {
+        this.onModalOpen();
+        this.setState({weaponPartSelectModalOpen: true, modalData: {weaponType, partType, fieldName}});
+    }
+
+    onWeaponPartSelectModalClosed() {
+        this.onModalClosed();
+        this.setState({weaponPartSelectModalOpen: false, modalData: {}});
+    }
+
+    onWeaponPartSelected(fieldPrefix, part) {
+        this.onPartSelected(fieldPrefix, part);
+        this.onWeaponPartSelectModalClosed();
+    }
+
     renderWeapon() {
         const weapon = BuildModel.findWeapon(this.state.build.weapon_name);
 
@@ -255,6 +283,55 @@ export default class BuildRoute extends React.Component {
                 [this.state.build.weapon_cell1, BuildModel.findCellByVariantName(this.state.build.weapon_cell1)],
             ]} />;
     }
+
+    renderWeaponParts() {
+        const weapon = BuildModel.findWeapon(this.state.build.weapon_name);
+
+        if (!weapon) {
+            return;
+        }
+
+        const weaponHasParts = partName =>
+            ItemUtility.formatWeaponTypeForParts(weapon.type) in this.state.itemData.parts &&
+            partName in this.state.itemData.parts[ItemUtility.formatWeaponTypeForParts(weapon.type)];
+
+        let parts = [];
+
+        if (weaponHasParts("specials") && weapon.restrict_specials !== true) {
+            let slot = "weapon_part1_name";
+
+            if (ItemUtility.isRepeater(weapon)) {
+                slot = "weapon_part5_name";
+            }
+
+            const part = BuildModel.findPart(weapon.type, "specials", this.state.build[slot]);
+
+            parts.push(
+                <WeaponPart key={weapon.type + "_special"} part={part} partType="specials" onClicked={
+                    () => this.openWeaponPartSelectModal(weapon.type, "specials", slot)
+                } />
+            );
+        }
+
+        if (weaponHasParts("mods")) {
+            let slot = "weapon_part2_name";
+
+            if (ItemUtility.isRepeater(weapon)) {
+                slot = "weapon_part6_name";
+            }
+
+            const part = BuildModel.findPart(weapon.type, "mods", this.state.build[slot]);
+
+            parts.push(
+                <WeaponPart key={weapon.type + "_mod"} part={part} partType="mods" onClicked={
+                    () => this.openWeaponPartSelectModal(weapon.type, "mods", slot)
+                } />
+            );
+        }
+
+        return parts;
+    }
+
 
     getMetaTitle() {
         if(this.state.build.weapon_name) {
@@ -339,11 +416,6 @@ export default class BuildRoute extends React.Component {
                             <i className="fas fa-folder-open"></i>&nbsp;My builds
                         </button>
                     </Link>
-                    <Link to="/dev">
-                        <DebugButton>
-                            <i className="fas fa-code"></i>&nbsp;Dev Menu
-                        </DebugButton>
-                    </Link>
                 </div>
                 <div className="qa-right">
                     <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} refs="copyButton"  onCopy={() => this.onCopyToClipboard()}>
@@ -376,6 +448,7 @@ export default class BuildRoute extends React.Component {
             <div className="columns">
                 <div className="column is-two-thirds">
                     {this.renderWeapon()}
+                    {this.renderWeaponParts()}
 
                     <Item
                         parent={this}
@@ -452,6 +525,12 @@ export default class BuildRoute extends React.Component {
                 onClosed={this.onRepeaterPartSelectModalClosed.bind(this)}
                 onSelected={this.onRepeaterPartSelected.bind(this)}
                 isOpen={this.state.repeaterPartSelectModalOpen} />
+            <WeaponPartSelectModal
+                data={this.state.modalData}
+                itemData={this.state.itemData}
+                onClosed={this.onWeaponPartSelectModalClosed.bind(this)}
+                onSelected={this.onWeaponPartSelected.bind(this)}
+                isOpen={this.state.weaponPartSelectModalOpen} />
         </React.Fragment>;
     }
 }
