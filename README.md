@@ -14,16 +14,6 @@ Coming soon...
 
 All Dauntless related assets are the property of Phoenix Labs.
 
-We're also using some icons from [Game Icons](https://game-icons.net/), such as:
-
-* [Visored Helm](/assets/icons/general/Head.png)
-* [Breastplate](/assets/icons/general/Torso.png)
-* [Mailed Fist](/assets/icons/general/Arms.png)
-* [Steeltoe Boots](/assets/icons/general/Legs.png)
-
-The icons and the data are mostly from the [Dauntless Wiki](https://dauntless.gamepedia.com/Dauntless_Wiki), so huge thanks
-to all who are working on it :).
-
 ## Contact me
 
 If you want to contact me, you can do so via these methods:
