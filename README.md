@@ -36,4 +36,4 @@ Please use [Github Issues](https://github.com/atomicptr/dauntless-builder/issues
 
 ## License
 
-MIT
+[Mozilla Public License v2](https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2))
