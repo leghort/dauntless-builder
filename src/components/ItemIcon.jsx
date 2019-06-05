@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import PropTypeUtility from "../utility/PropTypeUtility";
 
 import LazyLoad from "react-lazy-load";
@@ -34,7 +33,7 @@ export default class ItemIcon extends React.Component {
             }}></i>;
         }
 
-        return <LazyLoad className="image-icon-wrapper" width="64" height="64" offsetVertical="500">
+        return <LazyLoad className="image-icon-wrapper" width={128} height={128} offsetVertical={500}>
             <img src={this.state.src} />
         </LazyLoad>;
     }

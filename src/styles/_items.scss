@@ -117,6 +117,11 @@
 
     .image-icon-wrapper {
         min-width: 128px;
+
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
     }
 
     .item {
@@ -272,12 +277,14 @@
             height: unset;
 
             .image-icon-wrapper {
-                width: 64px;
-                height: 64px;
-
+                width: 64px !important;
+                height: 64px !important;
                 min-width: unset !important;
 
                 & > img {
+                    width: 64px;
+                    height: 64px;
+
                     min-width: 64px;
                 }
             }
@@ -437,6 +444,11 @@
 }
 
 @media screen and (max-width: 700px) {
+    .item-wrapper .image-icon-wrapper {
+        width: 64px !important;
+        height: 64px !important;
+    }
+
     .modal-card {
         position: fixed;
         top: 0px;
