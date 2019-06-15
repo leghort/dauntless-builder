@@ -87,7 +87,6 @@ export default class AppContainer extends React.Component {
                                 <Route path="/b/:buildData" component={BuildRoute} />
                                 <Route path="/favorites" component={FavoritesRoute} />
                                 <Route path="/privacy" component={PrivacyRoute} />
-                                <Route path="/dev" render={() => <Redirect to="/dev/Main" />} />
                                 <Redirect to="/" />
                             </Switch>
                         </div>
