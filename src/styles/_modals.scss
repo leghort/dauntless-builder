@@ -24,7 +24,43 @@
         margin-left: -20px;
         margin-right: -20px;
         margin-bottom: -20px;
-        justify-content: flex-end;
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+        .footer-left {
+            flex-grow: 1;
+            margin-right: 15px;
+
+            .level-picker {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: center;
+
+                .rc-slider {
+                    margin-right: 15px;
+
+                    .rc-slider-track {
+                        background-color: $elemental-positive;
+                    }
+
+                    .rc-slider-handle {
+                        border-color: $elemental-positive;
+
+                        &:hover {
+                            border-color: $elemental-positive;
+                        }
+                    }
+                }
+
+                .level {
+                    user-select: none;
+                    -moz-user-select: none;
+                }
+            }
+        }
     }
 }
 

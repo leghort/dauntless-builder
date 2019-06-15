@@ -8,6 +8,7 @@ import "react-select/dist/react-select.css";
 import Debug from "./Debug";
 import ModalCellListItem from "./ModalCellListItem";
 import ModalItemListItem from "./ModalItemListItem";
+import LevelPicker from "./LevelPicker";
 
 export default class ItemSelectModal extends React.Component {
     constructor(props, context) {
@@ -19,7 +20,8 @@ export default class ItemSelectModal extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: null
+            rarityFilter: null,
+            levelPickerValue: null
         };
 
         this.defaultState = {
@@ -28,7 +30,8 @@ export default class ItemSelectModal extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: null
+            rarityFilter: null,
+            levelPickerValue: null
         };
     }
 
@@ -59,12 +62,14 @@ export default class ItemSelectModal extends React.Component {
     }
 
     onItemSelected(itemType, itemName) {
+        const selectedLevel = this.getSelectedLevel();
+
         let newState = Object.assign({}, this.defaultState);
         newState.open = false;
 
         this.setState(newState, () => {
             if(this.props.onSelected) {
-                this.props.onSelected(itemType, itemName, this.props.data.filterOptions);
+                this.props.onSelected(itemType, itemName, selectedLevel, this.props.data.filterOptions);
             }
         });
     }
@@ -75,6 +80,18 @@ export default class ItemSelectModal extends React.Component {
                 this.props.onCanceled();
             }
         });
+    }
+
+    getSelectedLevel() {
+        if (this.state.levelPickerValue !== null) {
+            return this.state.levelPickerValue;
+        }
+
+        if (this.props.data && this.props.data.filterOptions && this.props.data.filterOptions.__itemLevel) {
+            return this.props.data.filterOptions.__itemLevel;
+        }
+
+        return 15;
     }
 
     getAvailableItems(ignoredFilters = []) {
@@ -393,6 +410,7 @@ export default class ItemSelectModal extends React.Component {
         return <ModalItemListItem
             key={type + "-" + item.name}
             item={item}
+            level={this.getSelectedLevel()}
             type={type}
             itemData={this.props.itemData}
             onSelected={this.onItemSelected.bind(this)} />;
@@ -405,6 +423,16 @@ export default class ItemSelectModal extends React.Component {
             itemData={this.props.itemData}
             onSelected={this.onItemSelected.bind(this)}
             rarityFilter={this.state.rarityFilter} />;
+    }
+
+    renderLevelPicker() {
+        if (!this.isType(["Weapon", "Armour"])) {
+            return null;
+        }
+
+        return <LevelPicker
+            level={this.getSelectedLevel()}
+            onValueChanged={val => this.setState({levelPickerValue: val})} />;
     }
 
     render() {
@@ -433,13 +461,19 @@ export default class ItemSelectModal extends React.Component {
                     <Debug data={{filterOptions: this.props.data.filterOptions, state: this.state}} />
 
                     <footer className="modal-card-foot">
-                        <button
-                            className="button"
-                            onClick={() =>
-                                this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
-                            Select&nbsp;<strong>No {this.props.data.filterOptions.__itemType}</strong>.
-                        </button>
-                        <button className="button" onClick={() => this.onClose()}>Cancel</button>
+                        <div className="footer-left">
+                            {this.renderLevelPicker()}
+                        </div>
+
+                        <div className="footer-right">
+                            <button
+                                className="button"
+                                onClick={() =>
+                                    this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
+                                Select&nbsp;<strong>No {this.props.data.filterOptions.__itemType}</strong>.
+                            </button>
+                            <button className="button" onClick={() => this.onClose()}>Cancel</button>
+                        </div>
                     </footer>
                 </div>
             </div>
@@ -452,6 +486,7 @@ ItemSelectModal.propTypes = {
     isOpen: PropTypes.bool,
     onSelected: PropTypes.func,
     onCanceled: PropTypes.func,
+    buildData: PropTypes.object,
     data: PropTypes.shape({
         filterOptions: PropTypes.object
     }),
