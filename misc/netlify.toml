@@ -9,7 +9,7 @@
     Cache-Control = "public, s-max-age=43200"
 
 [[headers]]
-  for = "/*.json"
+  for = "*.json"
   [headers.values]
     Access-Control-Allow-Origin: *
     Cache-Control = "public, s-max-age=14400"
