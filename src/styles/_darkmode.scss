@@ -61,6 +61,44 @@ $theme-input-border: #242424;
         }
     }
 
+    .build-item {
+
+        a:hover {
+            &+.build-actions {
+                background: $theme-item-background-color-hover;
+                color: $theme-font-color;
+            }
+        }
+
+        .build-content {
+            background: $theme-item-background-color;
+
+            .build-title {
+                color: $theme-font-color;
+            }
+
+            &:hover {
+                background: $theme-item-background-color-hover;
+
+                .build-title {
+                    color: $theme-font-color;
+                }
+            }
+        }
+
+        .build-actions {
+            background: $theme-item-background-color;
+
+            .delete-action {
+                cursor: pointer;
+
+                &:hover {
+                    color: $theme-font-color;
+                }
+            }
+        }
+    }
+
     .item:hover {
         background: $theme-item-background-color-hover;
     }

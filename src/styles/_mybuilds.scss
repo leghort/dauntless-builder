@@ -28,6 +28,13 @@
             background: #EEE;
             padding: 20px;
 
+            transition: background 0.3s ease;
+
+            &:active {
+                background: #AAA;
+                transition-duration: 0.1s;
+            }
+
             &:hover {
                 background: #363636;
 
@@ -63,6 +70,13 @@
 
             height: 100%;
             padding: 20px;
+
+            transition: background 0.3s ease;
+
+            &:active {
+                background: #AAA;
+                transition-duration: 0.1s;
+            }
 
             .delete-action {
                 cursor: pointer;
