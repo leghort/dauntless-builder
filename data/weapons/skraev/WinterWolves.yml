@@ -1,10 +1,10 @@
-name: Winter Gale
-description: A Slayer's axe forged with Skraev trophies.
-icon: /assets/icons/weapons/skraev/WinterGale.png
-type: Axe
-damage: Slashing
+name: Winter Wolves
+description: A Slayer's aether strikers forged with Skraev trophies.
+icon: /assets/icons/weapons/skraev/WinterWolves.png
+type: Aether Strikers
+damage: Blunt
 elemental: Frost
-cells: [Power, Mobility]
+cells: [Technique, Mobility]
 power:
   0: 100
   1: 140
