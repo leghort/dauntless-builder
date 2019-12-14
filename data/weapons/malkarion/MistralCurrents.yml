@@ -1,10 +1,10 @@
-name: Storm Breakers
+name: Mistral Currents
 description: A Slayer's aether strikers forged with Malkarion trophies.
-icon: /assets/icons/weapons/malkarion/StormBreakers.png
+icon: /assets/icons/weapons/malkarion/MistralCurrents.png
 type: Aether Strikers
 damage: Blunt
 elemental: Shock
-cells: [Technique, Mobility]
+cells: [Prismatic, Prismatic]
 power:
   0: 100
   1: 140
