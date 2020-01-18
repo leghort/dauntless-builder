@@ -1,4 +1,7 @@
 name: Reaper's Dance
 icon: /assets/icons/parts/chainblades/specials/ReapersDance.png
 part_effect:
-  - Use close to a Behemoth to push off, dealing damage. Use from far to pull in quickly to a Behemoth.
+  - >-
+    From afar: Pull to targets and grant a stack of Reaper's Dance. While close: Push off targets,
+    then use primary or secondary attacks to perform a followup. Primary followup grants a stack of
+    Reaper's Dance. Secondary followup expends stacks to deal +40% damage per stack.
