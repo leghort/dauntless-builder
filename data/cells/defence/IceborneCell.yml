@@ -1,15 +1,15 @@
-name: Iceborne Cell
-slot: Defence
+name: Cellule sang froid
+slot: Défence
 variants:
-  "+1 Iceborne Cell":
-    rarity: uncommon
+  "Cellule sang froid +1":
+    rarity: Commun
     perks:
       Iceborne: 1
-  "+2 Iceborne Cell":
-    rarity: rare
+  "Cellule sang froid +2":
+    rarity: Rare
     perks:
       Iceborne: 2
-  "+3 Iceborne Cell":
+  "Cellule sang froid +3":
     rarity: epic
     perks:
       Iceborne: 3
