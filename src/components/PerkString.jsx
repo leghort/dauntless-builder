@@ -11,7 +11,7 @@ export default class PerkString extends React.Component {
         </span>);
 
         if(perkList.length > 0) {
-            return <div><strong>Perks</strong>: {perkList}</div>;
+            return <div><strong>Effet</strong>: {perkList}</div>;
         }
 
         return null;
