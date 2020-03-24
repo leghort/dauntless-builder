@@ -483,7 +483,7 @@ export default class BuildRoute extends React.Component {
             }
         }
 
-        return "https://medaey.netlify.com/assets/icon.png";
+        return "https://www.dauntless-builder.com/assets/icon.png";
     }
 
     render() {
@@ -558,7 +558,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Head Armour" defaultType="Head"
+                        title="Casque" defaultType="Head"
                         item={BuildModel.findArmour(this.state.build.head_name)}
                         level={this.state.build.head_level}
                         cells={[
@@ -569,7 +569,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Torso Armour" defaultType="Torso"
+                        title="Plastron" defaultType="Torso"
                         item={BuildModel.findArmour(this.state.build.torso_name)}
                         level={this.state.build.torso_level}
                         cells={[
@@ -580,7 +580,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Arms Armour" defaultType="Arms"
+                        title="Gants" defaultType="Arms"
                         item={BuildModel.findArmour(this.state.build.arms_name)}
                         level={this.state.build.arms_level}
                         cells={[
@@ -591,7 +591,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Legs Armour" defaultType="Legs"
+                        title="Bottes" defaultType="Legs"
                         item={BuildModel.findArmour(this.state.build.legs_name)}
                         level={this.state.build.legs_level}
                         cells={[
@@ -602,7 +602,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Lantern" defaultType="Lantern"
+                        title="Lanterne" defaultType="Lantern"
                         item={BuildModel.findLantern(this.state.build.lantern_name)}
                         cells={[
                             [this.state.build.lantern_cell, BuildModel.findCellByVariantName(this.state.build.lantern_cell)]

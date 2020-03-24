@@ -56,7 +56,7 @@ export default class Item extends React.Component {
                         <i className="fas fa-question no-item-icon"></i>
                         <div className="item-data">
                             <h3 className="subtitle">No <strong>{this.props.title}</strong> selected.</h3>
-                            <div>Click here to select one.</div>
+                            <div>Cliquez ici pour séléctionner un equipement.</div>
                         </div>
                     </div>
                 </div>
