@@ -1,12 +1,12 @@
 name: Swift Cell
-slot: Mobilité
+slot: Mobility
 variants:
   "+1 Swift Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Swift: 1
   "+2 Swift Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Swift: 2
   "+3 Swift Cell":

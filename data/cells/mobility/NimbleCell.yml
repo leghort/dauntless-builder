@@ -1,12 +1,12 @@
 name: Nimble Cell
-slot: Mobilité
+slot: Mobility
 variants:
   "+1 Nimble Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Nimble: 1
   "+2 Nimble Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Nimble: 2
   "+3 Nimble Cell":

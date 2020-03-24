@@ -1,15 +1,15 @@
-n: Cellule de stratè amge
-slot: Défence
+name: Strategist Cell
+slot: Defence
 variants:
-  "Cellule de stratège +1":
-    rarity: Commun
+  "+1 Strategist Cell":
+    rarity: uncommon
     perks:
       Strategist: 1
-  "Cellule de stratège +2":
-    rarity: Rare
+  "+2 Strategist Cell":
+    rarity: rare
     perks:
       Strategist: 2
-  "Cellule de stratège +3":
+  "+3 Strategist Cell":
     rarity: epic
     perks:
       Strategist: 3

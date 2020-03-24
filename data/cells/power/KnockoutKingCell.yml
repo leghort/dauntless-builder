@@ -1,12 +1,12 @@
 name: Knockout King Cell
-slot: Puissance
+slot: Power
 variants:
   "+1 Knockout King Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Knockout King: 1
   "+2 Knockout King Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Knockout King: 2
   "+3 Knockout King Cell":

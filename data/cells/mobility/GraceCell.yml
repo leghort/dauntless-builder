@@ -1,12 +1,12 @@
 name: Grace Cell
-slot: Mobilité
+slot: Mobility
 variants:
   "+1 Grace Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Grace: 1
   "+2 Grace Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Grace: 2
   "+3 Grace Cell":

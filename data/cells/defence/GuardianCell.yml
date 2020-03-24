@@ -1,15 +1,15 @@
-name: Cellule de gardien
-slot: Défence
+name: Guardian Cell
+slot: Defence
 variants:
-  "Cellule de gardien +1":
-    rarity: Commun
+  "+1 Guardian Cell":
+    rarity: uncommon
     perks:
       Guardian: 1
-  "Cellule de gardien +2":
-    rarity: Rare
+  "+2 Guardian Cell":
+    rarity: rare
     perks:
       Guardian: 2
-  "Cellule de gardien +3":
+  "+3 Guardian Cell":
     rarity: epic
     perks:
       Guardian: 3

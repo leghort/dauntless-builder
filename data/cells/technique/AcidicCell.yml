@@ -2,11 +2,11 @@ name: Acidic Cell
 slot: Technique
 variants:
   "+1 Acidic Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Acidic: 1
   "+2 Acidic Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Acidic: 2
   "+3 Acidic Cell":

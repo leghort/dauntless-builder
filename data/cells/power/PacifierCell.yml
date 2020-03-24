@@ -1,12 +1,12 @@
 name: Pacifier Cell
-slot: Puissance
+slot: Power
 variants:
   "+1 Pacifier Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Pacifier: 1
   "+2 Pacifier Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Pacifier: 2
   "+3 Pacifier Cell":

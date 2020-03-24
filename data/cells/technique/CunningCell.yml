@@ -2,11 +2,11 @@ name: Cunning Cell
 slot: Technique
 variants:
   "+1 Cunning Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Cunning: 1
   "+2 Cunning Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Cunning: 2
   "+3 Cunning Cell":

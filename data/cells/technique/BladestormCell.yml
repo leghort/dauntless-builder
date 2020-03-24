@@ -2,11 +2,11 @@ name: Bladestorm Cell
 slot: Technique
 variants:
   "+1 Bladestorm Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Bladestorm: 1
   "+2 Bladestorm Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Bladestorm: 2
   "+3 Bladestorm Cell":

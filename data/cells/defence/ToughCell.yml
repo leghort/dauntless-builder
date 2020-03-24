@@ -1,15 +1,15 @@
-name: Cellule de robustesse
-slot: Défence
+name: Tough Cell
+slot: Defence
 variants:
-  "Cellule de robustesse +1":
-    rarity: Commun
+  "+1 Tough Cell":
+    rarity: uncommon
     perks:
       Tough: 1
-  "Cellule de robustesse +2":
-    rarity: Rare
+  "+2 Tough Cell":
+    rarity: rare
     perks:
       Tough: 2
-  "Cellule de robustesse +3":
+  "+3 Tough Cell":
     rarity: epic
     perks:
       Tough: 3

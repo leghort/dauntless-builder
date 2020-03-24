@@ -1,12 +1,12 @@
 name: Sharpened Cell
-slot: Puissance
+slot: Power
 variants:
   "+1 Sharpened Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Sharpened: 1
   "+2 Sharpened Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Sharpened: 2
   "+3 Sharpened Cell":

@@ -1,12 +1,12 @@
 name: Fleet Footed Cell
-slot: Mobilité
+slot: Mobility
 variants:
   "+1 Fleet Footed Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Fleet Footed: 1
   "+2 Fleet Footed Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Fleet Footed: 2
   "+3 Fleet Footed Cell":

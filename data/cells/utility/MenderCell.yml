@@ -1,15 +1,15 @@
 name: Mender Cell
-slot: Utilitaire
+slot: Utility
 variants:
   "+1 Mender Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Mender: 1
   "+2 Mender Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Mender: 2
   "+3 Mender Cell":
-    rarity: Epique
+    rarity: epic
     perks:
       Mender: 3

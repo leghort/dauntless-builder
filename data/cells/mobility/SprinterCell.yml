@@ -1,12 +1,12 @@
 name: Sprinter Cell
-slot: Mobilité
+slot: Mobility
 variants:
   "+1 Sprinter Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Sprinter: 1
   "+2 Sprinter Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Sprinter: 2
   "+3 Sprinter Cell":

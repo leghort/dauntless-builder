@@ -2,11 +2,11 @@ name: Merciless Cell
 slot: Technique
 variants:
   "+1 Merciless Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Merciless: 1
   "+2 Merciless Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Merciless: 2
   "+3 Merciless Cell":

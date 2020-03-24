@@ -1,15 +1,15 @@
-name: Cellule lernéenne
-slot: Défence
+name: Nine Lives Cell
+slot: Defence
 variants:
-  "Cellule lernéenne +1":
-    rarity: Commun
+  "+1 Nine Lives Cell":
+    rarity: uncommon
     perks:
       Nine Lives: 1
-  "Cellule lernéenne +2":
-    rarity: Rare
+  "+2 Nine Lives Cell":
+    rarity: rare
     perks:
       Nine Lives: 2
-  "Cellule lernéenne +3":
+  "+3 Nine Lives Cell":
     rarity: epic
     perks:
       Nine Lives: 3

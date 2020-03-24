@@ -2,11 +2,11 @@ name: Barbed Cell
 slot: Technique
 variants:
   "+1 Barbed Cell":
-    rarity: Commun
+    rarity: uncommon
     perks:
       Barbed: 1
   "+2 Barbed Cell":
-    rarity: Rare
+    rarity: rare
     perks:
       Barbed: 2
   "+3 Barbed Cell":

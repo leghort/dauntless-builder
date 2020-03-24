@@ -1,15 +1,15 @@
-name: Cellule coagulante
-slot: Défence
+name: Bloodless Cell
+slot: Defence
 variants:
-  "Cellule coagulante +1":
-    rarity: Commun
+  "+1 Bloodless Cell":
+    rarity: uncommon
     perks:
       Bloodless: 1
-  "Cellule coagulante +2":
-    rarity: Rare
+  "+2 Bloodless Cell":
+    rarity: rare
     perks:
       Bloodless: 2
-  "Cellule coagulante +3":
+  "+3 Bloodless Cell":
     rarity: epic
     perks:
       Bloodless: 3
