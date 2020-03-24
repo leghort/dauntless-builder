@@ -532,14 +532,14 @@ export default class BuildRoute extends React.Component {
                     <MenuDropdown label={
                         <React.Fragment>
                             <i className="fas fa-ellipsis-v" style={{margin: "0px 5px"}}></i>
-                            <span className="only-on-very-small">&nbsp;More</span>
+                            <span className="only-on-very-small">&nbsp;Plus</span>
                         </React.Fragment>
                     }>
                         <DarkModeToggle />
                         <a className="dropdown-item"
                             target="_blank" rel="noopener noreferrer"
                             href={DAUNTLESS_BUILD_COLLECTION_BASEURL + this.state.buildData}>
-                            <i className="fas fa-file-export"></i> Exporter dans Dauntless Build Collection...
+                            <i className="fas fa-file-export"></i> Sauvegader dans Dauntless Build Collection
                         </a>
                         <hr className="dropdown-divider" />
                         <a className="dropdown-item disabled">
