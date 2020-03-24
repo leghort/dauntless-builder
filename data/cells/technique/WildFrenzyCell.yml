@@ -2,11 +2,11 @@ name: Wild Frenzy Cell
 slot: Technique
 variants:
   "+1 Wild Frenzy Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Wild Frenzy: 1
   "+2 Wild Frenzy Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Wild Frenzy: 2
   "+3 Wild Frenzy Cell":

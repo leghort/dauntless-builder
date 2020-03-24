@@ -1,12 +1,12 @@
 name: Endurance Cell
-slot: Mobility
+slot: Mobilité
 variants:
   "+1 Endurance Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Endurance: 1
   "+2 Endurance Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Endurance: 2
   "+3 Endurance Cell":

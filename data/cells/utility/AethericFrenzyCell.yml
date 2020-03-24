@@ -1,15 +1,15 @@
 name: Aetheric Frenzy Cell
-slot: Utility
+slot: Utilitaire
 variants:
   "+1 Aetheric Frenzy Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Aetheric Frenzy: 1
   "+2 Aetheric Frenzy Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Aetheric Frenzy: 2
   "+3 Aetheric Frenzy Cell":
-    rarity: epic
+    rarity: Epique
     perks:
       Aetheric Frenzy: 3

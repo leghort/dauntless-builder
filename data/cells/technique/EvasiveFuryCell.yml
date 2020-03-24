@@ -2,11 +2,11 @@ name: Evasive Fury Cell
 slot: Technique
 variants:
   "+1 Evasive Fury Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Evasive Fury: 1
   "+2 Evasive Fury Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Evasive Fury: 2
   "+3 Evasive Fury Cell":

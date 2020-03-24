@@ -2,11 +2,11 @@ name: Savagery Cell
 slot: Technique
 variants:
   "+1 Savagery Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Savagery: 1
   "+2 Savagery Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Savagery: 2
   "+3 Savagery Cell":

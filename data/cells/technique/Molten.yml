@@ -2,11 +2,11 @@ name: Molten Cell
 slot: Technique
 variants:
   "+1 Molten Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Molten: 1
   "+2 Molten Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Molten: 2
   "+3 Molten Cell":

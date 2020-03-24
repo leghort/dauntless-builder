@@ -1,15 +1,15 @@
 name: Stunning Vigour Cell
-slot: Utility
+slot: Utilitaire
 variants:
   "+1 Stunning Vigour Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Stunning Vigour: 1
   "+2 Stunning Vigour Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Stunning Vigour: 2
   "+3 Stunning Vigour Cell":
-    rarity: epic
+    rarity: Epique
     perks:
       Stunning Vigour: 3

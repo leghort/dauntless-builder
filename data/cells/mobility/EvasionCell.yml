@@ -1,12 +1,12 @@
 name: Evasion Cell
-slot: Mobility
+slot: Mobilité
 variants:
   "+1 Evasion Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Evasion: 1
   "+2 Evasion Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Evasion: 2
   "+3 Evasion Cell":

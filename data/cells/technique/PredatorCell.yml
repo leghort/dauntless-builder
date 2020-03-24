@@ -2,11 +2,11 @@ name: Predator Cell
 slot: Technique
 variants:
   "+1 Predator Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Predator: 1
   "+2 Predator Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Predator: 2
   "+3 Predator Cell":

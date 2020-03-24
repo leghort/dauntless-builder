@@ -1,15 +1,15 @@
 name: Energized Cell
-slot: Utility
+slot: Utilitaire
 variants:
   "+1 Energized Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Energized: 1
   "+2 Energized Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Energized: 2
   "+3 Energized Cell":
-    rarity: epic
+    rarity: Epique
     perks:
       Energized: 3

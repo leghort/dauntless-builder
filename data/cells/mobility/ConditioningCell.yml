@@ -1,12 +1,12 @@
 name: Conditioning Cell
-slot: Mobility
+slot: Mobilité
 variants:
   "+1 Conditioning Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Conditioning: 1
   "+2 Conditioning Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Conditioning: 2
   "+3 Conditioning Cell":

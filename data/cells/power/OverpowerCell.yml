@@ -1,15 +1,15 @@
-name: Overpower Cell
-slot: Power
+name: OverPuissance Cell
+slot: Puissance
 variants:
-  "+1 Overpower Cell":
-    rarity: uncommon
+  "+1 OverPuissance Cell":
+    rarity: Commun
     perks:
-      Overpower: 1
-  "+2 Overpower Cell":
-    rarity: rare
+      OverPuissance: 1
+  "+2 OverPuissance Cell":
+    rarity: Rare
     perks:
-      Overpower: 2
-  "+3 Overpower Cell":
+      OverPuissance: 2
+  "+3 OverPuissance Cell":
     rarity: epic
     perks:
-      Overpower: 3
+      OverPuissance: 3

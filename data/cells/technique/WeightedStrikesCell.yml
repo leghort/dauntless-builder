@@ -2,11 +2,11 @@ name: Weighted Strikes Cell
 slot: Technique
 variants:
   "+1 Weighted Strikes Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Weighted Strikes: 1
   "+2 Weighted Strikes Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Weighted Strikes: 2
   "+3 Weighted Strikes Cell":

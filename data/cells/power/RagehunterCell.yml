@@ -1,12 +1,12 @@
 name: Ragehunter Cell
-slot: Power
+slot: Puissance
 variants:
   "+1 Ragehunter Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Ragehunter: 1
   "+2 Ragehunter Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Ragehunter: 2
   "+3 Ragehunter Cell":

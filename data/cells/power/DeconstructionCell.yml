@@ -1,12 +1,12 @@
 name: Deconstruction Cell
-slot: Power
+slot: Puissance
 variants:
   "+1 Deconstruction Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Deconstruction: 1
   "+2 Deconstruction Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Deconstruction: 2
   "+3 Deconstruction Cell":

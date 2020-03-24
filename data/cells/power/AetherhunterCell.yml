@@ -1,12 +1,12 @@
 name: Aetherhunter Cell
-slot: Power
+slot: Puissance
 variants:
   "+1 Aetherhunter Cell":
-    rarity: uncommon
+    rarity: Commun
     perks:
       Aetherhunter: 1
   "+2 Aetherhunter Cell":
-    rarity: rare
+    rarity: Rare
     perks:
       Aetherhunter: 2
   "+3 Aetherhunter Cell":
