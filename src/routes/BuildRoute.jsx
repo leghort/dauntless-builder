@@ -483,7 +483,7 @@ export default class BuildRoute extends React.Component {
             }
         }
 
-        return "https://www.dauntless-builder.com/assets/icon.png";
+        return "https://medaey.netlify.com/assets/icon.png";
     }
 
     render() {
