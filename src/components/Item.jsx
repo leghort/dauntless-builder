@@ -55,8 +55,8 @@ export default class Item extends React.Component {
                     <div className="item no-item" onClick={() => this.onClicked()}>
                         <i className="fas fa-question no-item-icon"></i>
                         <div className="item-data">
-                            <h3 className="subtitle">No <strong>{this.props.title}</strong> selected.</h3>
-                            <div>Cliquez ici pour séléctionner un equipement.</div>
+                            <h3 className="subtitle">Pas de <strong>{this.props.title} d'équipé</strong></h3>
+                            <div>Cliquez pour séléctionner un equipement.</div>
                         </div>
                     </div>
                 </div>
