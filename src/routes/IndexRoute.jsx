@@ -32,7 +32,7 @@ export default class IndexRoute extends React.Component {
                     </div>
 
                     <div className="column">
-                        <a href="https://github.com/atomicptr/dauntless-builder" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/leghort/dauntless-builder-french" target="_blank" rel="noopener noreferrer">
                             <div className="tile notification is-light feature-tile">
                                 <p className="title">CODE SOURCE</p>
                                 <div className="feature-tile-background">
