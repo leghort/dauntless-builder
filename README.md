@@ -1,35 +1,31 @@
-# dauntless-builder
+<p align="center">
+<a href=https://github.com/leghort/dauntless-builder-french/releases><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/leghort/dauntless-builder-french?include_prereleases">
+</p>
 
-Create and share Dauntless builds with your friends!
+### Table des matières
+**[Installation](https://github.com/leghort/dauntless-builder-french#installation)**</br>
 
-## Contributing
+## Installation
+```shell
+# First we need to install yarn via:
+npm install -g yarn
 
-Want to contribute? Great! Read the [contribution guide first](CONTRIBUTING.md).
+# Install/update all dependencies via
+yarn
 
-## Data documentation
+# If it's a clean install or there were changes to data in the last pull you'll need to do a full build once
+yarn build
 
-New version coming soon... In the meantime you can check out the old Documentation [here](https://github.com/leghort/dauntless-builder-french/tree/dauntless-builder/v1#using-the-dauntless-builder-build-id-format). It's basically the same, the only difference are the variables within it [(check this, to see which variables we're actually using](https://github.com/leghort/dauntless-builder-french/blob/master/src/models/BuildModel.jsx#L8)) and the map has a slightly different structure/path ([click here](https://github.com/leghort/dauntless-builder-french/blob/master/.map/names.json)).
+# Then rebuilding assets can be done with
+yarn build-dev
 
-You can access the data via the following URLs:
+# Optional: you can also watch/build data...
+# yarn build-dev --watch
 
-* https://www.dauntless-builder.fr/data.json - The data
-* https://www.dauntless-builder.fr/meta.json - Meta data, with a hash (to check if the data has changed), a timestamp etc.
-* https://www.dauntless-builder.fr/map/names.json - The ID to Name map
+# Next run your webserver via
+yarn dev
+```
 
-## Assets
-
-All Dauntless related assets are the property of Phoenix Labs.
-
-## Contact me
-
-If you want to contact me, you can do so via these methods:
-
-* E-Mail: me@atomicptr.de
-* Discord: Hecate#0001 (You'll not be able to contact me via Discord if you're not in the official Dauntless Discord server)
-* Reddit: /u/SirNullptr
-
-Please use [Github Issues](https://github.com/leghort/dauntless-builder-french/issues) for feature requests, bug reports and stuff along those lines.
-
-## License
-
-[Mozilla Public License v2](https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2))
+## Contact
+<a href=https://discordapp.com/users/184411677469573121><img src="https://img.icons8.com/color/50/000000/discord-logo.png"></a>
+<a href=mailto:medaey@hotmail.com><img src="https://i.ibb.co/Pr1Mtf9/mail.png"></a>
