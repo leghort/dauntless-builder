@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="http://build.team-68.fr/">
-    <img alt="Qries" src="https://i.ibb.co/YNNL2CH/image.png">
+    <img alt="Github top language" src="https://i.ibb.co/YNNL2CH/image.png">
   </a>
 </p>
 
