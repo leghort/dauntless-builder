@@ -56,7 +56,7 @@ export default class IndexRoute extends React.Component {
                     </div>
 
                     <div className="column">
-                        <a href="https://discord.gg/dauntless" target="_blank" rel="noopener noreferrer">
+                        <a href="https://discord.gg/CCaUvuh" target="_blank" rel="noopener noreferrer">
                             <div className="tile notification is-light feature-tile">
                                 <p className="title">DISCORD</p>
                                 <div className="feature-tile-background">
