@@ -2,7 +2,7 @@
 <a href=https://github.com/leghort/dauntless-builder-french/releases><img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/leghort/dauntless-builder-french?include_prereleases"></p>
 
 <p align="center">
-  <a href="http://dauntless-builder.fr/">
+  <a href="http://build.team-68.fr/">
     <img alt="Qries" src="https://i.ibb.co/YNNL2CH/image.png">
   </a>
 <p>
