@@ -4,6 +4,7 @@
 
 ### Table des matières
 **[Installation](https://github.com/leghort/dauntless-builder-french#installation)**</br>
+**[Contact](https://github.com/leghort/dauntless-builder-french#contact)**</br>
 
 ## Installation
 ```shell
