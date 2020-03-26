@@ -1,15 +1,15 @@
-name: Conduit Cell
+name: Cellule de Constitution
 slot: Utility
 variants:
-  "+1 Conduit Cell":
+  "Cellule de Constitution +1":
     rarity: uncommon
     perks:
       Conduit: 1
-  "+2 Conduit Cell":
+  "Cellule de Constitution +2":
     rarity: rare
     perks:
       Conduit: 2
-  "+3 Conduit Cell":
+  "Cellule de Constitution +3":
     rarity: epic
     perks:
       Conduit: 3
