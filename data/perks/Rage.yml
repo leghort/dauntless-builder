@@ -4,20 +4,20 @@ type: Power
 key: Rage
 effects:
   1:
-    description: When under 50% health, deal +5% damage
+    description: Infligez +5% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
     value: 1.05
   2:
-    description: When under 50% health, deal +8% damage
+    description: Infligez +8% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
     value: 1.08
   3:
-    description: When under 50% health, deal +12% damage
+    description: Infligez +12% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
     value: 1.12
   4:
-    description: When under 50% health, deal +16% damage
+    description: Infligez +16% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
     value: 1.16
   5:
-    description: When under 50% health, deal +20% damage
+    description: Infligez +20% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
     value: 1.2
   6:
-    description: When under 50% health, deal +25% damage
+    description: Infligez +25% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
     value: 1.25

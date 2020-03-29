@@ -4,20 +4,20 @@ type: Defence
 key: shellshock_immunity
 effects:
   1:
-    description: Reduces Shell Shocked explosion damage and status effect duration by 10%
+    description: Réduit les dégâts des concussions et leur durée de 10%
     value: -0.1
   2:
-    description: Reduces Shell Shocked explosion damage and status effect duration by 20%
+    description: Réduit les dégâts des concussions et leur durée de 20%
     value: -0.2
   3:
-    description: Reduces Shell Shocked explosion damage and status effect duration by 40%
+    description: Réduit les dégâts des concussions et leur durée de 40%
     value: -0.4
   4:
-    description: Reduces Shell Shocked explosion damage and status effect duration by 60%
+    description: Réduit les dégâts des concussions et leur durée de 60%
     value: -0.6
   5:
-    description: Reduces Shell Shocked explosion damage and status effect duration by 80%
+    description: Réduit les dégâts des concussions et leur durée de 80%
     value: -0.8
   6:
-    description: Immune to Shell Shocked explosion damage and status effect
+    description: Immunité aux dégâts d'explosion et à l'effet de statut « Concussion »
     value: -1

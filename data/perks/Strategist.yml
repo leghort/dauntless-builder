@@ -4,20 +4,20 @@ type: Defence
 key: [ReducedHealth, ShieldShare]
 effects:
   1:
-    description: [-50 max health, "After dodging through an attack, grant 25 health shield to all slayers"]
+    description: [-50 points de vie max, "Accorde un bouclier de 25 points de santé à tous les Slayers après une esquive parfaite"]
     value: [-50, 25]
   2:
-    description: [-100 max health, "After dodging through an attack, grant 50 health shield to all slayers"]
+    description: [-100 points de vie max, "Accorde un bouclier de 50 points de santé à tous les Slayers après une esquive parfaite"]
     value: [-100, 50]
   3:
-    description: [-150 max health, "After dodging through an attack, grant 75 health shield to all slayers"]
+    description: [-150 points de vie max, "Accorde un bouclier de 75 points de santé à tous les Slayers après une esquive parfaite"]
     value: [-150, 75]
   4:
-    description: [-200 max health, "After dodging through an attack, grant 100 health shield to all slayers"]
+    description: [-200 points de vie max, "Accorde un bouclier de 100 points de santé à tous les Slayers après une esquive parfaite"]
     value: [-200, 100]
   5:
-    description: [-250 max health, "After dodging through an attack, grant 125 health shield to all slayers"]
+    description: [-250 points de vie max, "Accorde un bouclier de 125 points de santé à tous les Slayers après une esquive parfaite"]
     value: [-250, 125]
   6:
-    description: [-300 max health, "After dodging through an attack, grant 150 health shield to all slayers"]
+    description: [-300 points de vie max, "Accorde un bouclier de 150 points de santé à tous les Slayers après une esquive parfaite"]
     value: [-300, 150]

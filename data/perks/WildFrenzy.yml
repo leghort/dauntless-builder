@@ -4,20 +4,20 @@ type: Technique
 key: low_hp_attack_speed
 effects:
   1:
-    description: When under 50% health, increase attack speed by 7.5%
+    description: En dessous de 50% de santé, confère 7.5% de vitesse d'attaque
     value: 1.075
   2:
-    description: When under 50% health, increase attack speed by 10%
+    description: En dessous de 50% de santé, confère 10% de vitesse d'attaque
     value: 1.1
   3:
-    description: When under 50% health, increase attack speed by 12.5%
+    description: En dessous de 50% de santé, confère 12.5% de vitesse d'attaque
     value: 1.125
   4:
-    description: When under 50% health, increase attack speed by 15%
+    description: En dessous de 50% de santé, confère 15% de vitesse d'attaque
     value: 1.15
   5:
-    description: When under 50% health, increase attack speed by 17.5%
+    description: En dessous de 50% de santé, confère 17.5% de vitesse d'attaque
     value: 1.175
   6:
-    description: When under 50% health, increase attack speed by 20%
+    description: En dessous de 50% de santé, confère 20% de vitesse d'attaque
     value: 1.20

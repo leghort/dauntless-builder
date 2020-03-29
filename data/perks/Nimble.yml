@@ -4,20 +4,20 @@ type: Mobility
 key: dodge_stamina
 effects:
   1:
-    description: Gain 10 Stamina after dodging through an attack
+    description: Après avoir esquivé une attaque, gagnez +10 endurance
     value: 10
   2:
-    description: Gain 15 Stamina after dodging through an attack
+    description: Après avoir esquivé une attaque, gagnez +15 endurance
     value: 15
   3:
-    description: Gain 20 Stamina after dodging through an attack
+    description: Après avoir esquivé une attaque, gagnez +20 endurance
     value: 20
   4:
-    description: Gain 25 Stamina after dodging through an attack
+    description: Après avoir esquivé une attaque, gagnez +25 endurance
     value: 25
   5:
-    description: Gain 30 Stamina after dodging through an attack
+    description: Après avoir esquivé une attaque, gagnez +30 endurance
     value: 30
   6:
-    description: Gain 35 Stamina after dodging through an attack
+    description: Après avoir esquivé une attaque, gagnez +35 endurance
     value: 35

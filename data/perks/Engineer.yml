@@ -4,20 +4,20 @@ type: Utility
 key: [FlaskLessHealing, IncreasedPylonRange]
 effects:
   1:
-    description: ["Your Flask heals for 30 less", "+35% increase Pylon range"]
+    description: ["La flasque soigne 30 de moins.", "+35% de portée des pylônes."]
     value: [-30, 0.35]
   2:
-    description: ["Your Flask heals for 60 less", "+50% increase Pylon range"]
+    description: ["La flasque soigne 60 de moins.", "+50% de portée des pylônes."]
     value: [-60, 0.5]
   3:
-    description: ["Your Flask heals for 90 less", "+65% increase Pylon range"]
+    description: ["La flasque soigne 90 de moins.", "+65% de portée des pylônes."]
     value: [-90, 0.65]
   4:
-    description: ["Your Flask heals for 120 less", "+80% increase Pylon range"]
+    description: ["La flasque soigne 120 de moins.", "+80% de portée des pylônes."]
     value: [-120, 0.8]
   5:
-    description: ["Your Flask heals for 150 less", "+115% increase Pylon range"]
+    description: ["La flasque soigne 150 de moins.", "+115% de portée des pylônes."]
     value: [-150, 1.15]
   6:
-    description: ["Your Flask heals for 180 less", "+150% increase Pylon range"]
+    description: ["La flasque soigne 180 de moins.", "+150% de portée des pylônes."]
     value: [-180, 1.5]

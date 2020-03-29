@@ -4,20 +4,20 @@ type: Technique
 key: wound_damage
 effects:
   1:
-    description: +25 Wound Damage vs Staggered Behemoths
+    description: +25 points de dégâts mutilants contre les Behemoths étourdis
     value: 25
   2:
-    description: +40 Wound Damage vs Staggered Behemoths
+    description: +40 points de dégâts mutilants contre les Behemoths étourdis
     value: 40
   3:
-    description: +55 Wound Damage vs Staggered Behemoths
+    description: +55 points de dégâts mutilants contre les Behemoths étourdis
     value: 55
   4:
-    description: +70 Wound Damage vs Staggered Behemoths
+    description: +70 points de dégâts mutilants contre les Behemoths étourdis
     value: 70
   5:
-    description: +85 Wound Damage vs Staggered Behemoths
+    description: +85 points de dégâts mutilants contre les Behemoths étourdis
     value: 85
   6:
-    description: +100 Wound Damage vs Staggered Behemoths
+    description: +100 points de dégâts mutilants contre les Behemoths étourdis
     value: 100
