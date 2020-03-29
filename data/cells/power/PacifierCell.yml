@@ -4,12 +4,12 @@ variants:
   "Cellule de pacificateur +1":
     rarity: uncommon
     perks:
-      Pacifier: 1
+      Pacificateur: 1
   "Cellule de pacificateur +2":
     rarity: rare
     perks:
-      Pacifier: 2
+      Pacificateur: 2
   "Cellule de pacificateur +3":
     rarity: epic
     perks:
-      Pacifier: 3
+      Pacificateur: 3

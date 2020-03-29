@@ -4,12 +4,12 @@ variants:
   "Cellule coagulante +1":
     rarity: uncommon
     perks:
-      Bloodless: 1
+      Coagulation: 1
   "Cellule coagulante +2":
     rarity: rare
     perks:
-      Bloodless: 2
+      Coagulation: 2
   "Cellule coagulante +3":
     rarity: epic
     perks:
-      Bloodless: 3
+      Coagulation: 3

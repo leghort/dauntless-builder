@@ -1,4 +1,4 @@
 name: Lame sifflante
 icon: /assets/icons/parts/sword/mods/WhistlingBlade.png
 part_effect:
-  - Réduit le coût en endurance du compbo « Éléments répétés » de 25% et chaque attaque d'« Éléments répétés » octroit 5% de vitesse d'attaque (30% maximum) jusqu'à la fin du combo.
+  - Réduit le coût en Endurance du compbo « Éléments répétés » de 25% et chaque attaque d'« Éléments répétés » octroit 5% de vitesse d'attaque (30% maximum) jusqu'à la fin du combo.

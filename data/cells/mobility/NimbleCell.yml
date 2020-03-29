@@ -4,12 +4,12 @@ variants:
   "Cellule d'évasion légère +1":
     rarity: uncommon
     perks:
-      Nimble: 1
+      Évasion légère: 1
   "Cellule d'évasion légère +2":
     rarity: rare
     perks:
-      Nimble: 2
+      Évasion légère: 2
   "Cellule d'évasion légère +3":
     rarity: epic
     perks:
-      Nimble: 3
+      Évasion légère: 3

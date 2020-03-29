@@ -4,12 +4,12 @@ variants:
   "Cellule de vigueur d'assassin +1":
     rarity: uncommon
     perks:
-      Assassin's Vigour: 1
+      Vigueur d'assassin: 1
   "Cellule de vigueur d'assassin +2":
     rarity: rare
     perks:
-      Assassin's Vigour: 2
+      Vigueur d'assassin: 2
   "Cellule de vigueur d'assassin +3":
     rarity: epic
     perks:
-      Assassin's Vigour: 3
+      Vigueur d'assassin: 3

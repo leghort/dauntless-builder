@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Predator
+  - name: Prédateur
     value: 1
     from: 0
     to: 5
-  - name: Predator
+  - name: Prédateur
     value: 2
     from: 6
     to: 9
-  - name: Predator
+  - name: Prédateur
     value: 3
     from: 10
     to: 15

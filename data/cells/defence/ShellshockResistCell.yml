@@ -4,12 +4,12 @@ variants:
   "Cellule résiliente +1":
     rarity: uncommon
     perks:
-      Shellshock Resist: 1
+      Résilience: 1
   "Cellule résiliente +2":
     rarity: rare
     perks:
-      Shellshock Resist: 2
+      Résilience: 2
   "Cellule résiliente +3":
     rarity: epic
     perks:
-      Shellshock Resist: 3
+      Résilience: 3

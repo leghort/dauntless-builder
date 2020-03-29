@@ -4,12 +4,12 @@ variants:
   "+1 Cellule Zèle":
     rarity: uncommon
     perks:
-      Zeal: 1
+      Zèle: 1
   "+2 Cellule Zèle":
     rarity: rare
     perks:
-      Zeal: 2
+      Zèle: 2
   "+3 Cellule Zèle":
     rarity: epic
     perks:
-      Zeal: 3
+      Zèle: 3

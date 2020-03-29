@@ -4,12 +4,12 @@ variants:
   "Cellule de chasse-aether +1":
     rarity: uncommon
     perks:
-      Aetherhunter: 1
+      Chasse-aether: 1
   "Cellule de chasse-aether +2":
     rarity: rare
     perks:
-      Aetherhunter: 2
+      Chasse-aether: 2
   "Cellule de chasse-aether +3":
     rarity: epic
     perks:
-      Aetherhunter: 3
+      Chasse-aether: 3

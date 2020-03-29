@@ -4,12 +4,12 @@ variants:
   "Cellule de furie évasive +1":
     rarity: uncommon
     perks:
-      Evasive Fury: 1
+      Furie évasive: 1
   "Cellule de furie évasive +2":
     rarity: rare
     perks:
-      Evasive Fury: 2
+      Furie évasive: 2
   "Cellule de furie évasive +3":
     rarity: epic
     perks:
-      Evasive Fury: 3
+      Furie évasive: 3

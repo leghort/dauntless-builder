@@ -4,12 +4,12 @@ variants:
   "Cellule ignifuge +1":
     rarity: uncommon
     perks:
-      Fireproof: 1
+      Ignifuge: 1
   "Cellule ignifuge +2":
     rarity: rare
     perks:
-      Fireproof: 2
+      Ignifuge: 2
   "Cellule ignifuge +3":
     rarity: epic
     perks:
-      Fireproof: 3
+      Ignifuge: 3

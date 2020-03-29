@@ -4,12 +4,12 @@ variants:
   "Cellule de tempête de lames +1":
     rarity: uncommon
     perks:
-      Bladestorm: 1
+      Tempête de lames: 1
   "Cellule de tempête de lames +2":
     rarity: rare
     perks:
-      Bladestorm: 2
+      Tempête de lames: 2
   "Cellule de tempête de lames +3":
     rarity: epic
     perks:
-      Bladestorm: 3
+      Tempête de lames: 3

@@ -4,12 +4,12 @@ variants:
   "Cellule de gardien +1":
     rarity: uncommon
     perks:
-      Guardian: 1
+      Gardien: 1
   "Cellule de gardien +2":
     rarity: rare
     perks:
-      Guardian: 2
+      Gardien: 2
   "Cellule de gardien +3":
     rarity: epic
     perks:
-      Guardian: 3
+      Gardien: 3

@@ -4,12 +4,12 @@ variants:
   "Cellule d'agilité +1":
     rarity: uncommon
     perks:
-      Agility: 1
+      Agilité: 1
   "Cellule d'agilité +2":
     rarity: rare
     perks:
-      Agility: 2
+      Agilité: 2
   "Cellule d'agilité +3":
     rarity: epic
     perks:
-      Agility: 3
+      Agilité: 3

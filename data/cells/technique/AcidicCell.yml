@@ -4,12 +4,12 @@ variants:
   "Cellule acide +1":
     rarity: uncommon
     perks:
-      Acidic: 1
+      Acide: 1
   "Cellule acide +2":
     rarity: rare
     perks:
-      Acidic: 2
+      Acide: 2
   "Cellule acide +3":
     rarity: epic
     perks:
-      Acidic: 3
+      Acide: 3

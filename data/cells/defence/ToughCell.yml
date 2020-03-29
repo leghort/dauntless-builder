@@ -4,12 +4,12 @@ variants:
   "Cellule de robustesse +1":
     rarity: uncommon
     perks:
-      Tough: 1
+      Robustesse: 1
   "Cellule de robustesse +2":
     rarity: rare
     perks:
-      Tough: 2
+      Robustesse: 2
   "Cellule de robustesse +3":
     rarity: epic
     perks:
-      Tough: 3
+      Robustesse: 3

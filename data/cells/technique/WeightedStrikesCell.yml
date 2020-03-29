@@ -4,12 +4,12 @@ variants:
   "Cellule de frappes lourdes +1":
     rarity: uncommon
     perks:
-      Weighted Strikes: 1
+      Frappes Lourdes: 1
   "Cellule de frappes lourdes +2":
     rarity: rare
     perks:
-      Weighted Strikes: 2
+      Frappes Lourdes: 2
   "Cellule de frappes lourdes +3":
     rarity: epic
     perks:
-      Weighted Strikes: 3
+      Frappes Lourdes: 3

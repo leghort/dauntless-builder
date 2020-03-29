@@ -4,12 +4,12 @@ variants:
   "Cellule chauffante +1":
     rarity: uncommon
     perks:
-      Warmth: 1
+      Chauffe: 1
   "Cellule chauffante +2":
     rarity: rare
     perks:
-      Warmth: 2
+      Chauffe: 2
   "Cellule chauffante +3":
     rarity: epic
     perks:
-      Warmth: 3
+      Chauffe: 3

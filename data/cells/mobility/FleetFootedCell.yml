@@ -4,12 +4,12 @@ variants:
   "Cellule de sprint évasif +1":
     rarity: uncommon
     perks:
-      Fleet Footed: 1
+      Sprint évasif: 1
   "Cellule de sprint évasif +2":
     rarity: rare
     perks:
-      Fleet Footed: 2
+      Sprint évasif: 2
   "Cellule de sprint évasif +3":
     rarity: epic
     perks:
-      Fleet Footed: 3
+      Sprint évasif: 3

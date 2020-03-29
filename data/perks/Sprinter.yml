@@ -1,7 +1,7 @@
-name: Sprinter
+name: Coureur
 description: Reduces max stamina. Increases movespeed and reduces sprint cost.
 type: Mobility
-key: [ReduceStamina, Sprinter]
+key: [ReduceStamina, Coureur]
 effects:
   1:
     description: [-5 max stamina, +5% movement speed and -5% reduced sprint cost]

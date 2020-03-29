@@ -4,12 +4,12 @@ variants:
   "Cellule de charge +1":
     rarity: uncommon
     perks:
-      Energized: 1
+      Charge: 1
   "Cellule de charge +2":
     rarity: rare
     perks:
-      Energized: 2
+      Charge: 2
   "Cellule de charge +3":
     rarity: epic
     perks:
-      Energized: 3
+      Charge: 3

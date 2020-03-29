@@ -4,12 +4,12 @@ variants:
   "Cellule de déconstruction +1":
     rarity: uncommon
     perks:
-      Deconstruction: 1
+      Démolition: 1
   "Cellule de déconstruction +2":
     rarity: rare
     perks:
-      Deconstruction: 2
+      Démolition: 2
   "Cellule de déconstruction +3":
     rarity: epic
     perks:
-      Deconstruction: 3
+      Démolition: 3

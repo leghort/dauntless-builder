@@ -4,12 +4,12 @@ variants:
   "Cellule fondue +1":
     rarity: uncommon
     perks:
-      Molten: 1
+      Fondu: 1
   "Cellule fondue +2":
     rarity: rare
     perks:
-      Molten: 2
+      Fondu: 2
   "Cellule fondue +3":
     rarity: epic
     perks:
-      Molten: 3
+      Fondu: 3

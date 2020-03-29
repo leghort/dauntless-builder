@@ -4,12 +4,12 @@ variants:
   "Cellule d'ingénieur +1":
     rarity: uncommon
     perks:
-      Engineer: 1
+      Ingénieur: 1
   "Cellule d'ingénieur +2":
     rarity: rare
     perks:
-      Engineer: 2
+      Ingénieur: 2
   "Cellule d'ingénieur +3":
     rarity: epic
     perks:
-      Engineer: 3
+      Ingénieur: 3

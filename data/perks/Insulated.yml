@@ -1,4 +1,4 @@
-name: Insulated
+name: Isolant
 description: Protects against Shocked status effect and allows you to attack electric shields.
 type: Defence
 key: [shock_immunity, percent_part_damage]

@@ -4,12 +4,12 @@ variants:
   "Cellule d'évasion améliorée +1":
     rarity: uncommon
     perks:
-      Evasion: 1
+      Évasion: 1
   "Cellule d'évasion améliorée +2":
     rarity: rare
     perks:
-      Evasion: 2
+      Évasion: 2
   "Cellule d'évasion améliorée +3":
     rarity: epic
     perks:
-      Evasion: 3
+      Évasion: 3

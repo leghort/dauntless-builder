@@ -4,12 +4,12 @@ variants:
   "Cellule impitoyable +1":
     rarity: uncommon
     perks:
-      Merciless: 1
+      Impitoyable: 1
   "Cellule impitoyable +2":
     rarity: rare
     perks:
-      Merciless: 2
+      Impitoyable: 2
   "Cellule impitoyable +3":
     rarity: epic
     perks:
-      Merciless: 3
+      Impitoyable: 3

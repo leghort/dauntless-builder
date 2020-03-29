@@ -3,5 +3,5 @@ icon: /assets/icons/lanterns/PangarsShine.png
 description: null
 cells: Utility
 lantern_ability:
-  instant: Restaure de 25% de votre endurance maximale.
+  instant: Restaure de 25% de votre Endurance maximale.
   hold: Créer un pilier de givre devant vous qui inflige 960 points de dégâts de givre en 12 secondes aux ennemis proches.

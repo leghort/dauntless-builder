@@ -4,12 +4,12 @@ variants:
   "Cellule vampirique +1":
     rarity: uncommon
     perks:
-      Vampiric: 1
+      Vampirique: 1
   "Cellule vampirique +2":
     rarity: rare
     perks:
-      Vampiric: 2
+      Vampirique: 2
   "Cellule vampirique +3":
     rarity: epic
     perks:
-      Vampiric: 3
+      Vampirique: 3
