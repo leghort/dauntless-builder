@@ -1,4 +1,4 @@
-name: Executioner's Spearhead
+name: Fer de lance du bourreau
 icon: /assets/icons/parts/warpike/mods/ExecutionersSpearhead.png
 part_effect:
-  - Each time the Behemoth is wounded, gain +6% damage
+  - A chaque fois que le Behemoth est bléssé, gagnez +6% de dégâts.

@@ -1,15 +1,15 @@
-name: Savagery Cell
+name: Cellule de sauvagerie
 slot: Technique
 variants:
-  "+1 Savagery Cell":
+  "Cellule de sauvagerie +1":
     rarity: uncommon
     perks:
       Savagery: 1
-  "+2 Savagery Cell":
+  "Cellule de sauvagerie +2":
     rarity: rare
     perks:
       Savagery: 2
-  "+3 Savagery Cell":
+  "Cellule de sauvagerie +3":
     rarity: epic
     perks:
       Savagery: 3

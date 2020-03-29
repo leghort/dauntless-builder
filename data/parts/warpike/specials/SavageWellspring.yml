@@ -1,4 +1,4 @@
-name: Savage Wellspring
+name: Source Sauvage
 icon: /assets/icons/parts/warpike/specials/SavageWellspring.png
 part_effect:
-  - Use to convert meter into ammo. Hold to spend ammo to create an aura that buffs nearby allies with critical strike chance. Duration increases with ammo quality.
+  - Appuyez pour convertir votre jauge de munitions. Maintenez pour dépenser des munitions et créer une aura qui augmente de 25% les chances de de critique des alliés proches jusqu'à 12 secondes selon la qualité des munitions.

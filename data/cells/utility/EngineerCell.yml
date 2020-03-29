@@ -1,15 +1,15 @@
-name: Engineer Cell
+name: Cellule d'ingénieur
 slot: Utility
 variants:
-  "+1 Engineer Cell":
+  "Cellule d'ingénieur +1":
     rarity: uncommon
     perks:
       Engineer: 1
-  "+2 Engineer Cell":
+  "Cellule d'ingénieur +2":
     rarity: rare
     perks:
       Engineer: 2
-  "+3 Engineer Cell":
+  "Cellule d'ingénieur +3":
     rarity: epic
     perks:
       Engineer: 3

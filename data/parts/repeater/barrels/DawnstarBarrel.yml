@@ -1,4 +1,4 @@
-name: Dawnstar Barrel
+name: Canon aubétoile
 description: The Dawnstar Barrel is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/barrels/DawnstarBarrel.png
 elemental: Radiant
@@ -20,4 +20,4 @@ power:
   14: 150
   15: 153
 part_effect:
-  - Shots and abilities deal radiant damage.
+  - Les tirs et capacités infligent des dégâts rayonnants.

@@ -1,4 +1,4 @@
-name: Cyclonic Strikeplate
+name: Plaque cyclonique
 icon: /assets/icons/parts/aetherstrikers/mods/CyclonicStrikeplate.png
 part_effect:
-  - Tempest Form duration increased by 10 seconds. When Tempest Form has less than 10 seconds remaining, deal +15% damage.
+  - La durée de Forme tempétueuse est augmentée de 10 secondes. Lorsque Forme tempétueuse a moins de 10 secondes restantes, infligez +15% de dégâts.

@@ -1,15 +1,15 @@
-name: Medic Cell
+name: Cellule de médecin
 slot: Utility
 variants:
-  "+1 Medic Cell":
+  "Cellule de médecin +1":
     rarity: uncommon
     perks:
       Medic: 1
-  "+2 Medic Cell":
+  "Cellule de médecin +2":
     rarity: rare
     perks:
       Medic: 2
-  "+3 Medic Cell":
+  "Cellule de médecin +3":
     rarity: epic
     perks:
       Medic: 3

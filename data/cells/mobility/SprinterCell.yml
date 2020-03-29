@@ -1,15 +1,15 @@
-name: Sprinter Cell
+name: Cellule de coureur
 slot: Mobility
 variants:
-  "+1 Sprinter Cell":
+  "Cellule de coureur +1":
     rarity: uncommon
     perks:
       Sprinter: 1
-  "+2 Sprinter Cell":
+  "Cellule de coureur +2":
     rarity: rare
     perks:
       Sprinter: 2
-  "+3 Sprinter Cell":
+  "Cellule de coureur +3":
     rarity: epic
     perks:
       Sprinter: 3

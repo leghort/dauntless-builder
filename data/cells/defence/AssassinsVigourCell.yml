@@ -1,15 +1,15 @@
-name: Assassin's Vigour Cell
+name: Cellule de vigueur d'assassin
 slot: Defence
 variants:
-  "+1 Assassin's Vigour Cell":
+  "Cellule de vigueur d'assassin +1":
     rarity: uncommon
     perks:
       Assassin's Vigour: 1
-  "+2 Assassin's Vigour Cell":
+  "Cellule de vigueur d'assassin +2":
     rarity: rare
     perks:
       Assassin's Vigour: 2
-  "+3 Assassin's Vigour Cell":
+  "Cellule de vigueur d'assassin +3":
     rarity: epic
     perks:
       Assassin's Vigour: 3

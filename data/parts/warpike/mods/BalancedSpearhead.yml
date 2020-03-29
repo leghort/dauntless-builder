@@ -1,4 +1,4 @@
-name: Balanced Spearhead
+name: Pointe équilibré
 icon: /assets/icons/parts/warpike/mods/BalancedSpearhead.png
 part_effect:
-  - Increases damage dealt by 3% each time Piercing and Harvesting attacks are alternated. Resets upon combo end.
+  - Augmente les dégâts infligés de 3% chaque fois que des attaques perçantes et absorbantes sont alternées. Réinitialisé à la fin du combo.

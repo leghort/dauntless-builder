@@ -1,15 +1,15 @@
-name: Adrenaline Cell
+name: Cellule d'adrénaline
 slot: Technique
 variants:
-  "+1 Adrenaline Cell":
+  "Cellule d'adrénaline +1":
     rarity: uncommon
     perks:
       Adrenaline: 1
-  "+2 Adrenaline Cell":
+  "Cellule d'adrénaline +2":
     rarity: rare
     perks:
       Adrenaline: 2
-  "+3 Adrenaline Cell":
+  "Cellule d'adrénaline +3":
     rarity: epic
     perks:
       Adrenaline: 3

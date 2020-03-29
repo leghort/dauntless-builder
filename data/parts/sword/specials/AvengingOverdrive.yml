@@ -1,6 +1,4 @@
-name: Avenging Overdrive
+name: Surcharge vengeresse
 icon: /assets/icons/parts/sword/specials/AvengingOverdrive.png
 part_effect:
-  - >-
-    Activate at full meter to enter Overdrive, increasing attack speed and causing attacks to deal
-    AoE damage. Reactivate to parry and riposte a behemoth attack.
+  - Activez avec une jauge pleine pour entrer en mode Surcharge, augmentant votre vitesse d'attaque et infligeant des dégâts de zone. Réactivez pour parer unr attaque de Behemoth et riposter.
