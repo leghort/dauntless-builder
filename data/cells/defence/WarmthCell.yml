@@ -1,15 +1,15 @@
-name: Warmth Cell
+name: Cellule chauffante
 slot: Defence
 variants:
-  "+1 Warmth Cell":
+  "Cellule chauffante +1":
     rarity: uncommon
     perks:
-      Warmth: 1
-  "+2 Warmth Cell":
+      Chauffe: 1
+  "Cellule chauffante +2":
     rarity: rare
     perks:
-      Warmth: 2
-  "+3 Warmth Cell":
+      Chauffe: 2
+  "Cellule chauffante +3":
     rarity: epic
     perks:
-      Warmth: 3
+      Chauffe: 3

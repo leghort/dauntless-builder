@@ -1,5 +1,5 @@
-name: Quillspike Boots
-description: Leg and foot protection forged from Quillshot trophies.
+name: Bottes du quillperceur
+description: Protection pour les jambes et les pieds forgée à partir de trophées de Quillshot.
 icon: /assets/icons/armours/quillshot/QuillspikeBoots.png
 type: Legs
 strength: null
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Shellshock Resist
+  - name: Résilience
     value: 1
     from: 0
     to: 5
-  - name: Shellshock Resist
+  - name: Résilience
     value: 2
     from: 6
     to: 9
-  - name: Shellshock Resist
+  - name: Résilience
     value: 3
     from: 10
     to: 15

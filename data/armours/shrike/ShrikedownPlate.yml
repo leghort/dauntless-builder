@@ -1,5 +1,5 @@
-name: Shrikedown Plate
-description: Torso protection forged from Shrike trophies.
+name: Plastron de duvet Shrike
+description: Protection pour le torse forgée à partir de trophées de Shrike.
 icon: /assets/icons/armours/shrike/ShrikedownPlate.png
 type: Torso
 strength: null
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Evasion
+  - name: Évasion
     value: 1
     from: 0
     to: 5
-  - name: Evasion
+  - name: Évasion
     value: 2
     from: 6
     to: 9
-  - name: Evasion
+  - name: Évasion
     value: 3
     from: 10
     to: 15

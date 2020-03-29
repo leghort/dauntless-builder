@@ -1,15 +1,15 @@
-name: Grace Cell
+name: Cellule Grâce
 slot: Mobility
 variants:
-  "+1 Grace Cell":
+  "Cellule Grâce +1":
     rarity: uncommon
     perks:
-      Grace: 1
-  "+2 Grace Cell":
+      Grâce: 1
+  "Cellule Grâce +2":
     rarity: rare
     perks:
-      Grace: 2
-  "+3 Grace Cell":
+      Grâce: 2
+  "Cellule Grâce +3":
     rarity: epic
     perks:
-      Grace: 3
+      Grâce: 3

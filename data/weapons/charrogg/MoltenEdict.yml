@@ -1,6 +1,6 @@
-name: Molten Edict
-description: The Molten Edict is a craftable Exotic weapon in Dauntless. It is crafted from Firebrand Charrogg reagents.
-icon: /assets/icons/weapons/charrogg/MoltenEdict.png
+name: Fondu Edict
+description: The Fondu Edict is a craftable Exotic weapon in Dauntless. It is crafted from Firebrand Charrogg reagents.
+icon: /assets/icons/weapons/charrogg/FonduEdict.png
 type: Hammer
 damage: Blunt
 elemental: Blaze

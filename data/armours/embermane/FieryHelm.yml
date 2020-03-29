@@ -1,5 +1,5 @@
-name: Fiery Helm
-description: Head protection forged from Embermane trophies.
+name: Heaume ardent
+description: Protection pour la tête forgée à partir de trophées d'Embermane.
 icon: /assets/icons/armours/embermane/FieryHelm.png
 type: Head
 strength: Blaze
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 1
     from: 0
     to: 5
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 2
     from: 6
     to: 9
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 3
     from: 10
     to: 15

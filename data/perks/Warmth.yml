@@ -1,4 +1,4 @@
-name: Warmth
+name: Chauffe
 description: Protects against Chilled and Frozen status effects.
 type: Defence
 key: [frozen_immunity, chilled_immunity]

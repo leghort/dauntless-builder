@@ -1,15 +1,15 @@
-name: Deconstruction Cell
+name: Cellule de déconstruction
 slot: Power
 variants:
-  "+1 Deconstruction Cell":
+  "Cellule de déconstruction +1":
     rarity: uncommon
     perks:
-      Deconstruction: 1
-  "+2 Deconstruction Cell":
+      Démolition: 1
+  "Cellule de déconstruction +2":
     rarity: rare
     perks:
-      Deconstruction: 2
-  "+3 Deconstruction Cell":
+      Démolition: 2
+  "Cellule de déconstruction +3":
     rarity: epic
     perks:
-      Deconstruction: 3
+      Démolition: 3

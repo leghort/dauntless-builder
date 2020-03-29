@@ -1,5 +1,5 @@
-name: Skraevwing Gloves
-description: Arms protection forged from Skraev trophies.
+name: Gants ailes de Skraev
+description: Protection pour les bras et les mains forgée à partir de trophées de Skraev.
 icon: /assets/icons/armours/skraev/SkraevwingGloves.png
 type: Arms
 strength: Frost
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Warmth
+  - name: Chauffe
     value: 1
     from: 0
     to: 5
-  - name: Warmth
+  - name: Chauffe
     value: 2
     from: 6
     to: 9
-  - name: Warmth
+  - name: Chauffe
     value: 3
     from: 10
     to: 15

@@ -1,15 +1,15 @@
-name: Sharpened Cell
+name: Cellule aiguisée
 slot: Power
 variants:
-  "+1 Sharpened Cell":
+  "Cellule aiguisée +1":
     rarity: uncommon
     perks:
-      Sharpened: 1
-  "+2 Sharpened Cell":
+      Aiguisé: 1
+  "Cellule aiguisée +2":
     rarity: rare
     perks:
-      Sharpened: 2
-  "+3 Sharpened Cell":
+      Aiguisé: 2
+  "Cellule aiguisée +3":
     rarity: epic
     perks:
-      Sharpened: 3
+      Aiguisé: 3

@@ -1,15 +1,15 @@
-name: Swift Cell
+name: Cellule de sprint
 slot: Mobility
 variants:
-  "+1 Swift Cell":
+  "Cellule de sprint +1":
     rarity: uncommon
     perks:
-      Swift: 1
-  "+2 Swift Cell":
+      Sprint: 1
+  "Cellule de sprint +2":
     rarity: rare
     perks:
-      Swift: 2
-  "+3 Swift Cell":
+      Sprint: 2
+  "Cellule de sprint +3":
     rarity: epic
     perks:
-      Swift: 3
+      Sprint: 3

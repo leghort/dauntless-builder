@@ -1,5 +1,5 @@
-name: Shell of the Swarm
-description: Torso protection forged from Kharabak trophies.
+name: Carapace de l'essaim
+description: Protection pour le torse forgée à partir de trophées de Kharabak.
 icon: /assets/icons/armours/kharabak/ShellOfTheSwarm.png
 type: Torso
 strength: Terra
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Bladestorm
+  - name: Tempête de lames
     value: 1
     from: 0
     to: 5
-  - name: Bladestorm
+  - name: Tempête de lames
     value: 2
     from: 6
     to: 9
-  - name: Bladestorm
+  - name: Tempête de lames
     value: 3
     from: 10
     to: 15

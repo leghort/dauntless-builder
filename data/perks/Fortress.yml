@@ -1,4 +1,4 @@
-name: Fortress
+name: Forteresse
 description: Grants a small shield after avoiding damage for a short time.
 type: Defence
 key: not_hit_health_shield

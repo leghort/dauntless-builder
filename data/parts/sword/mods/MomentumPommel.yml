@@ -1,4 +1,4 @@
-name: Momentum Pommel
+name: Pommeau d'élan
 icon: /assets/icons/parts/sword/mods/MomentumPommel.png
 part_effect:
-  - Triple Elements combo finisher can be performed twice, dealing +100 damage on the 2nd use.
+  - L'attaque finale du combo «Triple Éléments» peut être effectuée deux fois, infligeant +100 points de dégâts bonus au second coup.

@@ -1,5 +1,5 @@
-name: Turmoil of Boreus
-description: A Slayer's axe forged with Boreus trophies.
+name: Tourment de Boreus
+description: Une hache de Slayer forgée à partir de trophées de Boreus.
 icon: /assets/icons/weapons/boreus/TurmoilOfBoreus.png
 type: Axe
 damage: Slashing
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Conditioning
+  - name: Constitution
     value: 1
     from: 0
     to: 5
-  - name: Conditioning
+  - name: Constitution
     value: 2
     from: 6
     to: 9
-  - name: Conditioning
+  - name: Constitution
     value: 3
     from: 10
     to: 15

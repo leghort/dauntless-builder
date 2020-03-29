@@ -1,15 +1,15 @@
-name: Knockout King Cell
+name: Cellule assommoir
 slot: Power
 variants:
-  "+1 Knockout King Cell":
+  "Cellule assommoir +1":
     rarity: uncommon
     perks:
-      Knockout King: 1
-  "+2 Knockout King Cell":
+      Assommoir: 1
+  "Cellule assommoir +2":
     rarity: rare
     perks:
-      Knockout King: 2
-  "+3 Knockout King Cell":
+      Assommoir: 2
+  "Cellule assommoir +3":
     rarity: epic
     perks:
-      Knockout King: 3
+      Assommoir: 3

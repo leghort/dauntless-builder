@@ -1,5 +1,5 @@
-name: Draskscale Gauntlets
-description: Arms protection forged from Drask trophies.
+name: Gantelets en écailles de Drask
+description: Protection pour les bras et les mains forgée à partir de trophées de Drask.
 icon: /assets/icons/armours/drask/DraskscaleGauntlets.png
 type: Arms
 strength: Shock
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Sharpened
+  - name: Aiguisé
     value: 1
     from: 0
     to: 5
-  - name: Sharpened
+  - name: Aiguisé
     value: 2
     from: 6
     to: 9
-  - name: Sharpened
+  - name: Aiguisé
     value: 3
     from: 10
     to: 15

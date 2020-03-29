@@ -1,5 +1,5 @@
-name: Fiery Breastplate
-description: Torso protection forged from Embermane trophies.
+name: Plastron ardent
+description: Protection pour le torse forgée à partir de trophées d'Embermane.
 icon: /assets/icons/armours/embermane/FieryBreastplate.png
 type: Torso
 strength: Blaze
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 1
     from: 0
     to: 5
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 2
     from: 6
     to: 9
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 3
     from: 10
     to: 15

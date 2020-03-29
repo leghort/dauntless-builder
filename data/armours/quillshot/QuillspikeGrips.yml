@@ -1,5 +1,5 @@
-name: Quillspike Grips
-description: Arms protection forged from Quillshot trophies.
+name: Poignets du quillperceur
+description: Protection pour les bras et les mains forgée à partir de trophées de Quillshot.
 icon: /assets/icons/armours/quillshot/QuillspikeGrips.png
 type: Arms
 strength: null
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Barbed
+  - name: Barbelé
     value: 1
     from: 0
     to: 5
-  - name: Barbed
+  - name: Barbelé
     value: 2
     from: 6
     to: 9
-  - name: Barbed
+  - name: Barbelé
     value: 3
     from: 10
     to: 15

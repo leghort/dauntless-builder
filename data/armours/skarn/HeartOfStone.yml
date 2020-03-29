@@ -1,5 +1,5 @@
-name: Heart of Stone
-description: Torso protection forged from Skarn trophies.
+name: Cœur de pierre
+description: Protection pour le torse forgée à partir de trophées de Skarn.
 icon: /assets/icons/armours/skarn/HeartOfStone.png
 type: Torso
 strength: Terra
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Guardian
+  - name: Gardien
     value: 1
     from: 0
     to: 5
-  - name: Guardian
+  - name: Gardien
     value: 2
     from: 6
     to: 9
-  - name: Guardian
+  - name: Gardien
     value: 3
     from: 10
     to: 15

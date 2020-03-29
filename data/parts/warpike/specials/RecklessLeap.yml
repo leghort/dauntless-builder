@@ -1,4 +1,4 @@
-name: Reckless Leap
+name: Charge Téméraire
 icon: /assets/icons/parts/warpike/specials/RecklessLeap.png
 part_effect:
-  - Press to convert meter into ammo. Hold to spend ammo and perform a flying lunge attack that deals up to 1200 damage based on distance and ammo quality.
+  - Appuyez pour convertir la jauge d'arme en munition. Maintenez pour dépenser des munitions et effectuer une charge aérienne qui inflige jusqu'à 1200 points de dégâts suivant la distance parcourue et la qualité des munitions.

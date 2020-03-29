@@ -1,5 +1,5 @@
-name: Hellplate Casque
-description: Head protection forged from Hellion trophies.
+name: Casque infernal
+description: Protection pour la tête forgée à partir de trophées d'Hellion
 icon: /assets/icons/armours/hellion/HellplateCasque.png
 type: Head
 strength: Blaze
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 1
     from: 0
     to: 5
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 2
     from: 6
     to: 9
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 3
     from: 10
     to: 15

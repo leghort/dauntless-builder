@@ -1,15 +1,15 @@
-name: Merciless Cell
+name: Cellule impitoyable
 slot: Technique
 variants:
-  "+1 Merciless Cell":
+  "Cellule impitoyable +1":
     rarity: uncommon
     perks:
-      Merciless: 1
-  "+2 Merciless Cell":
+      Impitoyable: 1
+  "Cellule impitoyable +2":
     rarity: rare
     perks:
-      Merciless: 2
-  "+3 Merciless Cell":
+      Impitoyable: 2
+  "Cellule impitoyable +3":
     rarity: epic
     perks:
-      Merciless: 3
+      Impitoyable: 3

@@ -1,15 +1,15 @@
-name: Ragehunter Cell
+name: Cellule de chasse-rage
 slot: Power
 variants:
-  "+1 Ragehunter Cell":
+  "Cellule de chasse-rage +1":
     rarity: uncommon
     perks:
-      Ragehunter: 1
-  "+2 Ragehunter Cell":
+      Chasse-rage: 1
+  "Cellule de chasse-rage +2":
     rarity: rare
     perks:
-      Ragehunter: 2
-  "+3 Ragehunter Cell":
+      Chasse-rage: 2
+  "Cellule de chasse-rage +3":
     rarity: epic
     perks:
-      Ragehunter: 3
+      Chasse-rage: 3

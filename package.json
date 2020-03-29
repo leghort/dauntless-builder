@@ -10,7 +10,7 @@
     "build-data": "node ./scripts/builder.js",
     "build-frontend": "webpack --mode=production",
     "build-dev": "webpack --mode=development",
-    "deploy": "yarn build && ./scripts/deploy.sh",
+    "deploy": "yarn build && bash ./scripts/deploy.sh",
     "test": "mocha",
     "dev": "node ./scripts/devserver.js"
   },

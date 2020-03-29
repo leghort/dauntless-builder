@@ -1,4 +1,4 @@
-name: Lightweight Haft
+name: Manche léger
 icon: /assets/icons/parts/axe/mods/LightweightHaft.png
 part_effect:
-  - Movespeed while charging Horizontal Attacks is now increased instead of decreased and costs no stamina to maintain.
+  - Les déplacements tout en chargeant des frappes horizontales sont maintenant accélérés au lieu d'être ralentis et ne coutent plus d'Endurance.

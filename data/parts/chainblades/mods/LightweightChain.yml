@@ -1,4 +1,4 @@
-name: Lightweight Chain
+name: Chaîne légère
 icon: /assets/icons/parts/chainblades/mods/LightweightChain.png
 part_effect:
-  - Dashing towards a Behemoth reduces stamina cost of the dash by 50%.
+  - Ruer vers un Behemoth réduit le coût en Endurance de la ruée de 50%.

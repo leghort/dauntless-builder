@@ -1,15 +1,15 @@
-name: Aetherhunter Cell
+name: Cellule de chasse-aether
 slot: Power
 variants:
-  "+1 Aetherhunter Cell":
+  "Cellule de chasse-aether +1":
     rarity: uncommon
     perks:
-      Aetherhunter: 1
-  "+2 Aetherhunter Cell":
+      Chasse-aether: 1
+  "Cellule de chasse-aether +2":
     rarity: rare
     perks:
-      Aetherhunter: 2
-  "+3 Aetherhunter Cell":
+      Chasse-aether: 2
+  "Cellule de chasse-aether +3":
     rarity: epic
     perks:
-      Aetherhunter: 3
+      Chasse-aether: 3

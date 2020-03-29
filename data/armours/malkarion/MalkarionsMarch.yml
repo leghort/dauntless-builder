@@ -1,5 +1,5 @@
-name: Malkarion's March
-description: Leg and foot protection forged from Malkarion trophies.
+name: Marche du Malkarion
+description: Protection pour les jambes et les pieds forgée à partir de trophées de Malkarion.
 icon: /assets/icons/armours/malkarion/MalkarionsMarch.png
 type: Legs
 strength: Shock
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 1
     from: 0
     to: 5
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 2
     from: 6
     to: 9
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 3
     from: 10
     to: 15

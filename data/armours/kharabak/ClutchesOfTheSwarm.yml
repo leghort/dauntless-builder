@@ -1,5 +1,5 @@
-name: Clutches of the Swarm
-description: Arms protection forged from Kharabak trophies.
+name: Griffes de l'essaim
+description: Protection pour les bras et les mains forgée à partir de trophées de Kharabak.
 icon: /assets/icons/armours/kharabak/ClutchesOfTheSwarm.png
 type: Arms
 strength: Terra
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Conditioning
+  - name: Constitution
     value: 1
     from: 0
     to: 5
-  - name: Conditioning
+  - name: Constitution
     value: 2
     from: 6
     to: 9
-  - name: Conditioning
+  - name: Constitution
     value: 3
     from: 10
     to: 15

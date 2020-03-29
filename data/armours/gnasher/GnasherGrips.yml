@@ -1,5 +1,5 @@
-name: Gnasher Grips
-description: Arms protection forged from Gnasher trophies.
+name: Poignée Gnasher
+description: Protection pour les bras et les mains forgée à partir de trophées de Gnasher.
 icon: /assets/icons/armours/gnasher/GnasherGrips.png
 type: Arms
 strength: null
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 1
     from: 0
     to: 5
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 2
     from: 6
     to: 9
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 3
     from: 10
     to: 15

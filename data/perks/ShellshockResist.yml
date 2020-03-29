@@ -1,4 +1,4 @@
-name: Shellshock Resist
+name: Résilience
 description: Protects against the explosion damage and status effect of Shellshock.
 type: Defence
 key: shellshock_immunity

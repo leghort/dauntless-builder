@@ -1,15 +1,15 @@
-name: Mender Cell
+name: Cellule de guérisseur
 slot: Utility
 variants:
-  "+1 Mender Cell":
+  "Cellule de guérisseur +1":
     rarity: uncommon
     perks:
-      Mender: 1
-  "+2 Mender Cell":
+      Guérisseur: 1
+  "Cellule de guérisseur +2":
     rarity: rare
     perks:
-      Mender: 2
-  "+3 Mender Cell":
+      Guérisseur: 2
+  "Cellule de guérisseur +3":
     rarity: epic
     perks:
-      Mender: 3
+      Guérisseur: 3

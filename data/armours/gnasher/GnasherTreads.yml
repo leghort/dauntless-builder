@@ -1,5 +1,5 @@
-name: Gnasher Treads
-description: Leg and foot protection forged from Gnasher trophies.
+name: Foulée du Gnasher
+description: Protection pour les jambes et les pieds forgée à partir de trophées de Gnasher.
 icon: /assets/icons/armours/gnasher/GnasherTreads.png
 type: Legs
 strength: null
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Tough
+  - name: Robustesse
     value: 1
     from: 0
     to: 5
-  - name: Tough
+  - name: Robustesse
     value: 2
     from: 6
     to: 9
-  - name: Tough
+  - name: Robustesse
     value: 3
     from: 10
     to: 15
