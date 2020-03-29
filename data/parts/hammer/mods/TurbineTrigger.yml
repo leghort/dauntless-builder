@@ -1,4 +1,4 @@
-name: Turbine Trigger
+name: Gâchette à turbine
 icon: /assets/icons/parts/hammer/mods/TurbineTrigger.png
 part_effect:
-  - Priming attacks increases attack speed by 10% until the combo ends. Stacks.
+  - Amorcer des attaques augmente la vitesse d'attaque de 10% jusqu'à ce que le combo se termine. Cumulable.

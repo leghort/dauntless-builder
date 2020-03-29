@@ -1,6 +1,4 @@
 name: Plaque cyclonique
 icon: /assets/icons/parts/aetherstrikers/mods/CyclonicStrikeplate.png
 part_effect:
-  - >-
-    La durée de Forme tempétueuse est augmentée de 10 secondes. Lorsque Forme tempétueuse a moins
-    de 10 secondes restantes, infligez +15% de dégâts.
+  - La durée de Forme tempétueuse est augmentée de 10 secondes. Lorsque Forme tempétueuse a moins de 10 secondes restantes, infligez +15% de dégâts.

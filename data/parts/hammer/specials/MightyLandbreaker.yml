@@ -1,4 +1,4 @@
-name: Mighty Landbreaker
+name: Scinde-terre majestueux
 icon: /assets/icons/parts/hammer/specials/MightyLandbreaker.png
 part_effect:
-  - Loads ammo into the hammer before releasing, creating an aether vent that buffs players.
+  - Maintenez pour charger des munitions dans le marteau. Libérez pour créer un vent d'aether qui booste les joueurs qui passent dessus, leur accordant jusqu'à +35% de dégâts en fonction de la qualité des munitions

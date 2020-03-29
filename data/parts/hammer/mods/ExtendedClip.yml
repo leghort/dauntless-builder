@@ -1,4 +1,4 @@
-name: Extended Clip
+name: Chargeur étendu
 icon: /assets/icons/parts/hammer/mods/ExtendedClip.png
 part_effect:
-  - Ammo increased to 6.
+  - Munitions augmentées à 6.
