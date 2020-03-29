@@ -1,15 +1,15 @@
-name: Energized Cell
+name: Cellule de charge
 slot: Utility
 variants:
-  "+1 Energized Cell":
+  "Cellule de charge +1":
     rarity: uncommon
     perks:
       Energized: 1
-  "+2 Energized Cell":
+  "Cellule de charge +2":
     rarity: rare
     perks:
       Energized: 2
-  "+3 Energized Cell":
+  "Cellule de charge +3":
     rarity: epic
     perks:
       Energized: 3
