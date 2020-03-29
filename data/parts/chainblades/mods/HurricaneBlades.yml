@@ -1,4 +1,4 @@
-name: Hurricane Blades
+name: Lames ouragan
 icon: /assets/icons/parts/chainblades/mods/HurricaneBlades.png
 part_effect:
-  - Using Blade Spin grants stacking on-next hit damage that is consumed when using other attacks.
+  - L'utilisation de Vrille-lame octroie une accumulation de bonus de dégâts par coup, qui s'appliquent lors d'autres attaques.
