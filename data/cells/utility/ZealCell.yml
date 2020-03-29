@@ -1,15 +1,15 @@
-name: Cellule Zèle
+name: Cellule de Zèle
 slot: Utility
 variants:
-  "+1 Cellule Zèle":
+  "Cellule de Zèle +1":
     rarity: uncommon
     perks:
       Zèle: 1
-  "+2 Cellule Zèle":
+  "Cellule de Zèle +2":
     rarity: rare
     perks:
       Zèle: 2
-  "+3 Cellule Zèle":
+  "Cellule de Zèle +3":
     rarity: epic
     perks:
       Zèle: 3
