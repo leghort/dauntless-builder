@@ -1,4 +1,4 @@
-name: Brilliant Prism
+name: Prisme brillant
 description: The Brilliant Prism is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/prisms/BrilliantPrism.png
 power:
@@ -19,4 +19,4 @@ power:
   14: 90
   15: 91
 part_effect:
-  - Once charged, your next attack will deal 550 bonus radiant damage. Charge rate increases with current health.
+  - Une fois chargé, votre prochaine attaque infligera 550 bonus rayonnante des dommages. Le taux de Charge augmente avec l'état de santé actuel.
