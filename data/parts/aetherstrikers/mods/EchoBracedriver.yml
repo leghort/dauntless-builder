@@ -1,4 +1,6 @@
 name: Mandrin résonant
 icon: /assets/icons/parts/aetherstrikers/mods/EchoBracedriver.png
 part_effect:
-  - Les coups critiques augmentent les dégâts sur le temps infligés par Briseur de Karma de 5% jusqu'à ce que le malus se termine ou soit rafraîchi.
+  - >-
+    Les coups critiques augmentent les dégâts sur le temps infligés par Briseur de Karma de 5% jusqu'à
+    ce que le malus se termine ou soit rafraîchi.

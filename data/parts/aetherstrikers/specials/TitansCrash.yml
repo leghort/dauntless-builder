@@ -1,5 +1,7 @@
 name: Crash du Titan
 icon: /assets/icons/parts/aetherstrikers/specials/TitansCrash.png
 part_effect:
-  - Déchaîne de l'energie dans une explosion concentrée, infligeant 900 dégâts au premier ennemi touché. Inflige jusqu'à +100% de dégâts quand les effets de Forme tempétueuse et Briseur de Karma sont actifs.
+  - >-
+    Déchaîne de l'energie dans une explosion concentrée, infligeant 900 dégâts au premier ennemi touché.
+    Inflige jusqu'à +100% de dégâts quand les effets de Forme tempétueuse et Briseur de Karma sont actifs.
   

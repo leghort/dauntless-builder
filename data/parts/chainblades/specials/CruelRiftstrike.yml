@@ -1,4 +1,6 @@
-name: Cruel Riftstrike
+name: Frappe-faille cruelle
 icon: /assets/icons/parts/chainblades/specials/CruelRiftstrike.png
 part_effect:
-  - Use to teleport forward, damaging enemies if present. Can teleport through Behemoths.
+  - >-
+    Utilisez pour vous téléporter vers l'avant et infliger 75 points de dégâts,
+    toujours en coup critique. Peut traverser les Behemoths.
