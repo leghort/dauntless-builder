@@ -1,5 +1,5 @@
 name: Résilience
-description: Protects against the explosion damage and status effect of Shellshock.
+description: Protège contre les explosions et l'effet de statut « Concussion ».
 type: Defence
 key: shellshock_immunity
 effects:

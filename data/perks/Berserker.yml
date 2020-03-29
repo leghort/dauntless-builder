@@ -1,5 +1,5 @@
 name: Berserker
-description: Reduces max health. Dealing damage stacks increased damage dealt for a short period.
+description: Réduit la santé maximale. Infliger des dégâts augmente les dégâts infligées pendant une courte période.
 type: Technique
 key: [ReducedHealth, DealDamageDoDamage]
 effects:

@@ -1,5 +1,5 @@
 name: Chasse-rage
-description: Increases damage against enraged Behemoths.
+description: Augmente les dégâts contre les Behemoths enragés.
 type: Power
 key: damage_enraged
 effects:

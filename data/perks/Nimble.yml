@@ -1,5 +1,5 @@
 name: Évasion légère
-description: Restores Stamina when dodging through Behemoth attacks.
+description: Restaure de l'endurance après une esquive parfaite.
 type: Mobility
 key: dodge_stamina
 effects:

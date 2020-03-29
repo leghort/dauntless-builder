@@ -1,5 +1,5 @@
 name: Sprint
-description: Increases Movement Speed when your weapon is sheathed.
+description: Augmente votre vitesse de déplacement lorsque votre arme est rengainée.
 type: Mobility
 key: sheathed_weapon_movement_speed
 effects:

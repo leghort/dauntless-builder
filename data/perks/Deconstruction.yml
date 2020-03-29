@@ -1,5 +1,5 @@
 name: Démolition
-description: Bonus damage against objects created by Behemoths.
+description: Augmente les dégâts contre les objets créés par les Béhemoths.
 type: Power
 key: damage_object
 effects:

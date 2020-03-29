@@ -1,5 +1,5 @@
 name: Charge
-description: Increase weapon meter gain rate.
+description: Augmente la vitesse de charge de la jauge de l'arme.
 type: Utility
 key: weapon_charge_rate
 effects:

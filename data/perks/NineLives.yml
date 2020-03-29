@@ -1,5 +1,5 @@
 name: Lernéen
-description: Grants a chance to reduce damage, and later the ability to cheat death.
+description: Donne une chance de réduire de moitié les dégâts reçus, les rangs supérieurs permettent d'éviter d'être mis à terre.
 type: Defence
 key: [half_damage, death_heal]
 effects:

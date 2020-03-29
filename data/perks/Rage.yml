@@ -1,5 +1,5 @@
 name: Rage
-description: Increases your damage when your health is low.
+description: Augmente vos dégâts lorsque votre vie est faible.
 type: Power
 key: Rage
 effects:

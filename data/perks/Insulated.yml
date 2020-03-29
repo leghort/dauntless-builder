@@ -1,5 +1,5 @@
 name: Isolant
-description: Protects against Shocked status effect and allows you to attack electric shields.
+description: Protège contre l'effet de statut « Électrisé ». Les rangs supérieurs permettent d'attaquer les boucliers électriques.
 type: Defence
 key: [shock_immunity, percent_part_damage]
 effects:

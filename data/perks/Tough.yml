@@ -1,5 +1,5 @@
 name: Robustesse
-description: Increases Max Health.
+description: Augmente la vie maximale.
 type: Defence
 key: [max_hp, increased_healing]
 effects:

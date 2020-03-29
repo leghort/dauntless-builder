@@ -1,5 +1,5 @@
 name: Acide
-description: Increases Wound damage at the cost of Part damage.
+description: Augmente les dégâts mutilants au détriment des dégâts aux membres.
 type: Technique
 key: [part_to_wound_damage, percent_part_damage]
 effects:

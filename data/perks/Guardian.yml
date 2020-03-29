@@ -1,5 +1,5 @@
 name: Gardien
-description: Grant a portion of any shield applied to your nearest ally.
+description: Octroie une portion de n'importe quel bouclier qui vous est appliqué à votre allié le plus proche.
 type: Defence
 key: shield_share
 effects:

@@ -1,5 +1,5 @@
 name: Adrénaline
-description: Increases damage dealt based on stamina spent.
+description: Augmente les dégâts infligés en fonction de l'endurance dépensée.
 type: Technique
 key: AdrénalineDamage
 effects:

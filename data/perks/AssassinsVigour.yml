@@ -1,5 +1,5 @@
 name: Vigueur d'assassin
-description: Grants Health after breaking a Behemoth part.
+description: Régénère de la vie après avoir brisé une partie d'un Behemoth.
 type: Defence
 key: part_break_heal
 effects:

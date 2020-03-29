@@ -1,5 +1,5 @@
 name: Conduction
-description: Using a Lantern's hold ability increases all Slayers' attack speed temporarily.
+description: La capacité maintenue de la lanterne octroie temporairement de la vitesse d'attaque à tous les Slayers.
 type: Utility
 key: attack_speed_all_slayers
 effects:
