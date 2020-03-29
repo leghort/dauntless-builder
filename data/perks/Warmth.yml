@@ -1,5 +1,5 @@
 name: Chauffe
-description: Protects against Chilled and Frozen status effects.
+description: Protège contre les effets de «Gelé» et «Ralenti».
 type: Defence
 key: [frozen_immunity, chilled_immunity]
 effects:

@@ -1,5 +1,5 @@
 name: Coureur
-description: Reduces max stamina. Increases movespeed and reduces sprint cost.
+description: Réduit l'endurance maximale. Augmente la vitesse de déplacement et réduit le coût du sprint.
 type: Mobility
 key: [ReduceStamina, Coureur]
 effects:

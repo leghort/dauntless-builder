@@ -1,5 +1,5 @@
 name: Endurance
-description: Increases Max Stamina.
+description: Augmente l'endurance maximale.
 type: Mobility
 key: max_stamina
 effects:

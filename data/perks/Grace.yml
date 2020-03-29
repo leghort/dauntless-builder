@@ -1,5 +1,5 @@
 name: Grâce
-description: Sprinting increases movespeed. At higher levels, converts increased movespeed to attack speed.
+description: Sprinter augmente la vitesse de déplacement. Aux niveau supérieurs, convertit la vitesse de déplacement accrue en vitesse d'attaque.
 type: Mobility
 key: [IncreasedMovementSpeed, IncreasedAttackSpeed]
 effects:

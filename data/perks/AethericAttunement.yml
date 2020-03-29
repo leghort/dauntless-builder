@@ -1,5 +1,5 @@
 name: Harmonisation aethérée
-description: Percent increase to Lantern Charge gained from attacks.
+description: Augmentation en pourcentage de la charge de lanterne à chaque attaque.
 type: Utility
 key: percent_lantern_charge
 effects:

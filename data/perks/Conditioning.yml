@@ -1,5 +1,5 @@
 name: Constitution
-description: Increases Stamina Regen.
+description: Augmente La régénération d'endurance.
 type: Mobility
 key: stamina_regen
 effects:

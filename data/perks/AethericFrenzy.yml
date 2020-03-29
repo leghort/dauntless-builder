@@ -1,5 +1,5 @@
 name: Frénésie aethérée
-description: Gains a flat amount of Lantern Charge on each weapon hit.
+description: Augmente la vitesse d'attaque lorsque votre vie est faible.
 type: Utility
 key: flat_lantern_charge
 effects:

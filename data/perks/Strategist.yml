@@ -1,5 +1,5 @@
 name: Stratège
-description: Reduces max health. Dodging through Behemoth attacks grants health shields to all Slayers.
+description: Réduit la santé maximale. Esquiver les attaques de Behemoth octroit un bouclier de santé à tous les Slayers.
 type: Defence
 key: [ReducedHealth, ShieldShare]
 effects:

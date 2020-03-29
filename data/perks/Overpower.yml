@@ -1,5 +1,5 @@
 name: Domination
-description: Increases damage against staggered Behemoths.
+description: Augmente les dégâts contre les Behemoths étourdis.
 type: Power
 key: damage_staggered
 effects:

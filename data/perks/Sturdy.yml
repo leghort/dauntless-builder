@@ -1,5 +1,5 @@
 name: Stabilité
-description: Prevents being staggered on a cooldown.
+description: Permet d'éviter régulièrement les déstabilisations.
 type: Defence
 key: stagger_prevention
 effects:

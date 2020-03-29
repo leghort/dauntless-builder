@@ -1,5 +1,5 @@
 name: Zèle
-description: Increases Lantern tap ability effectiveness.
+description: Améliore l'efficacité des capacités instantanées de laterne.
 type: Utility
 key: LanternTapEffectiveness
 effects:

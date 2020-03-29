@@ -1,5 +1,5 @@
 name: Impitoyable
-description: Increases Wound damage against staggered Behemoths.
+description: Augmente les dégâts mutilants contre les Behemoths étourdis.
 type: Technique
 key: wound_damage
 effects:

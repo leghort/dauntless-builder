@@ -1,5 +1,5 @@
 name: Prédateur
-description: Increases damage after avoiding damage for a short time.
+description: Augmente les dégâts infligés après ne pas avoir été touché pendant une courte période.
 type: Technique
 key: EffectPrédateur
 effects:

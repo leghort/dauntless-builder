@@ -1,5 +1,5 @@
 name: Luminescent
-description: Flask heals over time and generates lantern charge.
+description: La flasque soigne au cours du temps et charge la lanterne.
 type: Utility
 key: [increased_healing, flat_lantern_charge]
 effects:

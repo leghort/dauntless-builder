@@ -1,5 +1,5 @@
 name: Forteresse
-description: Grants a small shield after avoiding damage for a short time.
+description: Offre un petit bouclier après avoir évité de prendre des dégâts pendant une courte période.
 type: Defence
 key: not_hit_health_shield
 effects:

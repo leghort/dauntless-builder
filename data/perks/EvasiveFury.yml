@@ -1,5 +1,5 @@
 name: Furie évasive
-description: Temporarily increases attack speed when dodging through a Behemoth's attack.
+description: Augmente temporairement la vitesse d'attaque après une esquive parfaite.
 type: Technique
 key: dodge_attack_speed
 effects:

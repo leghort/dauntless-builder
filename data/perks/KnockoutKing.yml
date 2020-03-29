@@ -1,5 +1,5 @@
 name: Assommoir
-description: Percent increase to Stagger damage.
+description: Augmentation en pourcentage des dégâts étourdissants.
 type: Power
 key: [stagger_damage, dodge_stagger_damage]
 effects:

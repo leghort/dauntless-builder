@@ -1,5 +1,5 @@
 name: Médecin
-description: Improves your ability to revive allies.
+description: Améliore votre capacité à réanimer vos alliés.
 type: Utility
 key: [revive_heal, revive_speed, revive_shield]
 effects:

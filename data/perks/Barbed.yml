@@ -1,5 +1,5 @@
 name: Barbelé
-description: Adds a flat amount of Wound damage on hit.
+description: Ajoute une quandtité fixe de dégâts mutilants à chaque coup.
 type: Technique
 key: [wound_damage, dodge_expose_damage]
 effects:

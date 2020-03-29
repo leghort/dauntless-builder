@@ -1,5 +1,5 @@
 name: Fondu
-description: Generates Fondu Hearts when dealing damage.
+description: Génère des coeurs fondus avec temps de recharge.
 type: Technique
 key: attack_speed
 effects:
