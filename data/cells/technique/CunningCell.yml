@@ -1,15 +1,15 @@
-name: Cellule de frappe critique
+name: Cunning Cell
 slot: Technique
 variants:
-  "Cellule de frappe critique +1":
+  "+1 Cunning Cell":
     rarity: uncommon
     perks:
-      Frappe critique: 1
-  "Cellule de frappe critique +2":
+      Cunning: 1
+  "+2 Cunning Cell":
     rarity: rare
     perks:
-      Frappe critique: 2
-  "Cellule de frappe critique +3":
+      Cunning: 2
+  "+3 Cunning Cell":
     rarity: epic
     perks:
-      Frappe critique: 3
+      Cunning: 3

@@ -1,15 +1,15 @@
-name: Cellule de rage
+name: Rage Cell
 slot: Power
 variants:
-  "Cellule de rage +1":
+  "+1 Rage Cell":
     rarity: uncommon
     perks:
       Rage: 1
-  "Cellule de rage +2":
+  "+2 Rage Cell":
     rarity: rare
     perks:
       Rage: 2
-  "Cellule de rage +3":
+  "+3 Rage Cell":
     rarity: epic
     perks:
       Rage: 3

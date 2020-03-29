@@ -1,4 +1,4 @@
-name: Coeur de lame perpétuel
+name: Perpetual Bladecore
 icon: /assets/icons/parts/sword/mods/PerpetualBladecore.png
 part_effect:
-  - Inflige des dégâts pendant le spécial remplit une petite partie de la jauge de spécial.
+  - Dealing damage while in special generates a small amount of special meter

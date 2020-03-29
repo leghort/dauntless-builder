@@ -1,6 +1,6 @@
-name: Pangar's Grâce
+name: Pangar's Grace
 description: A Slayer's axe forged with Pangar trophies.
-icon: /assets/icons/weapons/pangar/PangarsGrâce.png
+icon: /assets/icons/weapons/pangar/PangarsGrace.png
 type: Axe
 damage: Slashing
 elemental: Frost
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Assommoir
+  - name: Knockout King
     value: 1
     from: 0
     to: 5
-  - name: Assommoir
+  - name: Knockout King
     value: 2
     from: 6
     to: 9
-  - name: Assommoir
+  - name: Knockout King
     value: 3
     from: 10
     to: 15

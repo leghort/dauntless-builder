@@ -1,4 +1,4 @@
-name: Chambre gros calibre
+name: Full-Bore Chamber
 description: The Full-Bore Chamber is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/chambers/FullBoreChamber.png
 power:
@@ -19,5 +19,5 @@ power:
   14: 150
   15: 153
 part_effect:
-  - Tire un carreau perforant en ligne, infligeant des dégâts décroissants avec la distance.
-  - "Aethérochargé : Inflige beaucoup plus de dégâts et repousse le Slayer en arrière."
+  - Fires a piercing bolt in a line, dealing damage that falls as it travels.
+  - "Empowered: Deals greatly increased damage and pushes the slayer backwards."

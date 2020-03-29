@@ -1,5 +1,5 @@
-name: Puissance de pierre
-description: Protection pour les bras de les mains forgée à partir de trophées de Skarn.
+name: Might of Stone
+description: Arms protection forged from Skarn trophies.
 icon: /assets/icons/armours/skarn/MightOfStone.png
 type: Arms
 strength: Terra
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Forteresse
+  - name: Fortress
     value: 1
     from: 0
     to: 5
-  - name: Forteresse
+  - name: Fortress
     value: 2
     from: 6
     to: 9
-  - name: Forteresse
+  - name: Fortress
     value: 3
     from: 10
     to: 15

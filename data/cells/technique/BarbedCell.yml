@@ -1,15 +1,15 @@
-name: Cellule barbelée
+name: Barbed Cell
 slot: Technique
 variants:
-  "Cellule barbelée +1":
+  "+1 Barbed Cell":
     rarity: uncommon
     perks:
-      Barbelé: 1
-  "Cellule barbelée +2":
+      Barbed: 1
+  "+2 Barbed Cell":
     rarity: rare
     perks:
-      Barbelé: 2
-  "Cellule barbelée +3":
+      Barbed: 2
+  "+3 Barbed Cell":
     rarity: epic
     perks:
-      Barbelé: 3
+      Barbed: 3

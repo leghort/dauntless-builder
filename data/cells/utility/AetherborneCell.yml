@@ -1,15 +1,15 @@
-name: Cellule de jouvence aethérée
+name: Aetherborne Cell
 slot: Utility
 variants:
-  "Cellule de jouvence aethérée +1":
+  "+1 Aetherborne Cell":
     rarity: uncommon
     perks:
-      Jouvence aethérée: 1
-  "Cellule de jouvence aethérée +2":
+      Aetherborne: 1
+  "+2 Aetherborne Cell":
     rarity: rare
     perks:
-      Jouvence aethérée: 2
-  "Cellule de jouvence aethérée +3":
+      Aetherborne: 2
+  "+3 Aetherborne Cell":
     rarity: epic
     perks:
-      Jouvence aethérée: 3
+      Aetherborne: 3

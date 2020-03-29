@@ -1,4 +1,4 @@
-name: Poignée réactive
+name: Reactive Hilt
 icon: /assets/icons/parts/sword/mods/ReactiveHilt.png
 part_effect:
-  - Les attaques d'esquive infligent toujours des critiques.
+  - Dodge attacks always critically strike.

@@ -1,15 +1,15 @@
-name: Cellule d'harmonisation aethérée
+name: Aetheric Attunement Cell
 slot: Utility
 variants:
-  "Cellule d'harmonisation aethérée +1":
+  "+1 Aetheric Attunement Cell":
     rarity: uncommon
     perks:
-      Harmonisation aethérée: 1
-  "Cellule d'harmonisation aethérée +2":
+      Aetheric Attunement: 1
+  "+2 Aetheric Attunement Cell":
     rarity: rare
     perks:
-      Harmonisation aethérée: 2
-  "Cellule d'harmonisation aethérée +3":
+      Aetheric Attunement: 2
+  "+3 Aetheric Attunement Cell":
     rarity: epic
     perks:
-      Harmonisation aethérée: 3
+      Aetheric Attunement: 3

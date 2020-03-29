@@ -1,4 +1,4 @@
-name: Gardien
+name: Guardian
 description: Grant a portion of any shield applied to your nearest ally.
 type: Defence
 key: shield_share

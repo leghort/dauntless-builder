@@ -1,15 +1,15 @@
-name: Cellule de vigueur étourdissante
+name: Stunning Vigour Cell
 slot: Utility
 variants:
-  "Cellule de vigueur étourdissante +1":
+  "+1 Stunning Vigour Cell":
     rarity: uncommon
     perks:
-      Vigueur étourdissante: 1
-  "Cellule de vigueur étourdissante +2":
+      Stunning Vigour: 1
+  "+2 Stunning Vigour Cell":
     rarity: rare
     perks:
-      Vigueur étourdissante: 2
-  "Cellule de vigueur étourdissante +3":
+      Stunning Vigour: 2
+  "+3 Stunning Vigour Cell":
     rarity: epic
     perks:
-      Vigueur étourdissante: 3
+      Stunning Vigour: 3

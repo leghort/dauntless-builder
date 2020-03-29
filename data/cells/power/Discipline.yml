@@ -1,15 +1,15 @@
-name: Cellule de Discipline
+name: Discipline Cell
 slot: Power
 variants:
-  "Cellule de Discipline +1":
+  "+1 Discipline Cell":
     rarity: uncommon
     perks:
       Discipline: 1
-  "Cellule de Discipline +2":
+  "+2 Discipline Cell":
     rarity: rare
     perks:
       Discipline: 2
-  "Cellule de Discipline +3":
+  "+3 Discipline Cell":
     rarity: epic
     perks:
       Discipline: 3

@@ -1,4 +1,4 @@
-name: Médecin
+name: Medic
 description: Improves your ability to revive allies.
 type: Utility
 key: [revive_heal, revive_speed, revive_shield]

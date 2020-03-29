@@ -1,4 +1,4 @@
-name: Charge
+name: Energized
 description: Increase weapon meter gain rate.
 type: Utility
 key: weapon_charge_rate

@@ -1,5 +1,5 @@
-name: Refuge de lumière
-description: Protection pour les bras de les mains forgée à partir de trophées de Rezakiri.
+name: Light's Refuge
+description: Arms protection forged from Rezakiri trophies.
 icon: /assets/icons/armours/rezakiri/LightsRefuge.png
 type: Arms
 strength: Radiant
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Conduction
+  - name: Conduit
     value: 1
     from: 0
     to: 5
-  - name: Conduction
+  - name: Conduit
     value: 2
     from: 6
     to: 9
-  - name: Conduction
+  - name: Conduit
     value: 3
     from: 10
     to: 15

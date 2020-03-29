@@ -1,4 +1,4 @@
-name: Prisme de coeur de pierre
+name: Stoneheart Prism
 description: The Stoneheart Prism is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/prisms/StoneheartPrism.png
 power:
@@ -19,4 +19,4 @@ power:
   14: 90
   15: 91
 part_effect:
-  - Infliger des dégâts donne une chance (basée sur le montant de dégâts) de recevoir un bouclier de santé cumulable de 40 points pendant 12 secondes. Ce bouclier peut être réinitialisé.
+  - Dealing damage has a chance (based on damage dealt) to grant a stacking, refreshing 40 health shield that lasts for 12s.

@@ -1,4 +1,4 @@
-name: Cœur de hache furieux
+name: Furious Axecore
 icon: /assets/icons/parts/axe/mods/FuriousAxecore.png
 part_effect:
-  - Les attaques chargées parfaitement donnent +15 de jauge par coup, mais n'accordent plus « Résolution ».
+  - Perfectly charged attacks grants +15 meter on hit, but no longer grant resolve.

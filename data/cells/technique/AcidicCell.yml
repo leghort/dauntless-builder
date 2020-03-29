@@ -1,15 +1,15 @@
-name: Cellule acide
+name: Acidic Cell
 slot: Technique
 variants:
-  "Cellule acide +1":
+  "+1 Acidic Cell":
     rarity: uncommon
     perks:
-      Acide: 1
-  "Cellule acide +2":
+      Acidic: 1
+  "+2 Acidic Cell":
     rarity: rare
     perks:
-      Acide: 2
-  "Cellule acide +3":
+      Acidic: 2
+  "+3 Acidic Cell":
     rarity: epic
     perks:
-      Acide: 3
+      Acidic: 3

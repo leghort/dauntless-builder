@@ -1,15 +1,15 @@
-name: Cellule de tempête de lames
+name: Bladestorm Cell
 slot: Technique
 variants:
-  "Cellule de tempête de lames +1":
+  "+1 Bladestorm Cell":
     rarity: uncommon
     perks:
-      Tempête de lames: 1
-  "Cellule de tempête de lames +2":
+      Bladestorm: 1
+  "+2 Bladestorm Cell":
     rarity: rare
     perks:
-      Tempête de lames: 2
-  "Cellule de tempête de lames +3":
+      Bladestorm: 2
+  "+3 Bladestorm Cell":
     rarity: epic
     perks:
-      Tempête de lames: 3
+      Bladestorm: 3

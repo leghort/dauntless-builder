@@ -1,4 +1,4 @@
-name: Coagulation
+name: Bloodless
 description: Protects against Wounded and Crippling Wounds statuses.
 type: Defence
 key: [wound_reduction, crippling_wound_reduction]

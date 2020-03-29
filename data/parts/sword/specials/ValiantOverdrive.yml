@@ -1,4 +1,4 @@
-name: Surcharge Vaillante
+name: Valiant Overdrive
 icon: /assets/icons/parts/sword/specials/ValiantOverdrive.png
 part_effect:
-  - Activez avec une jauge pleine pour entrer en mode Surcharge, gagnant +20% de vitesse d'attaque et ajoutant +60-80 de dégâts de zone aux attaques. Réactivez pour vous ruer dans une direction (4 secondes de recharge).
+  - Activate at full meter to enter Overdrive, increasing attack speed and causing attacks to deal aoe damage. Reactivate to dash in a direction (incurs a short cooldown).

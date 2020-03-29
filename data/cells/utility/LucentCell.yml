@@ -1,15 +1,15 @@
-name: Cellule luminescente
+name: Lucent Cell
 slot: Utility
 variants:
-  "Cellule luminescente +1":
+  "+1 Lucent Cell":
     rarity: uncommon
     perks:
-      Luminescent: 1
-  "Cellule luminescente +2":
+      Lucent: 1
+  "+2 Lucent Cell":
     rarity: rare
     perks:
-      Luminescent: 2
-  "Cellule luminescente +3":
+      Lucent: 2
+  "+3 Lucent Cell":
     rarity: epic
     perks:
-      Luminescent: 3
+      Lucent: 3

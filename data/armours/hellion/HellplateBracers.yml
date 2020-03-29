@@ -1,5 +1,5 @@
-name: Brassards infernaux
-description: Protection pour les bras et les mains forgée à partir de trophées d'Hellion.
+name: Hellplate Bracers
+description: Arms protection forged from Hellion trophies.
 icon: /assets/icons/armours/hellion/HellplateBracers.png
 type: Arms
 strength: Blaze
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Fondu
+  - name: Molten
     value: 1
     from: 0
     to: 5
-  - name: Fondu
+  - name: Molten
     value: 2
     from: 6
     to: 9
-  - name: Fondu
+  - name: Molten
     value: 3
     from: 10
     to: 15

@@ -1,4 +1,4 @@
-name: Évasion légère
+name: Nimble
 description: Restores Stamina when dodging through Behemoth attacks.
 type: Mobility
 key: dodge_stamina

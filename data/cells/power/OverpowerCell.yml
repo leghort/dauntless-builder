@@ -1,15 +1,15 @@
-name: Cellule de domination
+name: Overpower Cell
 slot: Power
 variants:
-  "Cellule de domination +1":
+  "+1 Overpower Cell":
     rarity: uncommon
     perks:
-      Domination: 1
-  "Cellule de domination +2":
+      Overpower: 1
+  "+2 Overpower Cell":
     rarity: rare
     perks:
-      Domination: 2
-  "Cellule de domination +3":
+      Overpower: 2
+  "+3 Overpower Cell":
     rarity: epic
     perks:
-      Domination: 3
+      Overpower: 3

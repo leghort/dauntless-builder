@@ -1,4 +1,4 @@
-name: Stabilité
+name: Sturdy
 description: Prevents being staggered on a cooldown.
 type: Defence
 key: stagger_prevention

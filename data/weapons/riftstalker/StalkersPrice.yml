@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Frénésie Sauvage
+  - name: Wild Frenzy
     value: 1
     from: 0
     to: 5
-  - name: Frénésie Sauvage
+  - name: Wild Frenzy
     value: 2
     from: 6
     to: 9
-  - name: Frénésie Sauvage
+  - name: Wild Frenzy
     value: 3
     from: 10
     to: 15

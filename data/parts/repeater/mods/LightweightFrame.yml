@@ -1,4 +1,4 @@
-name: Cadre léger
+name: Lightweight Frame
 icon: /assets/icons/parts/repeaters/mods/LightweightFrame.png
 part_effect:
-  - Vitesse de mouvement accrue de 20% quand vous avez 6 munitions restantes ou moins.
+  - Gain 20% increased movespeed when at 6 or less ammo.

@@ -1,5 +1,5 @@
-name: Regard de pierre
-description: Protection pour la tête forgée à partir de trophées de.
+name: Sight of Stone
+description: Head protection forged from Skarn trophies.
 icon: /assets/icons/armours/skarn/SightOfStone.png
 type: Head
 strength: Terra
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Robustesse
+  - name: Tough
     value: 1
     from: 0
     to: 5
-  - name: Robustesse
+  - name: Tough
     value: 2
     from: 6
     to: 9
-  - name: Robustesse
+  - name: Tough
     value: 3
     from: 10
     to: 15

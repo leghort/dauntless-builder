@@ -1,4 +1,4 @@
-name: Lames dentelées
+name: Serrated Blades
 icon: /assets/icons/parts/chainblades/mods/SerratedBlades.png
 part_effect:
-  - Les attaques tranchantes ont une chance de provoquer un coup critique à vos prochaines Lames dansantes.
+  - Bladed attacks have a chance to cause your next swinging blades to be a critical strike.

@@ -1,4 +1,4 @@
-name: Sprint
+name: Swift
 description: Increases Movement Speed when your weapon is sheathed.
 type: Mobility
 key: sheathed_weapon_movement_speed

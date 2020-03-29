@@ -1,4 +1,4 @@
-name: Lames à inertie
+name: Momentum Blades
 icon: /assets/icons/parts/chainblades/mods/MomentumBlades.png
 part_effect:
-  - Après avoir utilisé une capacité spéciale, vous pouvez l'utiliser à nouveau gratuitement dans les 4 secondes.
+  - After using a special, your next special use within 4 seconds is free.

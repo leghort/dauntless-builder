@@ -1,15 +1,15 @@
-name: Cellule prédatrice
+name: Predator Cell
 slot: Technique
 variants:
-  "Cellule prédatrice +1":
+  "+1 Predator Cell":
     rarity: uncommon
     perks:
-      Prédateur: 1
-  "Cellule prédatrice +2":
+      Predator: 1
+  "+2 Predator Cell":
     rarity: rare
     perks:
-      Prédateur: 2
-  "Cellule prédatrice +3":
+      Predator: 2
+  "+3 Predator Cell":
     rarity: epic
     perks:
-      Prédateur: 3
+      Predator: 3

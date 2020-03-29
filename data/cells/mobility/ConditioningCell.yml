@@ -1,15 +1,15 @@
-name: Cellule de constitution
+name: Conditioning Cell
 slot: Mobility
 variants:
-  "Cellule de constitution +1":
+  "+1 Conditioning Cell":
     rarity: uncommon
     perks:
-      Constitution: 1
-  "Cellule de constitution +2":
+      Conditioning: 1
+  "+2 Conditioning Cell":
     rarity: rare
     perks:
-      Constitution: 2
-  "Cellule de constitution +3":
+      Conditioning: 2
+  "+3 Conditioning Cell":
     rarity: epic
     perks:
-      Constitution: 3
+      Conditioning: 3

@@ -1,5 +1,5 @@
-name: Masque de ronces
-description: Une pièce d'armure de Slayer forgée avec trophées du Souverain des Ronces.
+name: Visage of Thorns
+description: Head protection forged from Koshai trophies.
 icon: /assets/icons/armours/koshai/VisageOfThorns.png
 type: Head
 strength: Terra
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Agilité
+  - name: Agility
     value: 1
     from: 0
     to: 5
-  - name: Agilité
+  - name: Agility
     value: 2
     from: 6
     to: 9
-  - name: Agilité
+  - name: Agility
     value: 3
     from: 10
     to: 15

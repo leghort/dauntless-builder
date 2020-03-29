@@ -1,5 +1,5 @@
-name: Coeur gelé
-description: Protection pour le torse forgée à partir de trophées de Pangar.
+name: Core of Ice
+description: Torso protection forged from Pangar trophies.
 icon: /assets/icons/armours/pangar/CoreOfIce.png
 type: Torso
 strength: Frost
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Forteresse
+  - name: Fortress
     value: 1
     from: 0
     to: 5
-  - name: Forteresse
+  - name: Fortress
     value: 2
     from: 6
     to: 9
-  - name: Forteresse
+  - name: Fortress
     value: 3
     from: 10
     to: 15

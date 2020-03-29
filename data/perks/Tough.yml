@@ -1,4 +1,4 @@
-name: Robustesse
+name: Tough
 description: Increases Max Health.
 type: Defence
 key: [max_hp, increased_healing]

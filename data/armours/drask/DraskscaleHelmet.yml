@@ -1,5 +1,5 @@
-name: Casque en écailles de Drask
-description: Protection pour la tête forgée à partir de trophées de Drask.
+name: Draskscale Helmet
+description: Head protection forged from Drask trophies.
 icon: /assets/icons/armours/drask/DraskscaleHelmet.png
 type: Head
 strength: Shock
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Harmonisation aethérée
+  - name: Aetheric Attunement
     value: 1
     from: 0
     to: 5
-  - name: Harmonisation aethérée
+  - name: Aetheric Attunement
     value: 2
     from: 6
     to: 9
-  - name: Harmonisation aethérée
+  - name: Aetheric Attunement
     value: 3
     from: 10
     to: 15

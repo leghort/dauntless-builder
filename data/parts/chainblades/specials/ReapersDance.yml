@@ -1,9 +1,7 @@
-name: Danse de la Faucheuse
+name: Reaper's Dance
 icon: /assets/icons/parts/chainblades/specials/ReapersDance.png
 part_effect:
   - >-
-    De loin : vous tire vers votre cible et vous donne un point de Danse mortelle.
-    Au corps à corps : Vous poussez de votre cible, puis utilisez une attaque primaire
-    ou secondaire pour enchainer. Enchainer vers une attaque primaire donne un point
-    de Danse mortelle. Enchainer vers une attaque secondaire dépense des points et
-    augmente les dégâts de l'attaque de 40% par point dépensé
+    From afar: Pull to targets and grant a stack of Reaper's Dance. While close: Push off targets,
+    then use primary or secondary attacks to perform a followup. Primary followup grants a stack of
+    Reaper's Dance. Secondary followup expends stacks to deal +40% damage per stack.

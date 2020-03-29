@@ -1,5 +1,5 @@
-name: Casque de tonnerre
-description: Protection pour la tête forgée à partir de trophées de Stormclaw.
+name: Lightning Helm
+description: Head protection forged from Stormclaw trophies.
 icon: /assets/icons/armours/stormclaw/LightningHelm.png
 type: Head
 strength: Shock
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Charge
+  - name: Energized
     value: 1
     from: 0
     to: 5
-  - name: Charge
+  - name: Energized
     value: 2
     from: 6
     to: 9
-  - name: Charge
+  - name: Energized
     value: 3
     from: 10
     to: 15

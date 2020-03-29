@@ -1,4 +1,4 @@
-name: Guérisseur
+name: Mender
 description: Reduces healing from Slayer Flask. Using your flask restores other Slayers' health.
 type: Utility
 key: [LessFlaskHealing, HealGroup]

@@ -1,4 +1,4 @@
-name: Cyclone Ardent
+name: Ardent Cyclone
 icon: /assets/icons/parts/sword/specials/ArdentCyclone.png
 part_effect:
-  - Activez à pleine jauge pour tourner, infligeant constamment 50 points de dégâts aux ennemis proches. Réactivez pour vous rendre dans une direction,infligeant 450 + (10 x nombre de coups de rotation) au premier ennemi touché.
+  - Activate at full meter to start to spin, damaging nearby enemies for the duration. Reactive to slash in a direction, damaging enemies.

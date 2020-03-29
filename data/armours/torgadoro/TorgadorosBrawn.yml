@@ -1,5 +1,5 @@
-name: Muscles du Torgadoro
-description: Protection pour les bras et les mains forgée à partir de trophées de Torgadoro.
+name: Torgadoro's Brawn
+description: Arms protection forged from Torgadoro trophies.
 icon: /assets/icons/armours/torgadoro/TorgadorosBrawn.png
 type: Arms
 strength: Blaze
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Domination
+  - name: Overpower
     value: 1
     from: 0
     to: 5
-  - name: Domination
+  - name: Overpower
     value: 2
     from: 6
     to: 9
-  - name: Domination
+  - name: Overpower
     value: 3
     from: 10
     to: 15

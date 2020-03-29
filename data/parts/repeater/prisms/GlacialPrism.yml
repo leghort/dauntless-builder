@@ -1,4 +1,4 @@
-name: Prisme glacial
+name: Glacial Prism
 description: The Glacial Prism is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/prisms/GlacialPrism.png
 power:
@@ -19,4 +19,4 @@ power:
   14: 90
   15: 91
 part_effect:
-  - Après une esquive, déposez 3 mines de glace autour de vous qui infligent 300 dégâts. 30s de recharge.
+  - Evading drops 6 Ice Mines on a 30 second cooldown.

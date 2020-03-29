@@ -1,5 +1,5 @@
-name: Aspect de la faille
-description: Une partie d'armure de Slayer forgée à partir de trophées de Riftstalker.
+name: Guise of the Rift
+description: Head protection forged from Riftstalker trophies.
 icon: /assets/icons/armours/riftstalker/GuiseOfTheRift.png
 type: Head
 strength: Umbral
@@ -23,15 +23,15 @@ resistance:
   14: 135
   15: 137.5
 perks:
-  - name: Harmonisation aethérée
+  - name: Aetheric Attunement
     value: 1
     from: 0
     to: 5
-  - name: Harmonisation aethérée
+  - name: Aetheric Attunement
     value: 2
     from: 6
     to: 9
-  - name: Harmonisation aethérée
+  - name: Aetheric Attunement
     value: 3
     from: 10
     to: 15

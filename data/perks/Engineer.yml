@@ -1,4 +1,4 @@
-name: Ingénieur
+name: Engineer
 description: Reduces healing from Slayer flask. Increases range of pylons.
 type: Utility
 key: [FlaskLessHealing, IncreasedPylonRange]

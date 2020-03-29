@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Frappe critique
+  - name: Cunning
     value: 1
     from: 0
     to: 5
-  - name: Frappe critique
+  - name: Cunning
     value: 2
     from: 6
     to: 9
-  - name: Frappe critique
+  - name: Cunning
     value: 3
     from: 10
     to: 15

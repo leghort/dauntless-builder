@@ -1,7 +1,7 @@
-name: Éclat de Pangar
+name: Pangar's Shine
 icon: /assets/icons/lanterns/PangarsShine.png
 description: null
 cells: Utility
 lantern_ability:
-  instant: Restaure de 25% de votre Endurance maximale.
-  hold: Créer un pilier de givre devant vous qui inflige 960 points de dégâts de givre en 12 secondes aux ennemis proches.
+  instant: Restore 25% of your maximum stamina.
+  hold: Create a frost pillar in front of you that deals 960 Frost damage to nearby enemies over 12 seconds.

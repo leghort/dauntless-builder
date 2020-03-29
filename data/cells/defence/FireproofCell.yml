@@ -1,15 +1,15 @@
-name: Cellule ignifuge
+name: Fireproof Cell
 slot: Defence
 variants:
-  "Cellule ignifuge +1":
+  "+1 Fireproof Cell":
     rarity: uncommon
     perks:
-      Ignifuge: 1
-  "Cellule ignifuge +2":
+      Fireproof: 1
+  "+2 Fireproof Cell":
     rarity: rare
     perks:
-      Ignifuge: 2
-  "Cellule ignifuge +3":
+      Fireproof: 2
+  "+3 Fireproof Cell":
     rarity: epic
     perks:
-      Ignifuge: 3
+      Fireproof: 3

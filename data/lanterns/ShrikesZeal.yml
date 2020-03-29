@@ -1,7 +1,7 @@
-name: Fougue du Shrike
-icon: /assets/icons/lanterns/ShrikesZèle.png
+name: Shrike's Zeal
+icon: /assets/icons/lanterns/ShrikesZeal.png
 description: null
 cells: Utility
 lantern_ability:
-  instant: Augmente la vitesse de déplacement de 40% pendant 6 secondes.
-  hold: Génère une aura qui augmente de 15% de vitesse d'attaque et de déplacement des Slayers proches pendant 15 secondes.
+  instant: Move 40% faster for 6 seconds.
+  hold: Creates an aura that grants nearby slayers 15% increased move speed and attack speed for 15 seconds.
