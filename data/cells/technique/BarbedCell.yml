@@ -4,12 +4,12 @@ variants:
   "Cellule barbelée +1":
     rarity: uncommon
     perks:
-      Barbed: 1
+      Barbelé: 1
   "Cellule barbelée +2":
     rarity: rare
     perks:
-      Barbed: 2
+      Barbelé: 2
   "Cellule barbelée +3":
     rarity: epic
     perks:
-      Barbed: 3
+      Barbelé: 3

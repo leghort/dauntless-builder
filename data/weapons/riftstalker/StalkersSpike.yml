@@ -1,4 +1,4 @@
-name: Stalker's Spike
+name: Pointe du rôdeur
 description: A Slayer's war pike forged with Riftstalker trophies.
 icon: /assets/icons/weapons/riftstalker/StalkersSpike.png
 type: War Pike
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Wild Frenzy
+  - name: Frénésie Sauvage
     value: 1
     from: 0
     to: 5
-  - name: Wild Frenzy
+  - name: Frénésie Sauvage
     value: 2
     from: 6
     to: 9
-  - name: Wild Frenzy
+  - name: Frénésie Sauvage
     value: 3
     from: 10
     to: 15

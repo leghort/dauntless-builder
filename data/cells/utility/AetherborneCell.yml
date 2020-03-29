@@ -4,12 +4,12 @@ variants:
   "Cellule de jouvence aethérée +1":
     rarity: uncommon
     perks:
-      Aetherborne: 1
+      Jouvence aethérée: 1
   "Cellule de jouvence aethérée +2":
     rarity: rare
     perks:
-      Aetherborne: 2
+      Jouvence aethérée: 2
   "Cellule de jouvence aethérée +3":
     rarity: epic
     perks:
-      Aetherborne: 3
+      Jouvence aethérée: 3

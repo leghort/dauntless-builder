@@ -1,4 +1,4 @@
-name: Lucent
+name: Luminescent
 description: Flask heals over time and generates lantern charge.
 type: Utility
 key: [increased_healing, flat_lantern_charge]

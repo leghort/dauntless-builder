@@ -4,12 +4,12 @@ variants:
   "Cellule de médecin +1":
     rarity: uncommon
     perks:
-      Medic: 1
+      Médecin: 1
   "Cellule de médecin +2":
     rarity: rare
     perks:
-      Medic: 2
+      Médecin: 2
   "Cellule de médecin +3":
     rarity: epic
     perks:
-      Medic: 3
+      Médecin: 3

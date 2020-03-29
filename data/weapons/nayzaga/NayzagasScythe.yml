@@ -1,4 +1,4 @@
-name: Nayzaga's Scythe
+name: Faux de Nayzaga
 description: A Slayer's axe forged with Nayzaga trophies.
 icon: /assets/icons/weapons/nayzaga/NayzagasScythe.png
 type: Axe
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Savagery
+  - name: Sauvagerie
     value: 1
     from: 0
     to: 5
-  - name: Savagery
+  - name: Sauvagerie
     value: 2
     from: 6
     to: 9
-  - name: Savagery
+  - name: Sauvagerie
     value: 3
     from: 10
     to: 15

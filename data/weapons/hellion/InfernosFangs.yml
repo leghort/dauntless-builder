@@ -1,4 +1,4 @@
-name: Inferno's Fangs
+name: Crocs du Sixième Cercle
 description: A Slayer's chain blades forged with Hellion trophies.
 icon: /assets/icons/weapons/hellion/InfernosFangs.png
 type: Chain Blades
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Overpower
+  - name: Domination
     value: 1
     from: 0
     to: 5
-  - name: Overpower
+  - name: Domination
     value: 2
     from: 6
     to: 9
-  - name: Overpower
+  - name: Domination
     value: 3
     from: 10
     to: 15

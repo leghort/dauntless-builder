@@ -4,12 +4,12 @@ variants:
   "Cellule isolante +1":
     rarity: uncommon
     perks:
-      Insulated: 1
+      Isolant: 1
   "Cellule isolante +2":
     rarity: rare
     perks:
-      Insulated: 2
+      Isolant: 2
   "Cellule isolante +3":
     rarity: epic
     perks:
-      Insulated: 3
+      Isolant: 3

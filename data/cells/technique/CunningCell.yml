@@ -4,12 +4,12 @@ variants:
   "Cellule de frappe critique +1":
     rarity: uncommon
     perks:
-      Cunning: 1
+      Frappe critique: 1
   "Cellule de frappe critique +2":
     rarity: rare
     perks:
-      Cunning: 2
+      Frappe critique: 2
   "Cellule de frappe critique +3":
     rarity: epic
     perks:
-      Cunning: 3
+      Frappe critique: 3

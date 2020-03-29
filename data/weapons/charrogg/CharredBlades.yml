@@ -1,5 +1,5 @@
-name: Charred Blades
-description: A Slayer's chain blades forged with Charrogg trophies.
+name: Lames charrbonisées
+description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Charrogg.
 icon: /assets/icons/weapons/charrogg/CharredBlades.png
 type: Chain Blades
 damage: Slashing
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 1
     from: 0
     to: 5
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 2
     from: 6
     to: 9
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 3
     from: 10
     to: 15

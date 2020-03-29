@@ -4,12 +4,12 @@ variants:
   "Cellule de chasse-rage +1":
     rarity: uncommon
     perks:
-      Ragehunter: 1
+      Chasse-rage: 1
   "Cellule de chasse-rage +2":
     rarity: rare
     perks:
-      Ragehunter: 2
+      Chasse-rage: 2
   "Cellule de chasse-rage +3":
     rarity: epic
     perks:
-      Ragehunter: 3
+      Chasse-rage: 3

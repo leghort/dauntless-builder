@@ -4,12 +4,12 @@ variants:
   "Cellule luminescente +1":
     rarity: uncommon
     perks:
-      Lucent: 1
+      Luminescent: 1
   "Cellule luminescente +2":
     rarity: rare
     perks:
-      Lucent: 2
+      Luminescent: 2
   "Cellule luminescente +3":
     rarity: epic
     perks:
-      Lucent: 3
+      Luminescent: 3

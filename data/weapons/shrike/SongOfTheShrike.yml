@@ -1,4 +1,4 @@
-name: Song of the Shrike
+name: Chant du Shrike
 description: A Slayer's axe forged with Shrike trophies.
 icon: /assets/icons/weapons/shrike/SongOfTheShrike.png
 type: Axe
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Conditioning
+  - name: Constitution
     value: 1
     from: 0
     to: 5
-  - name: Conditioning
+  - name: Constitution
     value: 2
     from: 6
     to: 9
-  - name: Conditioning
+  - name: Constitution
     value: 3
     from: 10
     to: 15

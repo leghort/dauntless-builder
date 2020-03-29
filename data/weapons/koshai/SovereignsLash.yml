@@ -1,4 +1,4 @@
-name: Sovereign's Lash
+name: Fouet du souverain
 description: A Slayer's chain blades forged with Koshai trophies.
 icon: /assets/icons/weapons/koshai/SovereignsLash.png
 type: Chain Blades
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Sharpened
+  - name: Aiguisé
     value: 1
     from: 0
     to: 5
-  - name: Sharpened
+  - name: Aiguisé
     value: 2
     from: 6
     to: 9
-  - name: Sharpened
+  - name: Aiguisé
     value: 3
     from: 10
     to: 15

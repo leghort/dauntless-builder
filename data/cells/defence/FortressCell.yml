@@ -4,12 +4,12 @@ variants:
   "Cellule forteresse +1":
     rarity: uncommon
     perks:
-      Fortress: 1
+      Forteresse: 1
   "Cellule forteresse +2":
     rarity: rare
     perks:
-      Fortress: 2
+      Forteresse: 2
   "Cellule forteresse +3":
     rarity: epic
     perks:
-      Fortress: 3
+      Forteresse: 3

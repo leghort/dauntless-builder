@@ -4,12 +4,12 @@ variants:
   "Cellule de frénésie sauvage +1":
     rarity: uncommon
     perks:
-      Wild Frenzy: 1
+      Frénésie Sauvage: 1
   "Cellule de frénésie sauvage +2":
     rarity: rare
     perks:
-      Wild Frenzy: 2
+      Frénésie Sauvage: 2
   "Cellule de frénésie sauvage +3":
     rarity: epic
     perks:
-      Wild Frenzy: 3
+      Frénésie Sauvage: 3

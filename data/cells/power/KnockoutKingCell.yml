@@ -4,12 +4,12 @@ variants:
   "Cellule assommoir +1":
     rarity: uncommon
     perks:
-      Knockout King: 1
+      Assommoir: 1
   "Cellule assommoir +2":
     rarity: rare
     perks:
-      Knockout King: 2
+      Assommoir: 2
   "Cellule assommoir +3":
     rarity: epic
     perks:
-      Knockout King: 3
+      Assommoir: 3

@@ -4,12 +4,12 @@ variants:
   "Cellule de constitution +1":
     rarity: uncommon
     perks:
-      Conditioning: 1
+      Constitution: 1
   "Cellule de constitution +2":
     rarity: rare
     perks:
-      Conditioning: 2
+      Constitution: 2
   "Cellule de constitution +3":
     rarity: epic
     perks:
-      Conditioning: 3
+      Constitution: 3

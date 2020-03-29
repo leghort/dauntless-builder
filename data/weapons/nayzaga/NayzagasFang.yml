@@ -1,4 +1,4 @@
-name: Nayzaga's Fang
+name: Croc de Nayzaga
 description: A Slayer's war pike forged with Nayzaga trophies.
 icon: /assets/icons/weapons/nayzaga/NayzagasFang.png
 type: War Pike
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Barbed
+  - name: Barbelé
     value: 1
     from: 0
     to: 5
-  - name: Barbed
+  - name: Barbelé
     value: 2
     from: 6
     to: 9
-  - name: Barbed
+  - name: Barbelé
     value: 3
     from: 10
     to: 15

@@ -4,12 +4,12 @@ variants:
   "Cellule de stratège +1":
     rarity: uncommon
     perks:
-      Strategist: 1
+      Stratège: 1
   "Cellule de stratège +2":
     rarity: rare
     perks:
-      Strategist: 2
+      Stratège: 2
   "Cellule de stratège +3":
     rarity: epic
     perks:
-      Strategist: 3
+      Stratège: 3

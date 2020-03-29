@@ -1,4 +1,4 @@
-name: Raging Blade
+name: Lame enragée
 description: A Slayer's sword forged with Gnasher trophies.
 icon: /assets/icons/weapons/gnasher/RagingBlade.png
 type: Sword
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 1
     from: 0
     to: 5
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 2
     from: 6
     to: 9
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 3
     from: 10
     to: 15

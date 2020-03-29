@@ -1,4 +1,4 @@
-name: Ember Maul
+name: Mâchoire Embermane
 description: A Slayer's hammer forged with Embermane trophies.
 icon: /assets/icons/weapons/embermane/EmberMaul.png
 type: Hammer
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 1
     from: 0
     to: 5
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 2
     from: 6
     to: 9
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 3
     from: 10
     to: 15

@@ -1,4 +1,4 @@
-name: Hands of Dawn
+name: Mains de l'aube
 description: A Slayer's aether strikers forged with Rezakiri trophies.
 icon: /assets/icons/weapons/rezakiri/HandsOfDawn.png
 type: Aether Strikers
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Cunning
+  - name: Frappe critique
     value: 1
     from: 0
     to: 5
-  - name: Cunning
+  - name: Frappe critique
     value: 2
     from: 6
     to: 9
-  - name: Cunning
+  - name: Frappe critique
     value: 3
     from: 10
     to: 15

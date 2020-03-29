@@ -4,12 +4,12 @@ variants:
   "Cellule de sang froid +1":
     rarity: uncommon
     perks:
-      Iceborne: 1
+      Sang froid: 1
   "Cellule de sang froid +2":
     rarity: rare
     perks:
-      Iceborne: 2
+      Sang froid: 2
   "Cellule de sang froid +3":
     rarity: epic
     perks:
-      Iceborne: 3
+      Sang froid: 3

@@ -1,7 +1,7 @@
-name: Predator
+name: Prédateur
 description: Increases damage after avoiding damage for a short time.
 type: Technique
-key: EffectPredator
+key: EffectPrédateur
 effects:
   1:
     description: Deal 4% increased damage after not getting hit for 15 seconds. Bonus removed when hit.

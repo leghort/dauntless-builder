@@ -1,4 +1,4 @@
-name: Winter Ice
+name: Glace hivernale
 description: A Slayer's sword forged with Skraev trophies.
 icon: /assets/icons/weapons/skraev/WinterIce.png
 type: Sword
@@ -23,15 +23,15 @@ power:
   14: 540
   15: 550
 perks:
-  - name: Nimble
+  - name: Évasion légère
     value: 1
     from: 0
     to: 5
-  - name: Nimble
+  - name: Évasion légère
     value: 2
     from: 6
     to: 9
-  - name: Nimble
+  - name: Évasion légère
     value: 3
     from: 10
     to: 15

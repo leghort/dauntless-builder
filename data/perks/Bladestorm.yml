@@ -1,4 +1,4 @@
-name: Bladestorm
+name: Tempête de lames
 description: Adds a flat amount of Part damage on hit.
 type: Technique
 key: [flat_part_damage, dodge_part_damage]

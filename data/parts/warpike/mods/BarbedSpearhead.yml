@@ -1,4 +1,4 @@
 name: Pointe Barbelé
-icon: /assets/icons/parts/warpike/mods/BarbedSpearhead.png
+icon: /assets/icons/parts/warpike/mods/BarbeléSpearhead.png
 part_effect:
   - Après une attaque d'esquive perçante, augmente les dégâts mutilants de 50% pendant 8 secondes.

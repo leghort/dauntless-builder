@@ -4,12 +4,12 @@ variants:
   "Cellule d'harmonisation aethérée +1":
     rarity: uncommon
     perks:
-      Aetheric Attunement: 1
+      Harmonisation aethérée: 1
   "Cellule d'harmonisation aethérée +2":
     rarity: rare
     perks:
-      Aetheric Attunement: 2
+      Harmonisation aethérée: 2
   "Cellule d'harmonisation aethérée +3":
     rarity: epic
     perks:
-      Aetheric Attunement: 3
+      Harmonisation aethérée: 3

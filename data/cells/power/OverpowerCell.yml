@@ -4,12 +4,12 @@ variants:
   "Cellule de domination +1":
     rarity: uncommon
     perks:
-      Overpower: 1
+      Domination: 1
   "Cellule de domination +2":
     rarity: rare
     perks:
-      Overpower: 2
+      Domination: 2
   "Cellule de domination +3":
     rarity: epic
     perks:
-      Overpower: 3
+      Domination: 3

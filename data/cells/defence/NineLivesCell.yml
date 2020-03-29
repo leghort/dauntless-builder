@@ -4,12 +4,12 @@ variants:
   "Cellule lernéenne +1":
     rarity: uncommon
     perks:
-      Nine Lives: 1
+      Lernéen: 1
   "Cellule lernéenne +2":
     rarity: rare
     perks:
-      Nine Lives: 2
+      Lernéen: 2
   "Cellule lernéenne +3":
     rarity: epic
     perks:
-      Nine Lives: 3
+      Lernéen: 3

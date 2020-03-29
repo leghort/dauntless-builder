@@ -1,4 +1,4 @@
-name: Vampiric
+name: Vampirique
 description: Restores some health whenever a Behemoth part is Wounded.
 type: Utility
 key: wounded_heal

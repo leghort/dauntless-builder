@@ -4,12 +4,12 @@ variants:
   "Cellule de conduction +1":
     rarity: uncommon
     perks:
-      Conduit: 1
+      Conduction: 1
   "Cellule de conduction +2":
     rarity: rare
     perks:
-      Conduit: 2
+      Conduction: 2
   "Cellule de conduction +3":
     rarity: epic
     perks:
-      Conduit: 3
+      Conduction: 3

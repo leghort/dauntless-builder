@@ -4,12 +4,12 @@ variants:
   "Cellule d'adrénaline +1":
     rarity: uncommon
     perks:
-      Adrenaline: 1
+      Adrénaline: 1
   "Cellule d'adrénaline +2":
     rarity: rare
     perks:
-      Adrenaline: 2
+      Adrénaline: 2
   "Cellule d'adrénaline +3":
     rarity: epic
     perks:
-      Adrenaline: 3
+      Adrénaline: 3

@@ -4,12 +4,12 @@ variants:
   "Cellule aiguisée +1":
     rarity: uncommon
     perks:
-      Sharpened: 1
+      Aiguisé: 1
   "Cellule aiguisée +2":
     rarity: rare
     perks:
-      Sharpened: 2
+      Aiguisé: 2
   "Cellule aiguisée +3":
     rarity: epic
     perks:
-      Sharpened: 3
+      Aiguisé: 3

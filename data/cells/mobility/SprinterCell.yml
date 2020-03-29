@@ -4,12 +4,12 @@ variants:
   "Cellule de coureur +1":
     rarity: uncommon
     perks:
-      Sprinter: 1
+      Coureur: 1
   "Cellule de coureur +2":
     rarity: rare
     perks:
-      Sprinter: 2
+      Coureur: 2
   "Cellule de coureur +3":
     rarity: epic
     perks:
-      Sprinter: 3
+      Coureur: 3
