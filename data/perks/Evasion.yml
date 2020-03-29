@@ -4,20 +4,20 @@ type: Mobility
 key: iframe_increase
 effects:
   1:
-    description: Increases Dodge invulnerability windows by 7%
+    description: Augmente la durée d'invincibilité lors des esquives de 7%
     value: 0.07
   2:
-    description: Increases Dodge invulnerability windows by 14%
+    description: Augmente la durée d'invincibilité lors des esquives de 14%
     value: 0.14
   3:
-    description: Increases Dodge invulnerability windows by 21%
+    description: Augmente la durée d'invincibilité lors des esquives de 21%
     value: 0.21
   4:
-    description: Increases Dodge invulnerability windows by 28%
+    description: Augmente la durée d'invincibilité lors des esquives de 28%
     value: 0.28
   5:
-    description: Increases Dodge invulnerability windows by 35%
+    description: Augmente la durée d'invincibilité lors des esquives de 35%
     value: 0.35
   6:
-    description: Increases Dodge invulnerability windows by 42%
+    description: Augmente la durée d'invincibilité lors des esquives de 42%
     value: 0.42

@@ -4,20 +4,20 @@ type: Defence
 key: stagger_prevention
 effects:
   1:
-    description: Prevents you from being staggered (120 second cooldown)
+    description: Empêche les déstabilisations (120 secondes de recharge)
     value: 120
   2:
-    description: Prevents you from being staggered (100 second cooldown)
+    description: Empêche les déstabilisations (100 secondes de recharge)
     value: 100
   3:
-    description: Prevents you from being staggered (80 second cooldown)
+    description: Empêche les déstabilisations (80 secondes de recharge)
     value: 80
   4:
-    description: Prevents you from being staggered (60 second cooldown)
+    description: Empêche les déstabilisations (60 secondes de recharge)
     value: 60
   5:
-    description: Prevents you from being staggered (40 second cooldown)
+    description: Empêche les déstabilisations (40 secondes de recharge)
     value: 40
   6:
-    description: Prevents you from being staggered (15 second cooldown)
+    description: Empêche les déstabilisations (15 secondes de recharge)
     value: 15

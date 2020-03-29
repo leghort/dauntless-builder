@@ -4,20 +4,20 @@ type: Defence
 key: [wound_reduction, crippling_wound_reduction]
 effects:
   1:
-    description: [Reduces duration of Wounded status by 50%, null]
-    value: [-0.5, null]
+    description: +5 à la régénération d'Endurance
+    value: 5
   2:
-    description: [Reduces duration of Wounded status by 80%, null]
-    value: [-0.8, null]
+    description: +10 à la régénération d'Endurance
+    value: 10
   3:
-    description: [Immune to Wounded status, null]
-    value: [-1, null]
+    description: +15 à la régénération d'Endurance
+    value: 15
   4:
-    description: [Immune to Wounded status, Reduces effectiveness of Crippling Wounded status by 50%]
-    value: [-1, -0.5]
+    description: +20 à la régénération d'Endurance
+    value: 20
   5:
-    description: [Immune to Wounded status, Reduces effectiveness of Crippling Wounded status by 80%]
-    value: [-1, -0.8]
+    description: +25 à la régénération d'Endurance
+    value: 25
   6:
-    description: [Immune to Wounded status, Immune to Crippling Wound status]
-    value: [-1, -1]
+    description: +30 à la régénération d'Endurance
+    value: 30

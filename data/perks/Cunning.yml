@@ -4,20 +4,20 @@ type: Technique
 key: CriticalStrike
 effects:
   1:
-    description: 2% critical strike chance
+    description: +2% de chance de coup critique
     value: 0.02
   2:
-    description: 3% critical strike chance
+    description: +3% de chance de coup critique
     value: 0.03
   3:
-    description: 4% critical strike chance
+    description: +4% de chance de coup critique
     value: 0.04
   4:
-    description: 5% critical strike chance, +10% critical strike damage.
+    description: +5% de chance de coup critique, +10% de dégâts des coups critiques.
     value: 0.05
   5:
-    description: 7.5% critical strike chance, +20% critical strike damage.
+    description: +7.5% de chance de coup critique, +20% de dégâts des coups critiques.
     value: 0.075
   6:
-    description: 10% critical strike chance, +30% critical strike damage.
+    description: +10% de chance de coup critique, +30% de dégâts des coups critiques.
     value: 0.1

@@ -4,20 +4,20 @@ type: Defence
 key: [shock_immunity, percent_part_damage]
 effects:
   1:
-    description: [Reduces duration of Shocked status by 25%, null]
+    description: [Réduit la durée de l'effet de statut « Électrisé » de 25%, null]
     value: [-0.25, null]
   2:
-    description: [Reduces duration of Shocked status by 50%, null]
+    description: [Réduit la durée de l'effet de statut « Électrisé » de 50%, null]
     value: [-0.5, null]
   3:
-    description: [Reduces duration of Shocked status by 75%, null]
+    description: [Réduit la durée de l'effet de statut « Électrisé » de 75%, null]
     value: [-0.75, null]
   4:
-    description: [Reduces duration of Shocked status by 75%, Reduces knockback and damage of hitting electrified shields]
+    description: [Réduit la durée de l'effet de statut « Électrisé » de 75%, Réduit le recule et les dégâts reçus en frappant les boucliers électriques]
     value: [-0.75, null]
   5:
-    description: [Reduces duration of Shocked status by 75%, Prevents knockback and damage of hitting electrified shields]
+    description: [Réduit la durée de l'effet de statut « Électrisé » de 75%, Protège du recule et des dégâts reçus en frappant les boucliers électriques]
     value: [-0.75, null]
   6:
-    description: [Immune to Shocked status, Prevents knockback and damage of hitting electrified shields]
+    description: [Immunité à l'effet de statut « Électrisé », Protège du recul et des dégâts reçus en frappant les boucliers électriques]
     value: [-1, null]
