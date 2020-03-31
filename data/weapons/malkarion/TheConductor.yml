@@ -1,10 +1,10 @@
 name: Le Conducteur
 description: Une aéthérolance légendaire forgée avec les trophées Malkarion.
 icon: /assets/icons/weapons/malkarion/TheConductor.png
-type: Aéthérolance
+type: War Pike
 damage: Piercing
 elemental: Foudroyant
-cells: [Prismatique, Prismatique]
+cells: [Prismatic, Prismatic]
 power:
   0: 100
   1: 140

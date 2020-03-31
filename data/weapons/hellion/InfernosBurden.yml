@@ -1,10 +1,10 @@
 name: Jugement du Sixième Cercle
 description: Un marteau de Slayer forgé à partir de trophées d'Hellion.
 icon: /assets/icons/weapons/hellion/InfernosBurden.png
-type: Marteau
+type: Hammer
 damage: Blunt
 elemental: Incandescant
-cells: [Puissance, Puissance]
+cells: [Power, Power]
 power:
   0: 100
   1: 140

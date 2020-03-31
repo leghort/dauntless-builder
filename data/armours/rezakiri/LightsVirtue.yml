@@ -4,7 +4,7 @@ icon: /assets/icons/armours/rezakiri/LightsVirtue.png
 type: Torso
 strength: Radiant
 weakness: Obscur
-cells: Utilitaire
+cells: Utility
 resistance:
   0: 25
   1: 35

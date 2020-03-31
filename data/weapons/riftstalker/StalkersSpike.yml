@@ -1,10 +1,10 @@
 name: Pointe du rôdeur
 description: Une aetherolance de Slayer forgée à partir de trophées du Riftstalker.
 icon: /assets/icons/weapons/riftstalker/StalkersSpike.png
-type: Aéthérolance
+type: War Pike
 damage: Piercing
 elemental: Obscur
-cells: [Technique, Utilitaire]
+cells: [Technique, Utility]
 power:
   0: 100
   1: 140

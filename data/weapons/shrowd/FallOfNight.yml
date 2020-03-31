@@ -1,10 +1,10 @@
 name: Tombée de la nuit
 description: Un marteau de Slayer forgé à partir de trophées de Shrowd.
 icon: /assets/icons/weapons/shrowd/FallOfNight.png
-type: Marteau
+type: Hammer
 damage: Blunt
 elemental: Obscur
-cells: [Puissance, Utilitaire]
+cells: [Power, Utility]
 power:
   0: 100
   1: 140

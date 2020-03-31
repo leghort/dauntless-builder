@@ -1,10 +1,10 @@
 name: Flammes des enfers
 description: Cestes aethériques de Slayers fabriqués à partir de trophées d'Hellion.
 icon: /assets/icons/weapons/hellion/InfernosFlames.png
-type: Castes aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: Incandescant
-cells: [Puissance, Puissance]
+cells: [Power, Power]
 power:
   0: 100
   1: 140

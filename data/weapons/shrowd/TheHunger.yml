@@ -1,10 +1,10 @@
 name: Famine
 description: Une épée exotique de Slayer forgée à partir de trophées de Shrowd.
 icon: /assets/icons/weapons/shrowd/TheHunger.png
-type: Épée
+type: Sword
 damage: Slashing
 elemental: Obscur
-cells: [Puissance, Utilitaire]
+cells: [Power, Utility]
 restrict_specials: true
 power:
   0: 100

@@ -1,10 +1,10 @@
 name: Soleils jumeaux
 description: Lance des magnétobombes explosives qui s'accrochent à la cible et détonnent à la commande. Comme le dit l'ancien proverbe ostien, « Quand les Soleils jumeaux se lèvent, votre journée est déjà finie. »
 icon: /assets/icons/weapons/generic/TheTwinSuns.png
-type: Répéteurs
+type: Repeater
 damage: Slashing
 elemental: null
-cells: [Technique, Mobilité]
+cells: [Technique, Mobility]
 power:
   0: 100
   1: 140

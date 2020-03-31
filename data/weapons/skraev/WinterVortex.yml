@@ -1,10 +1,10 @@
 name: Tourbillon hivernal
 description: Une aetherolance de Slayer forgée à partir de trophées de Skraev.
 icon: /assets/icons/weapons/skraev/WinterVortex.png
-type: Aéthérolance
+type: War Pike
 damage: Piercing
 elemental: Givrant
-cells: [Technique, Mobilité]
+cells: [Technique, Mobility]
 power:
   0: 100
   1: 140

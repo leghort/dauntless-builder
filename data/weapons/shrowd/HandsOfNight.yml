@@ -1,10 +1,10 @@
 name: Mains de la nuit
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Shrowd.
 icon: /assets/icons/weapons/shrowd/HandsOfNight.png
-type: Castes aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: Obscur
-cells: [Technique, Utilitaire]
+cells: [Technique, Utility]
 power:
   0: 100
   1: 140

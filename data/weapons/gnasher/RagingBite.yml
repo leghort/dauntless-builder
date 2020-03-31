@@ -1,10 +1,10 @@
 name: Morsure enragée
 description: Une hache de Slayer forgée à partir de trophées de Gnasher.
 icon: /assets/icons/weapons/gnasher/RagingBite.png
-type: Hache
+type: Axe
 damage: Slashing
 elemental: null
-cells: [Puissance, Utilitaire]
+cells: [Power, Utility]
 power:
   0: 100
   1: 140

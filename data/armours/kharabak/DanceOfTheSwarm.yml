@@ -4,7 +4,7 @@ icon: /assets/icons/armours/kharabak/DanceOfTheSwarm.png
 type: Legs
 strength: Tellurique
 weakness: Foudroyant
-cells: Puissance
+cells: Power
 resistance:
   0: 25
   1: 35

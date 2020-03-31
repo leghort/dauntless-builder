@@ -4,7 +4,7 @@ icon: /assets/icons/armours/shrowd/TragicEcho.png
 type: Head
 strength: Obscur
 weakness: Radiant
-cells: Puissance
+cells: Power
 resistance:
   0: 25
   1: 35

@@ -1,10 +1,10 @@
 name: Déchiqueteurs Quillshot
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Quillshot.
 icon: /assets/icons/weapons/quillshot/QuillshotsShredders.png
-type: Castes aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: null
-cells: [Technique, Défence]
+cells: [Technique, Defence]
 power:
   0: 100
   1: 140
