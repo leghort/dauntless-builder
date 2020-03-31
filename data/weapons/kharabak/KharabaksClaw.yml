@@ -1,10 +1,10 @@
 name: Griffe de Kharabak
 description: Une hache de Slayer forgée à partir de trophées de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksClaw.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: Tellurique
-cells: [Power, Technique]
+cells: [Puissance, Technique]
 power:
   0: 100
   1: 140

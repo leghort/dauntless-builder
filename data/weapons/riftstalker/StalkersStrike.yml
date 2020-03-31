@@ -1,10 +1,10 @@
 name: Frappe du rôdeur
 description: Une épée de Slayer forgée à partir de trophées du Riftstalker.
 icon: /assets/icons/weapons/riftstalker/StalkersStrike.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: Obscur
-cells: [Technique, Utility]
+cells: [Technique, Utilitaire]
 power:
   0: 100
   1: 140

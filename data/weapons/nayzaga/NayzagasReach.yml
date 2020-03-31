@@ -1,10 +1,10 @@
 name: Portée de Nayzaga
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Nayzaga
 icon: /assets/icons/weapons/nayzaga/NayzagasReach.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: Foudroyant
-cells: [Technique, Utility]
+cells: [Technique, Utilitaire]
 power:
   0: 100
   1: 140

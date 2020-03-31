@@ -1,10 +1,10 @@
 name: Crochets osseux de Quillshot
 description: Une paire de chaînes-lames de SLayer forgée avec des trophées de Quillshot.
 icon: /assets/icons/weapons/quillshot/QuillshotsBonehooks.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: null
-cells: [Technique, Defence]
+cells: [Technique, Défence]
 power:
   0: 100
   1: 140

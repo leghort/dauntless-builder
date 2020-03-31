@@ -1,10 +1,10 @@
 name: Lamentation du Shrike
 description: Une épée de Slayer forgée à partir de trophées de Shrike.
 icon: /assets/icons/weapons/shrike/CryOfTheShrike.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: null
-cells: [Mobility, Mobility]
+cells: [Mobility, Mobilité]
 power:
   0: 100
   1: 140

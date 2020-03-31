@@ -1,10 +1,10 @@
 name: Failles tectoniques
 description: Cestes aethériques de Slayer forgée à partir de trophées de Torgadoro
 icon: /assets/icons/weapons/torgadoro/TectonicFaults.png
-type: Aether Strikers
+type: Castes aethériques
 damage: Blunt
 elemental: Incandescant
-cells: [Prismatic, Prismatic]
+cells: [Prismatique, Prismatique]
 power:
   0: 100
   1: 140

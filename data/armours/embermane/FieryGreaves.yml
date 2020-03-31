@@ -4,7 +4,7 @@ icon: /assets/icons/armours/embermane/FieryGreaves.png
 type: Legs
 strength: Incandescant
 weakness: Givrant
-cells: Defence
+cells: Défence
 resistance:
   0: 25
   1: 35

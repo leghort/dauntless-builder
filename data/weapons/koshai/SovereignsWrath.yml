@@ -1,10 +1,10 @@
 name: Courroux du souverain
 description: Une hache de Slayer forgée à partir de trophées du Koshai.
 icon: /assets/icons/weapons/koshai/SovereignsWrath.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: Tellurique
-cells: [Power, Utility]
+cells: [Puissance, Utilitaire]
 power:
   0: 100
   1: 140

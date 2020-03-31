@@ -1,10 +1,10 @@
 name: Crocs de l'aube
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Rezakiri.
 icon: /assets/icons/weapons/rezakiri/FangsOfDawn.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: Radiant
-cells: [Technique, Power]
+cells: [Technique, Puissance]
 power:
   0: 100
   1: 140

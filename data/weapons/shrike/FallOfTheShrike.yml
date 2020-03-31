@@ -1,10 +1,10 @@
 name: Chute du Shrike
 description: Un marteau de Slayer forgé à partir de trophées de Shrike.
 icon: /assets/icons/weapons/shrike/FallOfTheShrike.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: null
-cells: [Power, Mobility]
+cells: [Puissance, Mobilité]
 power:
   0: 100
   1: 140

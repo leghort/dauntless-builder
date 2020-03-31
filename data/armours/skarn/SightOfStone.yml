@@ -4,7 +4,7 @@ icon: /assets/icons/armours/skarn/SightOfStone.png
 type: Head
 strength: Tellurique
 weakness: Foudroyant
-cells: Defence
+cells: Défence
 resistance:
   0: 25
   1: 35
