@@ -38,22 +38,19 @@ perks:
 unique_effects:
   - name: BoreusGivrantSprite
     description: >-
-      Using Ammo generates a Givrant Sprite that cause your next attack to deal 30 bonus damage
-      and minor Givrant damage. Max 4 Sprites. 
+      Après avoir dépensé une munition, génère un farfroidet qui ajoute 30 dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
     value: 30
     from: 0
     to: 5
   - name: BoreusGivrantSprite
     description: >-
-      Using Ammo generates a Givrant Sprite that cause your next attack to deal 45 bonus damage
-      and minor Givrant damage. Max 4 Sprites. 
+      Après avoir dépensé une munition, génère un farfroidet qui ajoute 45 dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
     value: 45
     from: 6
     to: 9
   - name: BoreusGivrantSprite
     description: >-
-      Using Ammo generates a Givrant Sprite that cause your next attack to deal 60 bonus damage
-      and minor Givrant damage. Max 4 Sprites. 
+      Après avoir dépensé une munition, génère un farfroidet qui ajoute 60 dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
     value: 60
     from: 10
     to: 15

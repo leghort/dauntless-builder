@@ -37,5 +37,5 @@ perks:
     to: 15
 unique_effects:
   - name: LowHpDamage
-    description: When under 20% health, deal +50% damage
+    description: Infligez 50% de dégâts supplémentaires lorsque vous avez moins de 20% de vie
     value: 1.5

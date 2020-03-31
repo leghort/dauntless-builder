@@ -37,17 +37,17 @@ perks:
     to: 15
 unique_effects:
   - name: DodgeExtendMantra
-    description: After dodging though an attack, extend Mantra timeout by 1 seconds
+    description: Après avoir esquivé une attaque, allonge le délai du mantra de 1 seconde
     value: 1
     from: 0
     to: 5
   - name: DodgeExtendMantra
-    description: After dodging though an attack, extend Mantra timeout by 2 seconds
+    description: Après avoir esquivé une attaque, allonge le délai du mantra de 2 secondes
     value: 2
     from: 6
     to: 9
   - name: DodgeExtendMantra
-    description: After dodging though an attack, extend Mantra timeout by 3 seconds
+    description: Après avoir esquivé une attaque, allonge le délai du mantra de 3 secondes
     value: 3
     from: 10
     to: 15

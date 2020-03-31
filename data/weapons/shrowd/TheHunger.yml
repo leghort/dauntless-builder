@@ -26,5 +26,4 @@ power:
 unique_effects:
   - name: TheHungerEffect
     description: >-
-      Activate to enter Feast, taking damage over time but gaining significant lifesteal,
-      attack speed, and creating aetheric waves with each attack that deal area damage.
+      Activez pour entrer en mode Festin, vous subissez des dégâts au cours du temps mais vous gagnez un vol de vie significatif, de la vitesse d'attaque et vous créez des vagues aethérées à chaque attaque qui causent des dégâts de zone

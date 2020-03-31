@@ -37,5 +37,5 @@ perks:
     to: 15
 unique_effects:
   - name: HitTwice
-    description: 10% chance for attacks to Hit twice.
+    description: + 10% de chance de frapper deux fois
     value: 0.1

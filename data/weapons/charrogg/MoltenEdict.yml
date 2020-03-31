@@ -25,5 +25,5 @@ power:
   15: 550
 unique_effects:
   - name: HammerBlastFireballs
-    description: Replaces all hammer blasts with unique fireball abilities that deal blaze damage.
+    description: Remplace tous les tirs de marteau par des capacités uniques infligeant des dégâts de braise.
     value: 0

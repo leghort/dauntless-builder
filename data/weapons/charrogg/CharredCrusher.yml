@@ -38,5 +38,4 @@ perks:
 unique_effects:
   - name: CharrogSpentStaminaFireDamage
     description: |
-      After spending 150 stamina, next attack emits a cone of flame that deals +150 blaze damage to each
-      unique targets within the cone.
+      Après avoir dépensé 150 d'endurance la prochaine attaque émet un cône de flammes qui inflige +150 dégâts incansdescents à chaque cible unique dans le cône. 
