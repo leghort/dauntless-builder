@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="http://build.team-68.fr/">
+  <a href="https://www.dauntless-builder.fr/">
     <img alt="Github top language" src="https://i.ibb.co/YNNL2CH/image.png">
   </a>
 </p>
