@@ -1,10 +1,10 @@
 name: Épée tempête
 description: Une épée de Slayer forgée à partir de trophées de Stormclaw.
 icon: /assets/icons/weapons/stormclaw/StormSword.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: Foudroyant
-cells: [Technique, Mobility]
+cells: [Technique, Mobilité]
 power:
   0: 100
   1: 140

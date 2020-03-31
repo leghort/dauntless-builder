@@ -1,10 +1,10 @@
 name: Rasoir de Nayzaga
 description: Une épée de Slayer forgée à partir de trophées de Nayzaga.
 icon: /assets/icons/weapons/nayzaga/NayzagasRazor.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: Foudroyant
-cells: [Utility, Mobility]
+cells: [Utility, Mobilité]
 power:
   0: 100
   1: 140

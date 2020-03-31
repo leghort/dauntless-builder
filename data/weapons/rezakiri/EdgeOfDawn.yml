@@ -1,10 +1,10 @@
 name: Tranch'aube
 description: Une hache de Slayer forgée à partir de trophées de Rezakiri.
 icon: /assets/icons/weapons/rezakiri/EdgeOfDawn.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: Radiant
-cells: [Power, Mobility]
+cells: [Puissance, Mobilité]
 power:
   0: 100
   1: 140

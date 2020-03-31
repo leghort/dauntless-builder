@@ -1,7 +1,7 @@
 name: Chaînes-lames de recrue
 description: Une paire de chaînes-lames de recrue.
 icon: /assets/icons/weapons/generic/RecruitsChainBlades.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: null
 cells: null

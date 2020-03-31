@@ -4,7 +4,7 @@ icon: /assets/icons/armours/gnasher/GnasherCap.png
 type: Head
 strength: null
 weakness: null
-cells: Defence
+cells: Défence
 resistance:
   0: 25
   1: 35

@@ -1,10 +1,10 @@
 name: Impact galvanique
 description: Un marteau légendaire forgé avec les trophées Malkarion.
 icon: /assets/icons/weapons/malkarion/GalvanicImpact.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: Foudroyant
-cells: [Prismatic, Prismatic]
+cells: [Prismatique, Prismatique]
 power:
   0: 100
   1: 140

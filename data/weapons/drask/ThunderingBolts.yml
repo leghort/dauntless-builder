@@ -1,10 +1,10 @@
 name: Exploseurs tonitruants
 description: Cestes aethérique de Slayer fabriqués à partir de trophées de Drask.
 icon: /assets/icons/weapons/drask/ThunderingBolts.png
-type: Aether Strikers
+type: Castes aethériques
 damage: Blunt
 elemental: Foudroyant
-cells: [Technique, Power]
+cells: [Technique, Puissance]
 power:
   0: 100
   1: 140

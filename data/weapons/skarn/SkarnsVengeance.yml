@@ -1,10 +1,10 @@
 name: Vengeance de Skarn
 description: Un marteau de Slayer forgé à partir de trophées de Skarn.
 icon: /assets/icons/weapons/skarn/SkarnsVengeance.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: Tellurique
-cells: [Power, Defence]
+cells: [Puissance, Défence]
 power:
   0: 100
   1: 140

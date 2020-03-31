@@ -1,10 +1,10 @@
 name: Tourbillon nocturne
 description: Une aetherolance de Slayer forgée à partir de trophées de Shrowd.
 icon: /assets/icons/weapons/shrowd/GyreOfNight.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Obscur
-cells: [Technique, Utility]
+cells: [Technique, Utilitaire]
 power:
   0: 100
   1: 140

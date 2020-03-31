@@ -1,10 +1,10 @@
 name: Agonies brûlantes
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Torgadoro
 icon: /assets/icons/weapons/torgadoro/ScorchingAgonies.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: Incandescant
-cells: [Prismatic, Prismatic]
+cells: [Prismatique, Prismatique]
 power:
   0: 100
   1: 140

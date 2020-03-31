@@ -1,10 +1,10 @@
 name: Castagneurs du Boreus
 description: Cestes aethériques de Slayers fabriqués à partir de trophés de Boreus.
 icon: /assets/icons/weapons/boreus/BrawlersOfBoreus.png
-type: Aether Strikers
+type: Castes aethériques
 damage: Blunt
 elemental: Givrant
-cells: [Power, Defence]
+cells: [Puissance, Défence]
 power:
   0: 100
   1: 140
@@ -38,19 +38,19 @@ perks:
 unique_effects:
   - name: BoreusGivrantSprite
     description: >-
-      After Surging, generate 2 Givrant Sprites that grant your next attack +30 damage and minor Givrant damage (Max 4 Sprites)
+      Après un afflux, génére 2 farfroidets qui ajoutent +30 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum) 
     value: 30
     from: 0
     to: 5
   - name: BoreusGivrantSprite
     description: >-
-      After Surging, generate 2 Givrant Sprites that grant your next attack +45 damage and minor Givrant damage (Max 4 Sprites)
+      Après un afflux, génére 2 farfroidets qui ajoutent +45 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum) 
     value: 45
     from: 6
     to: 9
   - name: BoreusGivrantSprite
     description: >-
-      After Surging, generate 2 Givrant Sprites that grant your next attack +60 damage and minor Givrant damage (Max 4 Sprites)
+      Après un afflux, génére 2 farfroidets qui ajoutent +60 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum) 
     value: 60
     from: 10
     to: 15

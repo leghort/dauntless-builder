@@ -1,10 +1,10 @@
 name: Malice du Skarn
 description: Une paire de chaîne-lames de Slayer forgée à partir de trophées de Skarn.
 icon: /assets/icons/weapons/skarn/SkarnsMalice.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: Tellurique
-cells: [Technique, Defence]
+cells: [Technique, Défence]
 power:
   0: 100
   1: 140
