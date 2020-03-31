@@ -25,5 +25,5 @@ power:
   15: 550
 unique_effects:
   - name: BeamChannelDamage
-    description: Channel a beam that deals increasing damage, up to 200%, while it continues to hit a target.
+    description: Canalise un rayon infligeant des dégâts croissants suivant la durée de canalisation, jusqu'à 200%
     value: 3
