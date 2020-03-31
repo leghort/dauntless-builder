@@ -3,7 +3,7 @@ description: Un marteau de Slayer forgé à partir de trophées du Koshai.
 icon: /assets/icons/weapons/koshai/SovereignsGrudge.png
 type: Hammer
 damage: Blunt
-elemental: Terra
+elemental: Tellurique
 cells: [Power, Utility]
 power:
   0: 100

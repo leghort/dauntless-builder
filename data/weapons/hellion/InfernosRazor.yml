@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées d'Hellion.
 icon: /assets/icons/weapons/hellion/InfernosRazor.png
 type: Sword
 damage: Cutting
-elemental: Blaze
+elemental: Incandescant
 cells: [Power, Power]
 power:
   0: 100

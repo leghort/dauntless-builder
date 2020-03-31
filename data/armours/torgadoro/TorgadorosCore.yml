@@ -2,8 +2,8 @@ name: Noyau du Torgadoro
 description: Protection pour le torse forgée à partir de trophées de Torgadoro.
 icon: /assets/icons/armours/torgadoro/TorgadorosCore.png
 type: Torso
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Power
 resistance:
   0: 25

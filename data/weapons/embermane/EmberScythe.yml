@@ -3,7 +3,7 @@ description: Une hache de Slayer forgée à partir de trophées d'Embermane.
 icon: /assets/icons/weapons/embermane/EmberScythe.png
 type: Axe
 damage: Slashing
-elemental: Blaze
+elemental: Incandescant
 cells: [Power, Mobility]
 power:
   0: 100

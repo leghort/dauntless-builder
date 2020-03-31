@@ -2,8 +2,8 @@ name: Solerets ailes de Skraev
 description: Protection pour les jambes et les pieds forgée à partir de trophées de Skraev.
 icon: /assets/icons/armours/skraev/SkraevwingBoots.png
 type: Legs
-strength: Frost
-weakness: Blaze
+strength: Givrant
+weakness: Incandescant
 cells: Utility
 resistance:
   0: 25

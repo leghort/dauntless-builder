@@ -2,8 +2,8 @@ name: Allure du Torgadoro
 description: Protection pour les jambes et les pieds forgée à partir de trophées de Torgadoro.
 icon: /assets/icons/armours/torgadoro/TorgadorosGait.png
 type: Legs
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Power
 resistance:
   0: 25

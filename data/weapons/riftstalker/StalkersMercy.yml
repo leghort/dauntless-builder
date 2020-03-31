@@ -3,7 +3,7 @@ description: Une hache de Slayer forgée à partir de trophées de Riftstalker.
 icon: /assets/icons/weapons/riftstalker/StalkersMercy.png
 type: Axe
 damage: Slashing
-elemental: Umbral
+elemental: Obscur
 cells: [Technique, Utility]
 power:
   0: 100

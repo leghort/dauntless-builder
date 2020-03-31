@@ -3,7 +3,7 @@ description: Une paire de chaînes-lames de Slayer forgée à partir de trophée
 icon: /assets/icons/weapons/stormclaw/StormBlades.png
 type: Chain Blades
 damage: Slashing
-elemental: Shock
+elemental: Foudroyant
 cells: [Technique, Mobility]
 power:
   0: 100

@@ -2,8 +2,8 @@ name: Suprématie du Torgadoro
 description: Protection pour la tête forgée à partir de trophées de Torgadoro.
 icon: /assets/icons/armours/torgadoro/TorgadorosApex.png
 type: Head
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Utility
 resistance:
   0: 25

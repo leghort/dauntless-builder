@@ -2,8 +2,8 @@ name: Marche boréale
 description: Protection pour les jambes et les pieds forgée à partir de trophées de Boreus.
 icon: /assets/icons/armours/boreus/BorealMarch.png
 type: Legs
-strength: Frost
-weakness: Blaze
+strength: Givrant
+weakness: Incandescant
 cells: Technique
 resistance:
   0: 25

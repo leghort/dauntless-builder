@@ -2,8 +2,8 @@ name: Grèves ardentes
 description: Protection pour les jambes et les pieds forgée à partir de trophées d'Embermane.
 icon: /assets/icons/armours/embermane/FieryGreaves.png
 type: Legs
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Defence
 resistance:
   0: 25

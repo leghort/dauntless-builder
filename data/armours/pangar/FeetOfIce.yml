@@ -2,8 +2,8 @@ name: Versants gelés
 description: Protection pour les jambes et les pieds forgée à partir de trophées Pangar.
 icon: /assets/icons/armours/pangar/FeetOfIce.png
 type: Legs
-strength: Frost
-weakness: Blaze
+strength: Givrant
+weakness: Incandescant
 cells: Defence
 resistance:
   0: 25

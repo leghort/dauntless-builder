@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées d'Hellion
 icon: /assets/icons/weapons/hellion/InfernosArrow.png
 type: War Pike
 damage: Piercing
-elemental: Blaze
+elemental: Incandescant
 cells: [Power, Power]
 power:
   0: 100

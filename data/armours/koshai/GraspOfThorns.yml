@@ -2,8 +2,8 @@ name: Gantelets de ronces
 description: Une pièce d'armure de Slayer forgée avec des trophées du Souverain des Ronces.
 icon: /assets/icons/armours/koshai/GraspOfThorns.png
 type: Arms
-strength: Terra
-weakness: Shock
+strength: Tellurique
+weakness: Foudroyant
 cells: Power
 resistance:
   0: 25

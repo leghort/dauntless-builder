@@ -3,7 +3,7 @@ description: Cestes aethériques de Slayer fabriqués à partir de trophées de 
 icon: /assets/icons/weapons/pangar/PangarsPunishers.png
 type: Aether Strikers
 damage: Blunt
-elemental: Frost
+elemental: Givrant
 cells: [Technique, Defence]
 power:
   0: 100

@@ -2,8 +2,8 @@ name: Plastron en écailles de Drask
 description: Protection pour le torse forgée à partir de trophées de Drask.
 icon: /assets/icons/armours/drask/DraskscalePlate.png
 type: Torso
-strength: Shock
-weakness: Terra
+strength: Foudroyant
+weakness: Tellurique
 cells: Power
 resistance:
   0: 25

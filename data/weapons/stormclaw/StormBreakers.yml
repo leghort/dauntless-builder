@@ -3,7 +3,7 @@ description: Cestes aethériques de Slayer fabriqués à partir de trophées de 
 icon: /assets/icons/weapons/stormclaw/StormBreakers.png
 type: Aether Strikers
 damage: Blunt
-elemental: Shock
+elemental: Foudroyant
 cells: [Technique, Mobility]
 power:
   0: 100

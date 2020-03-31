@@ -3,7 +3,7 @@ description: Une hache de Slayer forgée à partir de trophées d'Hellion.
 icon: /assets/icons/weapons/hellion/InfernosDecree.png
 type: Axe
 damage: Cutting
-elemental: Blaze
+elemental: Incandescant
 cells: [Power, Power]
 power:
   0: 100

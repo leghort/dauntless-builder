@@ -2,8 +2,8 @@ name: Foulée électrifiée
 description: Protection pour les jambes et les pieds forgée à partir de trophées de Nayzaga.
 icon: /assets/icons/armours/nayzaga/ShockingStride.png
 type: Legs
-strength: Shock
-weakness: Terra
+strength: Foudroyant
+weakness: Tellurique
 cells: Defence
 resistance:
   0: 25

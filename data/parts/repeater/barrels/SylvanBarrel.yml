@@ -1,7 +1,7 @@
 name: Canon sylvestre
 description: The Sylvan Barrel is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/barrels/SylvanBarrel.png
-elemental: Terra
+elemental: Tellurique
 power:
   0: 28
   1: 39

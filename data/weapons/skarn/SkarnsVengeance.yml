@@ -3,7 +3,7 @@ description: Un marteau de Slayer forgé à partir de trophées de Skarn.
 icon: /assets/icons/weapons/skarn/SkarnsVengeance.png
 type: Hammer
 damage: Blunt
-elemental: Terra
+elemental: Tellurique
 cells: [Power, Defence]
 power:
   0: 100

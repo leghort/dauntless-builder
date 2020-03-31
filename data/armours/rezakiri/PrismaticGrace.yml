@@ -3,7 +3,7 @@ description: Une pièce d'armure exotique de Slayer forgée avec des trophées d
 icon: /assets/icons/armours/rezakiri/PrismaticGrace.png
 type: Head
 strength: Radiant
-weakness: Umbral
+weakness: Obscur
 cells: Technique
 resistance:
   0: 25

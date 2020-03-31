@@ -2,8 +2,8 @@ name: Gants volcaniques
 description: Protection pour les bras et les mains forgée à partir de trophées de Charrogg.
 icon: /assets/icons/armours/charrogg/VolcanicGrips.png
 type: Arms
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Utility
 resistance:
   0: 25

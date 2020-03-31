@@ -3,7 +3,7 @@ description: Cestes aethériques de Slayers fabriqués à partir de trophées de
 icon: /assets/icons/weapons/nayzaga/NayzagasShockers.png
 type: Aether Strikers
 damage: Blunt
-elemental: Shock
+elemental: Foudroyant
 cells: [Technique, Utility]
 power:
   0: 100

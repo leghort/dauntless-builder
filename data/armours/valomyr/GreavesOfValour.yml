@@ -3,7 +3,7 @@ description: Protection pour les jambes et les pieds forgée à partir de troph�
 icon: /assets/icons/armours/valomyr/GreavesOfValour.png
 type: Legs
 strength: Radiant
-weakness: Umbral
+weakness: Obscur
 cells: Utility
 resistance:
   0: 25

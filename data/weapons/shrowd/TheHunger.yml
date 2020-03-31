@@ -3,7 +3,7 @@ description: Une épée exotique de Slayer forgée à partir de trophées de Shr
 icon: /assets/icons/weapons/shrowd/TheHunger.png
 type: Sword
 damage: Slashing
-elemental: Umbral
+elemental: Obscur
 cells: [Power, Utility]
 restrict_specials: true
 power:

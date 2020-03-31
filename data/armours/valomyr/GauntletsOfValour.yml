@@ -3,7 +3,7 @@ description: Protection pour les bras et les mains forgée à partir de trophée
 icon: /assets/icons/armours/valomyr/GauntletsOfValour.png
 type: Arms
 strength: Radiant
-weakness: Umbral
+weakness: Obscur
 cells: Defence
 resistance:
   0: 25

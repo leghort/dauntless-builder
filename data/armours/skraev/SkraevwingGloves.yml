@@ -2,8 +2,8 @@ name: Gants ailes de Skraev
 description: Protection pour les bras et les mains forgée à partir de trophées de Skraev.
 icon: /assets/icons/armours/skraev/SkraevwingGloves.png
 type: Arms
-strength: Frost
-weakness: Blaze
+strength: Givrant
+weakness: Incandescant
 cells: Mobility
 resistance:
   0: 25

@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées de Skarn.
 icon: /assets/icons/weapons/skarn/SkarnsSpite.png
 type: War Pike
 damage: Slashing
-elemental: Terra
+elemental: Tellurique
 cells: [Technique, Defence]
 power:
   0: 100

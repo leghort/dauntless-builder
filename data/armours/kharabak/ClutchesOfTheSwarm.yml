@@ -2,8 +2,8 @@ name: Griffes de l'essaim
 description: Protection pour les bras et les mains forgée à partir de trophées de Kharabak.
 icon: /assets/icons/armours/kharabak/ClutchesOfTheSwarm.png
 type: Arms
-strength: Terra
-weakness: Shock
+strength: Tellurique
+weakness: Foudroyant
 cells: Mobility
 resistance:
   0: 25

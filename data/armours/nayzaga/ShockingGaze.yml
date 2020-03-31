@@ -2,8 +2,8 @@ name: Oeil électrifié
 description: Protection pour la tête forgée à partir de trophées de Nayzaga.
 icon: /assets/icons/armours/nayzaga/ShockingGaze.png
 type: Head
-strength: Shock
-weakness: Terra
+strength: Foudroyant
+weakness: Tellurique
 cells: Utility
 resistance:
   0: 25

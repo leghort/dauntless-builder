@@ -2,8 +2,8 @@ name: Brassards infernaux
 description: Protection pour les bras et les mains forgée à partir de trophées d'Hellion.
 icon: /assets/icons/armours/hellion/HellplateBracers.png
 type: Arms
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Power
 resistance:
   0: 25

@@ -2,8 +2,8 @@ name: Casque en écailles de Drask
 description: Protection pour la tête forgée à partir de trophées de Drask.
 icon: /assets/icons/armours/drask/DraskscaleHelmet.png
 type: Head
-strength: Shock
-weakness: Terra
+strength: Foudroyant
+weakness: Tellurique
 cells: Power
 resistance:
   0: 25

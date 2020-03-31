@@ -2,8 +2,8 @@ name: Égide volcaniques
 description: Protection pour le torse forgée à partir de trophées de Charrogg.
 icon: /assets/icons/armours/charrogg/VolcanicAegis.png
 type: Torso
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Utility
 resistance:
   0: 25

@@ -3,7 +3,7 @@ description: Une hache de Slayer forgée à partir de trophées de Skraev.
 icon: /assets/icons/weapons/skraev/WinterGale.png
 type: Axe
 damage: Slashing
-elemental: Frost
+elemental: Givrant
 cells: [Power, Mobility]
 power:
   0: 100

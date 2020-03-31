@@ -3,7 +3,7 @@ description: Protection pour le torse forgée à partir de trophées de Rezakiri
 icon: /assets/icons/armours/rezakiri/LightsVirtue.png
 type: Torso
 strength: Radiant
-weakness: Umbral
+weakness: Obscur
 cells: Utility
 resistance:
   0: 25

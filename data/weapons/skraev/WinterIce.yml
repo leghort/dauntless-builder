@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées de Skraev.
 icon: /assets/icons/weapons/skraev/WinterIce.png
 type: Sword
 damage: Slashing
-elemental: Frost
+elemental: Givrant
 cells: [Technique, Mobility]
 power:
   0: 100

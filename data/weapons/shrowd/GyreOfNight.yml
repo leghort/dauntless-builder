@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées de Shrowd
 icon: /assets/icons/weapons/shrowd/GyreOfNight.png
 type: War Pike
 damage: Piercing
-elemental: Umbral
+elemental: Obscur
 cells: [Technique, Utility]
 power:
   0: 100

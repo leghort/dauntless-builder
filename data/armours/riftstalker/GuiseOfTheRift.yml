@@ -2,7 +2,7 @@ name: Aspect de la faille
 description: Une partie d'armure de Slayer forgée à partir de trophées de Riftstalker.
 icon: /assets/icons/armours/riftstalker/GuiseOfTheRift.png
 type: Head
-strength: Umbral
+strength: Obscur
 weakness: Radiant
 cells: Utility
 resistance:

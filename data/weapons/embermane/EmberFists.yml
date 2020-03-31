@@ -3,7 +3,7 @@ description: Cestes aethériques de Slayers fabriqués à partir de trophées d'
 icon: /assets/icons/weapons/embermane/EmberFists.png
 type: Aether Strikers
 damage: Blunt
-elemental: Blaze
+elemental: Incandescant
 cells: [Technique, Mobility]
 power:
   0: 100

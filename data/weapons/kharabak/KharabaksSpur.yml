@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksSpur.png
 type: Sword
 damage: Slashing
-elemental: Terra
+elemental: Tellurique
 cells: [Technique, Mobility]
 power:
   0: 100

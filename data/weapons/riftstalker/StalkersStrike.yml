@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées du Riftstalker.
 icon: /assets/icons/weapons/riftstalker/StalkersStrike.png
 type: Sword
 damage: Slashing
-elemental: Umbral
+elemental: Obscur
 cells: [Technique, Utility]
 power:
   0: 100

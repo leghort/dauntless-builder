@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées du Riftst
 icon: /assets/icons/weapons/riftstalker/StalkersSpike.png
 type: War Pike
 damage: Piercing
-elemental: Umbral
+elemental: Obscur
 cells: [Technique, Utility]
 power:
   0: 100

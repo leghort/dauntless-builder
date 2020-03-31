@@ -2,8 +2,8 @@ name: Coeur gelé
 description: Protection pour le torse forgée à partir de trophées de Pangar.
 icon: /assets/icons/armours/pangar/CoreOfIce.png
 type: Torso
-strength: Frost
-weakness: Blaze
+strength: Givrant
+weakness: Incandescant
 cells: Power
 resistance:
   0: 25

@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées de Charrogg.
 icon: /assets/icons/weapons/charrogg/CharredSaber.png
 type: Sword
 damage: Cutting
-elemental: Blaze
+elemental: Incandescant
 cells: [Power, Defence]
 power:
   0: 100

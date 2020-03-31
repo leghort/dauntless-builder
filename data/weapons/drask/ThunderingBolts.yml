@@ -3,7 +3,7 @@ description: Cestes aethérique de Slayer fabriqués à partir de trophées de D
 icon: /assets/icons/weapons/drask/ThunderingBolts.png
 type: Aether Strikers
 damage: Blunt
-elemental: Shock
+elemental: Foudroyant
 cells: [Technique, Power]
 power:
   0: 100

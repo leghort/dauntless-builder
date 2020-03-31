@@ -2,8 +2,8 @@ name: Gants de tonnerre
 description: Protection pour les bras et les mains forgée à partir de trophées de Stormclaw.
 icon: /assets/icons/armours/stormclaw/LightningGloves.png
 type: Arms
-strength: Shock
-weakness: Terra
+strength: Foudroyant
+weakness: Tellurique
 cells: Mobility
 resistance:
   0: 25

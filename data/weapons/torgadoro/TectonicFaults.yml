@@ -3,7 +3,7 @@ description: Cestes aethériques de Slayer forgée à partir de trophées de Tor
 icon: /assets/icons/weapons/torgadoro/TectonicFaults.png
 type: Aether Strikers
 damage: Blunt
-elemental: Blaze
+elemental: Incandescant
 cells: [Prismatic, Prismatic]
 power:
   0: 100
@@ -23,7 +23,7 @@ power:
   14: 540
   15: 550
 bond:
-  elemental: Blaze
+  elemental: Incandescant
 unique_effects:
   - name: TorgadoroLegendaryAbility
     description: |

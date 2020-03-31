@@ -2,7 +2,7 @@ name: Sombre voie
 description: Protection pour les jambes et les pieds forgée à partir de trophées de Shrowd.
 icon: /assets/icons/armours/shrowd/DarkPath.png
 type: Legs
-strength: Umbral
+strength: Obscur
 weakness: Radiant
 cells: Utility
 resistance:
