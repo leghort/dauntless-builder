@@ -82,7 +82,7 @@ export default class RepeaterPartSelectModal extends React.Component {
                     </div>
 
                     <footer className="modal-card-foot">
-                        <button className="button" onClick={() => this.onClose()}>Close</button>
+                        <button className="button" onClick={() => this.onClose()}>❌</button>
                     </footer>
                 </div>
             </div>
