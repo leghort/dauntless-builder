@@ -3,7 +3,7 @@ description: Cestes aethériques de Slayers fabriqués à partir de trophées de
 icon: /assets/icons/weapons/skarn/SkarnsSmashers.png
 type: Aether Strikers
 damage: Blunt
-elemental: Terra
+elemental: Tellurique
 cells: [Technique, Defence]
 power:
   0: 100

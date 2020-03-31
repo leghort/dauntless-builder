@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées de Kharab
 icon: /assets/icons/weapons/kharabak/KharabaksSting.png
 type: War Pike
 damage: Piercing
-elemental: Terra
+elemental: Tellurique
 cells: [Technique, Mobility]
 power:
   0: 100

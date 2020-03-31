@@ -3,7 +3,7 @@ description: Une hache de Slayer forgée à partir de trophées de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksClaw.png
 type: Axe
 damage: Slashing
-elemental: Terra
+elemental: Tellurique
 cells: [Power, Technique]
 power:
   0: 100

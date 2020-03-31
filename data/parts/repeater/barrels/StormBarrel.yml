@@ -1,7 +1,7 @@
 name: Canon orageux
 description: The Storm Barrel is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/barrels/StormBarrel.png
-elemental: Shock
+elemental: Foudroyant
 power:
   0: 28
   1: 39

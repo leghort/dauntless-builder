@@ -3,7 +3,7 @@ description: Un marteau de Slayer forgé à partir de trophées de Skraev.
 icon: /assets/icons/weapons/skraev/WinterSquall.png
 type: Hammer
 damage: Blunt
-elemental: Frost
+elemental: Givrant
 cells: [Power, Mobility]
 power:
   0: 100

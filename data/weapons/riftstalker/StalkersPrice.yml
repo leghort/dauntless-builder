@@ -3,7 +3,7 @@ description: Un marteau de Slayer forgé à partir de trophées du Riftstalker.
 icon: /assets/icons/weapons/riftstalker/StalkersPrice.png
 type: Hammer
 damage: Blunt
-elemental: Umbral
+elemental: Obscur
 cells: [Technique, Utility]
 power:
   0: 100

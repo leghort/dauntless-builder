@@ -2,8 +2,8 @@ name: Sommet gelé
 description: Protection pour la tête forgée à partir de trophées de Pangar.
 icon: /assets/icons/armours/pangar/BrowOfIce.png
 type: Head
-strength: Frost
-weakness: Blaze
+strength: Givrant
+weakness: Incandescant
 cells: Power
 resistance:
   0: 25

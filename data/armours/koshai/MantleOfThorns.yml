@@ -2,8 +2,8 @@ name: Manteau épineux
 description: Une pièce d'armure de Slayer forgée avec des trophées du Souverain des Ronces.
 icon: /assets/icons/armours/koshai/MantleOfThorns.png
 type: Torso
-strength: Terra
-weakness: Shock
+strength: Tellurique
+weakness: Foudroyant
 cells: Utility
 resistance:
   0: 25

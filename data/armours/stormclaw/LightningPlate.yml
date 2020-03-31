@@ -2,8 +2,8 @@ name: Plastron de tonnerre
 description: Protection pour le torse forgée à partir de trophées de Stormclaw.
 icon: /assets/icons/armours/stormclaw/LightningPlate.png
 type: Torso
-strength: Shock
-weakness: Terra
+strength: Foudroyant
+weakness: Tellurique
 cells: Mobility
 resistance:
   0: 25

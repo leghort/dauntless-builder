@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées de Drask.
 icon: /assets/icons/weapons/drask/ThunderingSpear.png
 type: War Pike
 damage: Piercing
-elemental: Shock
+elemental: Foudroyant
 cells: [Technique, Power]
 power:
   0: 100

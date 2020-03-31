@@ -2,8 +2,8 @@ name: Oeil de l'essaim
 description: Protection pour la tête forgée à partir de trophées de Kharabak.
 icon: /assets/icons/armours/kharabak/EyeOfTheSwarm.png
 type: Head
-strength: Terra
-weakness: Shock
+strength: Tellurique
+weakness: Foudroyant
 cells: Mobility
 resistance:
   0: 25

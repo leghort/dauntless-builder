@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées de Skarn.
 icon: /assets/icons/weapons/skarn/SkarnsRancor.png
 type: Sword
 damage: Slashing
-elemental: Terra
+elemental: Tellurique
 cells: [Power, Defence]
 power:
   0: 100

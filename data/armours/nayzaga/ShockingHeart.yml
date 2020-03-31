@@ -2,8 +2,8 @@ name: Coeur électrifié
 description: Protection pour le torse forgée à partir de trophées de Nayzaga.
 icon: /assets/icons/armours/nayzaga/ShockingHeart.png
 type: Torso
-strength: Shock
-weakness: Terra
+strength: Foudroyant
+weakness: Tellurique
 cells: Defence
 resistance:
   0: 25

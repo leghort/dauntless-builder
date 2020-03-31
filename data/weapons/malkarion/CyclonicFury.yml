@@ -3,7 +3,7 @@ description: Une épée légendaire forgée avec les trophées Malkarion.
 icon: /assets/icons/weapons/malkarion/CyclonicFury.png
 type: Sword
 damage: Slashing
-elemental: Shock
+elemental: Foudroyant
 cells: [Prismatic, Prismatic]
 power:
   0: 100
@@ -23,7 +23,7 @@ power:
   14: 540
   15: 550
 bond:
-  elemental: Shock
+  elemental: Foudroyant
 unique_effects:
   - name: MalkarionLegendaryAbility
     description: "Legendary Ability: Teleport to a Behemoth, dealing Shock damage. Usable once, but resets on Behemoth kill."

@@ -3,7 +3,7 @@ description: Protection pour les bras de les mains forgée à partir de trophée
 icon: /assets/icons/armours/rezakiri/LightsRefuge.png
 type: Arms
 strength: Radiant
-weakness: Umbral
+weakness: Obscur
 cells: Technique
 resistance:
   0: 25

@@ -3,7 +3,7 @@ description: Cestes aethériques de Slayers fabriqués à partir de trophées de
 icon: /assets/icons/weapons/shrowd/HandsOfNight.png
 type: Aether Strikers
 damage: Blunt
-elemental: Umbral
+elemental: Obscur
 cells: [Technique, Utility]
 power:
   0: 100

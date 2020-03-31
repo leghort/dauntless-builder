@@ -2,8 +2,8 @@ name: Heaume ardent
 description: Protection pour la tête forgée à partir de trophées d'Embermane.
 icon: /assets/icons/armours/embermane/FieryHelm.png
 type: Head
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Mobility
 resistance:
   0: 25

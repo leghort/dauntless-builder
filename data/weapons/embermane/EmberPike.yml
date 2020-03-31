@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées d'Emberma
 icon: /assets/icons/weapons/embermane/EmberPike.png
 type: War Pike
 damage: Piercing
-elemental: Blaze
+elemental: Incandescant
 cells: [Technique, Mobility]
 power:
   0: 100

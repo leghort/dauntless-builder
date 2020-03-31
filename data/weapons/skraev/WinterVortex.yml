@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées de Skraev
 icon: /assets/icons/weapons/skraev/WinterVortex.png
 type: War Pike
 damage: Piercing
-elemental: Frost
+elemental: Givrant
 cells: [Technique, Mobility]
 power:
   0: 100

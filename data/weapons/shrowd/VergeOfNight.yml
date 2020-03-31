@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées de Shrowd.
 icon: /assets/icons/weapons/shrowd/VergeOfNight.png
 type: Sword
 damage: Slashing
-elemental: Umbral
+elemental: Obscur
 cells: [Power, Utility]
 power:
   0: 100

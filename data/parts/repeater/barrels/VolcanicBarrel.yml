@@ -1,7 +1,7 @@
 name: Canon volcanique
 description: The Volcanic Barrel is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/barrels/VolcanicBarrel.png
-elemental: Blaze
+elemental: Incandescant
 power:
   0: 28
   1: 39

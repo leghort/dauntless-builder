@@ -2,7 +2,7 @@ name: Sombre veille
 description: Protection pour la tête forgée à partir de trophées de Shrowd.
 icon: /assets/icons/armours/shrowd/DarkWatch.png
 type: Head
-strength: Umbral
+strength: Obscur
 weakness: Radiant
 cells: Power
 resistance:

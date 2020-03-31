@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées de Pangar.
 icon: /assets/icons/weapons/pangar/PangarsCall.png
 type: Sword
 damage: Slashing
-elemental: Frost
+elemental: Givrant
 cells: [Power, Defence]
 power:
   0: 100

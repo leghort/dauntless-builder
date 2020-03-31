@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées de Pangar
 icon: /assets/icons/weapons/pangar/PangarsTooth.png
 type: War Pike
 damage: Piercing
-elemental: Frost
+elemental: Givrant
 cells: [Technique, Defence]
 power:
   0: 100

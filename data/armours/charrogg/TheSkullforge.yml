@@ -2,8 +2,8 @@ name: Le Forgecrâne
 description: Une pièce d'armure exotique de Slayer forgée avec des trophées du Charrogg Marqueflamme.
 icon: /assets/icons/armours/charrogg/TheSkullforge.png
 type: Head
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Defence
 resistance:
   0: 25

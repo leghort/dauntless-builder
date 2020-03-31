@@ -2,8 +2,8 @@ name: Plastron ardent
 description: Protection pour le torse forgée à partir de trophées d'Embermane.
 icon: /assets/icons/armours/embermane/FieryBreastplate.png
 type: Torso
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Mobility
 resistance:
   0: 25

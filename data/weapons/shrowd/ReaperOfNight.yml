@@ -3,7 +3,7 @@ description: Une hache de Slayer forgée à partir de trophées de Shrowd.
 icon: /assets/icons/weapons/shrowd/ReaperOfNight.png
 type: Axe
 damage: Slashing
-elemental: Umbral
+elemental: Obscur
 cells: [Power, Utility]
 power:
   0: 100

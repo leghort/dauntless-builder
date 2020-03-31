@@ -3,7 +3,7 @@ description: Protection pour le torse forgée à partir de trophées de Valomyr.
 icon: /assets/icons/armours/valomyr/AegisOfValour.png
 type: Torso
 strength: Radiant
-weakness: Umbral
+weakness: Obscur
 cells: Power
 resistance:
   0: 25

@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées de Stormc
 icon: /assets/icons/weapons/stormclaw/StormPike.png
 type: War Pike
 damage: Piercing
-elemental: Shock
+elemental: Foudroyant
 cells: [Technique, Mobility]
 power:
   0: 100

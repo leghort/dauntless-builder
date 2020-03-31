@@ -3,7 +3,7 @@ description: Protection pour les jambes et les pieds forgée à partir de troph�
 icon: /assets/icons/armours/rezakiri/LightsWalk.png
 type: Legs
 strength: Radiant
-weakness: Umbral
+weakness: Obscur
 cells: Mobility
 resistance:
   0: 25

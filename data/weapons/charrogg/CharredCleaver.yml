@@ -3,7 +3,7 @@ description: Une hache de Slayer forgée à partir de trophées de Charrogg.
 icon: /assets/icons/weapons/charrogg/CharredCleaver.png
 type: Axe
 damage: Cutting
-elemental: Blaze
+elemental: Incandescant
 cells: [Power, Defence]
 power:
   0: 100

@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées de Nayzag
 icon: /assets/icons/weapons/nayzaga/NayzagasFang.png
 type: War Pike
 damage: Piercing
-elemental: Shock
+elemental: Foudroyant
 cells: [Technique, Utility]
 power:
   0: 100

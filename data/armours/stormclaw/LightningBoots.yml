@@ -2,8 +2,8 @@ name: Bottes de tonerre
 description: Protection pour les jambes et les pieds forgée à partir de trophées de Stormclaw.
 icon: /assets/icons/armours/stormclaw/LightningBoots.png
 type: Legs
-strength: Shock
-weakness: Terra
+strength: Foudroyant
+weakness: Tellurique
 cells: Mobility
 resistance:
   0: 25

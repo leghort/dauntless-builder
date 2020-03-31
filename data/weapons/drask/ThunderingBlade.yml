@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées de Drask.
 icon: /assets/icons/weapons/drask/ThunderingBlade.png
 type: Sword
 damage: Slashing
-elemental: Shock
+elemental: Foudroyant
 cells: [Power, Utility]
 power:
   0: 100

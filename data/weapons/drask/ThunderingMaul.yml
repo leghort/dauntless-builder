@@ -3,7 +3,7 @@ description: Un marteau de Slayer forgée à partir de trophées de Drask.
 icon: /assets/icons/weapons/drask/ThunderingMaul.png
 type: Hammer
 damage: Blunt
-elemental: Shock
+elemental: Foudroyant
 cells: [Power, Defence]
 power:
   0: 100

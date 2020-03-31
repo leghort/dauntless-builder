@@ -3,7 +3,7 @@ description: Un marteau de Slayer forgé à partir de trophées de Stormclaw.
 icon: /assets/icons/weapons/stormclaw/StormHammer.png
 type: Hammer
 damage: Blunt
-elemental: Shock
+elemental: Foudroyant
 cells: [Power, Mobility]
 power:
   0: 100

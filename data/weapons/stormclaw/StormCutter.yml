@@ -3,7 +3,7 @@ description: Une hache de Slayer forgée à partir de trophées de Stormclaw.
 icon: /assets/icons/weapons/stormclaw/StormCutter.png
 type: Axe
 damage: Slashing
-elemental: Shock
+elemental: Foudroyant
 cells: [Power, Mobility]
 power:
   0: 100

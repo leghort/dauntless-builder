@@ -2,8 +2,8 @@ name: Puissance de pierre
 description: Protection pour les bras de les mains forgée à partir de trophées de Skarn.
 icon: /assets/icons/armours/skarn/MightOfStone.png
 type: Arms
-strength: Terra
-weakness: Shock
+strength: Tellurique
+weakness: Foudroyant
 cells: Defence
 resistance:
   0: 25

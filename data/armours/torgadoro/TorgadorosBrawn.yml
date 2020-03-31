@@ -2,8 +2,8 @@ name: Muscles du Torgadoro
 description: Protection pour les bras et les mains forgée à partir de trophées de Torgadoro.
 icon: /assets/icons/armours/torgadoro/TorgadorosBrawn.png
 type: Arms
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Power
 resistance:
   0: 25

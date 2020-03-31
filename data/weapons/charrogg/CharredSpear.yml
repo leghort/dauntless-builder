@@ -3,7 +3,7 @@ description: Une aetherolance de Slayer forgée à partir de trophées de Charro
 icon: /assets/icons/weapons/charrogg/CharredSpear.png
 type: War Pike
 damage: Piercing
-elemental: Blaze
+elemental: Incandescant
 cells: [Technique, Defence]
 power:
   0: 100

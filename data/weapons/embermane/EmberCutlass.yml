@@ -3,7 +3,7 @@ description: Une épée de Slayer forgée à partir de trophées d'Embermane.
 icon: /assets/icons/weapons/embermane/EmberCutlass.png
 type: Sword
 damage: Slashing
-elemental: Blaze
+elemental: Incandescant
 cells: [Technique, Mobility]
 power:
   0: 100

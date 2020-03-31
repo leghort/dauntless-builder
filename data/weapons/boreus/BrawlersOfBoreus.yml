@@ -3,7 +3,7 @@ description: Cestes aethériques de Slayers fabriqués à partir de trophés de 
 icon: /assets/icons/weapons/boreus/BrawlersOfBoreus.png
 type: Aether Strikers
 damage: Blunt
-elemental: Frost
+elemental: Givrant
 cells: [Power, Defence]
 power:
   0: 100
@@ -36,21 +36,21 @@ perks:
     from: 10
     to: 15
 unique_effects:
-  - name: BoreusFrostSprite
+  - name: BoreusGivrantSprite
     description: >-
-      After Surging, generate 2 Frost Sprites that grant your next attack +30 damage and minor frost damage (Max 4 Sprites)
+      After Surging, generate 2 Givrant Sprites that grant your next attack +30 damage and minor Givrant damage (Max 4 Sprites)
     value: 30
     from: 0
     to: 5
-  - name: BoreusFrostSprite
+  - name: BoreusGivrantSprite
     description: >-
-      After Surging, generate 2 Frost Sprites that grant your next attack +45 damage and minor frost damage (Max 4 Sprites)
+      After Surging, generate 2 Givrant Sprites that grant your next attack +45 damage and minor Givrant damage (Max 4 Sprites)
     value: 45
     from: 6
     to: 9
-  - name: BoreusFrostSprite
+  - name: BoreusGivrantSprite
     description: >-
-      After Surging, generate 2 Frost Sprites that grant your next attack +60 damage and minor frost damage (Max 4 Sprites)
+      After Surging, generate 2 Givrant Sprites that grant your next attack +60 damage and minor Givrant damage (Max 4 Sprites)
     value: 60
     from: 10
     to: 15

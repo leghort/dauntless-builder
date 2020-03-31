@@ -2,8 +2,8 @@ name: Vue du Malkarion
 description: Protection pour la tête forgée à partir de trophées de Malkarion.
 icon: /assets/icons/armours/malkarion/MalkarionsSight.png
 type: Head
-strength: Shock
-weakness: Terra
+strength: Foudroyant
+weakness: Tellurique
 cells: Mobility
 resistance:
   0: 25

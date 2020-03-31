@@ -2,8 +2,8 @@ name: Carapace de l'essaim
 description: Protection pour le torse forgée à partir de trophées de Kharabak.
 icon: /assets/icons/armours/kharabak/ShellOfTheSwarm.png
 type: Torso
-strength: Terra
-weakness: Shock
+strength: Tellurique
+weakness: Foudroyant
 cells: Technique
 resistance:
   0: 25
