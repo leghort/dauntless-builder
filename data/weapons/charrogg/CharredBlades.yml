@@ -1,10 +1,10 @@
 name: Lames charrbonisées
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Charrogg.
 icon: /assets/icons/weapons/charrogg/CharredBlades.png
-type: Chaînes-lames
+type: Chain Blades
 damage: Slashing
 elemental: Incandescant
-cells: [Technique, Défence]
+cells: [Technique, Defence]
 power:
   0: 100
   1: 140

@@ -1,10 +1,10 @@
 name: Prix du rôdeur
 description: Un marteau de Slayer forgé à partir de trophées du Riftstalker.
 icon: /assets/icons/weapons/riftstalker/StalkersPrice.png
-type: Marteau
+type: Hammer
 damage: Blunt
 elemental: Obscur
-cells: [Technique, Utilitaire]
+cells: [Technique, Utility]
 power:
   0: 100
   1: 140

@@ -1,10 +1,10 @@
 name: Dépit de Skarn
 description: Une aetherolance de Slayer forgée à partir de trophées de Skarn.
 icon: /assets/icons/weapons/skarn/SkarnsSpite.png
-type: Aéthérolance
+type: War Pike
 damage: Slashing
 elemental: Tellurique
-cells: [Technique, Défence]
+cells: [Technique, Defence]
 power:
   0: 100
   1: 140

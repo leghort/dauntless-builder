@@ -1,10 +1,10 @@
 name: Croc de Pangar
 description: Une aetherolance de Slayer forgée à partir de trophées de Pangar.
 icon: /assets/icons/weapons/pangar/PangarsTooth.png
-type: Aéthérolance
+type: War Pike
 damage: Piercing
 elemental: Givrant
-cells: [Technique, Défence]
+cells: [Technique, Defence]
 power:
   0: 100
   1: 140

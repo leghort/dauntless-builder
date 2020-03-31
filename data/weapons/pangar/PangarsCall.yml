@@ -1,10 +1,10 @@
 name: Appel de Pangar
 description: Une épée de Slayer forgée à partir de trophées de Pangar.
 icon: /assets/icons/weapons/pangar/PangarsCall.png
-type: Épée
+type: Sword
 damage: Slashing
 elemental: Givrant
-cells: [Puissance, Défence]
+cells: [Power, Defence]
 power:
   0: 100
   1: 140

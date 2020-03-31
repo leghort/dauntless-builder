@@ -1,10 +1,10 @@
 name: Fureur cyclonique
 description: Une épée légendaire forgée avec les trophées Malkarion.
 icon: /assets/icons/weapons/malkarion/CyclonicFury.png
-type: Épée
+type: Sword
 damage: Slashing
 elemental: Foudroyant
-cells: [Prismatique, Prismatique]
+cells: [Prismatic, Prismatic]
 power:
   0: 100
   1: 140

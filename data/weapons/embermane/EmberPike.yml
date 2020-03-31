@@ -1,10 +1,10 @@
 name: Glaive Embermane
 description: Une aetherolance de Slayer forgée à partir de trophées d'Embermane
 icon: /assets/icons/weapons/embermane/EmberPike.png
-type: Aéthérolance
+type: War Pike
 damage: Piercing
 elemental: Incandescant
-cells: [Technique, Mobilité]
+cells: [Technique, Mobility]
 power:
   0: 100
   1: 140

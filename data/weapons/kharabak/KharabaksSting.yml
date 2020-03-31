@@ -1,10 +1,10 @@
 name: Dard Kharabak
 description: Une aetherolance de Slayer forgée à partir de trophées de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksSting.png
-type: Aéthérolance
+type: War Pike
 damage: Piercing
 elemental: Tellurique
-cells: [Technique, Mobilité]
+cells: [Technique, Mobility]
 power:
   0: 100
   1: 140

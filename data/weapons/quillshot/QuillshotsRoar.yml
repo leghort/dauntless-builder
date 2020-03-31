@@ -1,10 +1,10 @@
 name: Rugissement de Quillshot
 description: Un marteau de Slayer forgé à partir de trophées de Quillshot.
 icon: /assets/icons/weapons/quillshot/QuillshotsRoar.png
-type: Marteau
+type: Hammer
 damage: Blunt
 elemental: null
-cells: [Puissance, Défence]
+cells: [Power, Defence]
 power:
   0: 100
   1: 140

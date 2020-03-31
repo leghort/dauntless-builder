@@ -1,10 +1,10 @@
 name: Lame tonnante
 description: Une épée de Slayer forgée à partir de trophées de Drask.
 icon: /assets/icons/weapons/drask/ThunderingBlade.png
-type: Épée
+type: Sword
 damage: Slashing
 elemental: Foudroyant
-cells: [Puissance, Utilitaire]
+cells: [Power, Utility]
 power:
   0: 100
   1: 140

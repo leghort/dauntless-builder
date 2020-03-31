@@ -1,10 +1,10 @@
 name: Courants de Mystral
 description: Cestes aethériques légendaires fabriqués à partir de trophées de Malkarion.
 icon: /assets/icons/weapons/malkarion/MistralCurrents.png
-type: Castes aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: Foudroyant
-cells: [Prismatique, Prismatique]
+cells: [Prismatic, Prismatic]
 power:
   0: 100
   1: 140

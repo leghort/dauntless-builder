@@ -1,10 +1,10 @@
 name: Révolte de Boreus
 description: Une aetherolance de Slayer forgée à partir de trophées de Boreus.
 icon: /assets/icons/weapons/boreus/RevolutionOfBoreus.png
-type: Aéthérolance
+type: War Pike
 damage: Piercing
 elemental: Givrant
-cells: [Puissance, Défence]
+cells: [Power, Defence]
 power:
   0: 100
   1: 140

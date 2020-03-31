@@ -1,10 +1,10 @@
 name: Mâchoire de Kharabak
 description: Un marteau de Slayer forgé à partir de trophées de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksJaw.png
-type: Marteau
+type: Hammer
 damage: Blunt
 elemental: Tellurique
-cells: [Puissance, Technique]
+cells: [Power, Technique]
 power:
   0: 100
   1: 140

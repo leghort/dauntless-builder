@@ -1,10 +1,10 @@
 name: Visions de Valomyr
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Valomyr
 icon: /assets/icons/weapons/valomyr/ValomyrsVisions.png
-type: Castes aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: Radiant
-cells: [Puissance, Utilitaire]
+cells: [Power, Utility]
 power:
   0: 100
   1: 140
