@@ -38,19 +38,19 @@ perks:
 unique_effects:
   - name: ValomyrCharge
     description: >-
-      Une fois chargée, votre prochaine attaque infligera + 300dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
+      Une fois chargée, votre prochaine attaque infligera + 300 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
     value: 300
     from: 0
     to: 5
   - name: ValomyrCharge
     description: >-
-      Une fois chargée, votre prochaine attaque infligera + 425dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
+      Une fois chargée, votre prochaine attaque infligera + 425 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
     value: 425
     from: 6
     to: 9
   - name: ValomyrCharge
     description: >-
-      Une fois chargée, votre prochaine attaque infligera + 550dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
+      Une fois chargée, votre prochaine attaque infligera + 550 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
     value: 550
     from: 10
     to: 15
