@@ -24,11 +24,11 @@ resistance:
   15: 137.5
 unique_effects:
   - name: PrismaticGrâceRevivePrism
-    description: After reviving another player, grant them a Radiant Prism that blocks incoming damage for 5 seconds.
+    description: Après avoir réanimé un autre joueur, lui donne un prisme rayonnant qui bloque les dégts reçu pendant 5 secondes.
     value: 5
   - name: PrismaticGrâceLethalDamagePrism
-    description: The first time you take lethal damage, gain a Radiant Prism that blocks incoming damage for 10 seconds.
+    description: La première fois que vous devriez être à terre, recevez un prisme rayonnant qui bloque les dégâts pendant 10 secondes.
     value: 10
   - name: PrismaticGrâceActivePrismRevive
-    description: While active, reviving another player fully restores both players but removes the Prism even at full danger.
+    description: Lorsqu'il est actif, le prisme vous permet de réanimer un autre joueur, même au niveau de danger maximum, et vous soigne tous les deux entièrement mais disparait après utilisation.
     value: 1
