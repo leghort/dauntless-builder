@@ -423,7 +423,7 @@ export default class BuildRoute extends React.Component {
         return <Item
             parent={this}
             onItemClicked={openBondItemModal}
-            title="Bond Weapon" defaultType="Weapon"
+            title="Lien" defaultType="Weapon"
             item={BuildModel.findWeapon(this.state.build.bond_weapon_name)}
             level={this.state.build.weapon_level}
             titlePrefix="Bond"

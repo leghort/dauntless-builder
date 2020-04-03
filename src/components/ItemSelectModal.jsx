@@ -470,7 +470,7 @@ export default class ItemSelectModal extends React.Component {
                                 className="button"
                                 onClick={() =>
                                     this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
-                                Aucune &nbsp;<strong>{this.props.data.filterOptions.__itemType}</strong>.
+                                Aucun(e)&nbsp;<strong>{this.props.data.filterOptions.__itemType}</strong>.
                             </button>
                             <button className="button" onClick={() => this.onClose()}>❌</button>
                         </div>
