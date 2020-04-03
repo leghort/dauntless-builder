@@ -82,9 +82,9 @@ export default class Repeater extends React.Component {
                         <i className="fas fa-question no-item-icon"></i>
                         <div className="item-data">
                             <h3 className="subtitle">
-                                Aucun(e)<strong>{partType.capitalize().substring(0, partType.length - 1)}</strong> selectionné.
+                                Aucun(e) <strong>{partType.capitalize().substring(0, partType.length - 1)}</strong> selectionné.
                             </h3>
-                            <div>Click here to select one.</div>
+                            <div>Cliquez pour séléctionner un(e) {partType.capitalize().substring(0, partType.length - 1)}.</div>
                         </div>
                     </div>
                 </div>
