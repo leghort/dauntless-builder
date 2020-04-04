@@ -479,11 +479,11 @@ export default class BuildRoute extends React.Component {
             const weapon = BuildModel.findWeapon(this.state.build.weapon_name);
 
             if(weapon.icon) {
-                return `https://www.dauntless-builder.com${weapon.icon}`;
+                return `https://www.dauntless-builder.fr${weapon.icon}`;
             }
         }
 
-        return "https://www.dauntless-builder.com/assets/icon.png";
+        return "https://www.dauntless-builder.fr/assets/icon.png";
     }
 
     render() {
