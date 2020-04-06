@@ -1,7 +1,7 @@
 name: Pique tempête
 description: Une aetherolance de Slayer forgée à partir de trophées de Stormclaw.
 icon: /assets/icons/weapons/stormclaw/StormPike.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Foudroyant
 cells: [Technique, Mobility]

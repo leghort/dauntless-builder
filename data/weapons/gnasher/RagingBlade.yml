@@ -1,7 +1,7 @@
 name: Lame enragée
 description: Une épée de Slayer forgée à partir de trophées de Gnasher.
 icon: /assets/icons/weapons/gnasher/RagingBlade.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: null
 cells: [Utility, Defence]

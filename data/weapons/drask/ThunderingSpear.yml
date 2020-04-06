@@ -1,7 +1,7 @@
 name: Lance tonnante
 description: Une aetherolance de Slayer forgée à partir de trophées de Drask.
 icon: /assets/icons/weapons/drask/ThunderingSpear.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Foudroyant
 cells: [Technique, Power]

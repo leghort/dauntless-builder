@@ -1,7 +1,7 @@
 name: Cruauté enragée
 description: Une aetherolance de Slayer forgée à partir de trophées de Gnasher.
 icon: /assets/icons/weapons/gnasher/RagingCruelty.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: null
 cells: [Technique, Utility]

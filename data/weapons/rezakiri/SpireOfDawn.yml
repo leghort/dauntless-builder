@@ -1,7 +1,7 @@
 name: Aiguille de l'Aube
 description: Une aetherolance de Slayer forgée à partir de trophées de Rezakiri.
 icon: /assets/icons/weapons/rezakiri/SpireOfDawn.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Radiant
 cells: [Technique, Power]

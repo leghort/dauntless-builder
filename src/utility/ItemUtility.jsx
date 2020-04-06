@@ -37,11 +37,11 @@ export default class ItemUtility {
     static itemType(type) {
         switch(type) {
             case "Weapon":
-            case "Sword":
+            case "Épée":
             case "Chain Blades":
             case "Hache":
             case "Marteau":
-            case "War Pike":
+            case "Aéthérolance":
             case "Repeater":
             case "Aether Strikers":
                 return "Weapon";

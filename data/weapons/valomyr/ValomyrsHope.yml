@@ -1,7 +1,7 @@
 name: Espoir de Valomyr
 description: Une aetherolance de Slayer forgée à partir de trophées de Valomyr.
 icon: /assets/icons/weapons/valomyr/ValomyrsHope.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Radiant
 cells: [Power, Utility]
