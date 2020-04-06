@@ -19,7 +19,7 @@ export default class Repeater extends React.Component {
 
     getTotalPower() {
         // non modular repeaters get normal level numbers
-        if (this.props.item.name !== "Repeater") {
+        if (this.props.item.name !== "Répéteurs") {
             return this.props.item.power[this.props.level];
         }
 
@@ -61,7 +61,7 @@ export default class Repeater extends React.Component {
 
     renderPart(partType, fieldPrefix) {
         // non modular repeaters shouldn't have parts
-        if (this.props.item.name !== "Repeater") {
+        if (this.props.item.name !== "Répéteurs") {
             return null;
         }
 
@@ -97,7 +97,7 @@ export default class Repeater extends React.Component {
     }
 
     render() {
-        const name = this.props.item.name === "Repeater" ? "Ostian Repeaters" : this.props.item.name;
+        const name = this.props.item.name === "Répéteurs" ? "Ostian Repeaters" : this.props.item.name;
 
         return <React.Fragment>
             <div className="item-title-wrapper">
