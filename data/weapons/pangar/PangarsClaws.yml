@@ -1,7 +1,7 @@
 name: Griffes de Pangar
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Pangar.
 icon: /assets/icons/weapons/pangar/PangarsClaws.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: Givrant
 cells: [Technique, Defence]

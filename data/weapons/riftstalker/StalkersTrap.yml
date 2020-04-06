@@ -1,7 +1,7 @@
 name: Piège du rôdeur
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées du Riftstalker.
 icon: /assets/icons/weapons/riftstalker/StalkersTrap.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: Obscur
 cells: [Technique, Utility]
