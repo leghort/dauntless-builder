@@ -1,7 +1,7 @@
 name: Faux tonnante
 description: Une hache de Slayer forgée à partir de trophées de Drask.
 icon: /assets/icons/weapons/drask/ThunderingScythe.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: Foudroyant
 cells: [Power, Defence]

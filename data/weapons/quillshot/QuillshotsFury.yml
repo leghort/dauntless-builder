@@ -1,7 +1,7 @@
 name: Furie de Quillshot
 description: Une hache de Slayer forgée à partir de trophées de Quillshot.
 icon: /assets/icons/weapons/quillshot/QuillshotsFury.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: null
 cells: [Power, Defence]
