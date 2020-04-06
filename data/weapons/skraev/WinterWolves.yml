@@ -1,7 +1,7 @@
 name: Loups hivernaux
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Skraev.
 icon: /assets/icons/weapons/skraev/WinterWolves.png
-type: Aether Strikers
+type: Cestes aethériques
 damage: Blunt
 elemental: Givrant
 cells: [Technique, Mobility]

@@ -1,7 +1,7 @@
 name: Sceptres du Souverain
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Koshai.
 icon: /assets/icons/weapons/koshai/SovereignsSceptres.png
-type: Aether Strikers
+type: Cestes aethériques
 damage: Blunt
 elemental: Tellurique
 cells: [Power, Utility]

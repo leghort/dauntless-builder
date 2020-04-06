@@ -1,7 +1,7 @@
 name: Mains carbonisées
 description: Une aetherolance de Slayer forgée à partir de trophées de Charrogg.
 icon: /assets/icons/weapons/charrogg/CharredHands.png
-type: Aether Strikers
+type: Cestes aethériques
 damage: Blunt
 elemental: Incandescant
 cells: [Technique, Defence]
