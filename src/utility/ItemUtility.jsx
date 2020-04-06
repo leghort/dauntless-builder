@@ -40,7 +40,7 @@ export default class ItemUtility {
             case "Sword":
             case "Chain Blades":
             case "Axe":
-            case "Hammer":
+            case "Marteau":
             case "War Pike":
             case "Repeater":
             case "Aether Strikers":

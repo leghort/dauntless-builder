@@ -1,7 +1,7 @@
 name: Mâchoire Embermane
 description: Un marteau de Slayer forgé à partir de trophées d'Embermane.
 icon: /assets/icons/weapons/embermane/EmberMaul.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: Incandescant
 cells: [Power, Mobility]
