@@ -97,7 +97,7 @@ export default class Repeater extends React.Component {
     }
 
     render() {
-        const name = this.props.item.name === "Répéteurs" ? "Ostian Repeaters" : this.props.item.name;
+        const name = this.props.item.name === "Répéteurs" ? "Répéteurs" : this.props.item.name;
 
         return <React.Fragment>
             <div className="item-title-wrapper">

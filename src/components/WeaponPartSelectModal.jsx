@@ -78,7 +78,7 @@ export default class WeaponPartSelectModal extends React.Component {
                     </div>
 
                     <footer className="modal-card-foot">
-                        <button className="button" onClick={() => this.onClose()}>Fermer</button>
+                        <button className="button" onClick={() => this.onClose()}>❌</button>
                     </footer>
                 </div>
             </div>
