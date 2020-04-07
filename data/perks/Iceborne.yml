@@ -1,6 +1,6 @@
 name: Sang froid
 description: Augmente la défense lorsque votre vie est faible ; les rangs supérieurs octroient du vol de vie.
-type: Défence
+type: Défense
 key: [DecreasedDamageTaken, Sang froidLifesteal]
 effects:
   1:

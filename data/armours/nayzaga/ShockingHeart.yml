@@ -4,7 +4,7 @@ icon: /assets/icons/armours/nayzaga/ShockingHeart.png
 type: Torso
 strength: Foudroyant
 weakness: Tellurique
-cells: Défence
+cells: Défense
 resistance:
   0: 25
   1: 35

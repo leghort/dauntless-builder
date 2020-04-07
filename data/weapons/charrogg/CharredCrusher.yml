@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/charrogg/CharredCrusher.png
 type: Marteau
 damage: Blunt
 elemental: Incandescant
-cells: [Power, Défence]
+cells: [Power, Défense]
 power:
   0: 100
   1: 140

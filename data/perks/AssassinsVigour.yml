@@ -1,6 +1,6 @@
 name: Vigueur d'assassin
 description: Régénère de la vie après avoir brisé une partie d'un Behemoth.
-type: Défence
+type: Défense
 key: part_break_heal
 effects:
   1:

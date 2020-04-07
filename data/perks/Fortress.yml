@@ -1,6 +1,6 @@
 name: Forteresse
 description: Offre un petit bouclier après avoir évité de prendre des dégâts pendant une courte période.
-type: Défence
+type: Défense
 key: not_hit_health_shield
 effects:
   1:
