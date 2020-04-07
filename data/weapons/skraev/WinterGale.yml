@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/skraev/WinterGale.png
 type: Hache
 damage: Slashing
 elemental: Givrant
-cells: [Power, Mobility]
+cells: [Power, Mobilité]
 power:
   0: 100
   1: 140

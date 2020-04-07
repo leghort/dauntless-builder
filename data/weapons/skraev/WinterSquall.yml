@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/skraev/WinterSquall.png
 type: Marteau
 damage: Blunt
 elemental: Givrant
-cells: [Power, Mobility]
+cells: [Power, Mobilité]
 power:
   0: 100
   1: 140

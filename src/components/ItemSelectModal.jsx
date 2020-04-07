@@ -259,7 +259,7 @@ export default class ItemSelectModal extends React.Component {
     }
 
     getSlotOptions() {
-        const slots = ["Défence", "Mobility", "Power", "Technique", "Utility"];
+        const slots = ["Défence", "Mobilité", "Power", "Technique", "Utility"];
 
         return slots.filter(slot => {
             let items = this.getAvailableItems(["cells"]);

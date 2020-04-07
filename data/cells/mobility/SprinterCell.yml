@@ -1,5 +1,5 @@
 name: Cellule de coureur
-slot: Mobility
+slot: Mobilité
 variants:
   "Cellule de coureur +1":
     rarity: uncommon
