@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/quillshot/QuillshotsBonehooks.png
 type: Chaînes-lames
 damage: Slashing
 elemental: null
-cells: [Technique, Défence]
+cells: [Technique, Défense]
 power:
   0: 100
   1: 140

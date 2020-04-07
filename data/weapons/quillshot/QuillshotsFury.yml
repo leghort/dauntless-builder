@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/quillshot/QuillshotsFury.png
 type: Hache
 damage: Slashing
 elemental: null
-cells: [Power, Défence]
+cells: [Power, Défense]
 power:
   0: 100
   1: 140
