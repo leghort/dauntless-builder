@@ -1,5 +1,5 @@
 name: Cellule de sang froid
-slot: Defence
+slot: Défence
 variants:
   "Cellule de sang froid +1":
     rarity: uncommon

@@ -1,6 +1,6 @@
 name: Sprint évasif
 description: Augmente temporairement la vitesse de déplacement après une esquive.
-type: Mobility
+type: Mobilité
 key: dodge_movement_speed
 effects:
   1:

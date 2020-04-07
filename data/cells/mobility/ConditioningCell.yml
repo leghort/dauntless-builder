@@ -1,5 +1,5 @@
 name: Cellule de constitution
-slot: Mobility
+slot: Mobilité
 variants:
   "Cellule de constitution +1":
     rarity: uncommon

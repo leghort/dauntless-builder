@@ -1,5 +1,5 @@
 name: Cellule de gardien
-slot: Defence
+slot: Défence
 variants:
   "Cellule de gardien +1":
     rarity: uncommon

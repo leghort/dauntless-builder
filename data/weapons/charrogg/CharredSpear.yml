@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/charrogg/CharredSpear.png
 type: Aéthérolance
 damage: Piercing
 elemental: Incandescant
-cells: [Technique, Defence]
+cells: [Technique, Défence]
 power:
   0: 100
   1: 140

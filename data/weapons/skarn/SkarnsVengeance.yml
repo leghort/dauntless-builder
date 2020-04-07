@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/skarn/SkarnsVengeance.png
 type: Marteau
 damage: Blunt
 elemental: Tellurique
-cells: [Power, Defence]
+cells: [Power, Défence]
 power:
   0: 100
   1: 140

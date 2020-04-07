@@ -1,6 +1,6 @@
 name: Résilience
 description: Protège contre les explosions et l'effet de statut « Concussion ».
-type: Defence
+type: Défence
 key: shellshock_immunity
 effects:
   1:

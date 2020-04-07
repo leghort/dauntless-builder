@@ -4,7 +4,7 @@ icon: /assets/icons/armours/embermane/FieryBreastplate.png
 type: Torso
 strength: Incandescant
 weakness: Givrant
-cells: Mobility
+cells: Mobilité
 resistance:
   0: 25
   1: 35

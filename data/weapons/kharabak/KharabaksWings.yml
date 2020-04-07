@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/kharabak/KharabaksWings.png
 type: Chaînes-lames
 damage: Slashing
 elemental: Tellurique
-cells: [Technique, Mobility]
+cells: [Technique, Mobilité]
 power:
   0: 100
   1: 140
