@@ -1,7 +1,7 @@
 name: Poings ardents
 description: Cestes aethériques de Slayers fabriqués à partir de trophées d'Embermane
 icon: /assets/icons/weapons/embermane/EmberFists.png
-type: Aether Strikers
+type: Cestes aethériques
 damage: Blunt
 elemental: Incandescant
 cells: [Technique, Mobility]

@@ -1,7 +1,7 @@
 name: Chagrin du souverain
 description: Une aetherolance de Slayer forgée à partir de trophées de Koshai.
 icon: /assets/icons/weapons/koshai/SovereignsSorrow.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Tellurique
 cells: [Power, Utility]

@@ -1,7 +1,7 @@
 name: Hache de recrue
 description: Une hache de recrue.
 icon: /assets/icons/weapons/generic/RecruitsAxe.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: null
 cells: null

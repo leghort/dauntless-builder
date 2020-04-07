@@ -1,7 +1,7 @@
 name: Écraseurs Skarn
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Skarn
 icon: /assets/icons/weapons/skarn/SkarnsSmashers.png
-type: Aether Strikers
+type: Cestes aethériques
 damage: Blunt
 elemental: Tellurique
 cells: [Technique, Defence]

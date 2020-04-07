@@ -1,7 +1,7 @@
 name: Faux Embermane
 description: Une hache de Slayer forgée à partir de trophées d'Embermane.
 icon: /assets/icons/weapons/embermane/EmberScythe.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: Incandescant
 cells: [Power, Mobility]

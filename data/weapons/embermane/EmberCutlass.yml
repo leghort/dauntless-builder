@@ -1,7 +1,7 @@
 name: Coutelas Embermane
 description: Une épée de Slayer forgée à partir de trophées d'Embermane.
 icon: /assets/icons/weapons/embermane/EmberCutlass.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: Incandescant
 cells: [Technique, Mobility]

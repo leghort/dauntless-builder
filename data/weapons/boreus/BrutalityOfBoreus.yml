@@ -1,7 +1,7 @@
 name: Brutalité de Boreus
 description: Un marteau de Slayer forgé à partir de trophées de Boreus
 icon: /assets/icons/weapons/boreus/BrutalityOfBoreus.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: Givrant
 cells: [Power, Defence]

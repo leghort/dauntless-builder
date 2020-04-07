@@ -1,7 +1,7 @@
 name: Ailes de Kharabak
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksWings.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: Tellurique
 cells: [Technique, Mobility]

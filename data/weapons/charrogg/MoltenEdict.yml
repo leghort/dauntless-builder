@@ -1,7 +1,7 @@
 name: Jugement de Vulrrogg
 description: Un marteau exotique de Slayer forgée à partir de trophées de Charrogg.
 icon: /assets/icons/weapons/charrogg/MoltenEdict.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: Incandescant
 cells: [Power, Defence]

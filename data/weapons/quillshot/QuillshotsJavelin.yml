@@ -1,7 +1,7 @@
 name: Javelot de Quillshot
 description: Une aetherolance de Slayer forgée à partir de trophées de Quillshot.
 icon: /assets/icons/weapons/quillshot/QuillshotsJavelin.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: null
 cells: [Technique, Defence]

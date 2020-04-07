@@ -1,7 +1,7 @@
 name: Marteau tempête
 description: Un marteau de Slayer forgé à partir de trophées de Stormclaw.
 icon: /assets/icons/weapons/stormclaw/StormHammer.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: Foudroyant
 cells: [Power, Mobility]
