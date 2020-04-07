@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/pangar/PangarsClaws.png
 type: Chaînes-lames
 damage: Slashing
 elemental: Givrant
-cells: [Technique, Defence]
+cells: [Technique, Défence]
 power:
   0: 100
   1: 140

@@ -4,7 +4,7 @@ icon: /assets/icons/armours/pangar/FeetOfIce.png
 type: Legs
 strength: Givrant
 weakness: Incandescant
-cells: Defence
+cells: Défence
 resistance:
   0: 25
   1: 35

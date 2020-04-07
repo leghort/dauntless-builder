@@ -1,5 +1,5 @@
 name: Cellule isolante
-slot: Defence
+slot: Défence
 variants:
   "Cellule isolante +1":
     rarity: uncommon

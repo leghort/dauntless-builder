@@ -1,6 +1,6 @@
 name: Stratège
 description: Réduit la santé maximale. Esquiver les attaques de Behemoth octroit un bouclier de santé à tous les Slayers.
-type: Defence
+type: Défence
 key: [ReducedHealth, ShieldShare]
 effects:
   1:

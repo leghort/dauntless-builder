@@ -1,5 +1,5 @@
 name: Cellule forteresse +3
-slot: Defence
+slot: Défence
 variants:
   "Cellule forteresse +1":
     rarity: uncommon

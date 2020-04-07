@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/pangar/PangarsRampage.png
 type: Marteau
 damage: Blunt
 elemental: Givrant
-cells: [Power, Defence]
+cells: [Power, Défence]
 power:
   0: 100
   1: 140

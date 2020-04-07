@@ -1,6 +1,6 @@
 name: Isolant
 description: Protège contre l'effet de statut « Électrisé ». Les rangs supérieurs permettent d'attaquer les boucliers électriques.
-type: Defence
+type: Défence
 key: [shock_immunity, percent_part_damage]
 effects:
   1:
