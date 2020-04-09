@@ -108,7 +108,7 @@ export default class Repeater extends React.Component {
                         <div className="item-data">
                             <h3 className="item-title">{name} {ItemUtility.levelString(this.props.level)}</h3>
                             <div className="stat-data">
-                                <strong>Puissance</strong>: {this.getTotalPower()}
+                                <strong>Power</strong>: {this.getTotalPower()}
                             </div>
                         </div>
                     </div>

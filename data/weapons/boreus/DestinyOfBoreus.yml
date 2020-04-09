@@ -1,10 +1,10 @@
 name: Le destin de Boreus
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Boreus.
 icon: /assets/icons/weapons/boreus/DestinyOfBoreus.png
-type: Chaînes-lames
+type: Chain Blades
 damage: Slashing
 elemental: Givrant
-cells: [Puissance, Défense]
+cells: [Power, Defence]
 power:
   0: 100
   1: 140

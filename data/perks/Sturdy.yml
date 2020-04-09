@@ -1,6 +1,6 @@
 name: Stabilité
 description: Permet d'éviter régulièrement les déstabilisations.
-type: Défense
+type: Defence
 key: stagger_prevention
 effects:
   1:

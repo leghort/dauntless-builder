@@ -4,7 +4,7 @@ icon: /assets/icons/armours/charrogg/TheSkullforge.png
 type: Head
 strength: Incandescant
 weakness: Givrant
-cells: Défense
+cells: Defence
 resistance:
   0: 25
   1: 35

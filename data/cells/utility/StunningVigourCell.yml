@@ -1,8 +1,8 @@
 name: Cellule de vigueur étourdissante
-slot: Utilitaire
+slot: Utility
 variants:
   "Cellule de vigueur étourdissante +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Vigueur étourdissante: 1
   "Cellule de vigueur étourdissante +2":

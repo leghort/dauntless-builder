@@ -1,10 +1,10 @@
 name: Poings enragés
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Gnasher.
 icon: /assets/icons/weapons/gnasher/RagingFists.png
-type: Cestes aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: null
-cells: [Technique, Utilitaire]
+cells: [Technique, Utility]
 power:
   0: 100
   1: 140

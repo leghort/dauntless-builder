@@ -1,10 +1,10 @@
 name: Braise Lames
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées d'Embermane.
 icon: /assets/icons/weapons/embermane/EmberBlades.png
-type: Chaînes-lames
+type: Chain Blades
 damage: Slashing
 elemental: Incandescant
-cells: [Technique, Mobilité]
+cells: [Technique, Mobility]
 power:
   0: 100
   1: 140

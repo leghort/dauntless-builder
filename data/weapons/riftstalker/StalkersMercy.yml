@@ -1,10 +1,10 @@
 name: Miséricorde du rôdeur
 description: Une hache de Slayer forgée à partir de trophées de Riftstalker.
 icon: /assets/icons/weapons/riftstalker/StalkersMercy.png
-type: Hache
+type: Axe
 damage: Slashing
 elemental: Obscur
-cells: [Technique, Utilitaire]
+cells: [Technique, Utility]
 power:
   0: 100
   1: 140

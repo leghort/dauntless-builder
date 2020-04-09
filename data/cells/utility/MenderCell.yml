@@ -1,8 +1,8 @@
 name: Cellule de guérisseur
-slot: Utilitaire
+slot: Utility
 variants:
   "Cellule de guérisseur +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Guérisseur: 1
   "Cellule de guérisseur +2":

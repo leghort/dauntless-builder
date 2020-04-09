@@ -1,10 +1,10 @@
 name: Fouet du souverain
 description: Après 6 secondes sans infliger de dégât, les 5 prochaines attaques infligeront + 25% de dégâts.
 icon: /assets/icons/weapons/koshai/SovereignsLash.png
-type: Chaînes-lames
+type: Chain Blades
 damage: Slashing
 elemental: Tellurique
-cells: [Puissance, Utilitaire]
+cells: [Power, Utility]
 power:
   0: 100
   1: 140

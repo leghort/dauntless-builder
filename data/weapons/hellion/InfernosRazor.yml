@@ -1,10 +1,10 @@
 name: Griffes du Sixième Cercle
 description: Une épée de Slayer forgée à partir de trophées d'Hellion.
 icon: /assets/icons/weapons/hellion/InfernosRazor.png
-type: Épée
+type: Sword
 damage: Cutting
 elemental: Incandescant
-cells: [Puissance, Puissance]
+cells: [Power, Power]
 power:
   0: 100
   1: 140

@@ -2,7 +2,7 @@ name: Cellule fondue
 slot: Technique
 variants:
   "Cellule fondue +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Fondu: 1
   "Cellule fondue +2":

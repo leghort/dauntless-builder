@@ -4,7 +4,7 @@ icon: /assets/icons/armours/stormclaw/LightningGloves.png
 type: Arms
 strength: Foudroyant
 weakness: Tellurique
-cells: Mobilité
+cells: Mobility
 resistance:
   0: 25
   1: 35

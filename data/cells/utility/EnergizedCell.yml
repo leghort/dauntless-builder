@@ -1,8 +1,8 @@
 name: Cellule de charge
-slot: Utilitaire
+slot: Utility
 variants:
   "Cellule de charge +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Charge: 1
   "Cellule de charge +2":

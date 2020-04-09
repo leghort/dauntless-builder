@@ -1,7 +1,7 @@
 name: Tension terminale
 description: Une hache légendaire forgée avec les trophées Malkarion.
 icon: /assets/icons/weapons/malkarion/TerminalVoltage.png
-type: Hache
+type: Axe
 damage: Slashing
 elemental: Foudroyant
 cells: [Prismatic, Prismatic]

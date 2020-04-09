@@ -1,6 +1,6 @@
 name: Assommoir
 description: Augmentation en pourcentage des dégâts étourdissants.
-type: Puissance
+type: Power
 key: [stagger_damage, dodge_stagger_damage]
 effects:
   1:

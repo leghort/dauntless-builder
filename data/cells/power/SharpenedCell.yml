@@ -1,8 +1,8 @@
 name: Cellule aiguisée
-slot: Puissance
+slot: Power
 variants:
   "Cellule aiguisée +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Aiguisé: 1
   "Cellule aiguisée +2":

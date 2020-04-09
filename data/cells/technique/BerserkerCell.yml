@@ -2,7 +2,7 @@ name: Cellule de Berserker
 slot: Technique
 variants:
   "Cellule de Berserker +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Berserker: 1
   "Cellule de Berserker +2":

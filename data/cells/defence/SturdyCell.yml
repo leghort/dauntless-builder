@@ -1,8 +1,8 @@
 name: Cellule stabilisante
-slot: Défense
+slot: Defence
 variants:
   "Cellule stabilisante +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Stabilité: 1
   "Cellule stabilisante +2":

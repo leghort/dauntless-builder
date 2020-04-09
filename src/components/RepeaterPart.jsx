@@ -36,7 +36,7 @@ export default class RepeaterPart extends React.Component {
                     <div className="item-data">
                         <h3 className="item-title">{part.name} {ItemUtility.levelString(level)}</h3>
                         <div className="stat-data">
-                            <strong>Puissance</strong>: {powerLevel} {elemental}
+                            <strong>Power</strong>: {powerLevel} {elemental}
                         </div>
                         {part.part_effect.map(e => <div key={e} className="unique-effects">{e}</div>)}
                     </div>

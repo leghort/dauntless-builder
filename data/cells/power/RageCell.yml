@@ -1,8 +1,8 @@
 name: Cellule de rage
-slot: Puissance
+slot: Power
 variants:
   "Cellule de rage +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Rage: 1
   "Cellule de rage +2":

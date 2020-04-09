@@ -1,6 +1,6 @@
 name: Agilité
 description: Réduit le coût en endurance des esquives.
-type: Mobilité
+type: Mobility
 key: dodge_cost_reduction
 effects:
   1:

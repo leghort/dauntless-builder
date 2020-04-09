@@ -1,10 +1,10 @@
 name: Pinces de Kharabak
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksPincers.png
-type: Cestes aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: Tellurique
-cells: [Technique, Mobilité]
+cells: [Technique, Mobility]
 power:
   0: 100
   1: 140

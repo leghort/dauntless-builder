@@ -1,10 +1,10 @@
 name: Taille tempête
 description: Une hache de Slayer forgée à partir de trophées de Stormclaw.
 icon: /assets/icons/weapons/stormclaw/StormCutter.png
-type: Hache
+type: Axe
 damage: Slashing
 elemental: Foudroyant
-cells: [Puissance, Mobilité]
+cells: [Power, Mobility]
 power:
   0: 100
   1: 140

@@ -1,8 +1,8 @@
 name: Cellule de frénésie aethérée
-slot: Utilitaire
+slot: Utility
 variants:
   "Cellule de frénésie aethérée +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Frénésie aethérée: 1
   "Cellule de frénésie aethérée +2":

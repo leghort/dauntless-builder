@@ -2,7 +2,7 @@ name: Cellule de furie évasive
 slot: Technique
 variants:
   "Cellule de furie évasive +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Furie évasive: 1
   "Cellule de furie évasive +2":

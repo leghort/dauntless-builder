@@ -1,6 +1,6 @@
 name: Luminescent
 description: La flasque soigne au cours du temps et charge la lanterne.
-type: Utilitaire
+type: Utility
 key: [increased_healing, flat_lantern_charge]
 effects:
   1:

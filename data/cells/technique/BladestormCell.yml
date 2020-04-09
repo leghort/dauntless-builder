@@ -2,7 +2,7 @@ name: Cellule de tempête de lames
 slot: Technique
 variants:
   "Cellule de tempête de lames +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Tempête de lames: 1
   "Cellule de tempête de lames +2":

@@ -1,8 +1,8 @@
 name: Cellule d'agilité
-slot: Mobilité
+slot: Mobility
 variants:
   "Cellule d'agilité +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Agilité: 1
   "Cellule d'agilité +2":

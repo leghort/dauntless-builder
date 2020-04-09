@@ -1,6 +1,6 @@
 name: Guérisseur
 description: Réduit les soins de flasques. L'utilisation de votre flasque restaure la santé des autres Slayers.
-type: Utilitaire
+type: Utility
 key: [LessFlaskHealing, HealGroup]
 effects:
   1:
