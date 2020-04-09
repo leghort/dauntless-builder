@@ -365,7 +365,7 @@ export default class ItemSelectModal extends React.Component {
                         placeholder="Rareté..."
                         onChange={rarity => this.setState({rarityFilter: rarity})}
                         value={this.state.rarityFilter}
-                        options={["Uncommon", "Rare", "Epic"].map(
+                        options={["Commun", "Rare", "Epic"].map(
                             rarity => ({value: rarity.toLowerCase(), label: rarity}))} />
                 </div>
             );

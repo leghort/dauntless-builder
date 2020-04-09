@@ -2,7 +2,7 @@ name: Cellule de frénésie sauvage
 slot: Technique
 variants:
   "Cellule de frénésie sauvage +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Frénésie Sauvage: 1
   "Cellule de frénésie sauvage +2":

@@ -2,7 +2,7 @@ name: Cellule Grâce
 slot: Mobilité
 variants:
   "Cellule Grâce +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Grâce: 1
   "Cellule Grâce +2":

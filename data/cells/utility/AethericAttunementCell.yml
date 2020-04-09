@@ -2,7 +2,7 @@ name: Cellule d'harmonisation aethérée
 slot: Utilitaire
 variants:
   "Cellule d'harmonisation aethérée +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Harmonisation aethérée: 1
   "Cellule d'harmonisation aethérée +2":

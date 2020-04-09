@@ -2,7 +2,7 @@ name: Cellule de sang froid
 slot: Défense
 variants:
   "Cellule de sang froid +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Sang froid: 1
   "Cellule de sang froid +2":

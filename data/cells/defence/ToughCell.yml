@@ -2,7 +2,7 @@ name: Cellule de robustesse
 slot: Défense
 variants:
   "Cellule de robustesse +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Robustesse: 1
   "Cellule de robustesse +2":
