@@ -4,7 +4,7 @@ icon: /assets/icons/armours/charrogg/VolcanicAegis.png
 type: Torso
 strength: Incandescant
 weakness: Givrant
-cells: Utility
+cells: Utilitaire
 resistance:
   0: 25
   1: 35

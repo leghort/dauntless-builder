@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/hellion/InfernosFlames.png
 type: Cestes aethériques
 damage: Blunt
 elemental: Incandescant
-cells: [Power, Power]
+cells: [Puissance, Puissance]
 power:
   0: 100
   1: 140

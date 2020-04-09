@@ -1,5 +1,5 @@
 name: Cellule de guérisseur
-slot: Utility
+slot: Utilitaire
 variants:
   "Cellule de guérisseur +1":
     rarity: uncommon

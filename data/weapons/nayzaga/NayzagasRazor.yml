@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/nayzaga/NayzagasRazor.png
 type: Épée
 damage: Slashing
 elemental: Foudroyant
-cells: [Utility, Mobilité]
+cells: [Utilitaire, Mobilité]
 power:
   0: 100
   1: 140

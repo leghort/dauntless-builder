@@ -1,6 +1,6 @@
 name: Charge
 description: Augmente la vitesse de charge de la jauge de l'arme.
-type: Utility
+type: Utilitaire
 key: weapon_charge_rate
 effects:
   1:

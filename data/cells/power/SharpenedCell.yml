@@ -1,5 +1,5 @@
 name: Cellule aiguisée
-slot: Power
+slot: Puissance
 variants:
   "Cellule aiguisée +1":
     rarity: uncommon

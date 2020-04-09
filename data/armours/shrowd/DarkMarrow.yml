@@ -4,7 +4,7 @@ icon: /assets/icons/armours/shrowd/DarkMarrow.png
 type: Torso
 strength: Obscur
 weakness: Radiant
-cells: Power
+cells: Puissance
 resistance:
   0: 25
   1: 35

@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/charrogg/MoltenEdict.png
 type: Marteau
 damage: Blunt
 elemental: Incandescant
-cells: [Power, Défense]
+cells: [Puissance, Défense]
 restrict_specials: true
 power:
   0: 100

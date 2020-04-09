@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/shrike/FallOfTheShrike.png
 type: Marteau
 damage: Blunt
 elemental: null
-cells: [Power, Mobilité]
+cells: [Puissance, Mobilité]
 power:
   0: 100
   1: 140

@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/nayzaga/NayzagasShockers.png
 type: Cestes aethériques
 damage: Blunt
 elemental: Foudroyant
-cells: [Technique, Utility]
+cells: [Technique, Utilitaire]
 power:
   0: 100
   1: 140

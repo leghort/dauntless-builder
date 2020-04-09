@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/embermane/EmberScythe.png
 type: Hache
 damage: Slashing
 elemental: Incandescant
-cells: [Power, Mobilité]
+cells: [Puissance, Mobilité]
 power:
   0: 100
   1: 140

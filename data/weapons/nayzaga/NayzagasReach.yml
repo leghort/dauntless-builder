@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/nayzaga/NayzagasReach.png
 type: Chaînes-lames
 damage: Slashing
 elemental: Foudroyant
-cells: [Technique, Utility]
+cells: [Technique, Utilitaire]
 power:
   0: 100
   1: 140
