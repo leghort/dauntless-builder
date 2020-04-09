@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/kharabak/KharabaksJaw.png
 type: Marteau
 damage: Blunt
 elemental: Tellurique
-cells: [Power, Technique]
+cells: [Puissance, Technique]
 power:
   0: 100
   1: 140

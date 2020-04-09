@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/rezakiri/CallOfDawn.png
 type: Épée
 damage: Slashing
 elemental: Radiant
-cells: [Technique, Utility]
+cells: [Technique, Utilitaire]
 power:
   0: 100
   1: 140

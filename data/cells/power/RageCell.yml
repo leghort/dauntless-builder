@@ -1,5 +1,5 @@
 name: Cellule de rage
-slot: Power
+slot: Puissance
 variants:
   "Cellule de rage +1":
     rarity: uncommon

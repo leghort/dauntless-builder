@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/stormclaw/StormHammer.png
 type: Marteau
 damage: Blunt
 elemental: Foudroyant
-cells: [Power, Mobilité]
+cells: [Puissance, Mobilité]
 power:
   0: 100
   1: 140

@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/rezakiri/SpireOfDawn.png
 type: Aéthérolance
 damage: Piercing
 elemental: Radiant
-cells: [Technique, Power]
+cells: [Technique, Puissance]
 power:
   0: 100
   1: 140

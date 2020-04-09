@@ -1,6 +1,6 @@
 name: Conduction
 description: La capacité maintenue de la lanterne octroie temporairement de la vitesse d'attaque à tous les Slayers.
-type: Utility
+type: Utilitaire
 key: attack_speed_all_slayers
 effects:
   1:

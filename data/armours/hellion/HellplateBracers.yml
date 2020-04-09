@@ -4,7 +4,7 @@ icon: /assets/icons/armours/hellion/HellplateBracers.png
 type: Arms
 strength: Incandescant
 weakness: Givrant
-cells: Power
+cells: Puissance
 resistance:
   0: 25
   1: 35

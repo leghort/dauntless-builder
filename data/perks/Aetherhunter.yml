@@ -1,6 +1,6 @@
 name: Chasse-aether
 description: Augmente les dégâts contre les Behemoths chargés d'aether.
-type: Power
+type: Puissance
 key: damage_aether
 effects:
   1:

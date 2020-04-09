@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/gnasher/RagingCruelty.png
 type: Aéthérolance
 damage: Piercing
 elemental: null
-cells: [Technique, Utility]
+cells: [Technique, Utilitaire]
 power:
   0: 100
   1: 140

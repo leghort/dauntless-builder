@@ -1,5 +1,5 @@
 name: Cellule de médecin
-slot: Utility
+slot: Utilitaire
 variants:
   "Cellule de médecin +1":
     rarity: uncommon

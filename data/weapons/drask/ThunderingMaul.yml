@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/drask/ThunderingMaul.png
 type: Marteau
 damage: Blunt
 elemental: Foudroyant
-cells: [Power, Défense]
+cells: [Puissance, Défense]
 power:
   0: 100
   1: 140
