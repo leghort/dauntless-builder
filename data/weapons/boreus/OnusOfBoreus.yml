@@ -1,10 +1,10 @@
 name: Fardeau de Boreus
 description: Une épée de Slayer forgée à partir de trophées de Boreus.
 icon: /assets/icons/weapons/boreus/OnusOfBoreus.png
-type: Épée
+type: Sword
 damage: Slashing
 elemental: Givrant
-cells: [Puissance, Défense]
+cells: [Power, Defence]
 power:
   0: 100
   1: 140

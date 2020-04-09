@@ -1,8 +1,8 @@
 name: Cellule de déconstruction
-slot: Puissance
+slot: Power
 variants:
   "Cellule de déconstruction +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Démolition: 1
   "Cellule de déconstruction +2":

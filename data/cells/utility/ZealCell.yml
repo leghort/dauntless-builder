@@ -1,8 +1,8 @@
 name: Cellule de Zèle
-slot: Utilitaire
+slot: Utility
 variants:
   "Cellule de Zèle +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Zèle: 1
   "Cellule de Zèle +2":

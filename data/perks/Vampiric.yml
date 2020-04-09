@@ -1,6 +1,6 @@
 name: Vampirique
 description: Restaure de la vie lorsqu'une partie de Behemoth est mutilée.
-type: Utilitaire
+type: Utility
 key: wounded_heal
 effects:
   1:

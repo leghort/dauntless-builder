@@ -2,7 +2,7 @@ name: Cellule de frappe critique
 slot: Technique
 variants:
   "Cellule de frappe critique +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Frappe critique: 1
   "Cellule de frappe critique +2":

@@ -1,6 +1,6 @@
 name: Rage
 description: Augmente vos dégâts lorsque votre vie est faible.
-type: Puissance
+type: Power
 key: Rage
 effects:
   1:

@@ -1,8 +1,8 @@
 name: Cellule de stratège
-slot: Défense
+slot: Defence
 variants:
   "Cellule de stratège +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Stratège: 1
   "Cellule de stratège +2":

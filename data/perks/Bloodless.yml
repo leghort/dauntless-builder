@@ -1,6 +1,6 @@
 name: Coagulation
 description: Protège contre les status « Blessé » et « Hémorragie ».
-type: Défense
+type: Defence
 key: [wound_reduction, crippling_wound_reduction]
 effects:
   1:

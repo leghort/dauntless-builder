@@ -1,8 +1,8 @@
 name: Cellule de sprint évasif
-slot: Mobilité
+slot: Mobility
 variants:
   "Cellule de sprint évasif +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Sprint évasif: 1
   "Cellule de sprint évasif +2":

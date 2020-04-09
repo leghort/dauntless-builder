@@ -1,10 +1,10 @@
 name: Briseurs de tempête
 description: Cestes aethériques de Slayer fabriqués à partir de trophées de Stormclaw.
 icon: /assets/icons/weapons/stormclaw/StormBreakers.png
-type: Cestes aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: Foudroyant
-cells: [Technique, Mobilité]
+cells: [Technique, Mobility]
 power:
   0: 100
   1: 140

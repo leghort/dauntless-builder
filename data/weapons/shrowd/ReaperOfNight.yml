@@ -1,10 +1,10 @@
 name: Faucheur nocturne
 description: Une hache de Slayer forgée à partir de trophées de Shrowd.
 icon: /assets/icons/weapons/shrowd/ReaperOfNight.png
-type: Hache
+type: Axe
 damage: Slashing
 elemental: Obscur
-cells: [Puissance, Utilitaire]
+cells: [Power, Utility]
 power:
   0: 100
   1: 140

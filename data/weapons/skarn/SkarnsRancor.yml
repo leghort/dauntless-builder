@@ -1,10 +1,10 @@
 name: Rancoeur de Skarn
 description: Une épée de Slayer forgée à partir de trophées de Skarn.
 icon: /assets/icons/weapons/skarn/SkarnsRancor.png
-type: Épée
+type: Sword
 damage: Slashing
 elemental: Tellurique
-cells: [Puissance, Défense]
+cells: [Power, Defence]
 power:
   0: 100
   1: 140

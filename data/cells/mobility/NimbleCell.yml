@@ -1,8 +1,8 @@
 name: Cellule d'évasion légère
-slot: Mobilité
+slot: Mobility
 variants:
   "Cellule d'évasion légère +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Évasion légère: 1
   "Cellule d'évasion légère +2":

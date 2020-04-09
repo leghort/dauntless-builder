@@ -1,8 +1,8 @@
 name: Cellule résiliente
-slot: Défense
+slot: Defence
 variants:
   "Cellule résiliente +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Résilience: 1
   "Cellule résiliente +2":

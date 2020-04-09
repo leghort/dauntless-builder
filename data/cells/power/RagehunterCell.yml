@@ -1,8 +1,8 @@
 name: Cellule de chasse-rage
-slot: Puissance
+slot: Power
 variants:
   "Cellule de chasse-rage +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Chasse-rage: 1
   "Cellule de chasse-rage +2":

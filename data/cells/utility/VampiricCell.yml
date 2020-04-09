@@ -1,8 +1,8 @@
 name: Cellule vampirique
-slot: Utilitaire
+slot: Utility
 variants:
   "Cellule vampirique +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Vampirique: 1
   "Cellule vampirique +2":

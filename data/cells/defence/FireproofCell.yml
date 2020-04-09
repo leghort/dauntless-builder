@@ -1,8 +1,8 @@
 name: Cellule ignifuge
-slot: Défense
+slot: Defence
 variants:
   "Cellule ignifuge +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Ignifuge: 1
   "Cellule ignifuge +2":

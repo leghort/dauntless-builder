@@ -1,8 +1,8 @@
 name: Cellule chauffante
-slot: Défense
+slot: Defence
 variants:
   "Cellule chauffante +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Chauffe: 1
   "Cellule chauffante +2":

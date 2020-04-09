@@ -1,6 +1,6 @@
 name: Lernéen
 description: Donne une chance de réduire de moitié les dégâts reçus, les rangs supérieurs permettent d'éviter d'être mis à terre.
-type: Défense
+type: Defence
 key: [half_damage, death_heal]
 effects:
   1:

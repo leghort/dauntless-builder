@@ -2,7 +2,7 @@ name: Cellule d'adrénaline
 slot: Technique
 variants:
   "Cellule d'adrénaline +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Adrénaline: 1
   "Cellule d'adrénaline +2":

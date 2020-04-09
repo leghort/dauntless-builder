@@ -1,6 +1,6 @@
 name: Vigueur étourdissante
 description: Restaure de la vie lorsqu'un Behemoth est étourdi.
-type: Utilitaire
+type: Utility
 key: stagger_heal
 effects:
   1:

@@ -1,6 +1,6 @@
 name: Grâce
 description: Sprinter augmente la vitesse de déplacement. Aux niveau supérieurs, convertit la vitesse de déplacement accrue en vitesse d'attaque.
-type: Mobilité
+type: Mobility
 key: [IncreasedMovementSpeed, IncreasedAttackSpeed]
 effects:
   1:

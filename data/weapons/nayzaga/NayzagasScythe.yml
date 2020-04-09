@@ -1,10 +1,10 @@
 name: Faux de Nayzaga
 description: Une hache de Slayer forgée à partir de trophées de Nayzaga.
 icon: /assets/icons/weapons/nayzaga/NayzagasScythe.png
-type: Hache
+type: Axe
 damage: Slashing
 elemental: Foudroyant
-cells: [Puissance, Utilitaire]
+cells: [Power, Utility]
 power:
   0: 100
   1: 140

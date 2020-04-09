@@ -1,10 +1,10 @@
 name: Jugement de Skarn
 description: Une hache de Slayer forgée à partir de trophées de Skarn.
 icon: /assets/icons/weapons/skarn/SkarnsJudgment.png
-type: Hache
+type: Axe
 damage: Slashing
 elemental: Tellurique
-cells: [Puissance, Défense]
+cells: [Power, Defence]
 power:
   0: 100
   1: 140

@@ -1,8 +1,8 @@
 name: Cellule d'évasion améliorée
-slot: Mobilité
+slot: Mobility
 variants:
   "Cellule d'évasion améliorée +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Évasion: 1
   "Cellule d'évasion améliorée +2":

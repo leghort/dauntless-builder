@@ -27,7 +27,7 @@ export default class ItemData extends React.Component {
             case "Weapon":
                 stats = <React.Fragment>
                     <div className="stat-data">
-                        <strong>Puissance</strong>: {this.props.item.power[this.props.level]} <ElementalAffinities item={this.props.item} />
+                        <strong>Power</strong>: {this.props.item.power[this.props.level]} <ElementalAffinities item={this.props.item} />
                     </div>
                     {perkElement}
                 </React.Fragment>;

@@ -1,10 +1,10 @@
 name: Attention de Valomyr
 description: Une aetherolance de Slayer forgée à partir de trophées de Valomyr.
 icon: /assets/icons/weapons/valomyr/ValomyrsRegard.png
-type: Épée
+type: Sword
 damage: Slashing
 elemental: Radiant
-cells: [Puissance, Utilitaire]
+cells: [Power, Utility]
 power:
   0: 100
   1: 140

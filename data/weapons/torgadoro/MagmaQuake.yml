@@ -1,7 +1,7 @@
 name: Séisme magmatique
 description: Un marteau de Slayer forgée à partir de trophées de Torgadoro
 icon: /assets/icons/weapons/torgadoro/MagmaQuake.png
-type: Marteau
+type: Hammer
 damage: Blunt
 elemental: Incandescant
 cells: [Prismatic, Prismatic]

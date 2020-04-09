@@ -1,10 +1,10 @@
 name: Serres du Shrike
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Shrike.
 icon: /assets/icons/weapons/shrike/FistsOfTheShrike.png
-type: Cestes aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: null
-cells: [Technique, Mobilité]
+cells: [Technique, Mobility]
 power:
   0: 100
   1: 140

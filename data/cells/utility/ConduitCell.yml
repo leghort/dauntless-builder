@@ -1,8 +1,8 @@
 name: Cellule de conduction
-slot: Utilitaire
+slot: Utility
 variants:
   "Cellule de conduction +1":
-    rarity: commun
+    rarity: uncommon
     perks:
       Conduction: 1
   "Cellule de conduction +2":
