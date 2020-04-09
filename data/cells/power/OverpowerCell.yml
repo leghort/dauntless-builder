@@ -2,7 +2,7 @@ name: Cellule de domination
 slot: Puissance
 variants:
   "Cellule de domination +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Domination: 1
   "Cellule de domination +2":
