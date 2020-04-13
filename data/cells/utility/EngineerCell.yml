@@ -2,7 +2,7 @@ name: Cellule d'ingénieur
 slot: Utilitaire
 variants:
   "Cellule d'ingénieur +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Ingénieur: 1
   "Cellule d'ingénieur +2":

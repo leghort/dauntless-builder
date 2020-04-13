@@ -2,7 +2,7 @@ name: Cellule assommoir
 slot: Puissance
 variants:
   "Cellule assommoir +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Assommoir: 1
   "Cellule assommoir +2":

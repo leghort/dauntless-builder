@@ -2,7 +2,7 @@ name: Cellule de pacificateur
 slot: Puissance
 variants:
   "Cellule de pacificateur +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Pacificateur: 1
   "Cellule de pacificateur +2":

@@ -53,11 +53,11 @@
                 }
             }
 
-            &.uncommon {
+            &.commun {
                 &:hover, img {
                     color: white;
-                    border-color: $rarity-uncommon-color;
-                    background: $rarity-uncommon-color;
+                    border-color: $rarity-commun-color;
+                    background: $rarity-commun-color;
                 }
             }
 

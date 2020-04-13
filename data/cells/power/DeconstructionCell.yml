@@ -2,7 +2,7 @@ name: Cellule de démolition
 slot: Puissance
 variants:
   "Cellule de démolition +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Démolition: 1
   "Cellule de démolition +2":

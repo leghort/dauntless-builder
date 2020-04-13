@@ -2,7 +2,7 @@ name: Cellule de vigueur d'assassin
 slot: Défense
 variants:
   "Cellule de vigueur d'assassin +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Vigueur d'assassin: 1
   "Cellule de vigueur d'assassin +2":

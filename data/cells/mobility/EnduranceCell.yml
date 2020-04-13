@@ -2,7 +2,7 @@ name: Cellule d'Endurance
 slot: Mobilité
 variants:
   "Cellule d'Endurance +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Endurance: 1
   "Cellule d'Endurance +2":

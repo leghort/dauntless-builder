@@ -2,7 +2,7 @@ name: Cellule aiguisée
 slot: Puissance
 variants:
   "Cellule aiguisée +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Aiguisé: 1
   "Cellule aiguisée +2":

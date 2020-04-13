@@ -2,7 +2,7 @@ name: Cellule coagulante
 slot: Défense
 variants:
   "Cellule coagulante +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Coagulation: 1
   "Cellule coagulante +2":

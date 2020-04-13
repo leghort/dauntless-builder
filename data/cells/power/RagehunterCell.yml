@@ -2,7 +2,7 @@ name: Cellule de chasse-rage
 slot: Puissance
 variants:
   "Cellule de chasse-rage +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Chasse-rage: 1
   "Cellule de chasse-rage +2":

@@ -2,7 +2,7 @@ name: Cellule lernéenne
 slot: Défense
 variants:
   "Cellule lernéenne +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Lernéen: 1
   "Cellule lernéenne +2":

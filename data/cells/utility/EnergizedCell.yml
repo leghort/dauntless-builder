@@ -2,7 +2,7 @@ name: Cellule de charge
 slot: Utilitaire
 variants:
   "Cellule de charge +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Charge: 1
   "Cellule de charge +2":

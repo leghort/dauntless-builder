@@ -2,7 +2,7 @@ name: Cellule prédatrice
 slot: Technique
 variants:
   "Cellule prédatrice +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Prédateur: 1
   "Cellule prédatrice +2":
