@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/koshai/SovereignsWrath.png
 type: Axe
 damage: Slashing
 elemental: Tellurique
-cells: [Puissance, Utility]
+cells: [Puissance, Utilitaire]
 power:
   0: 100
   1: 140

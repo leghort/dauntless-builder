@@ -1,5 +1,5 @@
 name: Cellule luminescente
-slot: Utility
+slot: Utilitaire
 variants:
   "Cellule luminescente +1":
     rarity: uncommon

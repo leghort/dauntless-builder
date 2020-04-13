@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/nayzaga/NayzagasCharge.png
 type: Hammer
 damage: Blunt
 elemental: Foudroyant
-cells: [Puissance, Utility]
+cells: [Puissance, Utilitaire]
 power:
   0: 100
   1: 140

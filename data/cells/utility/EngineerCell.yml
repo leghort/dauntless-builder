@@ -1,5 +1,5 @@
 name: Cellule d'ingénieur
-slot: Utility
+slot: Utilitaire
 variants:
   "Cellule d'ingénieur +1":
     rarity: uncommon

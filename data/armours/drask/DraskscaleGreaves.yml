@@ -4,7 +4,7 @@ icon: /assets/icons/armours/drask/DraskscaleGreaves.png
 type: Legs
 strength: Foudroyant
 weakness: Tellurique
-cells: Utility
+cells: Utilitaire
 resistance:
   0: 25
   1: 35

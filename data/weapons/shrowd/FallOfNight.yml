@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/shrowd/FallOfNight.png
 type: Hammer
 damage: Blunt
 elemental: Obscur
-cells: [Puissance, Utility]
+cells: [Puissance, Utilitaire]
 power:
   0: 100
   1: 140

@@ -1,5 +1,5 @@
 name: Cellule vampirique
-slot: Utility
+slot: Utilitaire
 variants:
   "Cellule vampirique +1":
     rarity: uncommon

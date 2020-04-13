@@ -1,5 +1,5 @@
 name: Cellule de charge
-slot: Utility
+slot: Utilitaire
 variants:
   "Cellule de charge +1":
     rarity: uncommon
