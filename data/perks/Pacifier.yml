@@ -1,6 +1,6 @@
 name: Pacificateur
 description: Augmente les dégâts étourdissants contre les Behemoths enragés.
-type: Power
+type: Puissance
 key: stagger_enraged
 effects:
   1:

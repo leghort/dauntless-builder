@@ -1,6 +1,6 @@
 name: Endurance
 description: Augmente l'endurance maximale.
-type: Mobility
+type: Mobilité
 key: max_stamina
 effects:
   1:

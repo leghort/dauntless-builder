@@ -1,5 +1,5 @@
 name: Cellule de démolition
-slot: Power
+slot: Puissance
 variants:
   "Cellule de démolition +1":
     rarity: uncommon

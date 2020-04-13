@@ -1,5 +1,5 @@
 name: Cellule chauffante
-slot: Defence
+slot: Défense
 variants:
   "Cellule chauffante +1":
     rarity: uncommon

@@ -1,6 +1,6 @@
 name: Évasion légère
 description: Restaure de l'endurance après une esquive parfaite.
-type: Mobility
+type: Mobilité
 key: dodge_stamina
 effects:
   1:

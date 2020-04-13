@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/shrowd/VergeOfNight.png
 type: Sword
 damage: Slashing
 elemental: Obscur
-cells: [Power, Utility]
+cells: [Puissance, Utility]
 power:
   0: 100
   1: 140

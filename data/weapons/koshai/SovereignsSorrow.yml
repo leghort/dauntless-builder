@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/koshai/SovereignsSorrow.png
 type: War Pike
 damage: Piercing
 elemental: Tellurique
-cells: [Power, Utility]
+cells: [Puissance, Utility]
 power:
   0: 100
   1: 140

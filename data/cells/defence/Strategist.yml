@@ -1,5 +1,5 @@
 name: Cellule de stratège
-slot: Defence
+slot: Défense
 variants:
   "Cellule de stratège +1":
     rarity: uncommon

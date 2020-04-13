@@ -1,5 +1,5 @@
 name: Cellule ignifuge
-slot: Defence
+slot: Défense
 variants:
   "Cellule ignifuge +1":
     rarity: uncommon

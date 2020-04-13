@@ -1,6 +1,6 @@
 name: Évasion
 description: Augmente la durée d'invulnéribilité lors des esquives.
-type: Mobility
+type: Mobilité
 key: iframe_increase
 effects:
   1:

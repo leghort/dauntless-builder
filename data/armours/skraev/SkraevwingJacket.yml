@@ -4,7 +4,7 @@ icon: /assets/icons/armours/skraev/SkraevwingJacket.png
 type: Torso
 strength: Givrant
 weakness: Incandescant
-cells: Mobility
+cells: Mobilité
 resistance:
   0: 25
   1: 35

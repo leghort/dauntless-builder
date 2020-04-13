@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/rezakiri/TheGodhand.png
 type: War Pike
 damage: Piercing
 elemental: Radiant
-cells: [Technique, Power]
+cells: [Technique, Puissance]
 restrict_specials: true
 power:
   0: 100

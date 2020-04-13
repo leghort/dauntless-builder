@@ -4,7 +4,7 @@ icon: /assets/icons/armours/riftstalker/StridersOfTheRift.png
 type: Legs
 strength: Obscur
 weakness: Radiant
-cells: Mobility
+cells: Mobilité
 resistance:
   0: 25
   1: 35

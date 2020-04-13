@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/skarn/SkarnsJudgment.png
 type: Axe
 damage: Slashing
 elemental: Tellurique
-cells: [Power, Defence]
+cells: [Puissance, Défense]
 power:
   0: 100
   1: 140

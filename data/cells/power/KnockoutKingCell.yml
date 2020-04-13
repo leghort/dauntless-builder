@@ -1,5 +1,5 @@
 name: Cellule assommoir
-slot: Power
+slot: Puissance
 variants:
   "Cellule assommoir +1":
     rarity: uncommon

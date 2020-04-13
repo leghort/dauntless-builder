@@ -1,5 +1,5 @@
 name: Cellule de chasse-aether
-slot: Power
+slot: Puissance
 variants:
   "Cellule de chasse-aether +1":
     rarity: uncommon

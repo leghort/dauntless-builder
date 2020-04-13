@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/stormclaw/StormBlades.png
 type: Chain Blades
 damage: Slashing
 elemental: Foudroyant
-cells: [Technique, Mobility]
+cells: [Technique, Mobilité]
 power:
   0: 100
   1: 140
