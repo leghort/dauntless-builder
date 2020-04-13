@@ -10,6 +10,6 @@ variants:
     perks:
       Aiguisé: 2
   "Cellule aiguisée +3":
-    rarity: epic
+    rarity: épique
     perks:
       Aiguisé: 3

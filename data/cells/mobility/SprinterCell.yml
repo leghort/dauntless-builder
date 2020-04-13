@@ -10,6 +10,6 @@ variants:
     perks:
       Coureur: 2
   "Cellule de coureur +3":
-    rarity: epic
+    rarity: épique
     perks:
       Coureur: 3

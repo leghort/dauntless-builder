@@ -10,6 +10,6 @@ variants:
     perks:
       Barbelé: 2
   "Cellule barbelée +3":
-    rarity: epic
+    rarity: épique
     perks:
       Barbelé: 3

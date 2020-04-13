@@ -10,6 +10,6 @@ variants:
     perks:
       Ignifuge: 2
   "Cellule ignifuge +3":
-    rarity: epic
+    rarity: épique
     perks:
       Ignifuge: 3

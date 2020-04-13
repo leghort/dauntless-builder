@@ -10,6 +10,6 @@ variants:
     perks:
       Agilité: 2
   "Cellule d'agilité +3":
-    rarity: epic
+    rarity: épique
     perks:
       Agilité: 3

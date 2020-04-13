@@ -10,6 +10,6 @@ variants:
     perks:
       Sang froid: 2
   "Cellule de sang froid +3":
-    rarity: epic
+    rarity: épique
     perks:
       Sang froid: 3

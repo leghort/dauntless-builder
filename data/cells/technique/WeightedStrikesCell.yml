@@ -10,6 +10,6 @@ variants:
     perks:
       Frappes Lourdes: 2
   "Cellule de frappes lourdes +3":
-    rarity: epic
+    rarity: épique
     perks:
       Frappes Lourdes: 3

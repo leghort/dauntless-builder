@@ -10,6 +10,6 @@ variants:
     perks:
       Vampirique: 2
   "Cellule vampirique +3":
-    rarity: epic
+    rarity: épique
     perks:
       Vampirique: 3

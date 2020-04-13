@@ -10,6 +10,6 @@ variants:
     perks:
       Chasse-rage: 2
   "Cellule de chasse-rage +3":
-    rarity: epic
+    rarity: épique
     perks:
       Chasse-rage: 3

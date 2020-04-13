@@ -10,6 +10,6 @@ variants:
     perks:
       Sprint: 2
   "Cellule de sprint +3":
-    rarity: epic
+    rarity: épique
     perks:
       Sprint: 3

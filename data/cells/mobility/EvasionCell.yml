@@ -10,6 +10,6 @@ variants:
     perks:
       Évasion: 2
   "Cellule d'évasion améliorée +3":
-    rarity: epic
+    rarity: épique
     perks:
       Évasion: 3

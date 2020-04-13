@@ -10,6 +10,6 @@ variants:
     perks:
       Pacificateur: 2
   "Cellule de pacificateur +3":
-    rarity: epic
+    rarity: épique
     perks:
       Pacificateur: 3

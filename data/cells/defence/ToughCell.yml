@@ -10,6 +10,6 @@ variants:
     perks:
       Robustesse: 2
   "Cellule de robustesse +3":
-    rarity: epic
+    rarity: épique
     perks:
       Robustesse: 3

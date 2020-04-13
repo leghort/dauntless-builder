@@ -10,6 +10,6 @@ variants:
     perks:
       Médecin: 2
   "Cellule de médecin +3":
-    rarity: epic
+    rarity: épique
     perks:
       Médecin: 3

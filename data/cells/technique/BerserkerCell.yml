@@ -10,6 +10,6 @@ variants:
     perks:
       Berserker: 2
   "Cellule de Berserker +3":
-    rarity: epic
+    rarity: épique
     perks:
       Berserker: 3

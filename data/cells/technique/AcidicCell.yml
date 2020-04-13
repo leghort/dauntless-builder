@@ -10,6 +10,6 @@ variants:
     perks:
       Acide: 2
   "Cellule acide +3":
-    rarity: epic
+    rarity: épique
     perks:
       Acide: 3

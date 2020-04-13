@@ -10,6 +10,6 @@ variants:
     perks:
       Fondu: 2
   "Cellule fondue +3":
-    rarity: epic
+    rarity: épique
     perks:
       Fondu: 3

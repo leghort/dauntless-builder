@@ -10,6 +10,6 @@ variants:
     perks:
       Sauvagerie: 2
   "Cellule de sauvagerie +3":
-    rarity: epic
+    rarity: épique
     perks:
       Sauvagerie: 3

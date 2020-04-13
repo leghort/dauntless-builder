@@ -10,6 +10,6 @@ variants:
     perks:
       Charge: 2
   "Cellule de charge +3":
-    rarity: epic
+    rarity: épique
     perks:
       Charge: 3

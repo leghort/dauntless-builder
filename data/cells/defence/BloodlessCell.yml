@@ -10,6 +10,6 @@ variants:
     perks:
       Coagulation: 2
   "Cellule coagulante +3":
-    rarity: epic
+    rarity: épique
     perks:
       Coagulation: 3

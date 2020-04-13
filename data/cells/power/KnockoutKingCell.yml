@@ -10,6 +10,6 @@ variants:
     perks:
       Assommoir: 2
   "Cellule assommoir +3":
-    rarity: epic
+    rarity: épique
     perks:
       Assommoir: 3

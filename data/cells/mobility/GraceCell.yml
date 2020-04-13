@@ -10,6 +10,6 @@ variants:
     perks:
       Grâce: 2
   "Cellule Grâce +3":
-    rarity: epic
+    rarity: épique
     perks:
       Grâce: 3

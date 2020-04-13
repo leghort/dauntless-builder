@@ -10,6 +10,6 @@ variants:
     perks:
       Frappe critique: 2
   "Cellule de frappe critique +3":
-    rarity: epic
+    rarity: épique
     perks:
       Frappe critique: 3

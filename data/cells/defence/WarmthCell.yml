@@ -10,6 +10,6 @@ variants:
     perks:
       Chauffe: 2
   "Cellule chauffante +3":
-    rarity: epic
+    rarity: épique
     perks:
       Chauffe: 3

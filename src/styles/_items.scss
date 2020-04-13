@@ -69,11 +69,11 @@
                 }
             }
 
-            &.epic {
+            &.épique {
                 &:hover, img {
                     color: white;
-                    border-color: $rarity-epic-color;
-                    background: $rarity-epic-color;
+                    border-color: $rarity-épique-color;
+                    background: $rarity-épique-color;
                 }
             }
 

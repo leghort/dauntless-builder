@@ -10,6 +10,6 @@ variants:
     perks:
       Luminescent: 2
   "Cellule luminescente +3":
-    rarity: epic
+    rarity: épique
     perks:
       Luminescent: 3

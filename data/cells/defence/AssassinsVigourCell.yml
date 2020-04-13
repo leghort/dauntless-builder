@@ -10,6 +10,6 @@ variants:
     perks:
       Vigueur d'assassin: 2
   "Cellule de vigueur d'assassin +3":
-    rarity: epic
+    rarity: épique
     perks:
       Vigueur d'assassin: 3

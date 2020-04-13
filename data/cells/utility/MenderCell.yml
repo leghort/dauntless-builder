@@ -10,6 +10,6 @@ variants:
     perks:
       Guérisseur: 2
   "Cellule de guérisseur +3":
-    rarity: epic
+    rarity: épique
     perks:
       Guérisseur: 3

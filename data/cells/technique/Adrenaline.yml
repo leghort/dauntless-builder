@@ -10,6 +10,6 @@ variants:
     perks:
       Adrénaline: 2
   "Cellule d'adrénaline +3":
-    rarity: epic
+    rarity: épique
     perks:
       Adrénaline: 3

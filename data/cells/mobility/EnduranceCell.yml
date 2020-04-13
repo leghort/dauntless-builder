@@ -10,6 +10,6 @@ variants:
     perks:
       Endurance: 2
   "Cellule d'Endurance +3":
-    rarity: epic
+    rarity: épique
     perks:
       Endurance: 3

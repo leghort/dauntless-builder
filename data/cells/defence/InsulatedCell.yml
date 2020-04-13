@@ -10,6 +10,6 @@ variants:
     perks:
       Isolant: 2
   "Cellule isolante +3":
-    rarity: epic
+    rarity: épique
     perks:
       Isolant: 3

@@ -10,6 +10,6 @@ variants:
     perks:
       Impitoyable: 2
   "Cellule impitoyable +3":
-    rarity: epic
+    rarity: épique
     perks:
       Impitoyable: 3

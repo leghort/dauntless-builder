@@ -10,6 +10,6 @@ variants:
     perks:
       Chasse-aether: 2
   "Cellule de chasse-aether +3":
-    rarity: epic
+    rarity: épique
     perks:
       Chasse-aether: 3

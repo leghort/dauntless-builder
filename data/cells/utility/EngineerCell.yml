@@ -10,6 +10,6 @@ variants:
     perks:
       Ingénieur: 2
   "Cellule d'ingénieur +3":
-    rarity: epic
+    rarity: épique
     perks:
       Ingénieur: 3

@@ -10,6 +10,6 @@ variants:
     perks:
       Zèle: 2
   "Cellule de Zèle +3":
-    rarity: epic
+    rarity: épique
     perks:
       Zèle: 3

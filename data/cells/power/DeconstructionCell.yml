@@ -10,6 +10,6 @@ variants:
     perks:
       Démolition: 2
   "Cellule de démolition +3":
-    rarity: epic
+    rarity: épique
     perks:
       Démolition: 3
