@@ -1,8 +1,8 @@
 name: Cellule aiguisée
-slot: Power
+slot: Puissance
 variants:
   "Cellule aiguisée +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Aiguisé: 1
   "Cellule aiguisée +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Aiguisé: 2
   "Cellule aiguisée +3":
-    rarity: epic
+    rarity: épique
     perks:
       Aiguisé: 3

@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/embermane/EmberScythe.png
 type: Axe
 damage: Slashing
 elemental: Incandescant
-cells: [Power, Mobility]
+cells: [Puissance, Mobilité]
 power:
   0: 100
   1: 140

@@ -1,8 +1,8 @@
 name: Cellule de médecin
-slot: Utility
+slot: Utilitaire
 variants:
   "Cellule de médecin +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Médecin: 1
   "Cellule de médecin +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Médecin: 2
   "Cellule de médecin +3":
-    rarity: epic
+    rarity: épique
     perks:
       Médecin: 3

@@ -1,6 +1,6 @@
 name: Ingénieur
 description: Réduit les soins octroyés par la flasque du Slayer. Augmente la portée des pylônes.
-type: Utility
+type: Utilitaire
 key: [FlaskLessHealing, IncreasedPylonRange]
 effects:
   1:

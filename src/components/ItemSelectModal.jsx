@@ -259,7 +259,7 @@ export default class ItemSelectModal extends React.Component {
     }
 
     getSlotOptions() {
-        const slots = ["Defence", "Mobility", "Power", "Technique", "Utility"];
+        const slots = ["Défense", "Mobilité", "Puissance", "Technique", "Utilitaire"];
 
         return slots.filter(slot => {
             let items = this.getAvailableItems(["cells"]);
@@ -365,7 +365,7 @@ export default class ItemSelectModal extends React.Component {
                         placeholder="Rareté..."
                         onChange={rarity => this.setState({rarityFilter: rarity})}
                         value={this.state.rarityFilter}
-                        options={["Uncommon", "Rare", "Epic"].map(
+                        options={["Commun", "Rare", "Épique"].map(
                             rarity => ({value: rarity.toLowerCase(), label: rarity}))} />
                 </div>
             );

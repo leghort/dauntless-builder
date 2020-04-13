@@ -1,8 +1,8 @@
 name: Cellule coagulante
-slot: Defence
+slot: Défense
 variants:
   "Cellule coagulante +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Coagulation: 1
   "Cellule coagulante +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Coagulation: 2
   "Cellule coagulante +3":
-    rarity: epic
+    rarity: épique
     perks:
       Coagulation: 3

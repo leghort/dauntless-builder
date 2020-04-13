@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/drask/ThunderingCutters.png
 type: Chain Blades
 damage: Slashing
 elemental: Foudroyant
-cells: [Technique, Power]
+cells: [Technique, Puissance]
 power:
   0: 100
   1: 140

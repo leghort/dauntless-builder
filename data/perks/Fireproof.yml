@@ -1,6 +1,6 @@
 name: Ignifuge
 description: Vous empêche de prendre feu.
-type: Defence
+type: Défense
 key: fire_immunity
 effects:
   1:

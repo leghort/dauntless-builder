@@ -1,8 +1,8 @@
 name: Cellule de démolition
-slot: Power
+slot: Puissance
 variants:
   "Cellule de démolition +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Démolition: 1
   "Cellule de démolition +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Démolition: 2
   "Cellule de démolition +3":
-    rarity: epic
+    rarity: épique
     perks:
       Démolition: 3

@@ -1,8 +1,8 @@
 name: Cellule de Discipline
-slot: Power
+slot: Puissance
 variants:
   "Cellule de Discipline +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Discipline: 1
   "Cellule de Discipline +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Discipline: 2
   "Cellule de Discipline +3":
-    rarity: epic
+    rarity: épique
     perks:
       Discipline: 3

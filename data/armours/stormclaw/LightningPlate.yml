@@ -4,7 +4,7 @@ icon: /assets/icons/armours/stormclaw/LightningPlate.png
 type: Torso
 strength: Foudroyant
 weakness: Tellurique
-cells: Mobility
+cells: Mobilité
 resistance:
   0: 25
   1: 35

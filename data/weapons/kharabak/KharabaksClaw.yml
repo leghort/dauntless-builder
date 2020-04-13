@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/kharabak/KharabaksClaw.png
 type: Axe
 damage: Slashing
 elemental: Tellurique
-cells: [Power, Technique]
+cells: [Puissance, Technique]
 power:
   0: 100
   1: 140

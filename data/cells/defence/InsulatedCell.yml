@@ -1,8 +1,8 @@
 name: Cellule isolante
-slot: Defence
+slot: Défense
 variants:
   "Cellule isolante +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Isolant: 1
   "Cellule isolante +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Isolant: 2
   "Cellule isolante +3":
-    rarity: epic
+    rarity: épique
     perks:
       Isolant: 3

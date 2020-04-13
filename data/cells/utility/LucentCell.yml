@@ -1,8 +1,8 @@
 name: Cellule luminescente
-slot: Utility
+slot: Utilitaire
 variants:
   "Cellule luminescente +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Luminescent: 1
   "Cellule luminescente +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Luminescent: 2
   "Cellule luminescente +3":
-    rarity: epic
+    rarity: épique
     perks:
       Luminescent: 3

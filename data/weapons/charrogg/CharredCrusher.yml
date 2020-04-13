@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/charrogg/CharredCrusher.png
 type: Hammer
 damage: Blunt
 elemental: Incandescant
-cells: [Power, Defence]
+cells: [Puissance, Défense]
 power:
   0: 100
   1: 140

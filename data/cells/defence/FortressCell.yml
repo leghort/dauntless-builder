@@ -1,8 +1,8 @@
 name: Cellule forteresse +3
-slot: Defence
+slot: Défense
 variants:
   "Cellule forteresse +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Forteresse: 1
   "Cellule forteresse +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Forteresse: 2
   "Cellule forteresse +3":
-    rarity: epic
+    rarity: épique
     perks:
       Forteresse: 3

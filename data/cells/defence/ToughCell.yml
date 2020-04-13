@@ -1,8 +1,8 @@
 name: Cellule de robustesse
-slot: Defence
+slot: Défense
 variants:
   "Cellule de robustesse +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Robustesse: 1
   "Cellule de robustesse +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Robustesse: 2
   "Cellule de robustesse +3":
-    rarity: epic
+    rarity: épique
     perks:
       Robustesse: 3

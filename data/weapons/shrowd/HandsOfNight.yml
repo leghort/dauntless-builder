@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/shrowd/HandsOfNight.png
 type: Aether Strikers
 damage: Blunt
 elemental: Obscur
-cells: [Technique, Utility]
+cells: [Technique, Utilitaire]
 power:
   0: 100
   1: 140

@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/nayzaga/NayzagasScythe.png
 type: Axe
 damage: Slashing
 elemental: Foudroyant
-cells: [Power, Utility]
+cells: [Puissance, Utilitaire]
 power:
   0: 100
   1: 140

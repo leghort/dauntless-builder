@@ -1,8 +1,8 @@
 name: Cellule de gardien
-slot: Defence
+slot: Défense
 variants:
   "Cellule de gardien +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Gardien: 1
   "Cellule de gardien +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Gardien: 2
   "Cellule de gardien +3":
-    rarity: epic
+    rarity: épique
     perks:
       Gardien: 3

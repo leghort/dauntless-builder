@@ -2,7 +2,7 @@ name: Cellule barbelée
 slot: Technique
 variants:
   "Cellule barbelée +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Barbelé: 1
   "Cellule barbelée +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Barbelé: 2
   "Cellule barbelée +3":
-    rarity: epic
+    rarity: épique
     perks:
       Barbelé: 3

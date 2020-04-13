@@ -1,8 +1,8 @@
 name: Cellule lernéenne
-slot: Defence
+slot: Défense
 variants:
   "Cellule lernéenne +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Lernéen: 1
   "Cellule lernéenne +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Lernéen: 2
   "Cellule lernéenne +3":
-    rarity: epic
+    rarity: épique
     perks:
       Lernéen: 3

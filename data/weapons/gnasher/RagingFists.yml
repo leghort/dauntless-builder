@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/gnasher/RagingFists.png
 type: Aether Strikers
 damage: Blunt
 elemental: null
-cells: [Technique, Utility]
+cells: [Technique, Utilitaire]
 power:
   0: 100
   1: 140

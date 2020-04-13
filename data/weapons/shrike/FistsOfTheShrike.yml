@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/shrike/FistsOfTheShrike.png
 type: Aether Strikers
 damage: Blunt
 elemental: null
-cells: [Technique, Mobility]
+cells: [Technique, Mobilité]
 power:
   0: 100
   1: 140

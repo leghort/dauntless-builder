@@ -1,8 +1,8 @@
 name: Cellule de chasse-aether
-slot: Power
+slot: Puissance
 variants:
   "Cellule de chasse-aether +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Chasse-aether: 1
   "Cellule de chasse-aether +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Chasse-aether: 2
   "Cellule de chasse-aether +3":
-    rarity: epic
+    rarity: épique
     perks:
       Chasse-aether: 3

@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/drask/ThunderingSpear.png
 type: War Pike
 damage: Piercing
 elemental: Foudroyant
-cells: [Technique, Power]
+cells: [Technique, Puissance]
 power:
   0: 100
   1: 140

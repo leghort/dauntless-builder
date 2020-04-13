@@ -1,6 +1,6 @@
 name: Harmonisation aethérée
 description: Augmentation en pourcentage de la charge de lanterne à chaque attaque.
-type: Utility
+type: Utilitaire
 key: percent_lantern_charge
 effects:
   1:

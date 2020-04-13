@@ -1,8 +1,8 @@
 name: Cellule de constitution
-slot: Mobility
+slot: Mobilité
 variants:
   "Cellule de constitution +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Constitution: 1
   "Cellule de constitution +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Constitution: 2
   "Cellule de constitution +3":
-    rarity: epic
+    rarity: épique
     perks:
       Constitution: 3

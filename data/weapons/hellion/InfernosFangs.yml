@@ -4,7 +4,7 @@ icon: /assets/icons/weapons/hellion/InfernosFangs.png
 type: Chain Blades
 damage: Slashing
 elemental: Incandescant
-cells: [Power, Power]
+cells: [Puissance, Puissance]
 power:
   0: 100
   1: 140

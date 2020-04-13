@@ -1,8 +1,8 @@
 name: Cellule d'Endurance
-slot: Mobility
+slot: Mobilité
 variants:
   "Cellule d'Endurance +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Endurance: 1
   "Cellule d'Endurance +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Endurance: 2
   "Cellule d'Endurance +3":
-    rarity: epic
+    rarity: épique
     perks:
       Endurance: 3

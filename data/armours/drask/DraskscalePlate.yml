@@ -4,7 +4,7 @@ icon: /assets/icons/armours/drask/DraskscalePlate.png
 type: Torso
 strength: Foudroyant
 weakness: Tellurique
-cells: Power
+cells: Puissance
 resistance:
   0: 25
   1: 35

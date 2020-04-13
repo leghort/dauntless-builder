@@ -1,8 +1,8 @@
 name: Cellule Grâce
-slot: Mobility
+slot: Mobilité
 variants:
   "Cellule Grâce +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Grâce: 1
   "Cellule Grâce +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Grâce: 2
   "Cellule Grâce +3":
-    rarity: epic
+    rarity: épique
     perks:
       Grâce: 3

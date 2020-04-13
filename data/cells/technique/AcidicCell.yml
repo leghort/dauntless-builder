@@ -2,7 +2,7 @@ name: Cellule acide
 slot: Technique
 variants:
   "Cellule acide +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Acide: 1
   "Cellule acide +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Acide: 2
   "Cellule acide +3":
-    rarity: epic
+    rarity: épique
     perks:
       Acide: 3

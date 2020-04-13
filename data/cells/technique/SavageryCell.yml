@@ -2,7 +2,7 @@ name: Cellule de sauvagerie
 slot: Technique
 variants:
   "Cellule de sauvagerie +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Sauvagerie: 1
   "Cellule de sauvagerie +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Sauvagerie: 2
   "Cellule de sauvagerie +3":
-    rarity: epic
+    rarity: épique
     perks:
       Sauvagerie: 3

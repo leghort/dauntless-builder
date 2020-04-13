@@ -1,8 +1,8 @@
 name: Cellule de coureur
-slot: Mobility
+slot: Mobilité
 variants:
   "Cellule de coureur +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Coureur: 1
   "Cellule de coureur +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Coureur: 2
   "Cellule de coureur +3":
-    rarity: epic
+    rarity: épique
     perks:
       Coureur: 3

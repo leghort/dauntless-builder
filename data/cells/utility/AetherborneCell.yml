@@ -1,8 +1,8 @@
 name: Cellule de jouvence aethérée
-slot: Utility
+slot: Utilitaire
 variants:
   "Cellule de jouvence aethérée +1":
-    rarity: uncommon
+    rarity: commun
     perks:
       Jouvence aethérée: 1
   "Cellule de jouvence aethérée +2":
@@ -10,6 +10,6 @@ variants:
     perks:
       Jouvence aethérée: 2
   "Cellule de jouvence aethérée +3":
-    rarity: epic
+    rarity: épique
     perks:
       Jouvence aethérée: 3

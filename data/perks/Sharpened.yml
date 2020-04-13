@@ -1,6 +1,6 @@
 name: Aiguisé
 description: Augmentation en pourcentage des dégâts aux membres.
-type: Power
+type: Puissance
 key: [percent_part_damage, dodge_percent_part_damage]
 effects:
   1:
