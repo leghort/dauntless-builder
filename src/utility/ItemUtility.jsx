@@ -41,7 +41,7 @@ export default class ItemUtility {
             case "Chaînes-lames":
             case "Hache":
             case "Marteau":
-            case "War Pike":
+            case "Aéthérolance":
             case "Repeater":
             case "Aether Strikers":
                 return "Weapon";

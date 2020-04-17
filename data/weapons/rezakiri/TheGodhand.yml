@@ -1,7 +1,7 @@
 name: Main divine
 description: Une aetherolance exotique de Slayer forgée à partir de trophées de Rezakiri.
 icon: /assets/icons/weapons/rezakiri/TheGodhand.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Radiant
 cells: [Technique, Puissance]

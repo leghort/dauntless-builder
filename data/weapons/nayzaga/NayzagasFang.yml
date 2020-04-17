@@ -1,7 +1,7 @@
 name: Croc de Nayzaga
 description: Une aetherolance de Slayer forgée à partir de trophées de Nayzaga.
 icon: /assets/icons/weapons/nayzaga/NayzagasFang.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Foudroyant
 cells: [Technique, Utilitaire]
