@@ -1,7 +1,7 @@
 name: Rancune du souverain
 description: Un marteau de Slayer forgé à partir de trophées du Koshai.
 icon: /assets/icons/weapons/koshai/SovereignsGrudge.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: Tellurique
 cells: [Puissance, Utilitaire]
