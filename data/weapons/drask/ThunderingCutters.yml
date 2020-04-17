@@ -1,7 +1,7 @@
 name: Trancheurs tonnants
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Drask.
 icon: /assets/icons/weapons/drask/ThunderingCutters.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: Foudroyant
 cells: [Technique, Puissance]

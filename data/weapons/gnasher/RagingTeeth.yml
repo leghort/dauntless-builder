@@ -1,7 +1,7 @@
 name: Dent enragée
 description: Une paire de chaînes-lames de Slayer forgée à partir de trophées de Gnasher.
 icon: /assets/icons/weapons/gnasher/RagingTeeth.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
 elemental: null
 cells: [Technique, Utilitaire]

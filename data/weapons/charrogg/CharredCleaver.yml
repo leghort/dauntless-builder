@@ -1,7 +1,7 @@
 name: Hachoir charrbonisé
 description: Une hache de Slayer forgée à partir de trophées de Charrogg.
 icon: /assets/icons/weapons/charrogg/CharredCleaver.png
-type: Axe
+type: Hache
 damage: Cutting
 elemental: Incandescant
 cells: [Puissance, Défense]

@@ -1,7 +1,7 @@
 name: Défense de Quillshot
 description: Une épée de Slayer forgée à partir de trophées de Quillshot.
 icon: /assets/icons/weapons/quillshot/QuillshotsTusk.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: null
 cells: [Technique, Défense]

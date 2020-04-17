@@ -1,7 +1,7 @@
 name: Tranchant du Sixième Cercle
 description: Une hache de Slayer forgée à partir de trophées d'Hellion.
 icon: /assets/icons/weapons/hellion/InfernosDecree.png
-type: Axe
+type: Hache
 damage: Cutting
 elemental: Incandescant
 cells: [Puissance, Puissance]

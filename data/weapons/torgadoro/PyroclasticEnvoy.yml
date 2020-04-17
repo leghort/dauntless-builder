@@ -1,7 +1,7 @@
 name: Émissaire pyroclastique
 description: Une aetherolance de Slayer forgée à partir de trophées de Torgadoro
 icon: /assets/icons/weapons/torgadoro/PyroclasticEnvoy.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Incandescant
 cells: [Prismatic, Prismatic]

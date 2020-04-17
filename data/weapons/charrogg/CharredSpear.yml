@@ -1,7 +1,7 @@
 name: Lance charrbonisée
 description: Une aetherolance de Slayer forgée à partir de trophées de Charrogg.
 icon: /assets/icons/weapons/charrogg/CharredSpear.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Incandescant
 cells: [Technique, Défense]

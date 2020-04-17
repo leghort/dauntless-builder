@@ -1,7 +1,7 @@
 name: Grâce de Pangar
 description: Une hache de Slayer forgée à partir de trophées de Pangar.
 icon: /assets/icons/weapons/pangar/PangarsGrace.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: Givrant
 cells: [Puissance, Défense]

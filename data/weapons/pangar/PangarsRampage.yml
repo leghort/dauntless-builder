@@ -1,7 +1,7 @@
 name: Déchaînement de Pangar
 description: Un marteau de Slayer forgé à partir de trophées de Pangar.
 icon: /assets/icons/weapons/pangar/PangarsRampage.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: Givrant
 cells: [Puissance, Défense]

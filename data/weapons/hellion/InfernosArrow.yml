@@ -1,7 +1,7 @@
 name: Pointe du Sixième Cercle
 description: Une aetherolance de Slayer forgée à partir de trophées d'Hellion.
 icon: /assets/icons/weapons/hellion/InfernosArrow.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: Incandescant
 cells: [Puissance, Puissance]

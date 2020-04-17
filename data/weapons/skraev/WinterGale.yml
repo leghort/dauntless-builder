@@ -1,7 +1,7 @@
 name: Souffle hivernal
 description: Une hache de Slayer forgée à partir de trophées de Skraev.
 icon: /assets/icons/weapons/skraev/WinterGale.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: Givrant
 cells: [Puissance, Mobilité]
