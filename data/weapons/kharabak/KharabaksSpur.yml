@@ -1,7 +1,7 @@
 name: Aiguillon de Kharabak
 description: Une épée de Slayer forgée à partir de trophées de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksSpur.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: Tellurique
 cells: [Technique, Mobilité]

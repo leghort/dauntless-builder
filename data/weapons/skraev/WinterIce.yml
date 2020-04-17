@@ -1,7 +1,7 @@
 name: Glace hivernale
 description: Une épée de Slayer forgée à partir de trophées de Skraev.
 icon: /assets/icons/weapons/skraev/WinterIce.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: Givrant
 cells: [Technique, Mobilité]

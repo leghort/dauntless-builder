@@ -1,7 +1,7 @@
 name: Sabre charrbonisé
 description: Une épée de Slayer forgée à partir de trophées de Charrogg.
 icon: /assets/icons/weapons/charrogg/CharredSaber.png
-type: Sword
+type: Épée
 damage: Cutting
 elemental: Incandescant
 cells: [Puissance, Défense]

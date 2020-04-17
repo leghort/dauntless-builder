@@ -1,7 +1,7 @@
 name: Tourment du souverain
 description: Une épée de Slayer forgée à partir de trophées du Koshai
 icon: /assets/icons/weapons/koshai/SovereignsTorment.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: Tellurique
 cells: [Puissance, Utilitaire]
