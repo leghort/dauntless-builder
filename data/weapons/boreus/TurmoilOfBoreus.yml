@@ -1,7 +1,7 @@
 name: Tourment de Boreus
 description: Une hache de Slayer forgée à partir de trophées de Boreus.
 icon: /assets/icons/weapons/boreus/TurmoilOfBoreus.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: Givrant
 cells: [Puissance, Défense]

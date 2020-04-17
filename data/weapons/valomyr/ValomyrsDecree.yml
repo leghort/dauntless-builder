@@ -1,7 +1,7 @@
 name: Décret de Valomyr
 description: Une hache de Slayer forgée à partir de trophées de Valomyr.
 icon: /assets/icons/weapons/valomyr/ValomyrsDecree.png
-type: Axe
+type: Hache
 damage: Slashing
 elemental: Radiant
 cells: [Puissance, Utilitaire]
