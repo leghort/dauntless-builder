@@ -1,7 +1,7 @@
 name: Mains de l'aube
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Rezakiri.
 icon: /assets/icons/weapons/rezakiri/HandsOfDawn.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
 elemental: Radiant
 cells: [Technique, Puissance]

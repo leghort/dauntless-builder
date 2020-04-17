@@ -1,7 +1,7 @@
 name: Castagneurs du Boreus
 description: Cestes aethériques de Slayers fabriqués à partir de trophés de Boreus.
 icon: /assets/icons/weapons/boreus/BrawlersOfBoreus.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
 elemental: Givrant
 cells: [Puissance, Défense]
