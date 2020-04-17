@@ -1,7 +1,7 @@
 name: Tasers Nayzaga
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Nayzaga.
 icon: /assets/icons/weapons/nayzaga/NayzagasShockers.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
 elemental: Foudroyant
 cells: [Technique, Utilitaire]

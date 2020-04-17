@@ -1,7 +1,7 @@
 name: Châtieurs Pangar
 description: Cestes aethériques de Slayer fabriqués à partir de trophées de Pangar.
 icon: /assets/icons/weapons/pangar/PangarsPunishers.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
 elemental: Givrant
 cells: [Technique, Défense]

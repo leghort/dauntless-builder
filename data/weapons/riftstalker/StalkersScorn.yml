@@ -1,7 +1,7 @@
 name: Mépris du rôdeur
 description: Cestes aethériques de Slayers fabriqués à partir de trophées de Riftstalker.
 icon: /assets/icons/weapons/riftstalker/StalkersScorn.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
 elemental: Obscur
 cells: [Technique, Utilitaire]
