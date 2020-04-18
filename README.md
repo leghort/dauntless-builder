@@ -10,8 +10,14 @@
 </p>
 
 ### Table des matières
+**[Prérequis](https://github.com/leghort/dauntless-builder-french#prérequis)**</br>
 **[Installation](https://github.com/leghort/dauntless-builder-french#installation)**</br>
 **[Contact](https://github.com/leghort/dauntless-builder-french#contact)**</br>
+**[Wiki](https://github.com/leghort/dauntless-builder-french/wiki)**</br>
+
+## Prérequis
+
+* [Nodejs 8.17.0+](https://nodejs.org/fr/)
 
 ## Installation
 ```shell
@@ -32,6 +38,10 @@ yarn build-dev
 
 # Next run your webserver via
 yarn dev
+
+# Powershell build and open chrome in a private tab
+yarn
+yarn build ; [System.Diagnostics.Process]::Start("chrome.exe","--incognito http://localhost:4000/") ; yarn dev
 ```
 
 ## Contact
