@@ -539,7 +539,7 @@ export default class BuildRoute extends React.Component {
                         <a className="dropdown-item"
                             target="_blank" rel="noopener noreferrer"
                             href={DAUNTLESS_BUILD_COLLECTION_BASEURL + this.state.buildData}>
-                            <i className="fas fa-file-export"></i> Sauvegader dans Dauntless Build Collection
+                            <i className="fas fa-file-export"></i> Sauvegarder dans Dauntless Build Collection
                         </a>
                         <hr className="dropdown-divider" />
                         <a className="dropdown-item disabled">
