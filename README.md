@@ -5,33 +5,42 @@
 
 <p align="center">
   <a href="https://www.dauntless-builder.fr/">
-    <img alt="Github top language" src="https://i.ibb.co/YNNL2CH/image.png">
+    <img alt="Github top language" src="https://i.ibb.co/NCry4f9/image.png">
   </a>
 </p>
 
 ### Table des matières
+**[Prérequis](https://github.com/leghort/dauntless-builder-french#prérequis)**</br>
 **[Installation](https://github.com/leghort/dauntless-builder-french#installation)**</br>
 **[Contact](https://github.com/leghort/dauntless-builder-french#contact)**</br>
+**[Wiki](https://github.com/leghort/dauntless-builder-french/wiki)**</br>
+
+## Prérequis
+
+* [Nodejs 8.17.0+](https://nodejs.org/fr/)
 
 ## Installation
 ```shell
-# First we need to install yarn via:
+# Il faut d'abord installer yarn via:
 npm install -g yarn
 
-# Install/update all dependencies via
+# Installer/mettre à jour toutes les dépendances via
 yarn
 
-# If it's a clean install or there were changes to data in the last pull you'll need to do a full build once
+# S'il s'agit d'une installation ou si des modifications ont été apportées aux données, vous devrez effectuer une compilation complète
 yarn build
 
-# Then rebuilding assets can be done with
+# compilation en mode dev
 yarn build-dev
 
-# Optional: you can also watch/build data...
+# Facultatif: vous pouvez aussi regarder/construire des données...
 # yarn build-dev --watch
 
-# Next run your webserver via
+# Exécutez ensuite votre serveur web via
 yarn dev
+
+# La commande powershell que j'utiliser pour compiler, faire un serveur web et ouvrir un onglet priver google chrome
+yarn ; yarn build ; [System.Diagnostics.Process]::Start("chrome.exe","--incognito http://localhost:4000/") ; yarn dev
 ```
 
 ## Contact
