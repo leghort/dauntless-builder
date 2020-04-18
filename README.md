@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://www.dauntless-builder.fr/">
-    <img alt="Github top language" src="https://i.ibb.co/YNNL2CH/image.png">
+    <img alt="Github top language" src="https://i.ibb.co/fF9xcZk/image.png">
   </a>
 </p>
 
