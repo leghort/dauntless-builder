@@ -44,5 +44,5 @@ yarn ; yarn build ; [System.Diagnostics.Process]::Start("chrome.exe","--incognit
 ```
 
 ## Contact
-<a href=https://discordapp.com/users/184411677469573121><img src="https://img.icons8.com/color/50/000000/discord-logo.png"></a>
-<a href=mailto:medaey@hotmail.com><img src="https://i.ibb.co/Pr1Mtf9/mail.png"></a>
+<a href=https://discordapp.com/users/184411677469573121><img src="https://raw.githubusercontent.com/leghort/dauntless-builder-french/master/assets-README/discord-logo.png"></a>
+<a href=mailto:medaey@hotmail.com><img src="https://raw.githubusercontent.com/leghort/dauntless-builder-french/master/assets-README/mail.png"></a>
