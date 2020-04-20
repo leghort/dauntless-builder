@@ -37,17 +37,17 @@ perks:
     to: 15
 unique_effects:
   - name: DodgeMeterGain
-    description: Après avoir esquivé à travers une attaque, les prochaines attaques confèrent 100% de jauge de spécial supplémentaire pendant +2 secondes
+    description: Après avoir esquivé à travers une attaque, vos attaques génèrent 100% de jauge supplémentaire pendant +2 secondes
     value: 100
     from: 0
     to: 5
   - name: DodgeMeterGain
-    description: Après avoir esquivé à travers une attaque, les prochaines attaques confèrent 100% de jauge de spécial supplémentaire pendant +3 secondes
+    description: Après avoir esquivé à travers une attaque, vos attaques génèrent 100% de jauge supplémentaire pendant +3 secondes
     value: 100
     from: 6
     to: 9
   - name: DodgeMeterGain
-    description: Après avoir esquivé à travers une attaque, les prochaines attaques confèrent 100% de jauge de spécial supplémentaire pendant +4 secondes
+    description: Après avoir esquivé à travers une attaque, vos attaques génèrent 100% de jauge supplémentaire pendant +4 secondes
     value: 100
     from: 10
     to: 15
