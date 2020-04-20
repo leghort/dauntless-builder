@@ -26,4 +26,4 @@ bond:
   elemental: Foudroyant
 unique_effects:
   - name: MalkarionLegendaryAbility
-    description: "Capacité légendaire : Téléporte à un Behemoth, infligeant des dégats foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d´un Béhémoth."
+    description: "Capacité légendaire : utilisez [G] pour vous téléporter à un Behemoth, infligeant des dégâts foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."
