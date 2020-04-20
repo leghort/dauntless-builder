@@ -38,19 +38,19 @@ perks:
 unique_effects:
   - name: BoreusGivrantSprite
     description: >-
-      Après avoir dépensé une munition, génère un farfroidet qui ajoute 30 dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
+      Après avoir dépensé une munition, génère un farfroidet qui ajoute 30 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 30
     from: 0
     to: 5
   - name: BoreusGivrantSprite
     description: >-
-      Après avoir dépensé une munition, génère un farfroidet qui ajoute 45 dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
+      Après avoir dépensé une munition, génère un farfroidet qui ajoute 45 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 45
     from: 6
     to: 9
   - name: BoreusGivrantSprite
     description: >-
-      Après avoir dépensé une munition, génère un farfroidet qui ajoute 60 dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
+      Après avoir dépensé une munition, génère un farfroidet qui ajoute 60 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 60
     from: 10
     to: 15

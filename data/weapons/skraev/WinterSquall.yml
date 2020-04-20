@@ -37,7 +37,7 @@ perks:
     to: 15
 unique_effects:
   - name: IceMines
-    description: Après une esquive, déposez 1 mines de glace autour de vous qui infligent 300 dégâts. 30s de recharge
+    description: Après une esquive, déposez une mine de glace autour de vous qui inflige 300 dégâts. 30s de recharge
     from: 0
     to: 5
   - name: IceMines

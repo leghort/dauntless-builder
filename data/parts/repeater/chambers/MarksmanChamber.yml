@@ -19,5 +19,5 @@ power:
   14: 150
   15: 153
 part_effect:
-  - Effectue un tir en ligne droite qui inflige 250 points de dégâts au premier Behemoth qu'il touche. Si un membre est touché, il reçoit 40M de dégâts en plus des tirs pendant 10 secondes
+  - Effectue un tir en ligne droite qui inflige 250 points de dégâts au premier Behemoth qu'il touche. Si un membre est touché, il reçoit 40% de dégâts en plus des tirs pendant 10 secondes
   - "Aethérochargé : Le bonus de dégâts augmente jusqu'à 80% et un bonus de 25% est octroye à tous les alliés."

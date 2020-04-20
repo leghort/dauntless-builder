@@ -37,7 +37,7 @@ perks:
     to: 15
 unique_effects:
   - name: DodgeReload
-    description: Après avoir esquivé une attaque, rechargez 1 munitions aethérochargées
+    description: Après avoir esquivé une attaque, rechargez 1 munition aethérochargée
     value: 1
     from: 0
     to: 5

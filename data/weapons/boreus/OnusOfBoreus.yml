@@ -38,19 +38,19 @@ perks:
 unique_effects:
   - name: BoreusGivrantSprite
     description: >-
-      Utiliser votre spécial génère continuellement des farfroidets qui ajoutent 30 dégâts chacun à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets
+      Utiliser votre spécial génère continuellement des farfroidets qui ajoutent 30 dégâts chacun à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 30
     from: 0
     to: 5
   - name: BoreusGivrantSprite
     description: >-
-      Utiliser votre spécial génère continuellement des farfroidets qui ajoutent 45 dégâts chacun à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets
+      Utiliser votre spécial génère continuellement des farfroidets qui ajoutent 45 dégâts chacun à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 45
     from: 6
     to: 9
   - name: BoreusGivrantSprite
     description: >-
-      Utiliser votre spécial génère continuellement des farfroidets qui ajoutent 60 dégâts chacun à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets
+      Utiliser votre spécial génère continuellement des farfroidets qui ajoutent 60 dégâts chacun à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 60
     from: 10
     to: 15
