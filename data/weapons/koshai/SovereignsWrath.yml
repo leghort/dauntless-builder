@@ -37,17 +37,17 @@ perks:
     to: 15
 unique_effects:
   - name: NoAttackDamage
-    description: Après 4 secondes sans infliger de dégât, les 1 prochaines attaques infligeront + 50% de dégâts.
+    description: Après 4 secondes sans infliger de dégât, les 1 prochaines attaques infligeront +50% de dégâts.
     value: 1.5
     from: 0
     to: 5
   - name: NoAttackDamage
-    description: Après 4 secondes sans infliger de dégât, les 1 prochaines attaques infligeront + 50% de dégâts.
+    description: Après 4 secondes sans infliger de dégât, les 1 prochaines attaques infligeront +50% de dégâts.
     value: 1.5
     from: 6
     to: 9
   - name: NoAttackDamage
-    description: Après 4 secondes sans infliger de dégât, les 2 prochaines attaques infligeront + 50% de dégâts.
+    description: Après 4 secondes sans infliger de dégât, les 2 prochaines attaques infligeront +50% de dégâts.
     value: 1.5
     from: 10
     to: 15
