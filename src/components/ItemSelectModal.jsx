@@ -20,7 +20,7 @@ export default class ItemSelectModal extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: null,
+            rarityFilter: {value: "epic", label: "Epic"},
             levelPickerValue: null
         };
 
@@ -30,7 +30,7 @@ export default class ItemSelectModal extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: null,
+            rarityFilter: {value: "epic", label: "Epic"},
             levelPickerValue: null
         };
     }
@@ -49,6 +49,17 @@ export default class ItemSelectModal extends React.Component {
             newState.weaponTypeFilter = {
                 value: nextProps.data.filterOptions.__weaponType,
                 label: nextProps.data.filterOptions.__weaponType,
+            };
+        }
+
+        if(nextProps.data && nextProps.data.filterOptions &&
+            nextProps.data.filterOptions.__itemType === "Cell" && nextProps.data.filterOptions.__rarity) {
+
+            const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+            
+            newState.rarityFilter = {
+                value: nextProps.data.filterOptions.__rarity,
+                label: capitalize(nextProps.data.filterOptions.__rarity),
             };
         }
 
