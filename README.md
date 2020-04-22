@@ -39,7 +39,7 @@ yarn build-dev
 # Exécutez ensuite votre serveur web via
 yarn dev
 
-# La commande powershell que j'utiliser pour compiler, faire un serveur web et ouvrir un onglet priver google chrome
+# La commande powershell que j'utilise pour compiler, faire un serveur web et ouvrir un onglet priver google chrome
 yarn ; yarn build ; [System.Diagnostics.Process]::Start("chrome.exe","--incognito http://localhost:4000/") ; yarn dev
 ```
 
