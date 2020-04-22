@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://www.dauntless-builder.fr/">
-    <img alt="Github top language" src="https://raw.githubusercontent.com/leghort/dauntless-builder-french/master/assets-README/preview.png">
+    <img alt="Github top language" src="assets-README/preview.png">
   </a>
 </p>
 
@@ -44,5 +44,5 @@ yarn ; yarn build ; [System.Diagnostics.Process]::Start("chrome.exe","--incognit
 ```
 
 ## Contact
-<a href=https://discordapp.com/users/184411677469573121><img src="https://raw.githubusercontent.com/leghort/dauntless-builder-french/master/assets-README/discord-logo.png"></a>
-<a href=mailto:medaey@hotmail.com><img src="https://raw.githubusercontent.com/leghort/dauntless-builder-french/master/assets-README/mail.png"></a>
+<a href=https://discordapp.com/users/184411677469573121><img src="assets-README/discord-logo.png"></a>
+<a href=mailto:medaey@hotmail.com><img src="assets-README/mail.png"></a>
