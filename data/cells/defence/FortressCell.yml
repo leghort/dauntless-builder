@@ -1,15 +1,15 @@
-name: Cellule forteresse +3
+name: Forteresse +3
 slot: Défense
 variants:
-  "Cellule forteresse +1":
+  "Forteresse +1":
     rarity: commun
     perks:
       Forteresse: 1
-  "Cellule forteresse +2":
+  "Forteresse +2":
     rarity: rare
     perks:
       Forteresse: 2
-  "Cellule forteresse +3":
+  "Forteresse +3":
     rarity: épique
     perks:
       Forteresse: 3

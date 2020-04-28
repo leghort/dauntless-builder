@@ -1,15 +1,15 @@
-name: Cellule fondue
+name: Fondue
 slot: Technique
 variants:
-  "Cellule fondue +1":
+  "Fondue +1":
     rarity: commun
     perks:
       Fondu: 1
-  "Cellule fondue +2":
+  "Fondue +2":
     rarity: rare
     perks:
       Fondu: 2
-  "Cellule fondue +3":
+  "Fondue +3":
     rarity: épique
     perks:
       Fondu: 3

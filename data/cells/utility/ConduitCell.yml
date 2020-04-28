@@ -1,15 +1,15 @@
-name: Cellule de conduction
+name: Conduction
 slot: Utilitaire
 variants:
-  "Cellule de conduction +1":
+  "Conduction +1":
     rarity: commun
     perks:
       Conduction: 1
-  "Cellule de conduction +2":
+  "Conduction +2":
     rarity: rare
     perks:
       Conduction: 2
-  "Cellule de conduction +3":
+  "Conduction +3":
     rarity: épique
     perks:
       Conduction: 3

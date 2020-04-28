@@ -1,15 +1,15 @@
-name: Cellule de tempête de lames
+name: Tempête de lames
 slot: Technique
 variants:
-  "Cellule de tempête de lames +1":
+  "Tempête de lames +1":
     rarity: commun
     perks:
       Tempête de lames: 1
-  "Cellule de tempête de lames +2":
+  "Tempête de lames +2":
     rarity: rare
     perks:
       Tempête de lames: 2
-  "Cellule de tempête de lames +3":
+  "Tempête de lames +3":
     rarity: épique
     perks:
       Tempête de lames: 3

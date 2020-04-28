@@ -1,15 +1,15 @@
-name: Cellule acide
+name: Acide
 slot: Technique
 variants:
-  "Cellule acide +1":
+  "Acide +1":
     rarity: commun
     perks:
       Acide: 1
-  "Cellule acide +2":
+  "Acide +2":
     rarity: rare
     perks:
       Acide: 2
-  "Cellule acide +3":
+  "Acide +3":
     rarity: épique
     perks:
       Acide: 3
