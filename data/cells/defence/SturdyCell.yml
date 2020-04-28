@@ -1,15 +1,15 @@
-name: Cellule stabilisante
+name: Stabilisante
 slot: Défense
 variants:
-  "Cellule stabilisante +1":
+  "Stabilisante +1":
     rarity: commun
     perks:
       Stabilité: 1
-  "Cellule stabilisante +2":
+  "Stabilisante +2":
     rarity: rare
     perks:
       Stabilité: 2
-  "Cellule stabilisante +3":
+  "Stabilisante +3":
     rarity: épique
     perks:
       Stabilité: 3

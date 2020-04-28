@@ -1,15 +1,15 @@
-name: Cellule isolante
+name: Isolante
 slot: Défense
 variants:
-  "Cellule isolante +1":
+  "Isolante +1":
     rarity: commun
     perks:
       Isolant: 1
-  "Cellule isolante +2":
+  "Isolante +2":
     rarity: rare
     perks:
       Isolant: 2
-  "Cellule isolante +3":
+  "Isolante +3":
     rarity: épique
     perks:
       Isolant: 3

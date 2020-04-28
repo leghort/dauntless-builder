@@ -1,15 +1,15 @@
-name: Cellule de frappe critique
+name: Frappe critique
 slot: Technique
 variants:
-  "Cellule de frappe critique +1":
+  "Frappe critique +1":
     rarity: commun
     perks:
       Frappe critique: 1
-  "Cellule de frappe critique +2":
+  "Frappe critique +2":
     rarity: rare
     perks:
       Frappe critique: 2
-  "Cellule de frappe critique +3":
+  "Frappe critique +3":
     rarity: épique
     perks:
       Frappe critique: 3

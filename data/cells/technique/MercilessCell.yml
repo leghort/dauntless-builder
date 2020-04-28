@@ -1,15 +1,15 @@
-name: Cellule impitoyable
+name: Impitoyable
 slot: Technique
 variants:
-  "Cellule impitoyable +1":
+  "Impitoyable +1":
     rarity: commun
     perks:
       Impitoyable: 1
-  "Cellule impitoyable +2":
+  "Impitoyable +2":
     rarity: rare
     perks:
       Impitoyable: 2
-  "Cellule impitoyable +3":
+  "Impitoyable +3":
     rarity: épique
     perks:
       Impitoyable: 3

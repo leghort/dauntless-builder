@@ -1,15 +1,15 @@
-name: Cellule d'harmonisation aethérée
+name: Harmonisation aethérée
 slot: Utilitaire
 variants:
-  "Cellule d'harmonisation aethérée +1":
+  "Harmonisation aethérée +1":
     rarity: commun
     perks:
       Harmonisation aethérée: 1
-  "Cellule d'harmonisation aethérée +2":
+  "Harmonisation aethérée +2":
     rarity: rare
     perks:
       Harmonisation aethérée: 2
-  "Cellule d'harmonisation aethérée +3":
+  "Harmonisation aethérée +3":
     rarity: épique
     perks:
       Harmonisation aethérée: 3

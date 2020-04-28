@@ -1,15 +1,15 @@
-name: Cellule vampirique
+name: Vampirique
 slot: Utilitaire
 variants:
-  "Cellule vampirique +1":
+  "Vampirique +1":
     rarity: commun
     perks:
       Vampirique: 1
-  "Cellule vampirique +2":
+  "Vampirique +2":
     rarity: rare
     perks:
       Vampirique: 2
-  "Cellule vampirique +3":
+  "Vampirique +3":
     rarity: épique
     perks:
       Vampirique: 3

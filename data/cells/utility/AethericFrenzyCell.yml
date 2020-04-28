@@ -1,15 +1,15 @@
-name: Cellule de frénésie aethérée
+name: Frénésie aethérée
 slot: Utilitaire
 variants:
-  "Cellule de frénésie aethérée +1":
+  "Frénésie aethérée +1":
     rarity: commun
     perks:
       Frénésie aethérée: 1
-  "Cellule de frénésie aethérée +2":
+  "Frénésie aethérée +2":
     rarity: rare
     perks:
       Frénésie aethérée: 2
-  "Cellule de frénésie aethérée +3":
+  "Frénésie aethérée +3":
     rarity: épique
     perks:
       Frénésie aethérée: 3

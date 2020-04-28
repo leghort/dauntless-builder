@@ -1,15 +1,15 @@
-name: Cellule de frappes lourdes
+name: Frappes lourdes
 slot: Technique
 variants:
-  "Cellule de frappes lourdes +1":
+  "Frappes lourdes +1":
     rarity: commun
     perks:
       Frappes Lourdes: 1
-  "Cellule de frappes lourdes +2":
+  "Frappes lourdes +2":
     rarity: rare
     perks:
       Frappes Lourdes: 2
-  "Cellule de frappes lourdes +3":
+  "Frappes lourdes +3":
     rarity: épique
     perks:
       Frappes Lourdes: 3

@@ -1,15 +1,15 @@
-name: Cellule de charge
+name: Charge
 slot: Utilitaire
 variants:
-  "Cellule de charge +1":
+  "Charge +1":
     rarity: commun
     perks:
       Charge: 1
-  "Cellule de charge +2":
+  "Charge +2":
     rarity: rare
     perks:
       Charge: 2
-  "Cellule de charge +3":
+  "Charge +3":
     rarity: épique
     perks:
       Charge: 3
