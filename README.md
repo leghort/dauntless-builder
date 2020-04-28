@@ -46,4 +46,4 @@ yarn ; yarn build ; [System.Diagnostics.Process]::Start("chrome.exe","--incognit
 ## Contact
 <a href=https://discordapp.com/users/184411677469573121><img src="assets-README/discord-logo.png"></a>
 <a href=mailto:medaey@hotmail.com><img src="assets-README/mail.png"></a>
-
+french-hardcoded
