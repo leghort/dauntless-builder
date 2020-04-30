@@ -98,7 +98,7 @@ export default class BondSelectModal extends React.Component {
 
         if(items.length === 0) {
             items.push(
-                <div key="no-item-found" className="no-item-found">No items found matching your filter options.</div>
+                <div key="no-item-found" className="no-item-found">Aucun élément trouvé.</div>
             );
         }
 
