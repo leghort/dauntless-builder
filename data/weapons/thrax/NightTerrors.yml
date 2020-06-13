@@ -1,0 +1,29 @@
+name: Terreurs nocturnes
+description: Une paire de chaînes-lames de Slayer forgée à partir de Thrax.
+icon: /assets/icons/weapons/thrax/NightTerrors.png
+type: Chaînes-lames
+damage: Slashing
+elemental: Obscur
+cells: [Prismatic, Prismatic]
+power:
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
+bond:
+  elemental: Obscur
+unique_effects:
+  - name: ThraxLegendaryAbility
+    description: "Capacité légendaire: utilisez [G] pour infliger des dégâts obscurs aux ennemis proches et téléportez-vous haut dans le ciel. Ensuite, choisissez un endroit où vous écraser pour infliger des dégâts obscurs supplémentaires. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."
