@@ -5,6 +5,7 @@ type: Aéthérolance
 damage: Piercing
 elemental: Radiant
 cells: [Technique, Puissance]
+rarity: exotic
 restrict_specials: true
 power:
   0: 100

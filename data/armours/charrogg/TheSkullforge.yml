@@ -5,6 +5,7 @@ type: Head
 strength: Incandescant
 weakness: Givrant
 cells: Défense
+rarity: exotic
 resistance:
   0: 25
   1: 35

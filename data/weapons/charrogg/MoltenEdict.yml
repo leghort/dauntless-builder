@@ -5,6 +5,7 @@ type: Marteau
 damage: Blunt
 elemental: Incandescant
 cells: [Puissance, Défense]
+rarity: exotic
 restrict_specials: true
 power:
   0: 100

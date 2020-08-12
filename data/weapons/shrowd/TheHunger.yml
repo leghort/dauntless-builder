@@ -5,6 +5,7 @@ type: Épée
 damage: Slashing
 elemental: Obscur
 cells: [Puissance, Utilitaire]
+rarity: exotic
 restrict_specials: true
 power:
   0: 100
