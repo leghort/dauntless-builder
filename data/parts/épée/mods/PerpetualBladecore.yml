@@ -1,4 +1,4 @@
-name: Coeur de lame perpétuel
-icon: /assets/icons/parts/sword/mods/PerpetualBladecore.png
+name: Charged Swordfocus
+icon: /assets/icons/parts/sword/mods/ChargedSwordfocus.png
 part_effect:
-  - Inflige des dégâts pendant le spécial remplit une petite partie de la jauge de spécial.
+  - Instead of dealing damage over time, Resounding Echo deals damage once after it expires and deals +50% total damage.
