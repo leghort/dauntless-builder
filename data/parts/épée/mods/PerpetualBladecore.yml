@@ -1,4 +1,4 @@
-name: Charged Swordfocus
+name: Focus d'épée concentré
 icon: /assets/icons/parts/sword/mods/ChargedSwordfocus.png
 part_effect:
-  - Instead of dealing damage over time, Resounding Echo deals damage once after it expires and deals +50% total damage.
+  - Au lieu d'infliger des dégâts sur la durée, «Écho retentissant» inflige des dégâts une fois qu'il a expiré et inflige +50% de dégâts totaux.

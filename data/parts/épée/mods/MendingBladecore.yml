@@ -1,4 +1,4 @@
-name: Mending Bladecore
+name: Coeur de lame réparateur
 icon: /assets/icons/parts/sword/mods/MendingBladecore.png
 part_effect:
-  - Each Valour gained or spent restores 30 health
+  - Chaque Vaillance gagnée ou dépensée restaure 30 points de vie.
