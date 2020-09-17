@@ -36,18 +36,7 @@ perks:
     from: 10
     to: 15
 unique_effects:
-  - name: ComboFinisherDamage
-    description: Combo finishers deal 100 bonus part damage
-    value: 100
-    from: 0
-    to: 5
-  - name: ComboFinisherDamage
-    description: Combo finishers deal 200 bonus part damage
-    value: 200
-    from: 6
-    to: 9
-  - name: ComboFinisherDamage
-    description: Combo finishers deal 300 bonus part damage
-    value: 300
-    from: 10
-    to: 15
+  - name: KharabacBlades
+    description: >
+      Once charged, your next attack unleashes whirling blades that deal 75 terra damage. Additional attacks speed
+      up the blades, which explode at the end of the duration and deal damage based on blade speed.
