@@ -1,0 +1,23 @@
+name: Tenace
+description: Gagnez des dégâts bonus en fonction de vos PV actuels. Aux niveaux supérieurs, gagnez des chance de coups critique en fonction du bouclier actuels
+type: Puissance
+key: [TenaciousDamageBonus, TenaciousCritBonus]
+effects:
+  1:
+    description: ["Pour chaque tranche de 100 HP présents 0,33% de dégâts bonus", null]
+    value: [0.0033, null]
+  2:
+    description: ["Pour chaque tranche de 100 HP présents 0.66% de dégâts bonus", null]
+    value: [0.0066, null]
+  3:
+    description: ["Pour chaque tranche de 100 HP présents 1% de dégâts bonus", null]
+    value: [0.01, null]
+  4:
+    description: ["Pour chaque tranche de 100 HP présents 1.33% de dégâts bonus", "Pour chaque tranche de 100 gains de bouclier, 1% de chance de coup critique"]
+    value: [0.0133, 0.01]
+  5:
+    description: ["Pour chaque tranche de 100 HP présents 1.66% de dégâts bonus", "Pour chaque tranche de 75 gains de bouclier, 1% de chance de coup critique"]
+    value: [0.0166, 0.01]
+  6:
+    description: ["Pour chaque tranche de 100 HP présents 2% de dégâts bonus", "Pour chaque tranche de 50 gains de bouclier, 1% de chance de coup critique"]
+    value: [0.02, 0.01]
