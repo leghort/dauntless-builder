@@ -36,21 +36,6 @@ perks:
     from: 10
     to: 15
 unique_effects:
-  - name: ComboFinisherDamage
-    description: Les coups de fin de combo infligent + 100 Dégâts aux membres
-    value: 100
-    from: 0
-    to: 5
-  - name: ComboFinisherDamage
-    description: Les coups de fin de combo infligent + 200 Dégâts aux membres
-    value: 200
-    from: 6
-    to: 9
-  - name: ComboFinisherDamage
-    description: Les coups de fin de combo infligent + 300 Dégâts aux membres
-    value: 300
-    from: 10
-    to: 15
   - name: KharabacBlades
     description: >
       Une fois chargée, la prochaine attaque libère des lames troubillonnantes qui infligent 50 points de dégâts Tellurique.

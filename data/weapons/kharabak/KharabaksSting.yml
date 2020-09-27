@@ -35,6 +35,7 @@ perks:
     value: 3
     from: 10
     to: 15
+unique_effects:
   - name: KharabacBlades
     description: >
       Une fois chargée, la prochaine attaque libère des lames troubillonnantes qui infligent 50 points de dégâts Tellurique.
