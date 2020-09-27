@@ -35,3 +35,7 @@ perks:
     value: 3
     from: 10
     to: 15
+unique_effects:
+  - name: GnasherRage
+    description: >
+      Entrez périodiquement en rage, infligeant +15% de dégâts et gagnez une immunité aux étourdissements. Subir des dégâts vous permet de vous enrager plus rapidement.
