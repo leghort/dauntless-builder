@@ -51,3 +51,7 @@ unique_effects:
     value: 40
     from: 10
     to: 15
+  - name: KharabacBlades
+    description: >
+      Une fois chargée, la prochaine attaque libère des lames troubillonnantes qui infligent 50 points de dégâts Tellurique.
+      Des attaques supplémentaires accélèrent les lames, qui explosent à la fin de leur durée et infligent des dégâts en fonction de la vitesse des lames.
