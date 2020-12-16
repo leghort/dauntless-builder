@@ -1,22 +1,5 @@
 name: Prisme d'avalanche
 description: The Snowdrift Prism is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/prisms/SnowdriftPrism.png
-power:
-  0: 16
-  1: 23
-  2: 30
-  3: 37
-  4: 44
-  5: 51
-  6: 58
-  7: 65
-  8: 72
-  9: 79
-  10: 86
-  11: 87
-  12: 88
-  13: 89
-  14: 90
-  15: 91
 part_effect:
   - Les 4 derniers coups dans votre chargeur génèrent des farfroidets qui ajoutent 50 dégâts chacun à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
