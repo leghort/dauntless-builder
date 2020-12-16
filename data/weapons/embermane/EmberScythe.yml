@@ -6,48 +6,25 @@ damage: Slashing
 elemental: Incandescant
 cells: [Puissance, Mobilité]
 power:
-  0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  0: 20
+  1: 120
 perks:
   - name: Furie évasive
     value: 1
     from: 0
-    to: 5
-  - name: Furie évasive
-    value: 2
-    from: 6
-    to: 9
+    to: 0
   - name: Furie évasive
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1
 unique_effects:
   - name: FourthHitBonusDamage
     description: Le troisièle coup consécutif inflige 100 dégâts aux membres.
     value: 100
     from: 0
-    to: 5
-  - name: FourthHitBonusDamage
-    description: Le troisièle coup consécutif inflige 175 dégâts aux membres.
-    value: 175
-    from: 6
-    to: 9
+    to: 0
   - name: FourthHitBonusDamage
     description: Le troisièle coup consécutif inflige 250 dégâts aux membres.
     value: 250
-    from: 10
-    to: 15
+    from: 1
+    to: 1
