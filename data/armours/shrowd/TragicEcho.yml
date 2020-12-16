@@ -7,23 +7,9 @@ weakness: Radiant
 cells: Puissance
 rarity: exotic
 resistance:
-  0: 25
-  1: 35
-  2: 45
-  3: 55
-  4: 65
-  5: 75
-  6: 85
-  7: 95
-  8: 105
-  9: 115
-  10: 125
-  11: 127.5
-  12: 130
-  13: 132.5
-  14: 135
-  15: 137.5
+  0: 20
+  1: 30
 unique_effects:
   - name: TragicEchoDamageIncrease
-    description: La première fois que vous êtes mis à terre, vous vous transformez en un clone d'ombre infligeant + 100 % de dégâts pendant 15 secondes.
+    description: Lors de votre première mort, devenez un clone de l'ombre qui inflige des dégâts accrus à 100 % pendant 15 secondes.
     value: 2
