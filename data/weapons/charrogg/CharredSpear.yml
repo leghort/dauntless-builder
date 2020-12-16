@@ -6,48 +6,17 @@ damage: Piercing
 elemental: Incandescant
 cells: [Technique, Défense]
 power:
-  0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  0: 40
+  1: 120
 perks:
   - name: Chasse-aether
     value: 1
     from: 0
-    to: 5
-  - name: Chasse-aether
-    value: 2
-    from: 6
-    to: 9
+    to: 0
   - name: Chasse-aether
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1
 unique_effects:
   - name: CharrogSpentStaminaFireDamage
-    description: Après avoir dépensé 175 d'endurance la prochaine attaque émet un cône de flammes qui inflige +100 dégâts incansdescents à chaque cible unique dans le cône.
-    value: 1.2
-    from: 0
-    to: 5
-  - name: CharrogSpentStaminaFireDamage
     description: Après avoir dépensé 175 d'endurance la prochaine attaque émet un cône de flammes qui inflige +150 dégâts incansdescents à chaque cible unique dans le cône.
-    value: 1.25
-    from: 6
-    to: 9
-  - name: CharrogSpentStaminaFireDamage
-    description: Après avoir dépensé 175 d'endurance la prochaine attaque émet un cône de flammes qui inflige +200 dégâts incansdescents à chaque cible unique dans le cône.
-    value: 1.3
-    from: 10
-    to: 15
