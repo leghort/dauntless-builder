@@ -6,27 +6,51 @@ damage: Piercing
 elemental: Givrant
 cells: [Puissance, Défense]
 power:
-  0: 20
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 perks:
   - name: Constitution
     value: 1
     from: 0
-    to: 0
+    to: 5
+  - name: Constitution
+    value: 2
+    from: 6
+    to: 9
   - name: Constitution
     value: 3
-    from: 1
-    to: 1
+    from: 10
+    to: 15
 unique_effects:
-  - name: BoreusFrostSprite
+  - name: BoreusGivrantSprite
     description: >-
       Emmagasiner ou utiliser des munitions génère continuellement des farfroidets pendant 6 secondes qui ajoutent 30 dégâts chacun à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 30
     from: 0
-    to: 0
-  - name: BoreusFrostSprite
+    to: 5
+  - name: BoreusGivrantSprite
+    description: >-
+      Emmagasiner ou utiliser des munitions génère continuellement des farfroidets pendant 6 secondes qui ajoutent 45 dégâts chacun à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
+    value: 45
+    from: 6
+    to: 9
+  - name: BoreusGivrantSprite
     description: >-
       Emmagasiner ou utiliser des munitions génère continuellement des farfroidets pendant 6 secondes qui ajoutent 60 dégâts chacun à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 60
-    from: 1
-    to: 1
+    from: 10
+    to: 15

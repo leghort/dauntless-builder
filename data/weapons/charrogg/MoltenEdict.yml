@@ -8,10 +8,23 @@ cells: [Puissance, Défense]
 rarity: exotic
 restrict_specials: true
 power:
-  0: 40
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 unique_effects:
   - name: HammerBlastFireballs
-    icon: /assets/icons/parts/hammer/specials/MoltenEdict.png
     description: Remplace tous les tirs de marteau par des capacités uniques infligeant des dégâts de braise.
     value: 0

@@ -6,25 +6,48 @@ damage: Piercing
 elemental: Incandescant
 cells: [Technique, Mobilité]
 power:
-  0: 20
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 perks:
   - name: Furie évasive
     value: 1
     from: 0
-    to: 0
+    to: 5
+  - name: Furie évasive
+    value: 2
+    from: 6
+    to: 9
   - name: Furie évasive
     value: 3
-    from: 1
-    to: 1
+    from: 10
+    to: 15
 unique_effects:
   - name: SeventhHitWoundDamage
     description: Le septième coup consécutif inflige +100 points de dégâts mutilants supplémentaires
     value: 100
     from: 0
-    to: 0
+    to: 5
+  - name: SeventhHitWoundDamage
+    description: Le septième coup consécutif inflige +200 points de dégâts mutilants supplémentaires
+    value: 200
+    from: 6
+    to: 9
   - name: SeventhHitWoundDamage
     description: Le septième coup consécutif inflige +300 points de dégâts mutilants supplémentaires
     value: 300
-    from: 1
-    to: 1
+    from: 10
+    to: 15

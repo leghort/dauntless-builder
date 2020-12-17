@@ -6,17 +6,36 @@ damage: Blunt
 elemental: null
 cells: [Technique, Utilitaire]
 power:
-  0: 20
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 perks:
   - name: Chasse-rage
     value: 1
     from: 0
-    to: 0
+    to: 5
+  - name: Chasse-rage
+    value: 2
+    from: 6
+    to: 9
   - name: Chasse-rage
     value: 3
-    from: 1
-    to: 1
+    from: 10
+    to: 15
 unique_effects:
   - name: GnasherRage
-    description: Entrez périodiquement en rage, infligeant +10% de dégâts et gagnez une immunité aux étourdissements. Subir des dégâts vous permet de vous enrager plus rapidement.
+    description: >
+      Entrez périodiquement en rage, infligeant +15% de dégâts et gagnez une immunité aux étourdissements. Subir des dégâts vous permet de vous enrager plus rapidement.

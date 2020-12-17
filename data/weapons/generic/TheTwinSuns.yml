@@ -7,26 +7,36 @@ elemental: null
 cells: [Technique, Mobilité]
 rarity: exotic
 power:
-  0: 80
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 unique_effects:
   - name: TwinSunsBarrel
-    icon: /assets/icons/parts/repeaters/specials/TheTwinSuns.png
     title: Barrel
     description: >-
       Quand aetherochargé, gagne +40% de chances d'infliger un coup critique au lieu d'infliger un bonus de dégâts.
   - name: TwinSunsChamber
-    icon: /assets/icons/parts/repeaters/specials/TheTwinSuns.png
     title: Chamber
     description: >-
       Charge 8 magnétobombes dans votre chargeur. Elles s'accrochent aux ennemis et détonnent lors du rechargement. La première magnétobombe accrochée sur chaque partie de Behemoth inflige +300 points de dégâts.
   - name: TwinSunsGrip
-    icon: /assets/icons/parts/repeaters/specials/TheTwinSuns.png
     title: Grip
     description: >-
       Ruez-vous dans une direction, devenant invulnérable pendant l'animation. Après avoir esquivé à travers une attaque, lance 6 mini-tirs qui sont toujours critiques. En mode magnétobombe, lance 2 magnétobombes à la place.
   - name: TwinSunsPrism
-    icon: /assets/icons/parts/repeaters/specials/TheTwinSuns.png
     title: Prism
     description: >-
       Après un coup critique, réduit le temps de recharge du mode Magnétobombe de 3 secondes.

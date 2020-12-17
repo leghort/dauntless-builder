@@ -7,8 +7,22 @@ weakness: Givrant
 cells: Défense
 rarity: exotic
 resistance:
-  0: 10
-  1: 30
+  0: 25
+  1: 35
+  2: 45
+  3: 55
+  4: 65
+  5: 75
+  6: 85
+  7: 95
+  8: 105
+  9: 115
+  10: 125
+  11: 127.5
+  12: 130
+  13: 132.5
+  14: 135
+  15: 137.5
 unique_effects:
   - name: DamageStaminaShield
     description: 1,5% des dégâts infligés se convertissent en un bouclier d'endurance (50 max) qui s'épuise lentement après n'avoir pas infligé de dégâts pendant une courte période.
