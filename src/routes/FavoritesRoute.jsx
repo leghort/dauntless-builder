@@ -93,19 +93,19 @@ export default class FavoritesRoute extends React.Component {
             this.renderFavoriteBuildListItem(favorite, FavoriteBuildsModel.getText(favorite)));
 
         let makeNewBuildsButton = <Link to="/b/new">
-            <button className="button is-dark">Make a new build</button>
+            <button className="button is-dark">Créer un build</button>
         </Link>;
 
         if(favs.length === 0) {
             return <div>
-                <h1 className="title">My builds</h1>
-                <h2 className="subtitle">You have not saved any builds yet.</h2>
+                <h1 className="title">Mes Builds</h1>
+                <h2 className="subtitle">Vous n'avez aucun build sauvegarder.</h2>
                 {makeNewBuildsButton}
             </div>;
         }
 
         return <div>
-            <h2 className="title">My builds</h2>
+            <h2 className="title">Mes Builds</h2>
 
             <div className="my-builds-list">
                 {favs}
