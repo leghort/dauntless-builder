@@ -28,14 +28,14 @@ export default class LevelPicker extends React.Component {
             return <React.Fragment>
                 <i className="far fa-star"/>
                 &nbsp;
-                <span>Make item &quot;Power surged&qout;</span>
+                <span>Passer en "Surcharge"</span>
             </React.Fragment>;
         }
 
         return <React.Fragment>
             <i className="fas fa-star"/>
             &nbsp;
-            <span>Power surged</span>
+            <span>Surcharge</span>
         </React.Fragment>;
     }
 
