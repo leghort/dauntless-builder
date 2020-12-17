@@ -102,7 +102,7 @@ export default class ItemSelectModal extends React.Component {
             return this.props.data.filterOptions.__itemLevel;
         }
 
-        return 1;
+        return 15;
     }
 
     getAvailableItems(ignoredFilters = []) {
