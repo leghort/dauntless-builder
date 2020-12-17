@@ -21,7 +21,7 @@ export default class ItemSelectModal extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: {value: "epic", label: "Epic"},
+            rarityFilter: {value: "épique", label: "épique"},
             levelPickerValue: null
         };
 
@@ -32,7 +32,7 @@ export default class ItemSelectModal extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: {value: "epic", label: "Epic"},
+            rarityFilter: {value: "épique", label: "épique"},
             levelPickerValue: null
         };
     }
@@ -58,7 +58,7 @@ export default class ItemSelectModal extends React.Component {
             nextProps.data.filterOptions.__itemType === "Cell" && nextProps.data.filterOptions.__rarity) {
 
             const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-            
+
             newState.rarityFilter = {
                 value: nextProps.data.filterOptions.__rarity,
                 label: capitalize(nextProps.data.filterOptions.__rarity),
@@ -407,7 +407,7 @@ export default class ItemSelectModal extends React.Component {
                         placeholder="Filter by rarity..."
                         onChange={rarity => this.setState({rarityFilter: rarity})}
                         value={this.state.rarityFilter}
-                        options={["Uncommon", "Rare", "Epic"].map(
+                        options={["commun", "Rare", "épique"].map(
                             rarity => ({value: rarity.toLowerCase(), label: rarity}))} />
                 </div>
             );
