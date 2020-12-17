@@ -1,15 +1,15 @@
-name: Berserker Cell
+name: Berserker
 slot: Technique
 variants:
-  "+1 Berserker Cell":
-    rarity: uncommon
+  "Berserker +1":
+    rarity: commun
     perks:
       Berserker: 1
-  "+2 Berserker Cell":
+  "Berserker +2":
     rarity: rare
     perks:
       Berserker: 2
-  "+3 Berserker Cell":
-    rarity: epic
+  "Berserker +3":
+    rarity: épique
     perks:
       Berserker: 3

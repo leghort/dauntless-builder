@@ -1,15 +1,15 @@
-name: Assassin's Vigour Cell
-slot: Defence
+name: Vigueur d'assassin
+slot: Défense
 variants:
-  "+1 Assassin's Vigour Cell":
-    rarity: uncommon
+  "Vigueur d'assassin +1":
+    rarity: commun
     perks:
-      Assassin's Vigour: 1
-  "+2 Assassin's Vigour Cell":
+      Vigueur d'assassin: 1
+  "Vigueur d'assassin +2":
     rarity: rare
     perks:
-      Assassin's Vigour: 2
-  "+3 Assassin's Vigour Cell":
-    rarity: epic
+      Vigueur d'assassin: 2
+  "Vigueur d'assassin +3":
+    rarity: épique
     perks:
-      Assassin's Vigour: 3
+      Vigueur d'assassin: 3

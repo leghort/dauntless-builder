@@ -1,30 +1,30 @@
-name: Storm Cutter
-description: A Slayer's axe forged with Stormclaw trophies.
+name: Taille tempête
+description: Une hache de Slayer forgée à partir de Stormclaw.
 icon: /assets/icons/weapons/stormclaw/StormCutter.png
-type: Axe
+type: Hache
 damage: Slashing
-elemental: Shock
-cells: [Power, Mobility]
+elemental: Foudroyant
+cells: [Puissance, Mobilité]
 power:
   0: 80
   1: 120
 perks:
-  - name: Energized
+  - name: Charge
     value: 1
     from: 0
     to: 0
-  - name: Energized
+  - name: Charge
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: DodgeMeterGain
-    description: After dodging through an attack,your attacks gain 100% bonus meter for +3 seconds
+    description: Après avoir esquivé une attaque, vos attaques génèrent 100% de jauge supplémentaire pendant +3 secondes
     value: 100
     from: 0
     to: 0
   - name: DodgeMeterGain
-    description: After dodging through an attack,your attacks gain 100% bonus meter for +5 seconds
+    description: Après avoir esquivé une attaque, vos attaques génèrent 100% de jauge supplémentaire pendant +5 secondes
     value: 100
     from: 1
     to: 1

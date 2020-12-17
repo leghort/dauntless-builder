@@ -1,9 +1,9 @@
-name: Twilight Barrel
+name: Canon crépusculaire
 description: The Twilight Barrel is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/barrels/TwilightBarrel.png
-elemental: Umbral
+elemental: Obscur
 power:
   0: 60
   1: 120
 part_effect:
-  - Shots and abilities deal umbral damage.
+  - Les tirs et capacités infligent des dégâts obscurs.

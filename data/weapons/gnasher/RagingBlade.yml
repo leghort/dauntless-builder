@@ -1,24 +1,22 @@
-name: Raging Blade
-description: A Slayer's sword forged with Gnasher trophies.
+name: Lame enragée
+description: Une épée de Slayer forgée à partir de Gnasher.
 icon: /assets/icons/weapons/gnasher/RagingBlade.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: null
-cells: [Utility, Defence]
+cells: [Utilitaire, Défense]
 power:
   0: 20
   1: 120
 perks:
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 1
     from: 0
     to: 0
-  - name: Ragehunter
+  - name: Chasse-rage
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: GnasherRage
-    description: >
-      Periodically enter a rage, dealing +10% damage and gaining immunity to stagger. Taking damage causes you to
-      enrage more quickly.
+    description: Entrez périodiquement en rage, infligeant +10% de dégâts et gagnez une immunité aux étourdissements. Subir des dégâts vous permet de vous enrager plus rapidement.

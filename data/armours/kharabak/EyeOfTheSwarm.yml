@@ -1,19 +1,19 @@
-name: Eye of the Swarm
-description: Head protection forged from Kharabak trophies.
+name: Oeil de l'essaim
+description: Protection pour la tête forgée à partir de Kharabak.
 icon: /assets/icons/armours/kharabak/EyeOfTheSwarm.png
 type: Head
-strength: Terra
-weakness: Shock
-cells: Mobility
+strength: Tellurique
+weakness: Foudroyant
+cells: Mobilité
 resistance:
   0: 10
   1: 30
 perks:
-  - name: Shellshock Resist
+  - name: Résilience
     value: 1
     from: 0
     to: 0
-  - name: Shellshock Resist
+  - name: Résilience
     value: 3
     from: 1
     to: 1

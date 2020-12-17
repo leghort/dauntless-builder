@@ -1,19 +1,19 @@
-name: Hellplate Cuirass
-description: Torso protection forged from Hellion trophies.
+name: Cuirasse infernale
+description: Protection pour le torse forgée à partir de trophées d'Hellion.
 icon: /assets/icons/armours/hellion/HellplateCuirass.png
 type: Torso
-strength: Blaze
-weakness: Frost
+strength: Incandescant
+weakness: Givrant
 cells: Technique
 resistance:
   0: 20
   1: 30
 perks:
-  - name: Molten
+  - name: Fondu
     value: 2
     from: 0
     to: 0
-  - name: Molten
+  - name: Fondu
     value: 3
     from: 1
     to: 1

@@ -1,30 +1,30 @@
-name: Nayzaga's Scythe
-description: A Slayer's axe forged with Nayzaga trophies.
+name: Faux de Nayzaga
+description: Une hache de Slayer forgée à partir de Nayzaga.
 icon: /assets/icons/weapons/nayzaga/NayzagasScythe.png
-type: Axe
+type: Hache
 damage: Slashing
-elemental: Shock
-cells: [Power, Utility]
+elemental: Foudroyant
+cells: [Puissance, Utilitaire]
 power:
   0: 40
   1: 120
 perks:
-  - name: Savagery
+  - name: Sauvagerie
     value: 1
     from: 0
     to: 0
-  - name: Savagery
+  - name: Sauvagerie
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: VerticalAttackHeal
-    description: Heal 50 on perfectly charged vertical attacks
+    description: Vous soigne de 50 pv par attaques parfaite chager verticalement
     value: 50
     from: 0
     to: 0
   - name: VerticalAttackHeal
-    description: Heal 100 on perfectly charged vertical attacks
+    description: Vous soigne de 100 pv par attaques parfaite chager verticalement
     value: 100
     from: 1
     to: 1

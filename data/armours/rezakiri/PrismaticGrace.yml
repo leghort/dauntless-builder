@@ -1,21 +1,21 @@
-name: Prismatic Grace
-description: Prismatic Grace is a piece of craftable Exotic armour in Dauntless. It is crafted from Rezakiri reagents.
+name: Grâce Prismatique
+description: Une pièce d'armure exotique de Slayer forgée avec des trophées du Rezakiri.
 icon: /assets/icons/armours/rezakiri/PrismaticGrace.png
 type: Head
 strength: Radiant
-weakness: Umbral
+weakness: Obscur
 cells: Technique
 rarity: exotic
 resistance:
   0: 20
   1: 30
 unique_effects:
-  - name: PrismaticGraceRevivePrism
-    description: After reviving another player, grant them a Radiant Prism that blocks incoming damage for 5 seconds.
+  - name: PrismaticGrâceRevivePrism
+    description: Après avoir réanimé un autre joueur, lui donne un prisme rayonnant qui bloque les dégts reçu pendant 5 secondes.
     value: 5
-  - name: PrismaticGraceLethalDamagePrism
-    description: The first time you take lethal damage, gain a Radiant Prism that blocks incoming damage for 10 seconds.
+  - name: PrismaticGrâceLethalDamagePrism
+    description: La première fois que vous devriez être à terre, recevez un prisme rayonnant qui bloque les dégâts pendant 10 secondes.
     value: 10
-  - name: PrismaticGraceActivePrismRevive
-    description: While active, reviving another player fully restores both players but removes the Prism even at full danger.
+  - name: PrismaticGrâceActivePrismRevive
+    description: Lorsqu'il est actif, le prisme vous permet de réanimer un autre joueur, même au niveau de danger maximum, et vous soigne tous les deux entièrement mais disparait après utilisation.
     value: 1

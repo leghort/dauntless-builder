@@ -1,0 +1,4 @@
+name: Charge Téméraire
+icon: /assets/icons/parts/warpike/specials/RecklessLeap.png
+part_effect:
+  - Appuyez pour convertir la jauge d'arme en munition. Maintenez pour dépenser des munitions et effectuer une charge aérienne qui inflige jusqu'à 1200 points de dégâts suivant la distance parcourue et la qualité des munitions.

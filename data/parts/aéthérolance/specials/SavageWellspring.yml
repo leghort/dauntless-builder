@@ -1,0 +1,4 @@
+name: Source Sauvage
+icon: /assets/icons/parts/warpike/specials/SavageWellspring.png
+part_effect:
+  - Appuyez pour convertir votre jauge de munitions. Maintenez pour dépenser des munitions et créer une aura qui augmente de 25% les chances de de critique des alliés proches jusqu'à 12 secondes selon la qualité des munitions.

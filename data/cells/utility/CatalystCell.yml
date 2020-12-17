@@ -1,15 +1,15 @@
-name: Catalyst Cell
-slot: Utility
+name: Catalyse
+slot: Utilitaire
 variants:
-  "+1 Catalyst Cell":
-    rarity: uncommon
+  "Catalyse +1":
+    rarity: commun
     perks:
-      Catalyst: 1
-  "+2 Catalyst Cell":
+      Catalyse: 1
+  "Catalyse +2":
     rarity: rare
     perks:
-      Catalyst: 2
-  "+3 Catalyst Cell":
-    rarity: epic
+      Catalyse: 2
+  "Catalyse +3":
+    rarity: épique
     perks:
-      Catalyst: 3
+      Catalyse: 3

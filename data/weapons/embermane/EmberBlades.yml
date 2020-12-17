@@ -1,30 +1,30 @@
-name: Ember Blades
-description: A Slayer's chain blades forged with Embermane trophies.
+name: Braise Lames
+description: Une paire de chaînes-lames de Slayer forgée à partir de trophées d'Embermane.
 icon: /assets/icons/weapons/embermane/EmberBlades.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
-elemental: Blaze
-cells: [Technique, Mobility]
+elemental: Incandescant
+cells: [Technique, Mobilité]
 power:
   0: 20
   1: 120
 perks:
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 1
     from: 0
     to: 0
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: TenthHitBonusDamage
-    description: The ninth hit in quick succession deals 100 bonus part damage.
+    description: Le neuvième coup consécutif inflige + 100 dégâts aux membres.
     value: 100
     from: 0
     to: 0
   - name: TenthHitBonusDamage
-    description: The ninth hit in quick succession deals 250 bonus part damage.
+    description: Le neuvième coup consécutif inflige + 250 dégâts aux membres.
     value: 250
     from: 1
     to: 1

@@ -1,10 +1,10 @@
-name: Boreal Resolve
-description: Torso protection forged from Boreus trophies.
+name: Fermeté boréale
+description: Protection pour le torse forgée à partir de Boreus.
 icon: /assets/icons/armours/boreus/BorealResolve.png
 type: Torso
-strength: Frost
-weakness: Blaze
-cells: Defence
+strength: Givrant
+weakness: Incandescant
+cells: Défense
 resistance:
   0: 5
   1: 30

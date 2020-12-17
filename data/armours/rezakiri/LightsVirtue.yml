@@ -1,19 +1,19 @@
-name: Light's Virtue
-description: Torso protection forged from Rezakiri trophies.
+name: Vertu de lumière
+description: Protection pour le torse forgée à partir de Rezakiri.
 icon: /assets/icons/armours/rezakiri/LightsVirtue.png
 type: Torso
 strength: Radiant
-weakness: Umbral
-cells: Utility
+weakness: Obscur
+cells: Utilitaire
 resistance:
   0: 20
   1: 30
 perks:
-  - name: Cunning
+  - name: Frappe critique
     value: 2
     from: 0
     to: 0
-  - name: Cunning
+  - name: Frappe critique
     value: 3
     from: 1
     to: 1

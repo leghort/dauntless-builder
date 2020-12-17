@@ -1,15 +1,15 @@
-name: Aetherhunter Cell
-slot: Power
+name: Chasse-aether
+slot: Puissance
 variants:
-  "+1 Aetherhunter Cell":
-    rarity: uncommon
+  "Chasse-aether +1":
+    rarity: commun
     perks:
-      Aetherhunter: 1
-  "+2 Aetherhunter Cell":
+      Chasse-aether: 1
+  "Chasse-aether +2":
     rarity: rare
     perks:
-      Aetherhunter: 2
-  "+3 Aetherhunter Cell":
-    rarity: epic
+      Chasse-aether: 2
+  "Chasse-aether +3":
+    rarity: épique
     perks:
-      Aetherhunter: 3
+      Chasse-aether: 3

@@ -1,17 +1,17 @@
-name: Unsteady Ground
-description: A Slayer's aether strikers forged with Agarus trophies.
+name: Sol instable
+description: Un marteau de Slayer forgée à partir de Agarus.
 icon: /assets/icons/weapons/agarus/UnsteadyGround.png
-type: Hammer
+type: Marteau
 damage: Blunt
-elemental: Terra
+elemental: Tellurique
 cells: [Prismatic, Prismatic]
 power:
   0: 100
   1: 120
 bond:
-  elemental: Terra
+  elemental: Tellurique
 unique_effects:
   - name: AgarusLegendaryAbility
     icon: /assets/icons/abilities/AgarusLegendaryWeaponAbility.png
     description: |
-      Legendary Ability: Revive all Slayers in a large radius, granting them healing over time and immunity to stagger. Usable while downed.
+      Capacité légendaire : [G] pour réanimer tous les Slayer dans un large rayon, leur octroyant du soin dans le temps et une immunité aux étourdissements. Utilisable à terre.

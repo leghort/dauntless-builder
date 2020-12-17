@@ -1,15 +1,15 @@
-name: Conditioning Cell
-slot: Mobility
+name: Constitution
+slot: Mobilité
 variants:
-  "+1 Conditioning Cell":
-    rarity: uncommon
+  "Constitution +1":
+    rarity: commun
     perks:
-      Conditioning: 1
-  "+2 Conditioning Cell":
+      Constitution: 1
+  "Constitution +2":
     rarity: rare
     perks:
-      Conditioning: 2
-  "+3 Conditioning Cell":
-    rarity: epic
+      Constitution: 2
+  "Constitution +3":
+    rarity: épique
     perks:
-      Conditioning: 3
+      Constitution: 3

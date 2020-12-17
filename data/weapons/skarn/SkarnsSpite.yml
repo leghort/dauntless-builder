@@ -1,34 +1,32 @@
-name: Skarn's Spite
-description: A Slayer's war pike forged with Skarn trophies.
+name: Dépit de Skarn
+description: Une aetherolance de Slayer forgée à partir de Skarn.
 icon: /assets/icons/weapons/skarn/SkarnsSpite.png
-type: War Pike
+type: Aéthérolance
 damage: Slashing
-elemental: Terra
-cells: [Technique, Defence]
+elemental: Tellurique
+cells: [Technique, Défense]
 power:
   0: 20
   1: 120
 perks:
-  - name: Weighted Strikes
+  - name: Frappes Lourdes
     value: 1
     from: 0
     to: 0
-  - name: Weighted Strikes
+  - name: Frappes Lourdes
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: DamageChanceStackShield
     description: >-
-      Dealing damage has a chance (based on damage dealt) to grant a stacking,
-      refreshing 20 health shield that lasts for 12s
+      Infliger des dégâts donne une chance (basée sur le montant de dégâts) de recevoir un bouclier de santé cumulable de 20 points pendant 12 secondes. Ce bouclier peut être réinitialisé
     value: 20
     from: 0
     to: 0
   - name: DamageChanceStackShield
     description: >-
-      Dealing damage has a chance (based on damage dealt) to grant a stacking,
-      refreshing 40 health shield that lasts for 12s
+      Infliger des dégâts donne une chance (basée sur le montant de dégâts) de recevoir un bouclier de santé cumulable de 40 points pendant 12 secondes. Ce bouclier peut être réinitialisé
     value: 40
     from: 1
     to: 1

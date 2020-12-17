@@ -1,5 +1,5 @@
-name: Quillspike Jacket
-description: Torso protection forged from Quillshot trophies.
+name: Gilet du quillperceur
+description: Protection pour le torse forgée à partir de Quillshot.
 icon: /assets/icons/armours/quillshot/QuillspikeJacket.png
 type: Torso
 strength: null
@@ -9,11 +9,11 @@ resistance:
   0: 10
   1: 30
 perks:
-  - name: Savagery
+  - name: Sauvagerie
     value: 1
     from: 0
     to: 0
-  - name: Savagery
+  - name: Sauvagerie
     value: 3
     from: 1
     to: 1

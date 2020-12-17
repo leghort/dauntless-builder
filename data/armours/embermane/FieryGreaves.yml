@@ -1,19 +1,19 @@
-name: Fiery Greaves
-description: Leg and foot protection forged from Embermane trophies.
+name: Grèves ardentes
+description: Protection pour les jambes et les pieds forgée à partir de trophées d'Embermane.
 icon: /assets/icons/armours/embermane/FieryGreaves.png
 type: Legs
-strength: Blaze
-weakness: Frost
-cells: Defence
+strength: Incandescant
+weakness: Givrant
+cells: Défense
 resistance:
   0: 5
   1: 30
 perks:
-  - name: Evasion
+  - name: Évasion
     value: 1
     from: 0
     to: 0
-  - name: Evasion
+  - name: Évasion
     value: 3
     from: 1
     to: 1

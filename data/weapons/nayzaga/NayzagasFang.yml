@@ -1,30 +1,30 @@
-name: Nayzaga's Fang
-description: A Slayer's war pike forged with Nayzaga trophies.
+name: Croc de Nayzaga
+description: Une aetherolance de Slayer forgée à partir de Nayzaga.
 icon: /assets/icons/weapons/nayzaga/NayzagasFang.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
-elemental: Shock
-cells: [Technique, Utility]
+elemental: Foudroyant
+cells: [Technique, Utilitaire]
 power:
   0: 40
   1: 120
 perks:
-  - name: Barbed
+  - name: Barbelé
     value: 1
     from: 0
     to: 0
-  - name: Barbed
+  - name: Barbelé
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: WoundedPartsLifesteal
-    description: +3% lifesteal vs wounded parts
+    description: +3% de vol de vie sur les membres mutilés
     value: 1.03
     from: 0
     to: 0
   - name: WoundedPartsLifesteal
-    description: +5% lifesteal vs wounded parts
+    description: +5% de vol de vie sur les membres mutilés
     value: 1.05
     from: 1
     to: 1

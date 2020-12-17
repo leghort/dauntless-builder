@@ -1,30 +1,30 @@
-name: Thundering Scythe
-description: A Slayer's axe forged with Drask trophies.
+name: Faux tonnante
+description: Une hache de Slayer forgée à partir de Drask.
 icon: /assets/icons/weapons/drask/ThunderingScythe.png
-type: Axe
+type: Hache
 damage: Slashing
-elemental: Shock
-cells: [Power, Defence]
+elemental: Foudroyant
+cells: [Puissance, Défense]
 power:
   0: 20
   1: 120
 perks:
-  - name: Aetheric Attunement
+  - name: Harmonisation aethérée
     value: 2
     from: 0
     to: 0
-  - name: Aetheric Attunement
+  - name: Harmonisation aethérée
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: HeadDamage
-    description: 20% damage vs Behemoth Heads
+    description: 20% de dégâts contre la tête des Behemoths
     value: 1.2
     from: 0
     to: 0
   - name: HeadDamage
-    description: 30% damage vs Behemoth Heads
+    description: 30% de dégâts contre la tête des Behemoths
     value: 1.3
     from: 1
     to: 1

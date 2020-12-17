@@ -1,32 +1,32 @@
-name: Brawlers of Boreus
-description: A Slayer's aether strikers forged with Boreus trophies.
+name: Castagneurs du Boreus
+description: Cestes aethériques de Slayers fabriqués à partir de trophés de Boreus.
 icon: /assets/icons/weapons/boreus/BrawlersOfBoreus.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
-elemental: Frost
-cells: [Power, Defence]
+elemental: Givrant
+cells: [Puissance, Défense]
 power:
   0: 20
   1: 120
 perks:
-  - name: Conditioning
+  - name: Constitution
     value: 1
     from: 0
     to: 0
-  - name: Conditioning
+  - name: Constitution
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: BoreusFrostSprite
     description: >-
-      After Surging, generate 2 Frost Sprites that grant your next attack +30 damage and minor frost damage (Max 4 Sprites)
+      Après un afflux, génére 2 farfroidets qui ajoutent +30 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 30
     from: 0
     to: 0
   - name: BoreusFrostSprite
     description: >-
-      After Surging, generate 2 Frost Sprites that grant your next attack +60 damage and minor frost damage (Max 4 Sprites)
+      Après un afflux, génére 2 farfroidets qui ajoutent +60 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 60
     from: 1
     to: 1

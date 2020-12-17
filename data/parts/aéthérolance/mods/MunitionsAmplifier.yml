@@ -1,0 +1,4 @@
+name: Amplificateur de munitions
+icon: /assets/icons/parts/warpike/mods/MunitionsAmplifier.png
+part_effect:
+  - La qualité des munitions stockées augmente lentement au fil du temps, jusqu'au maximum.

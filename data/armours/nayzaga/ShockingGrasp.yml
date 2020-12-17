@@ -1,19 +1,19 @@
-name: Shocking Grasp
-description: Arms protection forged from Nayzaga trophies.
+name: Étreinte électrifiée
+description: Protection pour les bras et les mains forgée à partir de Nayzaga.
 icon: /assets/icons/armours/nayzaga/ShockingGrasp.png
 type: Arms
-strength: Shock
-weakness: Terra
-cells: Utility
+strength: Foudroyant
+weakness: Tellurique
+cells: Utilitaire
 resistance:
   0: 10
   1: 30
 perks:
-  - name: Aetheric Attunement
+  - name: Harmonisation aethérée
     value: 1
     from: 0
     to: 0
-  - name: Aetheric Attunement
+  - name: Harmonisation aethérée
     value: 3
     from: 1
     to: 1

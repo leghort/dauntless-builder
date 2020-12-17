@@ -1,10 +1,10 @@
-name: Dynamic Carbine
+name: Carabine dynamique
 description: The Storm Barrel is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/barrels/DynamicCarbine.png
-elemental: Shock
+elemental: Foudroyant
 power:
   0: 100
   1: 120
 part_effect:
-  - "Legendary Ability: Teleport to a Behemoth, dealing Shock damage. Usable once, but resets on Behemoth kill."
-  - Shots and abilities deal shock damage.
+  - "Capacité légendaire: utilisez [G] pour vous téléporte à un Behemoth, infligeant des dégats foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d´un Béhémoth."
+  - Les tirs et capacités infligent des dégâts foudroyants.

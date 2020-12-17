@@ -1,30 +1,30 @@
-name: Sovereign's Grudge
-description: A Slayer's hammer forged with Koshai trophies.
+name: Rancune du souverain
+description: Un marteau de Slayer forgé à partir de trophées du Koshai.
 icon: /assets/icons/weapons/koshai/SovereignsGrudge.png
-type: Hammer
+type: Marteau
 damage: Blunt
-elemental: Terra
-cells: [Power, Utility]
+elemental: Tellurique
+cells: [Puissance, Utilitaire]
 power:
   0: 60
   1: 120
 perks:
-  - name: Sharpened
+  - name: Aiguisé
     value: 2
     from: 0
     to: 0
-  - name: Sharpened
+  - name: Aiguisé
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: NoAttackDamage
-    description: After not dealing damage for 4 seconds, the next 1 attacks deal 50% increased damage.
+    description: Après 4 secondes sans infliger de dégât, la prochaines attaque infligera +50% de dégâts.
     value: 1.5
     from: 0
     to: 0
   - name: NoAttackDamage
-    description: After not dealing damage for 4 seconds, the next 2 attacks deal 50% increased damage.
+    description: Après 4 secondes sans infliger de dégât, les 2 prochaines attaques infligeront +50% de dégâts.
     value: 1.5
     from: 1
     to: 1

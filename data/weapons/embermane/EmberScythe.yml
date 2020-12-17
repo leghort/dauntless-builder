@@ -1,30 +1,30 @@
-name: Ember Scythe
-description: A Slayer's axe forged with Embermane trophies.
+name: Faux Embermane
+description: Une hache de Slayer forgée à partir de trophées d'Embermane.
 icon: /assets/icons/weapons/embermane/EmberScythe.png
-type: Axe
+type: Hache
 damage: Slashing
-elemental: Blaze
-cells: [Power, Mobility]
+elemental: Incandescant
+cells: [Puissance, Mobilité]
 power:
   0: 20
   1: 120
 perks:
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 1
     from: 0
     to: 0
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: FourthHitBonusDamage
-    description: The third hit in quick succession deals 100 bonus part damage.
+    description: Le troisièle coup consécutif inflige 100 dégâts aux membres.
     value: 100
     from: 0
     to: 0
   - name: FourthHitBonusDamage
-    description: The third hit in quick succession deals 250 bonus part damage.
+    description: Le troisièle coup consécutif inflige 250 dégâts aux membres.
     value: 250
     from: 1
     to: 1

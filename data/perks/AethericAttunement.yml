@@ -1,23 +1,23 @@
-name: Aetheric Attunement
-description: Percent increase to Lantern Charge gained from attacks.
-type: Utility
+name: Harmonisation aethérée
+description: Augmentation en pourcentage de la charge de lanterne à chaque attaque.
+type: Utilitaire
 key: percent_lantern_charge
 effects:
   1:
-    description: +10% Lantern Charge
+    description: +10% de charge de lanterne provenant des attaques
     value: 1.1
   2:
-    description: +15% Lantern Charge
+    description: +15% de charge de lanterne provenant des attaques
     value: 1.15
   3:
-    description: +20% Lantern Charge
+    description: +20% de charge de lanterne provenant des attaques
     value: 1.2
   4:
-    description: +30% Lantern Charge
+    description: +30% de charge de lanterne provenant des attaques
     value: 1.3
   5:
-    description: +40% Lantern Charge
+    description: +40% de charge de lanterne provenant des attaques
     value: 1.4
   6:
-    description: +50% Lantern Charge
+    description: +50% de charge de lanterne provenant des attaques
     value: 1.5

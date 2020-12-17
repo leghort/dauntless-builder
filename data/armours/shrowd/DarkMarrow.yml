@@ -1,10 +1,10 @@
-name: Dark Marrow
-description: Torso protection forged from Shrowd trophies.
+name: Sombre moelle
+description: Protection pour le torse forgée à partir de Shrowd.
 icon: /assets/icons/armours/shrowd/DarkMarrow.png
 type: Torso
-strength: Umbral
+strength: Obscur
 weakness: Radiant
-cells: Power
+cells: Puissance
 resistance:
   0: 20
   1: 30

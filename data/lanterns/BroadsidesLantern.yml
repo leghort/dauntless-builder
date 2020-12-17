@@ -1,7 +1,7 @@
-name: Broadsides Lantern
+name: Lanterne de bordée
 icon: /assets/icons/lanterns/BroadsidesLantern.png
 description: null
-cells: Utility
+cells: Utilitaire
 lantern_ability:
-  instant: Tap to fire a cannonball from above that deals 350 damage or, against airborne Behemoths, deals 450 damage and critically strikes.
-  hold: Hold to drop a bomb from above that explodes after 1 second. Deals 650 damage and can interrupt Behemoths.
+  instant: Appuyez pour tirer un boulet de canon venant des airs qui inflige 350 points de dégâts ou, contre les Behemoths volants, 450 points de dégâts en coup critique.
+  hold: Maintenez pour larguer une bombe venant des airs qui explose après 1 seconde. Inflige 650 points de dégâts et peut interrompre les Behemoths.

@@ -1,19 +1,19 @@
-name: Shocking Heart
-description: Torso protection forged from Nayzaga trophies.
+name: Coeur électrifié
+description: Protection pour le torse forgée à partir de Nayzaga.
 icon: /assets/icons/armours/nayzaga/ShockingHeart.png
 type: Torso
-strength: Shock
-weakness: Terra
-cells: Defence
+strength: Foudroyant
+weakness: Tellurique
+cells: Défense
 resistance:
   0: 10
   1: 30
 perks:
-  - name: Medic
+  - name: Médecin
     value: 1
     from: 0
     to: 0
-  - name: Medic
+  - name: Médecin
     value: 3
     from: 1
     to: 1

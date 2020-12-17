@@ -1,4 +1,4 @@
-name: Demolition Sights
+name: Mires de démolition
 icon: /assets/icons/parts/repeaters/mods/DemolitionSights.png
 part_effect:
-  - While empowered, deal +50% damage to objects created by Behemoths.
+  - Quand aetherochargé, +50% de dégâts aux objets créés par les Behemoths.

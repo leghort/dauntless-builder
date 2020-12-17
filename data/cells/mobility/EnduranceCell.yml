@@ -1,15 +1,15 @@
-name: Endurance Cell
-slot: Mobility
+name: Endurance
+slot: Mobilité
 variants:
-  "+1 Endurance Cell":
-    rarity: uncommon
+  "Endurance +1":
+    rarity: commun
     perks:
       Endurance: 1
-  "+2 Endurance Cell":
+  "Endurance +2":
     rarity: rare
     perks:
       Endurance: 2
-  "+3 Endurance Cell":
-    rarity: epic
+  "Endurance +3":
+    rarity: épique
     perks:
       Endurance: 3

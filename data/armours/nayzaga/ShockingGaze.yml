@@ -1,19 +1,19 @@
-name: Shocking Gaze
-description: Head protection forged from Nayzaga trophies.
+name: Oeil électrifié
+description: Protection pour la tête forgée à partir de Nayzaga.
 icon: /assets/icons/armours/nayzaga/ShockingGaze.png
 type: Head
-strength: Shock
-weakness: Terra
-cells: Utility
+strength: Foudroyant
+weakness: Tellurique
+cells: Utilitaire
 resistance:
   0: 10
   1: 30
 perks:
-  - name: Medic
+  - name: Médecin
     value: 1
     from: 0
     to: 0
-  - name: Medic
+  - name: Médecin
     value: 3
     from: 1
     to: 1

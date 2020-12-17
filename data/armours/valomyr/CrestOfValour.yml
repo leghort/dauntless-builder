@@ -1,19 +1,19 @@
-name: Crest of Valour
-description: Head protection forged from Valomyr trophies.
+name: Crête de Bravoure
+description: Protection pour la tête forgée à partir de Valomyr.
 icon: /assets/icons/armours/valomyr/CrestOfValour.png
 type: Head
 strength: Radiant
-weakness: Umbral
-cells: Power
+weakness: Obscur
+cells: Puissance
 resistance:
   0: 15
   1: 30
 perks:
-  - name: Lucent
+  - name: Luminescent
     value: 2
     from: 0
     to: 0
-  - name: Lucent
+  - name: Luminescent
     value: 3
     from: 1
     to: 1

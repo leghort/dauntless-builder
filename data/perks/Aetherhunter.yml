@@ -1,23 +1,23 @@
-name: Aetherhunter
-description: Increases damage against aether charged Behemoths.
-type: Power
+name: Chasse-aether
+description: Augmente les dégâts contre les Behemoths chargés d'aether.
+type: Puissance
 key: damage_aether
 effects:
   1:
-    description: +5% Damage vs Aether-charged Behemoths
+    description: +5% de dégâts contre les Behemoths chargés en aether
     value: 1.05
   2:
-    description: +10% Damage vs Aether-charged Behemoths
+    description: +10% de dégâts contre les Behemoths chargés en aether
     value: 1.1
   3:
-    description: +20% Damage vs Aether-charged Behemoths
+    description: +20% de dégâts contre les Behemoths chargés en aether
     value: 1.2
   4:
-    description: +30% Damage vs Aether-charged Behemoths
+    description: +30% de dégâts contre les Behemoths chargés en aether
     value: 1.3
   5:
-    description: +40% Damage vs Aether-charged Behemoths
+    description: +40% de dégâts contre les Behemoths chargés en aether
     value: 1.4
   6:
-    description: +50% Damage vs Aether-charged Behemoths
+    description: +50% de dégâts contre les Behemoths chargés en aether
     value: 1.5

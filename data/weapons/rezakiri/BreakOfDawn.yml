@@ -1,23 +1,23 @@
-name: Break of Dawn
-description: A Slayer's hammer forged with Rezakiri trophies.
+name: Brisure de l'aube
+description: Un marteau de Slayer forgé à partir de trophées de Rezakiri.
 icon: /assets/icons/weapons/rezakiri/BreakOfDawn.png
-type: Hammer
+type: Marteau
 damage: Blunt
 elemental: Radiant
-cells: [Power, Mobility]
+cells: [Puissance, Mobilité]
 power:
   0: 80
   1: 120
 perks:
-  - name: Cunning
+  - name: Frappe critique
     value: 2
     from: 0
     to: 0
-  - name: Cunning
+  - name: Frappe critique
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: HitTwice
-    description: 10% chance for attacks to Hit twice.
+    description: + 10% de chance de frapper deux fois
     value: 0.1

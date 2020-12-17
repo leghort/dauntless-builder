@@ -1,15 +1,15 @@
-name: Shellshock Resist Cell
-slot: Defence
+name: Résiliente
+slot: Défense
 variants:
-  "+1 Shellshock Resist Cell":
-    rarity: uncommon
+  "Résiliente +1":
+    rarity: commun
     perks:
-      Shellshock Resist: 1
-  "+2 Shellshock Resist Cell":
+      Résilience: 1
+  "Résiliente +2":
     rarity: rare
     perks:
-      Shellshock Resist: 2
-  "+3 Shellshock Resist Cell":
-    rarity: epic
+      Résilience: 2
+  "Résiliente +3":
+    rarity: épique
     perks:
-      Shellshock Resist: 3
+      Résilience: 3

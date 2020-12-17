@@ -1,19 +1,19 @@
-name: Pangar's Rampage
-description: A Slayer's hammer forged with Pangar trophies.
+name: Déchaînement de Pangar
+description: Un marteau de Slayer forgé à partir de trophées de Pangar.
 icon: /assets/icons/weapons/pangar/PangarsRampage.png
-type: Hammer
+type: Marteau
 damage: Blunt
-elemental: Frost
-cells: [Power, Defence]
+elemental: Givrant
+cells: [Puissance, Défense]
 power:
   0: 40
   1: 120
 perks:
-  - name: Knockout King
+  - name: Assommoir
     value: 1
     from: 0
     to: 0
-  - name: Knockout King
+  - name: Assommoir
     value: 3
     from: 1
     to: 1

@@ -1,23 +1,23 @@
-name: Hands of Night
-description: A Slayer's aether strikers forged with Shrowd trophies.
+name: Mains de la nuit
+description: Cestes aethériques de Slayers fabriqués à partir de trophées de Shrowd.
 icon: /assets/icons/weapons/shrowd/HandsOfNight.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
-elemental: Umbral
-cells: [Technique, Utility]
+elemental: Obscur
+cells: [Technique, Utilitaire]
 power:
   0: 80
   1: 120
 perks:
-  - name: Cunning
+  - name: Frappe critique
     value: 2
     from: 0
     to: 0
-  - name: Cunning
+  - name: Frappe critique
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: LowHpDamage
-    description: When under 20% health, deal +50% damage
+    description: Infligez 50% de dégâts supplémentaires lorsque vous avez moins de 20% de vie
     value: 1.5

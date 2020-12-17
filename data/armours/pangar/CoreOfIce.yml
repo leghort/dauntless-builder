@@ -1,19 +1,19 @@
-name: Core of Ice
-description: Torso protection forged from Pangar trophies.
+name: Coeur gelé
+description: Protection pour le torse forgée à partir de Pangar.
 icon: /assets/icons/armours/pangar/CoreOfIce.png
 type: Torso
-strength: Frost
-weakness: Blaze
-cells: Power
+strength: Givrant
+weakness: Incandescant
+cells: Puissance
 resistance:
   0: 10
   1: 30
 perks:
-  - name: Fortress
+  - name: Forteresse
     value: 1
     from: 0
     to: 0
-  - name: Fortress
+  - name: Forteresse
     value: 3
     from: 1
     to: 1

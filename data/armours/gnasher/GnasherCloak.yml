@@ -1,19 +1,19 @@
-name: Gnasher Cloak
-description: Torso protection forged from Gnasher trophies.
+name: Manteau Gnasher
+description: Protection pour le torse forgée à partir de Gnasher.
 icon: /assets/icons/armours/gnasher/GnasherCloak.png
 type: Torso
 strength: null
 weakness: null
-cells: Defence
+cells: Défense
 resistance:
   0: 10
   1: 30
 perks:
-  - name: Tough
+  - name: Robustesse
     value: 1
     from: 0
     to: 0
-  - name: Tough
+  - name: Robustesse
     value: 3
     from: 1
     to: 1

@@ -1,10 +1,10 @@
-name: Molten Edict
-description: The Molten Edict is a craftable Exotic weapon in Dauntless. It is crafted from Firebrand Charrogg reagents.
+name: Jugement de Vulrrogg
+description: Un marteau exotique de Slayer forgée à partir de Charrogg.
 icon: /assets/icons/weapons/charrogg/MoltenEdict.png
-type: Hammer
+type: Marteau
 damage: Blunt
-elemental: Blaze
-cells: [Power, Defence]
+elemental: Incandescant
+cells: [Puissance, Défense]
 rarity: exotic
 restrict_specials: true
 power:
@@ -13,5 +13,5 @@ power:
 unique_effects:
   - name: HammerBlastFireballs
     icon: /assets/icons/parts/hammer/specials/MoltenEdict.png
-    description: Replaces all hammer blasts with unique fireball abilities that deal blaze damage.
+    description: Remplace tous les tirs de marteau par des capacités uniques infligeant des dégâts de braise.
     value: 0

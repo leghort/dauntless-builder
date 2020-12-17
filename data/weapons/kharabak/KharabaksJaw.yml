@@ -1,24 +1,42 @@
-name: Kharabak's Jaw
-description: A Slayer's hammer forged with Kharabak trophies.
+name: Mâchoire de Kharabak
+description: Un marteau de Slayer forgé à partir de trophées de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksJaw.png
-type: Hammer
+type: Marteau
 damage: Blunt
-elemental: Terra
-cells: [Power, Technique]
+elemental: Tellurique
+cells: [Puissance, Technique]
 power:
-  0: 40
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 perks:
-  - name: Deconstruction
+  - name: Démolition
     value: 1
     from: 0
-    to: 0
-  - name: Deconstruction
+    to: 5
+  - name: Démolition
+    value: 2
+    from: 6
+    to: 9
+  - name: Démolition
     value: 3
-    from: 1
-    to: 1
+    from: 10
+    to: 15
 unique_effects:
-  - name: KharabacBlades
+  - name: KharabacBlades  
     description: >
-      Once charged, your next attack unleashes whirling blades that deal 50 terra damage. Additional attacks speed
-      up the blades, which explode at the end of the duration and deal damage based on blade speed.
+      Une fois chargée, la prochaine attaque libère des lames troubillonnantes qui infligent 50 points de dégâts Tellurique.
+      Des attaques supplémentaires accélèrent les lames, qui explosent à la fin de leur durée et infligent des dégâts en fonction de la vitesse des lames.

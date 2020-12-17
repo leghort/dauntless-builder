@@ -1,30 +1,30 @@
-name: Storm Blades
-description: A Slayer's chain blades forged with Stormclaw trophies.
+name: Lames tempête
+description: Une paire de chaînes-lames de Slayer forgée à partir de Stormclaw.
 icon: /assets/icons/weapons/stormclaw/StormBlades.png
-type: Chain Blades
+type: Chaînes-lames
 damage: Slashing
-elemental: Shock
-cells: [Technique, Mobility]
+elemental: Foudroyant
+cells: [Technique, Mobilité]
 power:
   0: 80
   1: 120
 perks:
-  - name: Energized
+  - name: Charge
     value: 1
     from: 0
     to: 0
-  - name: Energized
+  - name: Charge
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: DodgeMeterGain
-    description: After dodging through an attack,your attacks gain 100% bonus meter for +1 seconds
+    description: Après avoir esquivé une attaque, vos attaques génèrent 100% de jauge de spécial supplémentaire pendant +1 seconde
     value: 100
     from: 0
     to: 0
   - name: DodgeMeterGain
-    description: After dodging through an attack,your attacks gain 100% bonus meter for +3 seconds
+    description: Après avoir esquivé une attaque, vos attaques génèrent 100% de jauge de spécial supplémentaire pendant +3 secondes
     value: 100
     from: 1
     to: 1

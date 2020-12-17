@@ -1,16 +1,16 @@
-name: Mistral Currents
-description: A Slayer's aether strikers forged with Malkarion trophies.
+name: Courants de Mystral
+description: Cestes aethériques légendaires fabriqués à partir de trophées de Malkarion.
 icon: /assets/icons/weapons/malkarion/MistralCurrents.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
-elemental: Shock
+elemental: Foudroyant
 cells: [Prismatic, Prismatic]
 power:
   0: 100
   1: 120
 bond:
-  elemental: Shock
+  elemental: Foudroyant
 unique_effects:
   - name: MalkarionLegendaryAbility
     icon: /assets/icons/abilities/MalkarionLegendaryWeaponAbility.png
-    description: "Legendary Ability: Teleport to a Behemoth, dealing Shock damage. Usable once, but resets on Behemoth kill."
+    description: "Capacité légendaire : utilisez [G] pour vous téléporter à un Behemoth, infligeant des dégâts foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."

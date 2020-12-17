@@ -1,30 +1,30 @@
-name: Nayzaga's Charge
-description: A Slayer's hammer forged with Nayzaga trophies.
+name: Charge de Nayzaga
+description: Un marteau de Slayer forgé à partir de trophées de Nayzaga.
 icon: /assets/icons/weapons/nayzaga/NayzagasCharge.png
-type: Hammer
+type: Marteau
 damage: Blunt
-elemental: Shock
-cells: [Power, Utility]
+elemental: Foudroyant
+cells: [Puissance, Utilitaire]
 power:
   0: 40
   1: 120
 perks:
-  - name: Savagery
+  - name: Sauvagerie
     value: 1
     from: 0
     to: 0
-  - name: Savagery
+  - name: Sauvagerie
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: StaggerHeal
-    description: Heal for 100 whenever a Behemoth is staggered.
+    description: Après l'étourdissement d'un Behemoth, vous vous soignez de 100
     value: 100
     from: 0
     to: 0
   - name: StaggerHeal
-    description: Heal for 300 whenever a Behemoth is staggered.
+    description: Après l'étourdissement d'un Behemoth, vous vous soignez de 300
     value: 300
     from: 1
     to: 1

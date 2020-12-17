@@ -1,34 +1,32 @@
-name: Turmoil of Boreus
-description: A Slayer's axe forged with Boreus trophies.
+name: Tourment de Boreus
+description: Une hache de Slayer forgée à partir de Boreus.
 icon: /assets/icons/weapons/boreus/TurmoilOfBoreus.png
-type: Axe
+type: Hache
 damage: Slashing
-elemental: Frost
-cells: [Power, Defence]
+elemental: Givrant
+cells: [Puissance, Défense]
 power:
   0: 20
   1: 120
 perks:
-  - name: Conditioning
+  - name: Constitution
     value: 1
     from: 0
     to: 0
-  - name: Conditioning
+  - name: Constitution
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: BoreusFrostSprite
     description: >-
-      Charge Attacks generate Frost Sprites that cause your next attack to deal
-      30 bonus damage and minor frost damage. Max 4 Sprites.
+      Après chaque niveau de charge d'attaque, génère un farfroidet qui ajoute 30 de dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
     value: 30
     from: 0
     to: 0
   - name: BoreusFrostSprite
     description: >-
-      Charge Attacks generate Frost Sprites that cause your next attack to deal
-      60 bonus damage and minor frost damage. Max 4 Sprites.
+      Après chaque niveau de charge d'attaque, génère un farfroidet qui ajoute 60 de dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
     value: 60
     from: 1
     to: 1

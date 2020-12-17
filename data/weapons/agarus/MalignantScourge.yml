@@ -1,17 +1,17 @@
-name: Malignant Scourge
-description: A Slayer's aether strikers forged with Agarus trophies.
+name: Fouet malveillant
+description: Une hache de Slayer forgée à partir de Agarus.
 icon: /assets/icons/weapons/agarus/MalignantScourge.png
-type: Axe
+type: Hache
 damage: Slashing
-elemental: Terra
+elemental: Tellurique
 cells: [Prismatic, Prismatic]
 power:
   0: 100
   1: 120
 bond:
-  elemental: Terra
+  elemental: Tellurique
 unique_effects:
   - name: AgarusLegendaryAbility
     icon: /assets/icons/abilities/AgarusLegendaryWeaponAbility.png
     description: |
-      Legendary Ability: Revive all Slayers in a large radius, granting them healing over time and immunity to stagger. Usable while downed.
+      Capacité légendaire : [G] pour réanimer tous les Slayer dans un large rayon, leur octroyant du soin dans le temps et une immunité aux étourdissements. Utilisable à terre.

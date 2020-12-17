@@ -1,19 +1,19 @@
-name: Shocking Stride
-description: Leg and foot protection forged from Nayzaga trophies.
+name: Foulée électrifiée
+description: Protection pour les jambes et les pieds forgée à partir de Nayzaga.
 icon: /assets/icons/armours/nayzaga/ShockingStride.png
 type: Legs
-strength: Shock
-weakness: Terra
-cells: Defence
+strength: Foudroyant
+weakness: Tellurique
+cells: Défense
 resistance:
   0: 10
   1: 30
 perks:
-  - name: Insulated
+  - name: Isolant
     value: 1
     from: 0
     to: 0
-  - name: Insulated
+  - name: Isolant
     value: 3
     from: 1
     to: 1

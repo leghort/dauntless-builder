@@ -1,34 +1,32 @@
-name: Skarn's Smashers
-description: A Slayer's aether strikers forged with Skarn trophies.
+name: Écraseurs Skarn
+description: Cestes aethériques de Slayers fabriqués à partir de trophées de Skarn
 icon: /assets/icons/weapons/skarn/SkarnsSmashers.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
-elemental: Terra
-cells: [Technique, Defence]
+elemental: Tellurique
+cells: [Technique, Défense]
 power:
   0: 20
   1: 120
 perks:
-  - name: Knockout King
+  - name: Assommoir
     value: 1
     from: 0
     to: 0
-  - name: Knockout King
+  - name: Assommoir
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: DamageChanceStackShield
     description: >-
-      Dealing damage has a chance (based on damage dealt) to grant a stacking,
-      refreshing 20 health shield that lasts for 12s
+      Infliger des dégâts donne une chance (basée sur le montant de dégâts) de recevoir un bouclier de santé cumulable de 20 points pendant 12 secondes. Ce bouclier peut être réinitialisé
     value: 20
     from: 0
     to: 0
   - name: DamageChanceStackShield
     description: >-
-      Dealing damage has a chance (based on damage dealt) to grant a stacking,
-      refreshing 40 health shield that lasts for 12s
+      Infliger des dégâts donne une chance (basée sur le montant de dégâts) de recevoir un bouclier de santé cumulable de 40 points pendant 12 secondes. Ce bouclier peut être réinitialisé
     value: 40
     from: 1
     to: 1

@@ -1,28 +1,28 @@
-name: Winter Gale
-description: A Slayer's axe forged with Skraev trophies.
+name: Souffle hivernal
+description: Une hache de Slayer forgée à partir de Skraev.
 icon: /assets/icons/weapons/skraev/WinterGale.png
-type: Axe
+type: Hache
 damage: Slashing
-elemental: Frost
-cells: [Power, Mobility]
+elemental: Givrant
+cells: [Puissance, Mobilité]
 power:
   0: 60
   1: 120
 perks:
-  - name: Nimble
+  - name: Évasion légère
     value: 2
     from: 0
     to: 0
-  - name: Nimble
+  - name: Évasion légère
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: IceMines
-    description: Evading drops 1 Ice Mines on a 30 second cooldown.
+    description: Après une esquive, déposez 1 mines de glace autour de vous qui infligent 300 dégâts. 30s de recharge
     from: 0
     to: 0
   - name: IceMines
-    description: Evading drops 3 Ice Mines on a 30 second cooldown.
+    description: Après une esquive, déposez 3 mines de glace autour de vous qui infligent 300 dégâts. 30s de recharge
     from: 1
     to: 1

@@ -1,34 +1,32 @@
-name: Brutality of Boreus
-description: A Slayer's hammer forged with Boreus trophies.
+name: Brutalité de Boreus
+description: Un marteau de Slayer forgé à partir de trophées de Boreus
 icon: /assets/icons/weapons/boreus/BrutalityOfBoreus.png
-type: Hammer
+type: Marteau
 damage: Blunt
-elemental: Frost
-cells: [Power, Defence]
+elemental: Givrant
+cells: [Puissance, Défense]
 power:
   0: 20
   1: 120
 perks:
-  - name: Conditioning
+  - name: Constitution
     value: 1
     from: 0
     to: 0
-  - name: Conditioning
+  - name: Constitution
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: BoreusFrostSprite
     description: >-
-      Using Ammo generates a Frost Sprite that cause your next attack to deal 30 bonus damage
-      and minor frost damage. Max 4 Sprites. 
+      Après avoir dépensé une munition, génère un farfroidet qui ajoute 30 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 30
     from: 0
     to: 0
   - name: BoreusFrostSprite
     description: >-
-      Using Ammo generates a Frost Sprite that cause your next attack to deal 60 bonus damage
-      and minor frost damage. Max 4 Sprites. 
+      Après avoir dépensé une munition, génère un farfroidet qui ajoute 60 dégâts à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
     value: 60
     from: 1
     to: 1

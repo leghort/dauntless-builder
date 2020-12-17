@@ -1,9 +1,9 @@
-name: Inferno Barrel
+name: Canon infernal
 description: The Inferno Barrel is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/barrels/InfernoBarrel.png
-elemental: Blaze
+elemental: Incandescant
 power:
   0: 40
   1: 120
 part_effect:
-  - Shots and abilities deal blaze damage.
+  - Les tirs et capacités infligent des dégâts incandescents

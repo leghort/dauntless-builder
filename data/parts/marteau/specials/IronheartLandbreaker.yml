@@ -1,0 +1,4 @@
+name: Scinde-terre coeur de fer
+icon: /assets/icons/parts/hammer/specials/IronheartLandbreaker.png
+part_effect:
+  - Maintenez pour charger des munitions dans le marteau. Libérez pour créer un puits d'aether qui booste les joueurs qui passent dessus, leur accordant 40% de réduction de dégâts et les soignant de jusqu'à 155 points de vie en 30 secondes en aetherocharge

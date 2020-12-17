@@ -1,24 +1,22 @@
-name: Charred Cleaver
-description: A Slayer's axe forged with Charrogg trophies.
+name: Hachoir charrbonisé
+description: Une hache de Slayer forgée à partir de Charrogg.
 icon: /assets/icons/weapons/charrogg/CharredCleaver.png
-type: Axe
+type: Hache
 damage: Cutting
-elemental: Blaze
-cells: [Power, Defence]
+elemental: Incandescant
+cells: [Puissance, Défense]
 power:
   0: 40
   1: 120
 perks:
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 1
     from: 0
     to: 0
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: CharrogSpentStaminaFireDamage
-    description: |
-      After spending 150 stamina, next attack emits a cone of flame that deals +200 blaze damage to each
-      unique targets within the cone.
+    description: Après avoir dépensé 150 d'endurance, la prochaine attaque émet un cône de flammes qui inflige +200 dégâts incansdescents à chaque cible unique dans le cône.

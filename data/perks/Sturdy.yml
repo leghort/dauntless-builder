@@ -1,23 +1,23 @@
-name: Sturdy
-description: Prevents being staggered on a cooldown.
-type: Defence
+name: Stabilité
+description: Permet d'éviter régulièrement les déstabilisations.
+type: Défense
 key: stagger_prevention
 effects:
   1:
-    description: Prevents you from being staggered (30 second cooldown)
+    description: Empêche les déstabilisations (30 secondes de recharge)
     value: 120
   2:
-    description: Prevents you from being staggered (25 second cooldown)
+    description: Empêche les déstabilisations (25 secondes de recharge)
     value: 100
   3:
-    description: Prevents you from being staggered (20 second cooldown)
+    description: Empêche les déstabilisations (20 secondes de recharge)
     value: 80
   4:
-    description: Prevents you from being staggered (15 second cooldown)
+    description: Empêche les déstabilisations (15 secondes de recharge)
     value: 60
   5:
-    description: Prevents you from being staggered (10 second cooldown)
+    description: Empêche les déstabilisations (10 secondes de recharge)
     value: 40
   6:
-    description: Prevents you from being staggered (5 second cooldown)
+    description: Empêche les déstabilisations (5 secondes de recharge)
     value: 15

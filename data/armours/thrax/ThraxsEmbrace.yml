@@ -1,19 +1,19 @@
-name: Thrax's Embrace
-description: Arms protection forged from Thrax trophies.
+name: Éteinte de Thrax
+description: Protection pour les bras et les mains forgée à partir de Thrax.
 icon: /assets/icons/armours/thrax/ThraxsEmbrace.png
 type: Arms
-strength: Umbral
+strength: Obscur
 weakness: Radiant
-cells: Power
+cells: Puissance
 resistance:
   0: 25
   1: 30
 perks:
-  - name: Nine Lives
+  - name: Lernéen
     value: 2
     from: 0
     to: 0
-  - name: Nine Lives
+  - name: Lernéen
     value: 3
     from: 1
     to: 1

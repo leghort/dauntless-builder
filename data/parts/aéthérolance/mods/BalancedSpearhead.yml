@@ -1,0 +1,4 @@
+name: Pointe équilibré
+icon: /assets/icons/parts/warpike/mods/BalancedSpearhead.png
+part_effect:
+  - Augmente les dégâts infligés de 3% chaque fois que des attaques perçantes et absorbantes sont alternées. Réinitialisé à la fin du combo.

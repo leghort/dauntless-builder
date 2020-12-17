@@ -1,15 +1,15 @@
-name: Molten Cell
+name: Fondue
 slot: Technique
 variants:
-  "+1 Molten Cell":
-    rarity: uncommon
+  "Fondue +1":
+    rarity: commun
     perks:
-      Molten: 1
-  "+2 Molten Cell":
+      Fondu: 1
+  "Fondue +2":
     rarity: rare
     perks:
-      Molten: 2
-  "+3 Molten Cell":
-    rarity: epic
+      Fondu: 2
+  "Fondue +3":
+    rarity: épique
     perks:
-      Molten: 3
+      Fondu: 3

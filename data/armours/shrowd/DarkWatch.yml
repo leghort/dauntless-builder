@@ -1,10 +1,10 @@
-name: Dark Watch
-description: Head protection forged from Shrowd trophies.
+name: Sombre veille
+description: Protection pour la tête forgée à partir de Shrowd.
 icon: /assets/icons/armours/shrowd/DarkWatch.png
 type: Head
-strength: Umbral
+strength: Obscur
 weakness: Radiant
-cells: Power
+cells: Puissance
 resistance:
   0: 20
   1: 30

@@ -1,30 +1,30 @@
-name: Ember Fists
-description: A Slayer's aether strikers forged with Embermane trophies.
+name: Poings ardents
+description: Cestes aethériques de Slayers fabriqués à partir de trophées d'Embermane
 icon: /assets/icons/weapons/embermane/EmberFists.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
-elemental: Blaze
-cells: [Technique, Mobility]
+elemental: Incandescant
+cells: [Technique, Mobilité]
 power:
   0: 20
   1: 120
 perks:
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 1
     from: 0
     to: 0
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: FifthHitStaggerDamage
-    description: The fourth hit in a row deals +50% stagger damage
+    description: Le quatrième coup consécutif inflige +50% de dégâts étourdissants
     value: 1.5
     from: 0
     to: 0
   - name: FifthHitStaggerDamage
-    description: The fourth hit in a row deals +150% stagger damage
+    description: Le quatrième coup consécutif inflige +150% de dégâts étourdissants
     value: 2.5
     from: 1
     to: 1

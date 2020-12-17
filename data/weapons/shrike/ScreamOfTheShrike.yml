@@ -1,30 +1,30 @@
-name: Scream of the Shrike
-description: A Slayer's war pike forged with Shrike trophies.
+name: Cri du Shrike
+description: Une aetherolance de Slayer forgée à partir de Shrike.
 icon: /assets/icons/weapons/shrike/ScreamOfTheShrike.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
 elemental: null
-cells: [Technique, Mobility]
+cells: [Technique, Mobilité]
 power:
   0: 40
   1: 120
 perks:
-  - name: Conditioning
+  - name: Constitution
     value: 1
     from: 0
     to: 0
-  - name: Conditioning
+  - name: Constitution
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: DodgePartDamage
-    description: After dodging, your next attack deals +50 bonus damage and part damage
+    description: Après avoir esquivé, votre prochaine attaque inflige +50 dégâts aux membres
     value: 50
     from: 0
     to: 0
   - name: DodgePartDamage
-    description: After dodging, your next attack deals +100 bonus damage and part damage
+    description: Après avoir esquivé, votre prochaine attaque inflige +100 dégâts aux membres
     value: 100
     from: 1
     to: 1

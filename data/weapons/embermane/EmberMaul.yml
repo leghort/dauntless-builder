@@ -1,30 +1,30 @@
-name: Ember Maul
-description: A Slayer's hammer forged with Embermane trophies.
+name: Mâchoire Embermane
+description: Un marteau de Slayer forgé à partir de trophées d'Embermane.
 icon: /assets/icons/weapons/embermane/EmberMaul.png
-type: Hammer
+type: Marteau
 damage: Blunt
-elemental: Blaze
-cells: [Power, Mobility]
+elemental: Incandescant
+cells: [Puissance, Mobilité]
 power:
   0: 20
   1: 120
 perks:
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 1
     from: 0
     to: 0
-  - name: Evasive Fury
+  - name: Furie évasive
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: FifthHitStaggerDamage
-    description: The fourth hit in a row deals +50% stagger damage
+    description: Le quatrième coup consécutif inflige +50% de dégâts étourdissants
     value: 1.5
     from: 0
     to: 0
   - name: FifthHitStaggerDamage
-    description: The fourth hit in a row deals +150% stagger damage
+    description: Le quatrième coup consécutif inflige +150% de dégâts étourdissants
     value: 2.5
     from: 1
     to: 1

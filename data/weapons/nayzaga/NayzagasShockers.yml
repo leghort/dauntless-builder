@@ -1,30 +1,30 @@
-name: Nayzaga's Shockers
-description: A Slayer's aether strikers forged with Nayzaga trophies.
+name: Tasers Nayzaga
+description: Cestes aethériques de Slayers fabriqués à partir de trophées de Nayzaga.
 icon: /assets/icons/weapons/nayzaga/NayzagasShockers.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
-elemental: Shock
-cells: [Technique, Utility]
+elemental: Foudroyant
+cells: [Technique, Utilitaire]
 power:
   0: 40
   1: 120
 perks:
-  - name: Savagery
+  - name: Sauvagerie
     value: 1
     from: 0
     to: 0
-  - name: Savagery
+  - name: Sauvagerie
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: StaggerHeal
-    description: Heal for 100 whenever a Behemoth is staggered.
+    description: Vous soigne de 100 pv chaque fois qu'un Béhémoth est étourdi.
     value: 100
     from: 0
     to: 0
   - name: StaggerHeal
-    description: Heal for 300 whenever a Behemoth is staggered.
+    description: Vous soigne de 300 pv chaque fois qu'un Béhémoth est étourdi.
     value: 300
     from: 1
     to: 1

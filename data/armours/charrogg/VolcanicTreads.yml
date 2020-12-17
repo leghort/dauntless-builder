@@ -1,10 +1,10 @@
-name: Volcanic Treads
-description: Leg and foot protection forged from Charrogg trophies.
+name: Pas volcaniques
+description: Protection pour les jambes et les pieds forgée à partir de Charrogg.
 icon: /assets/icons/armours/charrogg/VolcanicTreads.png
 type: Legs
-strength: Blaze
-weakness: Frost
-cells: Power
+strength: Incandescant
+weakness: Givrant
+cells: Puissance
 resistance:
   0: 10
   1: 30

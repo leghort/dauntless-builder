@@ -1,19 +1,19 @@
-name: Hands of the Rift
-description: Arms protection forged from Riftstalker trophies.
+name: Gantelets de la faille
+description: Une partie d'armure de Slayer forgée à partir de Riftstalker.
 icon: /assets/icons/armours/riftstalker/HandsOfTheRift.png
 type: Arms
-strength: Umbral
+strength: Obscur
 weakness: Radiant
-cells: Mobility
+cells: Mobilité
 resistance:
   0: 15
   1: 30
 perks:
-  - name: Evasion
+  - name: Évasion
     value: 2
     from: 0
     to: 0
-  - name: Evasion
+  - name: Évasion
     value: 3
     from: 1
     to: 1

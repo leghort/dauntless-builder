@@ -1,24 +1,24 @@
-name: Kharabak's Spur
-description: A Slayer's sword forged with Kharabak trophies.
+name: Aiguillon de Kharabak
+description: Une épée de Slayer forgée à partir de Kharabak.
 icon: /assets/icons/weapons/kharabak/KharabaksSpur.png
-type: Sword
+type: Épée
 damage: Slashing
-elemental: Terra
-cells: [Technique, Mobility]
+elemental: Tellurique
+cells: [Technique, Mobilité]
 power:
   0: 40
   1: 120
 perks:
-  - name: Bladestorm
+  - name: Tempête de lames
     value: 1
     from: 0
     to: 0
-  - name: Bladestorm
+  - name: Tempête de lames
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: KharabacBlades
     description: >
-      Once charged, your next attack unleashes whirling blades that deal 50 terra damage. Additional attacks speed
-      up the blades, which explode at the end of the duration and deal damage based on blade speed.
+      Une fois chargée, la prochaine attaque libère des lames troubillonnantes qui infligent 75 points de dégâts Tellurique.
+      Des attaques supplémentaires accélèrent les lames, qui explosent à la fin de leur durée et infligent des dégâts en fonction de la vitesse des lames.

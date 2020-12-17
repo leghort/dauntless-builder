@@ -1,19 +1,19 @@
-name: Dance of the Swarm
-description: Leg and foot protection forged from Kharabak trophies.
+name: Danse de l'essaim
+description: Protection pour les jambes et les pieds forgée à partir de Kharabak.
 icon: /assets/icons/armours/kharabak/DanceOfTheSwarm.png
 type: Legs
-strength: Terra
-weakness: Shock
-cells: Power
+strength: Tellurique
+weakness: Foudroyant
+cells: Puissance
 resistance:
   0: 10
   1: 30
 perks:
-  - name: Conditioning
+  - name: Constitution
     value: 1
     from: 0
     to: 0
-  - name: Conditioning
+  - name: Constitution
     value: 3
     from: 1
     to: 1

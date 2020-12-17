@@ -1,19 +1,19 @@
-name: Dark Embrace
-description: Arms protection forged from Shrowd trophies.
+name: Sombre étreinte
+description: Protection pour les bras de les mains forgée à partir de Shrowd.
 icon: /assets/icons/armours/shrowd/DarkEmbrace.png
 type: Arms
-strength: Umbral
+strength: Obscur
 weakness: Radiant
-cells: Utility
+cells: Utilitaire
 resistance:
   0: 20
   1: 30
 perks:
-  - name: Medic
+  - name: Médecin
     value: 2
     from: 0
     to: 0
-  - name: Medic
+  - name: Médecin
     value: 3
     from: 1
     to: 1

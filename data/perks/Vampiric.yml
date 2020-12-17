@@ -1,23 +1,23 @@
-name: Vampiric
-description: Restores some health whenever a Behemoth part is Wounded.
-type: Utility
+name: Vampirique
+description: Restaure de la vie lorsqu'une partie de Behemoth est mutilée.
+type: Utilitaire
 key: wounded_heal
 effects:
   1:
-    description: Heal for 50 whenever a Behemoth is Wounded
+    description: Après avoir blessé un Behemoth, vous vous soignez de 50
     value: 50
   2:
-    description: Heal for 75 whenever a Behemoth is Wounded
+    description: Après avoir blessé un Behemoth, vous vous soignez de 75
     value: 75
   3:
-    description: Heal for 100 whenever a Behemoth is Wounded
+    description: Après avoir blessé un Behemoth, vous vous soignez de 100
     value: 100
   4:
-    description: Heal for 125 whenever a Behemoth is Wounded
+    description: Après avoir blessé un Behemoth, vous vous soignez de 125
     value: 125
   5:
-    description: Heal for 150 whenever a Behemoth is Wounded
+    description: Après avoir blessé un Behemoth, vous vous soignez de 150
     value: 150
   6:
-    description: Heal for 200 whenever a Behemoth is Wounded
+    description: Après avoir blessé un Behemoth, vous vous soignez de 200
     value: 200

@@ -1,30 +1,30 @@
-name: Sovereign's Sceptres
-description: A Slayer's axe forged with Koshai trophies.
+name: Sceptres du Souverain
+description: Cestes aethériques de Slayers fabriqués à partir de trophées de Koshai.
 icon: /assets/icons/weapons/koshai/SovereignsSceptres.png
-type: Aether Strikers
+type: Cestes Aethériques
 damage: Blunt
-elemental: Terra
-cells: [Power, Utility]
+elemental: Tellurique
+cells: [Puissance, Utilitaire]
 power:
   0: 60
   1: 120
 perks:
-  - name: Sharpened
+  - name: Aiguisé
     value: 2
     from: 0
     to: 0
-  - name: Sharpened
+  - name: Aiguisé
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: NoAttackDamage
-    description: After not dealing damage for 4 seconds, the next 3 attacks deal 50% increased damage.
+    description: Après 4 secondes sans infliger de dégât, les 3 prochaines attaques infligeront + 50% de dégâts
     value: 1.5
     from: 0
     to: 0
   - name: NoAttackDamage
-    description: After not dealing damage for 4 seconds, the next 5 attacks deal 50% increased damage.
+    description: Après 4 secondes sans infliger de dégât, les 5 prochaines attaques infligeront + 50% de dégâts
     value: 1.5
     from: 1
     to: 1

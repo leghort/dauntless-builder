@@ -1,15 +1,15 @@
-name: Weighted Strikes Cell
+name: Frappes lourdes
 slot: Technique
 variants:
-  "+1 Weighted Strikes Cell":
-    rarity: uncommon
+  "Frappes lourdes +1":
+    rarity: commun
     perks:
-      Weighted Strikes: 1
-  "+2 Weighted Strikes Cell":
+      Frappes Lourdes: 1
+  "Frappes lourdes +2":
     rarity: rare
     perks:
-      Weighted Strikes: 2
-  "+3 Weighted Strikes Cell":
-    rarity: epic
+      Frappes Lourdes: 2
+  "Frappes lourdes +3":
+    rarity: épique
     perks:
-      Weighted Strikes: 3
+      Frappes Lourdes: 3

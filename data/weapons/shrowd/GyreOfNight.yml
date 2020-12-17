@@ -1,23 +1,23 @@
-name: Gyre of Night
-description: A Slayer's war pike forged with Shrowd trophies.
+name: Tourbillon nocturne
+description: Une aetherolance de Slayer forgée à partir de Shrowd.
 icon: /assets/icons/weapons/shrowd/GyreOfNight.png
-type: War Pike
+type: Aéthérolance
 damage: Piercing
-elemental: Umbral
-cells: [Technique, Utility]
+elemental: Obscur
+cells: [Technique, Utilitaire]
 power:
   0: 80
   1: 120
 perks:
-  - name: Cunning
+  - name: Frappe critique
     value: 2
     from: 0
     to: 0
-  - name: Cunning
+  - name: Frappe critique
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: LowHpDamage
-    description: When under 20% health, deal +50% damage
+    description: Infligez 50% de dégâts supplémentaires lorsque vous avez moins de 20% de vie
     value: 1.5

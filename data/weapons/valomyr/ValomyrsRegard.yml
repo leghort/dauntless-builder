@@ -1,34 +1,32 @@
-name: Valomyr's Regard
-description: A Slayer's sword forged with Valomyr trophies.
+name: Attention de Valomyr
+description: Une aetherolance de Slayer forgée à partir de Valomyr.
 icon: /assets/icons/weapons/valomyr/ValomyrsRegard.png
-type: Sword
+type: Épée
 damage: Slashing
 elemental: Radiant
-cells: [Power, Utility]
+cells: [Puissance, Utilitaire]
 power:
   0: 60
   1: 120
 perks:
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 2
     from: 0
     to: 0
-  - name: Aetherhunter
+  - name: Chasse-aether
     value: 3
     from: 1
     to: 1
 unique_effects:
   - name: ValomyrCharge
     description: >-
-      Once charged, your next attack will deal 300 bonus radiant damage.
-      Charge rate increases with current health.
+      Une fois chargée, votre prochaine attaque infligera + 300 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
     value: 300
     from: 0
     to: 0
   - name: ValomyrCharge
     description: >-
-      Once charged, your next attack will deal 550 bonus radiant damage.
-      Charge rate increases with current health.
+      Une fois chargée, votre prochaine attaque infligera + 550 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
     value: 550
     from: 1
     to: 1

@@ -1,5 +1,5 @@
-name: Shrikedown Helm
-description: Head protection forged from Shrike trophies.
+name: Casque en duvet Shrike
+description: Protection pour la tête forgée à partir de Shrike.
 icon: /assets/icons/armours/shrike/ShrikedownHelm.png
 type: Head
 strength: null
@@ -9,11 +9,11 @@ resistance:
   0: 20
   1: 30
 perks:
-  - name: Evasion
+  - name: Évasion
     value: 1
     from: 0
     to: 0
-  - name: Evasion
+  - name: Évasion
     value: 3
     from: 1
     to: 1
