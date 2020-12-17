@@ -6,48 +6,25 @@ damage: Blunt
 elemental: Foudroyant
 cells: [Puissance, Utilitaire]
 power:
-  0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  0: 40
+  1: 120
 perks:
   - name: Sauvagerie
     value: 1
     from: 0
-    to: 5
-  - name: Sauvagerie
-    value: 2
-    from: 6
-    to: 9
+    to: 0
   - name: Sauvagerie
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1
 unique_effects:
   - name: StaggerHeal
     description: Après l'étourdissement d'un Behemoth, vous vous soignez de 100
     value: 100
     from: 0
-    to: 5
-  - name: StaggerHeal
-    description: Après l'étourdissement d'un Behemoth, vous vous soignez de 200
-    value: 200
-    from: 6
-    to: 9
+    to: 0
   - name: StaggerHeal
     description: Après l'étourdissement d'un Behemoth, vous vous soignez de 300
     value: 300
-    from: 10
-    to: 15
+    from: 1
+    to: 1

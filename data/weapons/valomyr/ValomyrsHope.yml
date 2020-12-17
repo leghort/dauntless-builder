@@ -6,51 +6,27 @@ damage: Piercing
 elemental: Radiant
 cells: [Puissance, Utilitaire]
 power:
-  0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  0: 60
+  1: 120
 perks:
   - name: Chasse-aether
-    value: 1
-    from: 0
-    to: 5
-  - name: Chasse-aether
     value: 2
-    from: 6
-    to: 9
+    from: 0
+    to: 0
   - name: Chasse-aether
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1
 unique_effects:
   - name: ValomyrCharge
     description: >-
       Une fois chargée, votre prochaine attaque infligera + 300 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
     value: 300
     from: 0
-    to: 5
-  - name: ValomyrCharge
-    description: >-
-      Une fois chargée, votre prochaine attaque infligera + 425 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
-    value: 425
-    from: 6
-    to: 9
+    to: 0
   - name: ValomyrCharge
     description: >-
       Une fois chargée, votre prochaine attaque infligera + 550 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
     value: 550
-    from: 10
-    to: 15
+    from: 1
+    to: 1

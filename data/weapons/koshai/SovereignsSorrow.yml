@@ -6,48 +6,25 @@ damage: Piercing
 elemental: Tellurique
 cells: [Puissance, Utilitaire]
 power:
-  0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  0: 60
+  1: 120
 perks:
   - name: Aiguisé
-    value: 1
-    from: 0
-    to: 5
-  - name: Aiguisé
     value: 2
-    from: 6
-    to: 9
+    from: 0
+    to: 0
   - name: Aiguisé
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1
 unique_effects:
   - name: NoAttackDamage
     description: Après 4 secondes sans infliger de dégât, les 3 prochaines attaques infligent 50% de dégâts.
     value: 1.5
     from: 0
-    to: 5
-  - name: NoAttackDamage
-    description: Après 4 secondes sans infliger de dégât, les 4 prochaines attaques infligent 50% de dégâts.
-    value: 1.5
-    from: 6
-    to: 9
+    to: 0
   - name: NoAttackDamage
     description: Après 4 secondes sans infliger de dégât, les 5 prochaines attaques infligent 50% de dégâts.
     value: 1.5
-    from: 10
-    to: 15
+    from: 1
+    to: 1

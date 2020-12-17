@@ -6,48 +6,25 @@ damage: Cutting
 elemental: Incandescant
 cells: [Puissance, Puissance]
 power:
-  0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  0: 80
+  1: 120
 perks:
   - name: Domination
-    value: 1
-    from: 0
-    to: 5
-  - name: Domination
     value: 2
-    from: 6
-    to: 9
+    from: 0
+    to: 0
   - name: Domination
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1
 unique_effects:
   - name: BlazeDamageOnNthHit
     description: Le cinquième coup consécutif inflige + 75 dégâts et de lourds dégâts de braise
     value: 100
     from: 0
-    to: 5
-  - name: BlazeDamageOnNthHit
-    description: Le cinquième coup consécutif inflige + 150 dégâts et de lourds dégâts de braise
-    value: 175
-    from: 6
-    to: 9
+    to: 0
   - name: BlazeDamageOnNthHit
     description: Le cinquième coup consécutif inflige + 225 dégâts et de lourds dégâts de braise
     value: 250
-    from: 10
-    to: 15
+    from: 1
+    to: 1
