@@ -1,0 +1,32 @@
+name: Fardeau de Valomyr
+description: Un marteau de Slayer forgé à partir de trophées de Valomyr.
+icon: /assets/icons/weapons/valomyr/ValomyrsBurden.png
+type: Marteau
+damage: Blunt
+elemental: Radiant
+cells: [Puissance, Utilitaire]
+power:
+  0: 60
+  1: 120
+perks:
+  - name: Chasse-aether
+    value: 2
+    from: 0
+    to: 0
+  - name: Chasse-aether
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: ValomyrCharge
+    description: >-
+      Une fois chargée, votre prochaine attaque infligera + 300 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
+    value: 300
+    from: 0
+    to: 0
+  - name: ValomyrCharge
+    description: >-
+      Une fois chargée, votre prochaine attaque infligera + 550 dégâts rayonnants. La vitesse de charge augmente en fonction de la santé actuelle
+    value: 550
+    from: 1
+    to: 1

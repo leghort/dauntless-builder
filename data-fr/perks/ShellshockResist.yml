@@ -1,0 +1,23 @@
+name: Résilience
+description: Protège contre les explosions et l'effet de statut « Concussion ».
+type: Défense
+key: shellshock_immunity
+effects:
+  1:
+    description: Réduit les dégâts des concussions et leur durée de 10%
+    value: -0.1
+  2:
+    description: Réduit les dégâts des concussions et leur durée de 20%
+    value: -0.2
+  3:
+    description: Réduit les dégâts des concussions et leur durée de 40%
+    value: -0.4
+  4:
+    description: Réduit les dégâts des concussions et leur durée de 60%
+    value: -0.6
+  5:
+    description: Réduit les dégâts des concussions et leur durée de 80%
+    value: -0.8
+  6:
+    description: Immunité aux dégâts d'explosion et à l'effet de statut « Concussion »
+    value: -1

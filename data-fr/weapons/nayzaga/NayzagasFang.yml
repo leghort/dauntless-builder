@@ -1,0 +1,30 @@
+name: Croc de Nayzaga
+description: Une aetherolance de Slayer forgée à partir de Nayzaga.
+icon: /assets/icons/weapons/nayzaga/NayzagasFang.png
+type: Aéthérolance
+damage: Piercing
+elemental: Foudroyant
+cells: [Technique, Utilitaire]
+power:
+  0: 40
+  1: 120
+perks:
+  - name: Barbelé
+    value: 1
+    from: 0
+    to: 0
+  - name: Barbelé
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: WoundedPartsLifesteal
+    description: +3% de vol de vie sur les membres mutilés
+    value: 1.03
+    from: 0
+    to: 0
+  - name: WoundedPartsLifesteal
+    description: +5% de vol de vie sur les membres mutilés
+    value: 1.05
+    from: 1
+    to: 1

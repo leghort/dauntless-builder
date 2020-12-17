@@ -1,0 +1,19 @@
+name: Galea volcanique
+description: Protection pour la tête forgée à partir de Charrogg.
+icon: /assets/icons/armours/charrogg/VolcanicHelm.png
+type: Head
+strength: Incandescant
+weakness: Givrant
+cells: Défense
+resistance:
+  0: 10
+  1: 30
+perks:
+  - name: Ignifuge
+    value: 1
+    from: 0
+    to: 0
+  - name: Ignifuge
+    value: 3
+    from: 1
+    to: 1

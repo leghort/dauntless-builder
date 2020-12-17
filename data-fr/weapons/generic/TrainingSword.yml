@@ -1,0 +1,9 @@
+name: Épée d'entraînement
+description: Une lame d'entraînement, ternie et abimée.
+icon: /assets/icons/weapons/generic/TrainingSword.png
+type: Épée
+damage: Slashing
+elemental: null
+cells: null
+power:
+  0: 10

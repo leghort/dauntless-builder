@@ -1,0 +1,32 @@
+name: Piège du rôdeur
+description: Une paire de chaînes-lames de Slayer forgée à partir de trophées du Riftstalker.
+icon: /assets/icons/weapons/riftstalker/StalkersTrap.png
+type: Chaînes-lames
+damage: Slashing
+elemental: Obscur
+cells: [Technique, Utilitaire]
+power:
+  0: 60
+  1: 120
+perks:
+  - name: Frénésie Sauvage
+    value: 2
+    from: 0
+    to: 0
+  - name: Frénésie Sauvage
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: DamageShadowOrbs
+    description: >-
+      Infliger des dégâts donne une chance de générer des orbes d'ombre qui confèrent + 1.5% de dégâts pendant 5 secondes. Avec 5 orbes ou plus, le bonus est doublé
+    value: 1.5
+    from: 0
+    to: 0
+  - name: DamageShadowOrbs
+    description: >-
+      Infliger des dégâts donne une chance de générer des orbes d'ombre qui confèrent + 2.25% de dégâts pendant 5 secondes. Avec 5 orbes ou plus, le bonus est doublé
+    value: 2.5
+    from: 1
+    to: 1

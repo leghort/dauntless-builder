@@ -1,0 +1,4 @@
+name: Assaut Sinistre
+icon: /assets/icons/parts/axe/specials/GrimOnslaught.png
+part_effect:
+  - Lancez la hache vers l'avant, infligeant jusqu'à 800 points de dégâts (augmenté par la détermination) aux ennemis sur son passage et gagnant 15 points de jauge en touchant un Behemoth. Rattrapez la hache pour gagner 30 points de jauge.

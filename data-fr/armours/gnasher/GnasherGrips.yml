@@ -1,0 +1,19 @@
+name: Poignée Gnasher
+description: Protection pour les bras et les mains forgée à partir de Gnasher.
+icon: /assets/icons/armours/gnasher/GnasherGrips.png
+type: Arms
+strength: null
+weakness: null
+cells: Puissance
+resistance:
+  0: 10
+  1: 30
+perks:
+  - name: Chasse-rage
+    value: 1
+    from: 0
+    to: 0
+  - name: Chasse-rage
+    value: 3
+    from: 1
+    to: 1

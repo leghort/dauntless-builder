@@ -1,0 +1,17 @@
+name: Jugement de Vulrrogg
+description: Un marteau exotique de Slayer forgée à partir de Charrogg.
+icon: /assets/icons/weapons/charrogg/MoltenEdict.png
+type: Marteau
+damage: Blunt
+elemental: Incandescant
+cells: [Puissance, Défense]
+rarity: exotic
+restrict_specials: true
+power:
+  0: 40
+  1: 120
+unique_effects:
+  - name: HammerBlastFireballs
+    icon: /assets/icons/parts/hammer/specials/MoltenEdict.png
+    description: Remplace tous les tirs de marteau par des capacités uniques infligeant des dégâts de braise.
+    value: 0

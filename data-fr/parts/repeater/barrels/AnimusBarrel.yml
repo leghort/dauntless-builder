@@ -1,0 +1,10 @@
+name: Canon hostile
+description: The Animus Barrel is part of a craftable weapon in Dauntless.
+icon: /assets/icons/parts/repeaters/barrels/AnimusBarrel.png
+elemental: Tellurique
+power:
+  0: 100
+  1: 120
+part_effect:
+  - "Capacité légendaire: [G] pour réanimer tous les Slayers dans un large rayon, leur octroyant du soin dans le temps et une immunité aux étourdissements. Utilisable à terre"
+  - Les tirs et capacités infligent des dégâts telluriques.

@@ -1,0 +1,30 @@
+name: Rasoir de Nayzaga
+description: Une épée de Slayer forgée à partir de Nayzaga.
+icon: /assets/icons/weapons/nayzaga/NayzagasRazor.png
+type: Épée
+damage: Slashing
+elemental: Foudroyant
+cells: [Utilitaire, Mobilité]
+power:
+  0: 40
+  1: 120
+perks:
+  - name: Barbelé
+    value: 1
+    from: 0
+    to: 0
+  - name: Barbelé
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: WoundedPartsLifesteal
+    description: +3% de vol de vie quand une partie de Behemoth est brisée
+    value: 1.03
+    from: 0
+    to: 0
+  - name: WoundedPartsLifesteal
+    description: +5% de vol de vie quand une partie de Behemoth est brisée
+    value: 1.05
+    from: 1
+    to: 1

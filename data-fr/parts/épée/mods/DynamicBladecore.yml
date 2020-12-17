@@ -1,0 +1,4 @@
+name: Coeur de lame dynamique
+icon: /assets/icons/parts/sword/mods/DynamicBladecore.png
+part_effect:
+  - Après avoir utilisé n'importe quel combo de Vaillance, votre prochain combo de Vaillance dans les 5 secondes inflige +30% de dégâts.

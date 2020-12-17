@@ -1,0 +1,5 @@
+name: Prisme accablant
+description: The Searing Prism is part of a craftable weapon in Dauntless.
+icon: /assets/icons/parts/repeaters/prisms/SearingPrism.png
+part_effect:
+  - Le dixième coup consécutif inflige +250 de dégâts et de lourds dégâts de braise.

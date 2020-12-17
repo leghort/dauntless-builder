@@ -1,0 +1,19 @@
+name: Griffes de l'essaim
+description: Protection pour les bras et les mains forgée à partir de Kharabak.
+icon: /assets/icons/armours/kharabak/ClutchesOfTheSwarm.png
+type: Arms
+strength: Tellurique
+weakness: Foudroyant
+cells: Mobilité
+resistance:
+  0: 10
+  1: 30
+perks:
+  - name: Constitution
+    value: 1
+    from: 0
+    to: 0
+  - name: Constitution
+    value: 3
+    from: 1
+    to: 1

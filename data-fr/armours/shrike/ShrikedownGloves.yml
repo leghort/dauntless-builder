@@ -1,0 +1,19 @@
+name: Gant en duvet Shrike
+description: Protection pour les bras de les mains forgée à partir de Shrike.
+icon: /assets/icons/armours/shrike/ShrikedownGloves.png
+type: Arms
+strength: null
+weakness: null
+cells: Mobilité
+resistance:
+  0: 20
+  1: 30
+perks:
+  - name: Frappes Lourdes
+    value: 1
+    from: 0
+    to: 0
+  - name: Frappes Lourdes
+    value: 3
+    from: 1
+    to: 1

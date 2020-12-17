@@ -1,0 +1,23 @@
+name: Crocs de l'aube
+description: Une paire de chaînes-lames de Slayer forgée à partir de Rezakiri.
+icon: /assets/icons/weapons/rezakiri/FangsOfDawn.png
+type: Chaînes-lames
+damage: Slashing
+elemental: Radiant
+cells: [Technique, Puissance]
+power:
+  0: 80
+  1: 120
+perks:
+  - name: Frappe critique
+    value: 2
+    from: 0
+    to: 0
+  - name: Frappe critique
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: HitTwice
+    description: + 10% de chance de frapper deux fois
+    value: 0.1

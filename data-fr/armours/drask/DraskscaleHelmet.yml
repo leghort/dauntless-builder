@@ -1,0 +1,19 @@
+name: Casque en écailles de Drask
+description: Protection pour la tête forgée à partir de Drask.
+icon: /assets/icons/armours/drask/DraskscaleHelmet.png
+type: Head
+strength: Foudroyant
+weakness: Tellurique
+cells: Puissance
+resistance:
+  0: 5
+  1: 30
+perks:
+  - name: Harmonisation aethérée
+    value: 1
+    from: 0
+    to: 0
+  - name: Harmonisation aethérée
+    value: 3
+    from: 1
+    to: 1

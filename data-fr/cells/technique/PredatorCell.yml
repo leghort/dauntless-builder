@@ -1,0 +1,15 @@
+name: Prédatrice
+slot: Technique
+variants:
+  "Prédatrice +1":
+    rarity: commun
+    perks:
+      Prédateur: 1
+  "Prédatrice +2":
+    rarity: rare
+    perks:
+      Prédateur: 2
+  "Prédatrice +3":
+    rarity: épique
+    perks:
+      Prédateur: 3

@@ -1,0 +1,23 @@
+name: Frénésie aethérée
+description: Augmente la vitesse d'attaque lorsque votre vie est faible.
+type: Utilitaire
+key: flat_lantern_charge
+effects:
+  1:
+    description: +3 points de charge de lanterne par coup
+    value: 3
+  2:
+    description: +4 points de charge de lanterne par coup
+    value: 4
+  3:
+    description: +5 points de charge de lanterne par coup
+    value: 5
+  4:
+    description: +7.5 points de charge de lanterne par coup
+    value: 7.5
+  5:
+    description: +10 points de charge de lanterne par coup
+    value: 10
+  6:
+    description: +12.5 points de charge de lanterne par coup
+    value: 12.5

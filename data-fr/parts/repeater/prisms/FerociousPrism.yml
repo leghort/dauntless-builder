@@ -1,0 +1,5 @@
+name: Prisme féroce
+description: The Ferocious Prism is part of a craftable weapon in Dauntless.
+icon: /assets/icons/parts/repeaters/prisms/FerociousPrism.png
+part_effect:
+  - Entrez périodiquement en rage, infligeant +5% de dégâts et gagnez une immunité aux étourdissements. Subir des dégâts vous permet de vous enrager plus rapidement.

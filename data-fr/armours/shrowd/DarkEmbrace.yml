@@ -1,0 +1,19 @@
+name: Sombre étreinte
+description: Protection pour les bras de les mains forgée à partir de Shrowd.
+icon: /assets/icons/armours/shrowd/DarkEmbrace.png
+type: Arms
+strength: Obscur
+weakness: Radiant
+cells: Utilitaire
+resistance:
+  0: 20
+  1: 30
+perks:
+  - name: Médecin
+    value: 2
+    from: 0
+    to: 0
+  - name: Médecin
+    value: 3
+    from: 1
+    to: 1

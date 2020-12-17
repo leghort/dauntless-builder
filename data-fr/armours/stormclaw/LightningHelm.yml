@@ -1,0 +1,19 @@
+name: Casque de tonnerre
+description: Protection pour la tête forgée à partir de Stormclaw.
+icon: /assets/icons/armours/stormclaw/LightningHelm.png
+type: Head
+strength: Foudroyant
+weakness: Tellurique
+cells: Technique
+resistance:
+  0: 20
+  1: 30
+perks:
+  - name: Charge
+    value: 2
+    from: 0
+    to: 0
+  - name: Charge
+    value: 3
+    from: 1
+    to: 1

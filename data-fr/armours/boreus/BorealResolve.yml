@@ -1,0 +1,19 @@
+name: Fermeté boréale
+description: Protection pour le torse forgée à partir de Boreus.
+icon: /assets/icons/armours/boreus/BorealResolve.png
+type: Torso
+strength: Givrant
+weakness: Incandescant
+cells: Défense
+resistance:
+  0: 5
+  1: 30
+perks:
+  - name: Rage
+    value: 1
+    from: 0
+    to: 0
+  - name: Rage
+    value: 3
+    from: 1
+    to: 1

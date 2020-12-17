@@ -1,0 +1,6 @@
+name: Surcharge vengeresse
+icon: /assets/icons/parts/sword/specials/AvengingOverdrive.png
+part_effect:
+  - >-
+    Activez avec une jauge pleine pour entrer en mode Surcharge, gagnat +60-80 de dégâts de zone aux attaques.
+    Réactivez pour parer une attaque de Béhemoth et riposter en infligeant 800 de dégâts en cas de succès, donnant 1 Vaillance en cas de succès (2 secondes de recharge).

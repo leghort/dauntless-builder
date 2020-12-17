@@ -1,0 +1,30 @@
+name: Faux Embermane
+description: Une hache de Slayer forgée à partir de trophées d'Embermane.
+icon: /assets/icons/weapons/embermane/EmberScythe.png
+type: Hache
+damage: Slashing
+elemental: Incandescant
+cells: [Puissance, Mobilité]
+power:
+  0: 20
+  1: 120
+perks:
+  - name: Furie évasive
+    value: 1
+    from: 0
+    to: 0
+  - name: Furie évasive
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: FourthHitBonusDamage
+    description: Le troisièle coup consécutif inflige 100 dégâts aux membres.
+    value: 100
+    from: 0
+    to: 0
+  - name: FourthHitBonusDamage
+    description: Le troisièle coup consécutif inflige 250 dégâts aux membres.
+    value: 250
+    from: 1
+    to: 1

@@ -1,0 +1,19 @@
+name: Allure du Torgadoro
+description: Protection pour les jambes et les pieds forgée à partir de Torgadoro.
+icon: /assets/icons/armours/torgadoro/TorgadorosGait.png
+type: Legs
+strength: Incandescant
+weakness: Givrant
+cells: Puissance
+resistance:
+  0: 25
+  1: 30
+perks:
+  - name: Assommoir
+    value: 2
+    from: 0
+    to: 0
+  - name: Assommoir
+    value: 3
+    from: 1
+    to: 1

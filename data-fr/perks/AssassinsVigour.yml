@@ -1,0 +1,23 @@
+name: Vigueur d'assassin
+description: Régénère de la vie après avoir brisé une partie d'un Behemoth.
+type: Défense
+key: part_break_heal
+effects:
+  1:
+    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 50
+    value: 50
+  2:
+    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 100
+    value: 100
+  3:
+    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 150
+    value: 150
+  4:
+    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 200
+    value: 200
+  5:
+    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 250
+    value: 250
+  6:
+    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 300
+    value: 300

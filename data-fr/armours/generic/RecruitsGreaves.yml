@@ -1,0 +1,9 @@
+name: Grèves de recrue
+description: Protection pour les jambes et les pieds de Slayer novice.
+icon: /assets/icons/armours/generic/RecruitsGreaves.png
+type: Legs
+strength: null
+weakness: null
+cells: null
+resistance:
+  0: 20

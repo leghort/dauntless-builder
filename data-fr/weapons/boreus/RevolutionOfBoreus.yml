@@ -1,0 +1,32 @@
+name: Révolte de Boreus
+description: Une aetherolance de Slayer forgée à partir de Boreus.
+icon: /assets/icons/weapons/boreus/RevolutionOfBoreus.png
+type: Aéthérolance
+damage: Piercing
+elemental: Givrant
+cells: [Puissance, Défense]
+power:
+  0: 20
+  1: 120
+perks:
+  - name: Constitution
+    value: 1
+    from: 0
+    to: 0
+  - name: Constitution
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: BoreusFrostSprite
+    description: >-
+      Emmagasiner ou utiliser des munitions génère continuellement des farfroidets pendant 6 secondes qui ajoutent 30 dégâts chacun à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
+    value: 30
+    from: 0
+    to: 0
+  - name: BoreusFrostSprite
+    description: >-
+      Emmagasiner ou utiliser des munitions génère continuellement des farfroidets pendant 6 secondes qui ajoutent 60 dégâts chacun à votre prochaine attaque et de légers dégâts de givre (4 farfroidets maximum)
+    value: 60
+    from: 1
+    to: 1

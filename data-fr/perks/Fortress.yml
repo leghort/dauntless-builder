@@ -1,0 +1,23 @@
+name: Forteresse
+description: Offre un petit bouclier après avoir évité de prendre des dégâts pendant une courte période.
+type: Défense
+key: not_hit_health_shield
+effects:
+  1:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 10 points
+    value: 10
+  2:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 20 points
+    value: 20
+  3:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 40 points
+    value: 40
+  4:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 60 points
+    value: 60
+  5:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 80 points
+    value: 80
+  6:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 100 points
+    value: 100

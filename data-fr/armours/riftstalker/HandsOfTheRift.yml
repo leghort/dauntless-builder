@@ -1,0 +1,19 @@
+name: Gantelets de la faille
+description: Une partie d'armure de Slayer forgée à partir de Riftstalker.
+icon: /assets/icons/armours/riftstalker/HandsOfTheRift.png
+type: Arms
+strength: Obscur
+weakness: Radiant
+cells: Mobilité
+resistance:
+  0: 15
+  1: 30
+perks:
+  - name: Évasion
+    value: 2
+    from: 0
+    to: 0
+  - name: Évasion
+    value: 3
+    from: 1
+    to: 1

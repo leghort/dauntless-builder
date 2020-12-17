@@ -1,0 +1,22 @@
+name: Cruauté enragée
+description: Une aetherolance de Slayer forgée à partir de Gnasher.
+icon: /assets/icons/weapons/gnasher/RagingCruelty.png
+type: Aéthérolance
+damage: Piercing
+elemental: null
+cells: [Technique, Utilitaire]
+power:
+  0: 20
+  1: 120
+perks:
+  - name: Chasse-rage
+    value: 1
+    from: 0
+    to: 0
+  - name: Chasse-rage
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: GnasherRage
+    description: Entrez périodiquement en rage, infligeant +10% de dégâts et gagnez une immunité aux étourdissements. Subir des dégâts vous permet de vous enrager plus rapidement.

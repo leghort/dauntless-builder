@@ -1,0 +1,28 @@
+name: Tourbillon hivernal
+description: Une aetherolance de Slayer forgée à partir de Skraev.
+icon: /assets/icons/weapons/skraev/WinterVortex.png
+type: Aéthérolance
+damage: Piercing
+elemental: Givrant
+cells: [Technique, Mobilité]
+power:
+  0: 60
+  1: 120
+perks:
+  - name: Évasion légère
+    value: 2
+    from: 0
+    to: 0
+  - name: Évasion légère
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: IceMines
+    description: Après une esquive, déposez 1 mine de glace autour de vous qui inflige 300 dégâts. 30s de recharge
+    from: 0
+    to: 0
+  - name: IceMines
+    description: Après une esquive, déposez 3 mines de glace autour de vous qui infligent 300 dégâts. 30s de recharge
+    from: 1
+    to: 1

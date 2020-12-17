@@ -1,0 +1,30 @@
+name: Cri du Shrike
+description: Une aetherolance de Slayer forgée à partir de Shrike.
+icon: /assets/icons/weapons/shrike/ScreamOfTheShrike.png
+type: Aéthérolance
+damage: Piercing
+elemental: null
+cells: [Technique, Mobilité]
+power:
+  0: 40
+  1: 120
+perks:
+  - name: Constitution
+    value: 1
+    from: 0
+    to: 0
+  - name: Constitution
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: DodgePartDamage
+    description: Après avoir esquivé, votre prochaine attaque inflige +50 dégâts aux membres
+    value: 50
+    from: 0
+    to: 0
+  - name: DodgePartDamage
+    description: Après avoir esquivé, votre prochaine attaque inflige +100 dégâts aux membres
+    value: 100
+    from: 1
+    to: 1

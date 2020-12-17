@@ -1,0 +1,17 @@
+name: Main divine
+description: Une aetherolance exotique de Slayer forgée à partir de Rezakiri.
+icon: /assets/icons/weapons/rezakiri/TheGodhand.png
+type: Aéthérolance
+damage: Piercing
+elemental: Radiant
+cells: [Technique, Puissance]
+rarity: exotic
+restrict_specials: true
+power:
+  0: 80
+  1: 120
+unique_effects:
+  - name: BeamChannelDamage
+    icon: /assets/icons/parts/warpike/specials/TheGodhand.png
+    description: Canalise un rayon infligeant des dégâts croissants suivant la durée de canalisation, jusqu'à 200%
+    value: 3

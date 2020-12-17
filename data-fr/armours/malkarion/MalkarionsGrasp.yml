@@ -1,0 +1,19 @@
+name: Étreinte du Malkarion
+description: Protection pour les bras et les mains forgées à partir de trophées de Malkarion.
+icon: /assets/icons/armours/malkarion/MalkarionsGrasp.png
+type: Arms
+strength: Foudroyant
+weakness: Tellurique
+cells: Technique
+resistance:
+  0: 25
+  1: 30
+perks:
+  - name: Prédateur
+    value: 2
+    from: 0
+    to: 0
+  - name: Prédateur
+    value: 3
+    from: 1
+    to: 1

@@ -1,0 +1,30 @@
+name: Crocs du Sixième Cercle
+description: Une paire de chaînes-lames de Slayer forgée avec des trophées d'Hellion.
+icon: /assets/icons/weapons/hellion/InfernosFangs.png
+type: Chaînes-lames
+damage: Slashing
+elemental: Incandescant
+cells: [Puissance, Puissance]
+power:
+  0: 80
+  1: 120
+perks:
+  - name: Domination
+    value: 2
+    from: 0
+    to: 0
+  - name: Domination
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: BlazeDamageOnNthHit
+    description: Le onzième coup consécutif inflige + 75 dégâts et de lourds dégâts Incandescant
+    value: 100
+    from: 0
+    to: 0
+  - name: BlazeDamageOnNthHit
+    description: Le onzième coup consécutif inflige + 225 dégâts et de lourds dégâts Incandescant
+    value: 250
+    from: 1
+    to: 1

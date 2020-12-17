@@ -1,0 +1,5 @@
+name: Prisme d'engelure
+description: The Frostbite Prism is part of a craftable weapon in Dauntless.
+icon: /assets/icons/parts/repeaters/prisms/FrostbitePrism.png
+part_effect:
+  - Une fois chargées, votre prochaine attaque placera une marque de givre qui infligera 1 000 de dégâts givrants après 30 secondes. Les Slayers peuvent détruire la marque pour la faire exploser prématurément et augmenter ses dégâts de 50%. Se recharges toutes les 90 secondes.

@@ -1,0 +1,19 @@
+name: Sombre voie
+description: Protection pour les jambes et les pieds forgée à partir de Shrowd.
+icon: /assets/icons/armours/shrowd/DarkPath.png
+type: Legs
+strength: Obscur
+weakness: Radiant
+cells: Utilitaire
+resistance:
+  0: 20
+  1: 30
+perks:
+  - name: Lernéen
+    value: 2
+    from: 0
+    to: 0
+  - name: Lernéen
+    value: 3
+    from: 1
+    to: 1

@@ -1,0 +1,32 @@
+name: Tourment de Boreus
+description: Une hache de Slayer forgée à partir de Boreus.
+icon: /assets/icons/weapons/boreus/TurmoilOfBoreus.png
+type: Hache
+damage: Slashing
+elemental: Givrant
+cells: [Puissance, Défense]
+power:
+  0: 20
+  1: 120
+perks:
+  - name: Constitution
+    value: 1
+    from: 0
+    to: 0
+  - name: Constitution
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: BoreusFrostSprite
+    description: >-
+      Après chaque niveau de charge d'attaque, génère un farfroidet qui ajoute 30 de dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
+    value: 30
+    from: 0
+    to: 0
+  - name: BoreusFrostSprite
+    description: >-
+      Après chaque niveau de charge d'attaque, génère un farfroidet qui ajoute 60 de dégâts à votre prochaine attaque et de légers dégâts de givre. Maximum 4 farfroidets.
+    value: 60
+    from: 1
+    to: 1

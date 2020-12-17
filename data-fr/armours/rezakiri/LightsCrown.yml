@@ -1,0 +1,19 @@
+name: Couronne de lumière
+description: Protection pour la tête forgée à partir de Rezakiri.
+icon: /assets/icons/armours/rezakiri/LightsCrown.png
+type: Head
+strength: Radiant
+weakness: Obscur
+cells: Technique
+resistance:
+  0: 20
+  1: 30
+perks:
+  - name: Conduction
+    value: 2
+    from: 0
+    to: 0
+  - name: Conduction
+    value: 3
+    from: 1
+    to: 1

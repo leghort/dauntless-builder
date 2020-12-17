@@ -1,0 +1,30 @@
+name: Briseurs de tempête
+description: Cestes aethériques de Slayer fabriqués à partir de trophées de Stormclaw.
+icon: /assets/icons/weapons/stormclaw/StormBreakers.png
+type: Cestes Aethériques
+damage: Blunt
+elemental: Foudroyant
+cells: [Technique, Mobilité]
+power:
+  0: 80
+  1: 120
+perks:
+  - name: Harmonisation aethérée
+    value: 1
+    from: 0
+    to: 0
+  - name: Harmonisation aethérée
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: DodgeExtendMantra
+    description: Après avoir esquivé une attaque, allonge le délai du mantra de 1 seconde
+    value: 1
+    from: 0
+    to: 0
+  - name: DodgeExtendMantra
+    description: Après avoir esquivé une attaque, allonge le délai du mantra de 3 secondes
+    value: 3
+    from: 1
+    to: 1

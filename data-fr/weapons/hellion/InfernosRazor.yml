@@ -1,0 +1,30 @@
+name: Griffes du Sixième Cercle
+description: Une épée de Slayer forgée à partir de trophées d'Hellion.
+icon: /assets/icons/weapons/hellion/InfernosRazor.png
+type: Épée
+damage: Cutting
+elemental: Incandescant
+cells: [Puissance, Puissance]
+power:
+  0: 80
+  1: 120
+perks:
+  - name: Domination
+    value: 2
+    from: 0
+    to: 0
+  - name: Domination
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: BlazeDamageOnNthHit
+    description: Le huitième coup consécutif inflige + 75 dégâts et de lourds dégâts de braise
+    value: 100
+    from: 0
+    to: 0
+  - name: BlazeDamageOnNthHit
+    description: Le huitième coup consécutif inflige + 225 dégâts et de lourds dégâts de braise
+    value: 250
+    from: 1
+    to: 1

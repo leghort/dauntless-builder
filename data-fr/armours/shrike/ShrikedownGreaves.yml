@@ -1,0 +1,19 @@
+name: Grèves en duvet Shrike
+description: Protection pour les jambes et les pieds forgée à partir de Shrike.
+icon: /assets/icons/armours/shrike/ShrikedownGreaves.png
+type: Legs
+strength: null
+weakness: null
+cells: Mobilité
+resistance:
+  0: 20
+  1: 30
+perks:
+  - name: Coagulation
+    value: 1
+    from: 0
+    to: 0
+  - name: Coagulation
+    value: 3
+    from: 1
+    to: 1

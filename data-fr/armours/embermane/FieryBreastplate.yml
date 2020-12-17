@@ -1,0 +1,19 @@
+name: Plastron ardent
+description: Protection pour le torse forgée à partir de trophées d'Embermane.
+icon: /assets/icons/armours/embermane/FieryBreastplate.png
+type: Torso
+strength: Incandescant
+weakness: Givrant
+cells: Mobilité
+resistance:
+  0: 5
+  1: 30
+perks:
+  - name: Furie évasive
+    value: 1
+    from: 0
+    to: 0
+  - name: Furie évasive
+    value: 3
+    from: 1
+    to: 1

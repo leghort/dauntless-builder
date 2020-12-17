@@ -1,0 +1,23 @@
+name: Appel de l'aube
+description: Un marteau de Slayer forgé à partir de trophées de Rezakiri.
+icon: /assets/icons/weapons/rezakiri/CallOfDawn.png
+type: Épée
+damage: Slashing
+elemental: Radiant
+cells: [Technique, Utilitaire]
+power:
+  0: 80
+  1: 120
+perks:
+  - name: Frappe critique
+    value: 2
+    from: 0
+    to: 0
+  - name: Frappe critique
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: HitTwice
+    description: + 10% de chance de frapper deux fois
+    value: 0.1

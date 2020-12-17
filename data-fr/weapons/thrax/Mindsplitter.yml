@@ -1,0 +1,16 @@
+name: Briseur d'esprit
+description: Une hache de Slayer forgée à partir de Thrax.
+icon: /assets/icons/weapons/thrax/Mindsplitter.png
+type: Hache
+damage: Slashing
+elemental: Obscur
+cells: [Prismatic, Prismatic]
+power:
+  0: 100
+  1: 120
+bond:
+  elemental: Obscur
+unique_effects:
+  - name: ThraxLegendaryAbility
+    icon: /assets/icons/abilities/ThraxLegendaryWeaponAbility.png
+    description: "Capacité légendaire: utilisez [G] pour infliger des dégâts obscurs aux ennemis proches et téléportez-vous haut dans le ciel. Ensuite, choisissez un endroit où vous écraser pour infliger des dégâts obscurs supplémentaires. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."

@@ -1,0 +1,9 @@
+name: Chaînes-lames de recrue
+description: Une paire de chaînes-lames de recrue.
+icon: /assets/icons/weapons/generic/RecruitsChainBlades.png
+type: Chaînes-lames
+damage: Slashing
+elemental: null
+cells: null
+power:
+  0: 10

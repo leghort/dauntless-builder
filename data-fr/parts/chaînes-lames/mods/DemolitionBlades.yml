@@ -1,0 +1,4 @@
+name: Lames de démolition
+icon: /assets/icons/parts/chainblades/mods/DemolitionBlades.png
+part_effect:
+  - Après avoir utilisé un spécial, +100% de dégâts aux objets créés par les Behemoths pendant 6 secondes.

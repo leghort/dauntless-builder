@@ -1,0 +1,4 @@
+name: Chargeur du stratège
+icon: /assets/icons/parts/repeaters/mods/TacticiansMagazine.png
+part_effect:
+  - Un chargeur vide rechargé avec un rechargement aetherochargé réduit le rechargement des deux capacités de 4 secondes.

@@ -1,0 +1,15 @@
+name: Frénésie sauvage
+slot: Technique
+variants:
+  "Frénésie sauvage +1":
+    rarity: commun
+    perks:
+      Frénésie Sauvage: 1
+  "Frénésie sauvage +2":
+    rarity: rare
+    perks:
+      Frénésie Sauvage: 2
+  "Frénésie sauvage +3":
+    rarity: épique
+    perks:
+      Frénésie Sauvage: 3

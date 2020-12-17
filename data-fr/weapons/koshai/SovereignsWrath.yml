@@ -1,0 +1,30 @@
+name: Courroux du souverain
+description: Une hache de Slayer forgée à partir de trophées du Koshai.
+icon: /assets/icons/weapons/koshai/SovereignsWrath.png
+type: Hache
+damage: Slashing
+elemental: Tellurique
+cells: [Puissance, Utilitaire]
+power:
+  0: 60
+  1: 120
+perks:
+  - name: Aiguisé
+    value: 2
+    from: 0
+    to: 0
+  - name: Aiguisé
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: NoAttackDamage
+    description: Après 4 secondes sans infliger de dégât, les 1 prochaines attaques infligeront +50% de dégâts.
+    value: 1.5
+    from: 0
+    to: 0
+  - name: NoAttackDamage
+    description: Après 4 secondes sans infliger de dégât, les 2 prochaines attaques infligeront +50% de dégâts.
+    value: 1.5
+    from: 1
+    to: 1

@@ -1,0 +1,19 @@
+name: Casque ailes de Skraev
+description: Protection pour la tête forgée à partir de Skraev.
+icon: /assets/icons/armours/skraev/SkraevwingHelmet.png
+type: Head
+strength: Givrant
+weakness: Incandescant
+cells: Mobilité
+resistance:
+  0: 15
+  1: 30
+perks:
+  - name: Sprint évasif
+    value: 2
+    from: 0
+    to: 0
+  - name: Sprint évasif
+    value: 3
+    from: 1
+    to: 1

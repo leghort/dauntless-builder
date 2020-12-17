@@ -1,0 +1,30 @@
+name: Marteau tempête
+description: Un marteau de Slayer forgé à partir de trophées de Stormclaw.
+icon: /assets/icons/weapons/stormclaw/StormHammer.png
+type: Marteau
+damage: Blunt
+elemental: Foudroyant
+cells: [Puissance, Mobilité]
+power:
+  0: 80
+  1: 120
+perks:
+  - name: Harmonisation aethérée
+    value: 1
+    from: 0
+    to: 0
+  - name: Harmonisation aethérée
+    value: 3
+    from: 1
+    to: 1
+unique_effects:
+  - name: DodgeReload
+    description: Après avoir esquivé une attaque, rechargez 1 munition aethérochargée
+    value: 1
+    from: 0
+    to: 0
+  - name: DodgeReload
+    description: Après avoir esquivé une attaque, rechargez 3 munitions aethérochargées
+    value: 3
+    from: 1
+    to: 1

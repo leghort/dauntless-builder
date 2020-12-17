@@ -1,0 +1,16 @@
+name: Cruauté éléctrique
+description: Une paire de chaînes-lames légendaires forgée avec les trophées Malkarion.
+icon: /assets/icons/weapons/malkarion/ElectricCruelties.png
+type: Chaînes-lames
+damage: Slashing
+elemental: Foudroyant
+cells: [Prismatic, Prismatic]
+power:
+  0: 100
+  1: 120
+bond:
+  elemental: Foudroyant
+unique_effects:
+  - name: MalkarionLegendaryAbility
+    icon: /assets/icons/abilities/MalkarionLegendaryWeaponAbility.png
+    description: "Capacité légendaire : utilisez [G] pour vous téléporter à un Behemoth, infligeant des dégâts foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."

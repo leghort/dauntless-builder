@@ -1,0 +1,19 @@
+name: Cuirasse infernale
+description: Protection pour le torse forgée à partir de trophées d'Hellion.
+icon: /assets/icons/armours/hellion/HellplateCuirass.png
+type: Torso
+strength: Incandescant
+weakness: Givrant
+cells: Technique
+resistance:
+  0: 20
+  1: 30
+perks:
+  - name: Fondu
+    value: 2
+    from: 0
+    to: 0
+  - name: Fondu
+    value: 3
+    from: 1
+    to: 1

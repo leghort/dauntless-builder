@@ -1,0 +1,19 @@
+name: Âme du Malkarion
+description: Protection pour le torse forgée à partir de Malkarion.
+icon: /assets/icons/armours/malkarion/MalkarionsSoul.png
+type: Torso
+strength: Foudroyant
+weakness: Tellurique
+cells: Technique
+resistance:
+  0: 25
+  1: 30
+perks:
+  - name: Chasse-aether
+    value: 2
+    from: 0
+    to: 0
+  - name: Chasse-aether
+    value: 3
+    from: 1
+    to: 1
