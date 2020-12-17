@@ -6,25 +6,48 @@ damage: Slashing
 elemental: Foudroyant
 cells: [Puissance, Mobilité]
 power:
-  0: 80
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 perks:
   - name: Charge
     value: 1
     from: 0
-    to: 0
+    to: 5
+  - name: Charge
+    value: 2
+    from: 6
+    to: 9
   - name: Charge
     value: 3
-    from: 1
-    to: 1
+    from: 10
+    to: 15
 unique_effects:
   - name: DodgeMeterGain
     description: Après avoir esquivé une attaque, vos attaques génèrent 100% de jauge supplémentaire pendant +3 secondes
     value: 100
     from: 0
-    to: 0
+    to: 5
+  - name: DodgeMeterGain
+    description: Après avoir esquivé une attaque, vos attaques génèrent 100% de jauge supplémentaire pendant +4 secondes
+    value: 100
+    from: 6
+    to: 9
   - name: DodgeMeterGain
     description: Après avoir esquivé une attaque, vos attaques génèrent 100% de jauge supplémentaire pendant +5 secondes
     value: 100
-    from: 1
-    to: 1
+    from: 10
+    to: 15

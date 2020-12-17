@@ -6,17 +6,35 @@ damage: Slashing
 elemental: Obscur
 cells: [Puissance, Utilitaire]
 power:
-  0: 80
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 perks:
   - name: Frappe critique
-    value: 2
+    value: 1
     from: 0
-    to: 0
+    to: 5
+  - name: Frappe critique
+    value: 2
+    from: 6
+    to: 9
   - name: Frappe critique
     value: 3
-    from: 1
-    to: 1
+    from: 10
+    to: 15
 unique_effects:
   - name: LowHpDamage
     description: Infligez 50% de dégâts supplémentaires lorsque vous avez moins de 20% de vie

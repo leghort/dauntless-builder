@@ -6,26 +6,49 @@ damage: Slashing
 elemental: null
 cells: [Mobilité, Mobilité]
 power:
-  0: 40
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 perks:
   - name: Constitution
     value: 1
     from: 0
-    to: 0
+    to: 5
+  - name: Constitution
+    value: 2
+    from: 6
+    to: 9
   - name: Constitution
     value: 3
-    from: 1
-    to: 1
+    from: 10
+    to: 15
 unique_effects:
   - name: DodgePartDamage
     description: Après avoir esquivé, votre prochaine attaque inflige +50 dégâts de base et dégâts aux membres
     value: 50
     from: 0
-    to: 0
+    to: 5
+  - name: DodgePartDamage
+    description: Après avoir esquivé, votre prochaine attaque inflige +75 dégâts de base et dégâts aux membres
+    value: 75
+    from: 6
+    to: 9
   - name: DodgePartDamage
     description: Après avoir esquivé, votre prochaine attaque inflige +100 dégâts de base et dégâts aux membres
     value: 100
-    from: 1
-    to: 1
+    from: 10
+    to: 15
 

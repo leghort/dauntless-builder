@@ -7,10 +7,23 @@ elemental: Foudroyant
 cells: [Prismatic, Prismatic]
 power:
   0: 100
-  1: 120
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 bond:
   elemental: Foudroyant
 unique_effects:
   - name: MalkarionLegendaryAbility
-    icon: /assets/icons/abilities/MalkarionLegendaryWeaponAbility.png
     description: "Capacité légendaire : utilisez [G] pour vous téléporter à un Behemoth, infligeant des dégâts foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."

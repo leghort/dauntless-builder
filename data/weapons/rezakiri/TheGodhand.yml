@@ -8,10 +8,23 @@ cells: [Technique, Puissance]
 rarity: exotic
 restrict_specials: true
 power:
-  0: 80
-  1: 120
+  0: 100
+  1: 140
+  2: 180
+  3: 220
+  4: 260
+  5: 300
+  6: 340
+  7: 380
+  8: 420
+  9: 460
+  10: 500
+  11: 510
+  12: 520
+  13: 530
+  14: 540
+  15: 550
 unique_effects:
   - name: BeamChannelDamage
-    icon: /assets/icons/parts/warpike/specials/TheGodhand.png
     description: Canalise un rayon infligeant des dégâts croissants suivant la durée de canalisation, jusqu'à 200%
     value: 3
