@@ -1,15 +1,15 @@
-name: Médecin
-slot: Utilitaire
+name: Medic Cell
+slot: Utility
 variants:
-  "Médecin +1":
-    rarity: commun
+  "+1 Medic Cell":
+    rarity: uncommon
     perks:
-      Médecin: 1
-  "Médecin +2":
+      Medic: 1
+  "+2 Medic Cell":
     rarity: rare
     perks:
-      Médecin: 2
-  "Médecin +3":
-    rarity: épique
+      Medic: 2
+  "+3 Medic Cell":
+    rarity: epic
     perks:
-      Médecin: 3
+      Medic: 3

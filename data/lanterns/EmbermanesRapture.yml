@@ -1,7 +1,7 @@
-name: Embuscade de l'Embermane
+name: Embermane's Rapture
 icon: /assets/icons/lanterns/EmbermanesRapture.png
 description: null
-cells: Utilitaire
+cells: Utility
 lantern_ability:
-  instant: 	Augmente la vitesse d'attaque de 25% pendant 8 secondes.
-  hold: Génère une boule de feu devant vous qui explose après 5 secondes, infligeant 850 points de dégâts de braise aux ennemis proches.
+  instant: 	Attack 25% faster for 8 seconds.
+  hold: Create a fire ball in front of you that explodes after 5 seconds, dealing 850 Blaze damage to all nearby Behemoths.

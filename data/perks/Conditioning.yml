@@ -1,23 +1,23 @@
-name: Constitution
-description: Augmente La régénération d'endurance.
-type: Mobilité
+name: Conditioning
+description: Increases Stamina Regen.
+type: Mobility
 key: stamina_regen
 effects:
   1:
-    description: +5 à la régénération d'Endurance
+    description: +5 Stamina Regeneration
     value: 5
   2:
-    description: +10 à la régénération d'Endurance
+    description: +10 Stamina Regeneration
     value: 10
   3:
-    description: +15 à la régénération d'Endurance
+    description: +15 Stamina Regeneration
     value: 15
   4:
-    description: +20 à la régénération d'Endurance
+    description: +20 Stamina Regeneration
     value: 20
   5:
-    description: +25 à la régénération d'Endurance
+    description: +25 Stamina Regeneration
     value: 25
   6:
-    description: +30 à la régénération d'Endurance
+    description: +30 Stamina Regeneration
     value: 30

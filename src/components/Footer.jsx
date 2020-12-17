@@ -20,18 +20,18 @@ export default class Footer extends React.Component {
                 </a>
             </span>
             <span className="footer-link">
-                <a href="https://github.com/leghort/dauntless-builder/tree/french-hardcoded" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/atomicptr/dauntless-builder" target="_blank" rel="noopener noreferrer">
                     <span className="icon"><i className="fab fa-github"></i></span>Github
                 </a>
             </span>
             <span className="footer-link">
-                <a href="https://github.com/leghort/dauntless-builder/issues" target="_blank" rel="noopener noreferrer">
-                    <span className="icon"><i className="fas fa-comment"></i></span>Faire un retour
+                <a href="https://github.com/atomicptr/dauntless-builder/issues" target="_blank" rel="noopener noreferrer">
+                    <span className="icon"><i className="fas fa-comment"></i></span>Feedback
                 </a>
             </span>
             <span className="footer-link">
                 <Link to="/privacy">
-                    <span className="icon"><i className="far fa-eye"></i></span>Vie privée
+                    <span className="icon"><i className="far fa-eye"></i></span>Privacy
                 </Link>
             </span>
         </div>;

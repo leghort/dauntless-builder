@@ -1,15 +1,15 @@
-name: Stratège
-slot: Défense
+name: Strategist Cell
+slot: Defence
 variants:
-  "Stratège +1":
-    rarity: commun
+  "+1 Strategist Cell":
+    rarity: uncommon
     perks:
-      Stratège: 1
-  "Stratège +2":
+      Strategist: 1
+  "+2 Strategist Cell":
     rarity: rare
     perks:
-      Stratège: 2
-  "Stratège +3":
-    rarity: épique
+      Strategist: 2
+  "+3 Strategist Cell":
+    rarity: epic
     perks:
-      Stratège: 3
+      Strategist: 3

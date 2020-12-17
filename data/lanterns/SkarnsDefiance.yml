@@ -1,7 +1,7 @@
-name: Défiance du Skarn
+name: Skarn's Defiance
 icon: /assets/icons/lanterns/SkarnsDefiance.png
 description: null
-cells: Utilitaire
+cells: Utility
 lantern_ability:
-  instant: Accorde un bouclier de 250 points pendant 6 secondes.
-  hold: Vous entoure de rochers tourbillonants infligeant un total de 900 points de dégâts telluriques en 10 secondes aux ennemis proches.
+  instant: Grants a 250 hit point shield for 6 seconds.
+  hold: Surrounds the slayer in swirling stone that deals 900 Terra damage to nearby enemies over 10 seconds.

@@ -1,15 +1,15 @@
-name: Guérisseur
-slot: Utilitaire
+name: Mender Cell
+slot: Utility
 variants:
-  "Guérisseur +1":
-    rarity: commun
+  "+1 Mender Cell":
+    rarity: uncommon
     perks:
-      Guérisseur: 1
-  "Guérisseur +2":
+      Mender: 1
+  "+2 Mender Cell":
     rarity: rare
     perks:
-      Guérisseur: 2
-  "Guérisseur +3":
-    rarity: épique
+      Mender: 2
+  "+3 Mender Cell":
+    rarity: epic
     perks:
-      Guérisseur: 3
+      Mender: 3

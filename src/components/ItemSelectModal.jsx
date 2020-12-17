@@ -17,20 +17,22 @@ export default class ItemSelectModal extends React.Component {
         this.state = {
             open: !!this.props.isOpen,
             searchQuery: "",
+            elementFilter: null,
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: {value: "épique", label: "Épique"},
+            rarityFilter: {value: "epic", label: "Epic"},
             levelPickerValue: null
         };
 
         this.defaultState = {
             open: false,
             searchQuery: "",
+            elementFilter: null,
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: {value: "épique", label: "Épique"},
+            rarityFilter: {value: "epic", label: "Epic"},
             levelPickerValue: null
         };
     }
@@ -102,7 +104,7 @@ export default class ItemSelectModal extends React.Component {
             return this.props.data.filterOptions.__itemLevel;
         }
 
-        return 15;
+        return 1;
     }
 
     getAvailableItems(ignoredFilters = []) {
@@ -224,6 +226,15 @@ export default class ItemSelectModal extends React.Component {
             });
         }
 
+        if(this.isType(["Weapon", "Armour"]) && this.state.elementFilter && this.state.elementFilter.value) {
+            filters.push({
+                //weapon has the elemental prop, armour has the strength prop
+                field: this.isType("Weapon") ? "elemental" : "strength",
+                //convert Neutral back to null so that the comparison works
+                value: this.state.elementFilter.value === "Neutral" ? null : this.state.elementFilter.value
+            });
+        }
+
         if(this.isType("Weapon") && this.state.weaponTypeFilter && this.state.weaponTypeFilter.value) {
             filters.push({
                 field: "type",
@@ -257,6 +268,11 @@ export default class ItemSelectModal extends React.Component {
         return filters;
     }
 
+    getElementOptions() {
+        const elements = ["Blaze", "Frost", "Neutral", "Radiant", "Shock", "Terra", "Umbral" ];
+        return elements.sort().map(element => ({value: element, label: element}));
+    }
+
     getPerkOptions() {
         let perks = Object.keys(this.props.itemData.perks).map(perk => {
             return {value: perk, label: perk};
@@ -270,7 +286,7 @@ export default class ItemSelectModal extends React.Component {
     }
 
     getSlotOptions() {
-        const slots = ["Défense", "Mobilité", "Puissance", "Technique", "Utilitaire"];
+        const slots = ["Defence", "Mobility", "Power", "Technique", "Utility"];
 
         return slots.filter(slot => {
             let items = this.getAvailableItems(["cells"]);
@@ -301,7 +317,7 @@ export default class ItemSelectModal extends React.Component {
                         autoFocus={window.innerWidth >= 700}
                         className="input"
                         type="text"
-                        placeholder="Recherche..."
+                        placeholder="Search..."
                         value={this.state.searchQuery}
                         onChange={e => this.setState({searchQuery: e.target.value})} />
                     <span className="icon is-small is-left">
@@ -332,10 +348,25 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="weaponTypeFilter" className="field">
                     <Select
-                        placeholder="Type d'arme..."
+                        placeholder="Filter by weapon type..."
                         onChange={weaponType => this.setState({weaponTypeFilter: weaponType})}
                         value={this.state.weaponTypeFilter}
                         options={options} />
+                </div>
+            );
+        }
+
+        const elementOptions = this.getElementOptions();
+        const isRepeater = this.state.weaponTypeFilter !== null && this.state.weaponTypeFilter.value === "Repeater";
+        // armor or weapon that isn't repeater
+        if(this.isType("Armour") || (this.isType("Weapon") && !isRepeater)) {
+            fields.push(
+                <div key="elementFilter" className="field is-hidden-touch">
+                    <Select
+                        placeholder="Filter by element..."
+                        onChange={element => this.setState({elementFilter: element})}
+                        value={this.state.elementFilter}
+                        options={elementOptions} />
                 </div>
             );
         }
@@ -346,7 +377,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="perkFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Effets..."
+                        placeholder="Filter by perk..."
                         onChange={perk => this.setState({perkFilter: perk})}
                         value={this.state.perkFilter}
                         options={perkOptions} />
@@ -360,7 +391,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="slotFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Type de cellule..."
+                        placeholder="Filter by cell slot..."
                         onChange={slot => this.setState({slotFilter: slot})}
                         value={this.state.slotFilter}
                         options={slotOptions} />
@@ -373,10 +404,10 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="rarityFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Rareté..."
+                        placeholder="Filter by rarity..."
                         onChange={rarity => this.setState({rarityFilter: rarity})}
                         value={this.state.rarityFilter}
-                        options={["Commun", "Rare", "Épique"].map(
+                        options={["Uncommon", "Rare", "Epic"].map(
                             rarity => ({value: rarity.toLowerCase(), label: rarity}))} />
                 </div>
             );
@@ -455,7 +486,7 @@ export default class ItemSelectModal extends React.Component {
 
         if(items.length === 0) {
             items.push(
-                <div key="no-item-found" className="no-item-found">Aucun élément trouvé.</div>
+                <div key="no-item-found" className="no-item-found">No items found matching your filter options.</div>
             );
         }
 
@@ -481,9 +512,9 @@ export default class ItemSelectModal extends React.Component {
                                 className="button"
                                 onClick={() =>
                                     this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
-                                Aucun(e)&nbsp;<strong>{this.props.data.filterOptions.__itemType}</strong>.
+                                Select&nbsp;<strong>No {this.props.data.filterOptions.__itemType}</strong>.
                             </button>
-                            <button className="button" onClick={() => this.onClose()}>❌</button>
+                            <button className="button" onClick={() => this.onClose()}>Cancel</button>
                         </div>
                     </footer>
                 </div>

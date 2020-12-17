@@ -1,15 +1,15 @@
-name: Ingénieur
-slot: Utilitaire
+name: Engineer Cell
+slot: Utility
 variants:
-  "Ingénieur +1":
-    rarity: commun
+  "+1 Engineer Cell":
+    rarity: uncommon
     perks:
-      Ingénieur: 1
-  "Ingénieur +2":
+      Engineer: 1
+  "+2 Engineer Cell":
     rarity: rare
     perks:
-      Ingénieur: 2
-  "Ingénieur +3":
-    rarity: épique
+      Engineer: 2
+  "+3 Engineer Cell":
+    rarity: epic
     perks:
-      Ingénieur: 3
+      Engineer: 3

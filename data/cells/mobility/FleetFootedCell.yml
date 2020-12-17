@@ -1,15 +1,15 @@
-name: Sprint évasif
-slot: Mobilité
+name: Fleet Footed Cell
+slot: Mobility
 variants:
-  "Sprint évasif +1":
-    rarity: commun
+  "+1 Fleet Footed Cell":
+    rarity: uncommon
     perks:
-      Sprint évasif: 1
-  "Sprint évasif +2":
+      Fleet Footed: 1
+  "+2 Fleet Footed Cell":
     rarity: rare
     perks:
-      Sprint évasif: 2
-  "Sprint évasif +3":
-    rarity: épique
+      Fleet Footed: 2
+  "+3 Fleet Footed Cell":
+    rarity: epic
     perks:
-      Sprint évasif: 3
+      Fleet Footed: 3

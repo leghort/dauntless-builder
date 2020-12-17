@@ -1,29 +1,18 @@
-name: Réalités fracturées
-description: Cestes aethériques de Slayers fabriqués à partir de trophées de Thrax.
+name: Fractured Realities
+description: A Slayer's aether strikers forged with Thrax trophies.
 icon: /assets/icons/weapons/thrax/FracturedRealities.png
-type: Cestes Aethériques
+type: Aether Strikers
 damage: Blunt
-elemental: Obscur
+elemental: Umbral
 cells: [Prismatic, Prismatic]
 power:
   0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  1: 120
 bond:
-  elemental: Obscur
+  elemental: Umbral
 unique_effects:
   - name: ThraxLegendaryAbility
-    description: "Capacité légendaire: utilisez [G] pour infliger des dégâts obscurs aux ennemis proches et téléportez-vous haut dans le ciel. Ensuite, choisissez un endroit où vous écraser pour infliger des dégâts obscurs supplémentaires. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."
+    icon: /assets/icons/abilities/ThraxLegendaryWeaponAbility.png
+    description: >-
+      Legendary Ability: Deal umbral damage to nearby enemies and teleport high into the sky. Then choose a spot
+      to slam down on to, dealing additional umbral damage. Usable once, but resets on Behemoth kill.

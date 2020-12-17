@@ -1,37 +1,19 @@
-name: Plastron de tonnerre
-description: Protection pour le torse forgée à partir de Stormclaw.
+name: Lightning Plate
+description: Torso protection forged from Stormclaw trophies.
 icon: /assets/icons/armours/stormclaw/LightningPlate.png
 type: Torso
-strength: Foudroyant
-weakness: Tellurique
-cells: Mobilité
+strength: Shock
+weakness: Terra
+cells: Mobility
 resistance:
-  0: 25
-  1: 35
-  2: 45
-  3: 55
-  4: 65
-  5: 75
-  6: 85
-  7: 95
-  8: 105
-  9: 115
-  10: 125
-  11: 127.5
-  12: 130
-  13: 132.5
-  14: 135
-  15: 137.5
+  0: 20
+  1: 30
 perks:
-  - name: Charge
-    value: 1
-    from: 0
-    to: 5
-  - name: Charge
+  - name: Energized
     value: 2
-    from: 6
-    to: 9
-  - name: Charge
+    from: 0
+    to: 0
+  - name: Energized
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1

@@ -1,23 +1,23 @@
-name: Conduction
-description: La capacité maintenue de la lanterne octroie temporairement de la vitesse d'attaque à tous les Slayers.
-type: Utilitaire
+name: Conduit
+description: Using a Lantern's hold ability increases all Slayers' attack speed temporarily.
+type: Utility
 key: attack_speed_all_slayers
 effects:
   1:
-    description: Utiliser votre capacité maintenue de lanterne octroie +4% de vitesse d'attaque à tous les Slayers pendant 10 secondes.
+    description: Using your lantern hold ability grants 4% attack speed to all Slayers for 10 seconds.
     value: 1.04
   2:
-    description: Utiliser votre capacité maintenue de lanterne octroie +6% de vitesse d'attaque à tous les Slayers pendant 10 secondes.
+    description: Using your lantern hold ability grants 6% attack speed to all Slayers for 10 seconds.
     value: 1.06
   3:
-    description: Utiliser votre capacité maintenue de lanterne octroie +8% de vitesse d'attaque à tous les Slayers pendant 10 secondes.
+    description: Using your lantern hold ability grants 8% attack speed to all Slayers for 10 seconds.
     value: 1.08
   4:
-    description: Utiliser votre capacité maintenue de lanterne octroie +10% de vitesse d'attaque à tous les Slayers pendant 10 secondes.
+    description: Using your lantern hold ability grants 10% attack speed to all Slayers for 10 seconds.
     value: 1.1
   5:
-    description: Utiliser votre capacité maintenue de lanterne octroie +12.5% de vitesse d'attaque à tous les Slayers pendant 10 secondes.
+    description: Using your lantern hold ability grants 12.5% attack speed to all Slayers for 10 seconds.
     value: 1.125
   6:
-    description: Utiliser votre capacité maintenue de lanterne octroie +15% de vitesse d'attaque à tous les Slayers pendant 10 secondes.
+    description: Using your lantern hold ability grants 15% attack speed to all Slayers for 10 seconds.
     value: 1.15

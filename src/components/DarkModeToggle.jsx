@@ -28,12 +28,12 @@ export default class DarkModeToggle extends React.Component {
 
         if(isDarkMode) {
             return <a className="dropdown-item" onClick={() => this.setTheme("light")} title="Dark Mode">
-                <i className="fas fa-sun"></i> Thème &quot;claire&quot;
+                <i className="fas fa-sun"></i> Use &quot;Light&quot; Mode
             </a>;
         }
 
         return <a className="dropdown-item" onClick={() => this.setTheme("dark")} title="Dark Mode">
-            <i className="fas fa-moon"></i> Thème &quot;sombre&quot;
+            <i className="fas fa-moon"></i> Enable &quot;Dark&quot; Mode
         </a>;
     }
 }

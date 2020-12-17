@@ -55,22 +55,22 @@ export default class AppContainer extends React.Component {
         return <React.Fragment>
             <Helmet>
                 <title>Dauntless Builder</title>
-                <meta name="description" content="Créez et partagez des builds Dauntless avec vos amis!" />
+                <meta name="description" content="Create and share Dauntless builds with your friends!" />
 
                 <meta property="og:site_name" content="Dauntless Builder" />
                 <meta property="og:title" content="Dauntless Builder" />
-                <meta property="og:description" content="Créez et partagez des builds Dauntless avec vos amis!" />
-                <meta property="og:url" content="https://www.dauntless-builder.fr" />
-                <meta property="og:image" content="https://www.dauntless-builder.fr/assets/icon.png" />
+                <meta property="og:description" content="Create and share Dauntless builds with your friends!" />
+                <meta property="og:url" content="https://www.dauntless-builder.com" />
+                <meta property="og:image" content="https://www.dauntless-builder.com/assets/icon.png" />
 
                 <script type='application/ld+json'>{`
                     {
                         "@context": "http://www.schema.org",
                         "@type": "WebSite",
                         "name": "Dauntless Builder",
-                        "description": "Créez et partagez des builds Dauntless avec vos amis!",
-                        "image": "https://www.dauntless-builder.fr/assets/icon.png",
-                        "url": "https://www.dauntless-builder.fr"
+                        "description": "Create and share Dauntless builds with your friends!",
+                        "image": "https://www.dauntless-builder.com/assets/icon.png",
+                        "url": "https://www.dauntless-builder.com"
                     }
                 `}</script>
             </Helmet>

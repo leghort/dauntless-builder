@@ -19,7 +19,7 @@ export default class Repeater extends React.Component {
 
     getTotalPower() {
         // non modular repeaters get normal level numbers
-        if (this.props.item.name !== "Répéteurs") {
+        if (this.props.item.name !== "Repeater") {
             return this.props.item.power[this.props.level];
         }
 
@@ -27,9 +27,6 @@ export default class Repeater extends React.Component {
 
         const fields = [
             ["barrels", "part1"],
-            ["chambers", "part2"],
-            ["grips", "part3"],
-            ["prisms", "part4"]
         ];
 
         for(let field of fields) {
@@ -61,7 +58,7 @@ export default class Repeater extends React.Component {
 
     renderPart(partType, fieldPrefix) {
         // non modular repeaters shouldn't have parts
-        if (this.props.item.name !== "Répéteurs") {
+        if (this.props.item.name !== "Repeater") {
             return null;
         }
 
@@ -82,9 +79,9 @@ export default class Repeater extends React.Component {
                         <i className="fas fa-question no-item-icon"></i>
                         <div className="item-data">
                             <h3 className="subtitle">
-                                Aucun(e) <strong>{partType.capitalize().substring(0, partType.length - 1)}</strong> selectionné.
+                                No <strong>{partType.capitalize().substring(0, partType.length - 1)}</strong> selected.
                             </h3>
-                            <div>Cliquez pour séléctionner un(e) {partType.capitalize().substring(0, partType.length - 1)}.</div>
+                            <div>Click here to select one.</div>
                         </div>
                     </div>
                 </div>
@@ -97,7 +94,7 @@ export default class Repeater extends React.Component {
     }
 
     render() {
-        const name = this.props.item.name === "Répéteurs" ? "Répéteurs" : this.props.item.name;
+        const name = this.props.item.name === "Repeater" ? "Ostian Repeaters" : this.props.item.name;
 
         return <React.Fragment>
             <div className="item-title-wrapper">
@@ -108,7 +105,7 @@ export default class Repeater extends React.Component {
                         <div className="item-data">
                             <h3 className="item-title">{name} {ItemUtility.levelString(this.props.level)}</h3>
                             <div className="stat-data">
-                                <strong>Puissance</strong>: {this.getTotalPower()}
+                                <strong>Power</strong>: {this.getTotalPower()}
                             </div>
                         </div>
                     </div>

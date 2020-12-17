@@ -1,23 +1,23 @@
-name: Adrénaline
-description: Augmente les dégâts infligés en fonction de l'endurance dépensée.
+name: Adrenaline
+description: Increases damage dealt based on stamina spent.
 type: Technique
-key: AdrénalineDamage
+key: AdrenalineDamage
 effects:
   1:
-    description: Donne +0.3% de dégâts par tranche de 10 Endurance manquante.
+    description: Grants +0.3% increased damage for every 10 stamina missing.
     value: 1.003
   2:
-    description: Donne +0.6% de dégâts par tranche de 10 Endurance manquante.
+    description: Grants +0.6% increased damage for every 10 stamina missing.
     value: 1.006
   3:
-    description: Donne +0.9% de dégâts par tranche de 10 Endurance manquante.
+    description: Grants +0.9% increased damage for every 10 stamina missing.
     value: 1.009
   4:
-    description: Donne +1.2% de dégâts par tranche de 10 Endurance manquante.
+    description: Grants +1.2% increased damage for every 10 stamina missing.
     value: 1.012
   5:
-    description: Donne +1.5% de dégâts par tranche de 10 Endurance manquante.
+    description: Grants +1.5% increased damage for every 10 stamina missing.
     value: 1.015
   6:
-    description: Donne +1.8% de dégâts par tranche de 10 Endurance manquante.
+    description: Grants +1.8% increased damage for every 10 stamina missing.
     value: 1.018

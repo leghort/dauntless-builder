@@ -1,15 +1,15 @@
-name: Forteresse +3
-slot: Défense
+name: Fortress Cell
+slot: Defence
 variants:
-  "Forteresse +1":
-    rarity: commun
+  "+1 Fortress Cell":
+    rarity: uncommon
     perks:
-      Forteresse: 1
-  "Forteresse +2":
+      Fortress: 1
+  "+2 Fortress Cell":
     rarity: rare
     perks:
-      Forteresse: 2
-  "Forteresse +3":
-    rarity: épique
+      Fortress: 2
+  "+3 Fortress Cell":
+    rarity: epic
     perks:
-      Forteresse: 3
+      Fortress: 3

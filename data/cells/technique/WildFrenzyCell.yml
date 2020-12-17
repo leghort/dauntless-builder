@@ -1,15 +1,15 @@
-name: Frénésie sauvage
+name: Wild Frenzy Cell
 slot: Technique
 variants:
-  "Frénésie sauvage +1":
-    rarity: commun
+  "+1 Wild Frenzy Cell":
+    rarity: uncommon
     perks:
-      Frénésie Sauvage: 1
-  "Frénésie sauvage +2":
+      Wild Frenzy: 1
+  "+2 Wild Frenzy Cell":
     rarity: rare
     perks:
-      Frénésie Sauvage: 2
-  "Frénésie sauvage +3":
-    rarity: épique
+      Wild Frenzy: 2
+  "+3 Wild Frenzy Cell":
+    rarity: epic
     perks:
-      Frénésie Sauvage: 3
+      Wild Frenzy: 3

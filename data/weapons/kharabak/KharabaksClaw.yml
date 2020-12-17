@@ -1,42 +1,24 @@
-name: Griffe de Kharabak
-description: Une hache de Slayer forgée à partir de Kharabak.
+name: Kharabak's Claw
+description: A Slayer's axe forged with Kharabak trophies.
 icon: /assets/icons/weapons/kharabak/KharabaksClaw.png
-type: Hache
+type: Axe
 damage: Slashing
-elemental: Tellurique
-cells: [Puissance, Technique]
+elemental: Terra
+cells: [Power, Technique]
 power:
-  0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  0: 40
+  1: 120
 perks:
-  - name: Démolition
+  - name: Deconstruction
     value: 1
     from: 0
-    to: 5
-  - name: Démolition
-    value: 2
-    from: 6
-    to: 9
-  - name: Démolition
+    to: 0
+  - name: Deconstruction
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1
 unique_effects:
   - name: KharabacBlades
     description: >
-      Une fois chargée, la prochaine attaque libère des lames troubillonnantes qui infligent 50 points de dégâts Tellurique.
-      Des attaques supplémentaires accélèrent les lames, qui explosent à la fin de leur durée et infligent des dégâts en fonction de la vitesse des lames.
+      Once charged, your next attack unleashes whirling blades that deal 75 terra damage. Additional attacks speed
+      up the blades, which explode at the end of the duration and deal damage based on blade speed.

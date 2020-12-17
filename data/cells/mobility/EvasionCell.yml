@@ -1,15 +1,15 @@
-name: Évasion améliorée
-slot: Mobilité
+name: Evasion Cell
+slot: Mobility
 variants:
-  "Évasion améliorée +1":
-    rarity: commun
+  "+1 Evasion Cell":
+    rarity: uncommon
     perks:
-      Évasion: 1
-  "Évasion améliorée +2":
+      Evasion: 1
+  "+2 Evasion Cell":
     rarity: rare
     perks:
-      Évasion: 2
-  "Évasion améliorée +3":
-    rarity: épique
+      Evasion: 2
+  "+3 Evasion Cell":
+    rarity: epic
     perks:
-      Évasion: 3
+      Evasion: 3

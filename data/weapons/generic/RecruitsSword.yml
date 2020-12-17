@@ -1,10 +1,9 @@
-name: Épée de recrue
-description: Une simple lame pour combattre des Behemoths.
+name: Recruit's Sword
+description: A Simple blade for slaying behemoths.
 icon: /assets/icons/weapons/generic/RecruitsSword.png
-type: Épée
+type: Sword
 damage: Slashing
 elemental: null
 cells: null
 power:
-  0: 80
-  1: 100
+  0: 10

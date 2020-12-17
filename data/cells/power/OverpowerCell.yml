@@ -1,15 +1,15 @@
-name: Domination
-slot: Puissance
+name: Overpower Cell
+slot: Power
 variants:
-  "Domination +1":
-    rarity: commun
+  "+1 Overpower Cell":
+    rarity: uncommon
     perks:
-      Domination: 1
-  "Domination +2":
+      Overpower: 1
+  "+2 Overpower Cell":
     rarity: rare
     perks:
-      Domination: 2
-  "Domination +3":
-    rarity: épique
+      Overpower: 2
+  "+3 Overpower Cell":
+    rarity: epic
     perks:
-      Domination: 3
+      Overpower: 3

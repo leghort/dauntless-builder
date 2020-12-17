@@ -1,15 +1,15 @@
-name: Isolante
-slot: Défense
+name: Insulated Cell
+slot: Defence
 variants:
-  "Isolante +1":
-    rarity: commun
+  "+1 Insulated Cell":
+    rarity: uncommon
     perks:
-      Isolant: 1
-  "Isolante +2":
+      Insulated: 1
+  "+2 Insulated Cell":
     rarity: rare
     perks:
-      Isolant: 2
-  "Isolante +3":
-    rarity: épique
+      Insulated: 2
+  "+3 Insulated Cell":
+    rarity: epic
     perks:
-      Isolant: 3
+      Insulated: 3

@@ -1,24 +1,10 @@
-name: Canon fantasmagorique
+name: Eldritch Barrel
 description: The Eldritch Barrel is part of a craftable weapon in Dauntless.
 icon: /assets/icons/parts/repeaters/barrels/EldritchBarrel.png
-elemental: Obscur
+elemental: Umbral
 power:
-  0: 28
-  1: 39
-  2: 50
-  3: 61
-  4: 72
-  5: 83
-  6: 94
-  7: 105
-  8: 116
-  9: 127
-  10: 138
-  11: 141
-  12: 144
-  13: 147
-  14: 150
-  15: 153
+  0: 100
+  1: 120
 part_effect:
-  - "Capacité légendaire: utilisez [G] pour infliger des dégâts obscurs aux ennemis proches et téléportez-vous haut dans le ciel. Ensuite, choisissez un endroit où vous écraser pour infliger des dégâts obscurs supplémentaires. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."
-  - Les tirs et capacités infligent des dégâts obscurs.
+  - "Legendary Ability: Deal umbral damage to nearby enemies and teleport high into the sky. Then choose a spot to slam down on to, dealing additional umbral damage. Usable once, but resets on Behemoth kill."
+  - Shots and abilities deal umbral damage.

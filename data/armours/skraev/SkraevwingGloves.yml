@@ -1,37 +1,19 @@
-name: Gants ailes de Skraev
-description: Protection pour les bras et les mains forgée à partir de Skraev.
+name: Skraevwing Gloves
+description: Arms protection forged from Skraev trophies.
 icon: /assets/icons/armours/skraev/SkraevwingGloves.png
 type: Arms
-strength: Givrant
-weakness: Incandescant
-cells: Mobilité
+strength: Frost
+weakness: Blaze
+cells: Mobility
 resistance:
-  0: 25
-  1: 35
-  2: 45
-  3: 55
-  4: 65
-  5: 75
-  6: 85
-  7: 95
-  8: 105
-  9: 115
-  10: 125
-  11: 127.5
-  12: 130
-  13: 132.5
-  14: 135
-  15: 137.5
+  0: 15
+  1: 30
 perks:
-  - name: Chauffe
-    value: 1
-    from: 0
-    to: 5
-  - name: Chauffe
+  - name: Warmth
     value: 2
-    from: 6
-    to: 9
-  - name: Chauffe
+    from: 0
+    to: 0
+  - name: Warmth
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1

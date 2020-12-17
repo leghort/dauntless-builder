@@ -99,7 +99,7 @@ export default class BondSelectModal extends React.Component {
 
         if(items.length === 0) {
             items.push(
-                <div key="no-item-found" className="no-item-found">Aucun élément trouvé.</div>
+                <div key="no-item-found" className="no-item-found">No items found matching your filter options.</div>
             );
         }
 
@@ -117,9 +117,9 @@ export default class BondSelectModal extends React.Component {
                                 className="button"
                                 onClick={() =>
                                     this.onBondItemSelected(null, "")}>
-                                Aucun(e)&nbsp;<strong>Lien</strong>.
+                                Select&nbsp;<strong>No Bond Weapon</strong>.
                             </button>
-                            <button className="button" onClick={() => this.onClose()}>❌</button>
+                            <button className="button" onClick={() => this.onClose()}>Cancel</button>
                         </div>
                     </footer>
                 </div>

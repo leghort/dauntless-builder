@@ -1,24 +1,10 @@
-name: Répéteurs
-description: Une paire d'armes à feu modulaires et alimentées en aether conçues spécialement pour les Slayers.
+name: Repeater
+description: An Ostian Repeater.
 icon: /assets/icons/weapons/generic/Repeater.png
 type: Repeater
 damage: Slashing
 elemental: null
-cells: [Technique, Mobilité]
+cells: [ Technique, Mobility ]
 power:
-  0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  0: 0
+  1: 120

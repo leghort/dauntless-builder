@@ -1,15 +1,15 @@
-name: Discipline
-slot: Puissance
+name: Discipline Cell
+slot: Power
 variants:
-  "Discipline +1":
-    rarity: commun
+  "+1 Discipline Cell":
+    rarity: uncommon
     perks:
       Discipline: 1
-  "Discipline +2":
+  "+2 Discipline Cell":
     rarity: rare
     perks:
       Discipline: 2
-  "Discipline +3":
-    rarity: épique
+  "+3 Discipline Cell":
+    rarity: epic
     perks:
       Discipline: 3

@@ -1,15 +1,15 @@
-name: Jouvence aethérée
-slot: Utilitaire
+name: Aetherborne Cell
+slot: Utility
 variants:
-  "Jouvence aethérée +1":
-    rarity: commun
+  "+1 Aetherborne Cell":
+    rarity: uncommon
     perks:
-      Jouvence aethérée: 1
-  "Jouvence aethérée +2":
+      Aetherborne: 1
+  "+2 Aetherborne Cell":
     rarity: rare
     perks:
-      Jouvence aethérée: 2
-  "Jouvence aethérée +3":
-    rarity: épique
+      Aetherborne: 2
+  "+3 Aetherborne Cell":
+    rarity: epic
     perks:
-      Jouvence aethérée: 3
+      Aetherborne: 3

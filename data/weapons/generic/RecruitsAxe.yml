@@ -1,10 +1,9 @@
-name: Hache de recrue
-description: Une hache de recrue.
+name: Recruit's Axe
+description: A Slayer Recruit's axe.
 icon: /assets/icons/weapons/generic/RecruitsAxe.png
-type: Hache
+type: Axe
 damage: Slashing
 elemental: null
 cells: null
 power:
-  0: 80
-  1: 100
+  0: 10

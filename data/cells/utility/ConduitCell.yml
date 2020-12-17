@@ -1,15 +1,15 @@
-name: Conduction
-slot: Utilitaire
+name: Conduit Cell
+slot: Utility
 variants:
-  "Conduction +1":
-    rarity: commun
+  "+1 Conduit Cell":
+    rarity: uncommon
     perks:
-      Conduction: 1
-  "Conduction +2":
+      Conduit: 1
+  "+2 Conduit Cell":
     rarity: rare
     perks:
-      Conduction: 2
-  "Conduction +3":
-    rarity: épique
+      Conduit: 2
+  "+3 Conduit Cell":
+    rarity: epic
     perks:
-      Conduction: 3
+      Conduit: 3

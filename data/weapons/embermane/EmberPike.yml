@@ -1,53 +1,30 @@
-name: Glaive Embermane
-description: Une aetherolance de Slayer forgée à partir de trophées d'Embermane
+name: Ember Pike
+description: A Slayer's war pike forged with Embermane trophies.
 icon: /assets/icons/weapons/embermane/EmberPike.png
-type: Aéthérolance
+type: War Pike
 damage: Piercing
-elemental: Incandescant
-cells: [Technique, Mobilité]
+elemental: Blaze
+cells: [Technique, Mobility]
 power:
-  0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  0: 20
+  1: 120
 perks:
-  - name: Furie évasive
+  - name: Evasive Fury
     value: 1
     from: 0
-    to: 5
-  - name: Furie évasive
-    value: 2
-    from: 6
-    to: 9
-  - name: Furie évasive
+    to: 0
+  - name: Evasive Fury
     value: 3
-    from: 10
-    to: 15
+    from: 1
+    to: 1
 unique_effects:
   - name: SeventhHitWoundDamage
-    description: Le septième coup consécutif inflige +100 points de dégâts mutilants supplémentaires
+    description: The sixth hit in a row deals +100 wound damage
     value: 100
     from: 0
-    to: 5
+    to: 0
   - name: SeventhHitWoundDamage
-    description: Le septième coup consécutif inflige +200 points de dégâts mutilants supplémentaires
-    value: 200
-    from: 6
-    to: 9
-  - name: SeventhHitWoundDamage
-    description: Le septième coup consécutif inflige +300 points de dégâts mutilants supplémentaires
+    description: The sixth hit in a row deals +300 wound damage
     value: 300
-    from: 10
-    to: 15
+    from: 1
+    to: 1

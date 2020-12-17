@@ -1,47 +1,47 @@
-name: Luminescent
-description: La flasque soigne au cours du temps et charge la lanterne.
-type: Utilitaire
+name: Lucent
+description: Flask heals over time and generates lantern charge.
+type: Utility
 key: [increased_healing, flat_lantern_charge]
 effects:
   1:
     description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 8 de charge lanterne cheque seconde,
+      Your Flask heals over 20 seconds, but for 20% increased healing.
+      While this heal is active, generate 8 Lantern Charge each second.,
       null
     ]
     value: [1.2, 8]
   2:
     description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 16 de charge lanterne cheque seconde,
+      Your Flask heals over 20 seconds, but for 20% increased healing.
+      While this heal is active, generate 16 Lantern Charge each second.,
       null
     ]
     value: [1.2, 16]
   3:
     description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 25 de charge lanterne cheque seconde,
+      Your Flask heals over 20 seconds, but for 20% increased healing.
+      While this heal is active, generate 25 Lantern Charge each second.,
       null
     ]
     value: [1.2, 25]
   4:
     description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 37.5 de charge lanterne cheque seconde,
+      Your Flask heals over 20 seconds, but for 20% increased healing.
+      While this heal is active, generate 37.5 Lantern Charge each second.,
       null
     ]
     value: [1.2, 37.5]
   5:
     description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 50 de charge lanterne cheque seconde,
+      Your Flask heals over 20 seconds, but for 20% increased healing.
+      While this heal is active, generate 50 Lantern Charge each second.,
       null
     ]
     value: [1.2, 50]
   6:
     description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 75 de charge lanterne cheque seconde,
+      Your Flask heals over 20 seconds, but for 20% increased healing.
+      While this heal is active, generate 75 Lantern Charge each second.,
       null
     ]
     value: [1.2, 75]

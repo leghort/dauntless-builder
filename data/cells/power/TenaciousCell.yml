@@ -1,15 +1,15 @@
-name: Tenace
-slot: Puissance
+name: Tenacious Cell
+slot: Power
 variants:
-  "Tenace +1 ":
-    rarity: commun
+  "+1 Tenacious Cell":
+    rarity: uncommon
     perks:
-      Tenace: 1
-  "Tenace +2 ":
+      Tenacious: 1
+  "+2 Tenacious Cell":
     rarity: rare
     perks:
-      Tenace: 2
-  "Tenace +3 ":
-    rarity: épique
+      Tenacious: 2
+  "+3 Tenacious Cell":
+    rarity: epic
     perks:
-      Tenace: 3
+      Tenacious: 3

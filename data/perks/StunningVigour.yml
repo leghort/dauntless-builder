@@ -1,23 +1,23 @@
-name: Vigueur étourdissante
-description: Restaure de la vie lorsqu'un Behemoth est étourdi.
-type: Utilitaire
+name: Stunning Vigour
+description: Restores some health whenever a Behemoth is staggered.
+type: Utility
 key: stagger_heal
 effects:
   1:
-    description: Après l'étourdissement d'un Behemoth, vous soignez de 50
+    description: Heal for 50 whenever a Behemoth is Staggered
     value: 50
   2:
-    description: Après l'étourdissement d'un Behemoth, vous soignez de 75
+    description: Heal for 75 whenever a Behemoth is Staggered
     value: 75
   3:
-    description: Après l'étourdissement d'un Behemoth, vous soignez de 100
+    description: Heal for 100 whenever a Behemoth is Staggered
     value: 100
   4:
-    description: Après l'étourdissement d'un Behemoth, vous soignez de 125
+    description: Heal for 125 whenever a Behemoth is Staggered
     value: 125
   5:
-    description: Après l'étourdissement d'un Behemoth, vous soignez de 150
+    description: Heal for 150 whenever a Behemoth is Staggered
     value: 150
   6:
-    description: Après l'étourdissement d'un Behemoth, vous soignez de 200
+    description: Heal for 200 whenever a Behemoth is Staggered
     value: 200

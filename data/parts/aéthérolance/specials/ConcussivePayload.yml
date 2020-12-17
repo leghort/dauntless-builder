@@ -1,4 +1,0 @@
-name: Charge à concussion
-icon: /assets/icons/parts/warpike/specials/ConcussivePayload.png
-part_effect:
-  - Appuyez pour convertir votre jauge en munitions. Maintenez pour dépenser des munitions et tirer un missile qui peut interrompre les Behemoths, infligeant jusqu'à 750 points de dégâts suivant la qualité des munitions.

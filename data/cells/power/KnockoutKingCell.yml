@@ -1,15 +1,15 @@
-name: Assommoir
-slot: Puissance
+name: Knockout King Cell
+slot: Power
 variants:
-  "Assommoir +1":
-    rarity: commun
+  "+1 Knockout King Cell":
+    rarity: uncommon
     perks:
-      Assommoir: 1
-  "Assommoir +2":
+      Knockout King: 1
+  "+2 Knockout King Cell":
     rarity: rare
     perks:
-      Assommoir: 2
-  "Assommoir +3":
-    rarity: épique
+      Knockout King: 2
+  "+3 Knockout King Cell":
+    rarity: epic
     perks:
-      Assommoir: 3
+      Knockout King: 3

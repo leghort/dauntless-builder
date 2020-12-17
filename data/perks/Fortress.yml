@@ -1,23 +1,23 @@
-name: Forteresse
-description: Offre un petit bouclier après avoir évité de prendre des dégâts pendant une courte période.
-type: Défense
+name: Fortress
+description: Grants a small shield after avoiding damage for a short time.
+type: Defence
 key: not_hit_health_shield
 effects:
   1:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 10 points
+    description: Grants a 10 health shield after not getting hit for 10s
     value: 10
   2:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 20 points
+    description: Grants a 20 health shield after not getting hit for 10s
     value: 20
   3:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 40 points
+    description: Grants a 40 health shield after not getting hit for 10s
     value: 40
   4:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 60 points
+    description: Grants a 60 health shield after not getting hit for 10s
     value: 60
   5:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 80 points
+    description: Grants a 80 health shield after not getting hit for 10s
     value: 80
   6:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 100 points
+    description: Grants a 100 health shield after not getting hit for 10s
     value: 100

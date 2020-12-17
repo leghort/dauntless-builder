@@ -1,15 +1,15 @@
-name: Chauffante
-slot: Défense
+name: Warmth Cell
+slot: Defence
 variants:
-  "Chauffante +1":
-    rarity: commun
+  "+1 Warmth Cell":
+    rarity: uncommon
     perks:
-      Chauffe: 1
-  "Chauffante +2":
+      Warmth: 1
+  "+2 Warmth Cell":
     rarity: rare
     perks:
-      Chauffe: 2
-  "Chauffante +3":
-    rarity: épique
+      Warmth: 2
+  "+3 Warmth Cell":
+    rarity: epic
     perks:
-      Chauffe: 3
+      Warmth: 3

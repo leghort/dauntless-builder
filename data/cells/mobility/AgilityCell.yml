@@ -1,15 +1,15 @@
-name: Agilité
-slot: Mobilité
+name: Agility Cell
+slot: Mobility
 variants:
-  "Agilité +1":
-    rarity: commun
+  "+1 Agility Cell":
+    rarity: uncommon
     perks:
-      Agilité: 1
-  "Agilité +2":
+      Agility: 1
+  "+2 Agility Cell":
     rarity: rare
     perks:
-      Agilité: 2
-  "Agilité +3":
-    rarity: épique
+      Agility: 2
+  "+3 Agility Cell":
+    rarity: epic
     perks:
-      Agilité: 3
+      Agility: 3

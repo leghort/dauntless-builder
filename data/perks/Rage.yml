@@ -1,23 +1,23 @@
 name: Rage
-description: Augmente vos dégâts lorsque votre vie est faible.
-type: Puissance
+description: Increases your damage when your health is low.
+type: Power
 key: Rage
 effects:
   1:
-    description: Infligez +5% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
+    description: When under 50% health, deal +5% damage
     value: 1.05
   2:
-    description: Infligez +8% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
+    description: When under 50% health, deal +8% damage
     value: 1.08
   3:
-    description: Infligez +12% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
+    description: When under 50% health, deal +12% damage
     value: 1.12
   4:
-    description: Infligez +16% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
+    description: When under 50% health, deal +16% damage
     value: 1.16
   5:
-    description: Infligez +20% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
+    description: When under 50% health, deal +20% damage
     value: 1.2
   6:
-    description: Infligez +25% de dégâts supplémentaires lorsque vous avez moins de 50% de vie
+    description: When under 50% health, deal +25% damage
     value: 1.25

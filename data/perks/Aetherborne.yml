@@ -1,23 +1,23 @@
-name: Jouvence aethérée
-description: Augmente les avantages liés à l'utilisation des puits d'aether.
-type: Utilitaire
+name: Aetherborne
+description: Increases the benefits of using aether vents.
+type: Utility
 key: [aether_vent_not_used, aether_vent_bonus_heal]
 effects:
   1:
-    description: [Offre 25% de chance de na pas consommer de charge de puits.À l'utilisation d'un puit d'aether, donne + 25 de soin.]
+    description: [25% chance not to consume an Aether Vent charge on use, 25 additional Aether Vent healing]
     value: [0.25, 25]
   2:
-    description: [Offre 25% de chance de na pas consommer de charge de puits.À l'utilisation d'un puit d'aether, donne + 50 de soin.]
+    description: [25% chance not to consume an Aether Vent charge on use, 50 additional Aether Vent healing]
     value: [0.25, 50]
   3:
-    description: [Offre 25% de chance de na pas consommer de charge de puits.À l'utilisation d'un puit d'aether, donne + 75 de soin.]
+    description: [25% chance not to consume an Aether Vent charge on use, 75 additional Aether Vent healing]
     value: [0.25, 75]
   4:
-    description: [Offre 25% de chance de na pas consommer de charge de puits.À l'utilisation d'un puit d'aether, donne + 100 de soin.]
+    description: [25% chance not to consume an Aether Vent charge on use, 100 additional Aether Vent healing]
     value: [0.25, 100]
   5:
-    description: [Offre 25% de chance de na pas consommer de charge de puits.À l'utilisation d'un puit d'aether, donne + 150 de soin.]
+    description: [25% chance not to consume an Aether Vent charge on use, 150 additional Aether Vent healing]
     value: [0.25, 150]
   6:
-    description: [Offre 25% de chance de na pas consommer de charge de puits.À l'utilisation d'un puit d'aether, donne + 200 de soin.]
+    description: [25% chance not to consume an Aether Vent charge on use, 200 additional Aether Vent healing]
     value: [0.25, 200]

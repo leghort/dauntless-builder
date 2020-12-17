@@ -1,15 +1,15 @@
-name: Rage
-slot: Puissance
+name: Rage Cell
+slot: Power
 variants:
-  "Rage +1":
-    rarity: commun
+  "+1 Rage Cell":
+    rarity: uncommon
     perks:
       Rage: 1
-  "Rage +2":
+  "+2 Rage Cell":
     rarity: rare
     perks:
       Rage: 2
-  "Rage +3":
-    rarity: épique
+  "+3 Rage Cell":
+    rarity: epic
     perks:
       Rage: 3

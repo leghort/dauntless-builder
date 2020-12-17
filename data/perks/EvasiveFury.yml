@@ -1,23 +1,23 @@
-name: Furie évasive
-description: Augmente temporairement la vitesse d'attaque après une esquive parfaite.
+name: Evasive Fury
+description: Temporarily increases attack speed when dodging through a Behemoth's attack.
 type: Technique
 key: dodge_attack_speed
 effects:
   1:
-    description: Après avoir esquivé une attaque, gagnez +7.5% de vitesse d'attaque pendant 16 secondes
+    description: +7.5% Attack Speed for 16 seconds after dodging through an attack
     value: 0.075
   2:
-    description: Après avoir esquivé une attaque, gagnez +10% de vitesse d'attaque pendant 16 secondes
+    description: +10% Attack Speed for 16 seconds after dodging through an attack
     value: 0.1
   3:
-    description: Après avoir esquivé une attaque, gagnez +12.5% de vitesse d'attaque pendant 16 secondes
+    description: +12.5% Attack Speed for 16 seconds after dodging through an attack
     value: 0.125
   4:
-    description: Après avoir esquivé une attaque, gagnez +15% de vitesse d'attaque pendant 16 secondes
+    description: +15% Attack Speed for 16 seconds after dodging through an attack
     value: 0.15
   5:
-    description: Après avoir esquivé une attaque, gagnez +17.5% de vitesse d'attaque pendant 16 secondes
+    description: +17.5% Attack Speed for 16 seconds after dodging through an attack
     value: 0.175
   6:
-    description: Après avoir esquivé une attaque, gagnez +20% de vitesse d'attaque pendant 16 secondes
+    description: +20% Attack Speed for 16 seconds after dodging through an attack
     value: 0.2

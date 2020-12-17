@@ -1,15 +1,15 @@
-name: Aiguisée
-slot: Puissance
+name: Sharpened Cell
+slot: Power
 variants:
-  "Aiguisée +1":
-    rarity: commun
+  "+1 Sharpened Cell":
+    rarity: uncommon
     perks:
-      Aiguisé: 1
-  "Aiguisée +2":
+      Sharpened: 1
+  "+2 Sharpened Cell":
     rarity: rare
     perks:
-      Aiguisé: 2
-  "Aiguisée +3":
-    rarity: épique
+      Sharpened: 2
+  "+3 Sharpened Cell":
+    rarity: epic
     perks:
-      Aiguisé: 3
+      Sharpened: 3

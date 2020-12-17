@@ -1,15 +1,15 @@
-name: Chasse-rage
-slot: Puissance
+name: Ragehunter Cell
+slot: Power
 variants:
-  "Chasse-rage +1":
-    rarity: commun
+  "+1 Ragehunter Cell":
+    rarity: uncommon
     perks:
-      Chasse-rage: 1
-  "Chasse-rage +2":
+      Ragehunter: 1
+  "+2 Ragehunter Cell":
     rarity: rare
     perks:
-      Chasse-rage: 2
-  "Chasse-rage +3":
-    rarity: épique
+      Ragehunter: 2
+  "+3 Ragehunter Cell":
+    rarity: epic
     perks:
-      Chasse-rage: 3
+      Ragehunter: 3

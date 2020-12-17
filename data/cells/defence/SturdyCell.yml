@@ -1,15 +1,15 @@
-name: Stabilisante
-slot: Défense
+name: Sturdy Cell
+slot: Defence
 variants:
-  "Stabilisante +1":
-    rarity: commun
+  "+1 Sturdy Cell":
+    rarity: uncommon
     perks:
-      Stabilité: 1
-  "Stabilisante +2":
+      Sturdy: 1
+  "+2 Sturdy Cell":
     rarity: rare
     perks:
-      Stabilité: 2
-  "Stabilisante +3":
-    rarity: épique
+      Sturdy: 2
+  "+3 Sturdy Cell":
+    rarity: epic
     perks:
-      Stabilité: 3
+      Sturdy: 3

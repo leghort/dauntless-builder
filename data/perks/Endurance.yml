@@ -1,23 +1,23 @@
 name: Endurance
-description: Augmente l'endurance maximale.
-type: Mobilité
+description: Increases Max Stamina.
+type: Mobility
 key: max_stamina
 effects:
   1:
-    description: Augmente l'endurance maximale de 10
+    description: Increases Max Stamina by 10
     value: 10
   2:
-    description: Augmente l'endurance maximale de 20
+    description: Increases Max Stamina by 20
     value: 20
   3:
-    description: Augmente l'endurance maximale de 40
+    description: Increases Max Stamina by 40
     value: 40
   4:
-    description: Augmente l'endurance maximale de 60
+    description: Increases Max Stamina by 60
     value: 60
   5:
-    description: Augmente l'endurance maximale de 80
+    description: Increases Max Stamina by 80
     value: 80
   6:
-    description: Augmente l'endurance maximale de 100
+    description: Increases Max Stamina by 100
     value: 100

@@ -1,4 +1,0 @@
-name: Fil du rasoir
-icon: /assets/icons/parts/sword/mods/KeenEdge.png
-part_effect:
-  - Aprés qu'un projectile de «Déferlement de lame» ait parcouru une courte distance, les dégâts sont augmentés de 100%.

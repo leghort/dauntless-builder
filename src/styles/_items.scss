@@ -53,11 +53,11 @@
                 }
             }
 
-            &.commun {
+            &.uncommon {
                 &:hover, img {
                     color: white;
-                    border-color: $rarity-commun-color;
-                    background: $rarity-commun-color;
+                    border-color: $rarity-uncommon-color;
+                    background: $rarity-uncommon-color;
                 }
             }
 
@@ -69,11 +69,11 @@
                 }
             }
 
-            &.épique {
+            &.epic {
                 &:hover, img {
                     color: white;
-                    border-color: $rarity-épique-color;
-                    background: $rarity-épique-color;
+                    border-color: $rarity-epic-color;
+                    background: $rarity-epic-color;
                 }
             }
 

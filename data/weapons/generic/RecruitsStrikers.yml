@@ -1,9 +1,9 @@
-name: Cestes de recrue
-description: Une simple paire de cestes aetheriques pour abattre des Behemoths.
+name: Recruit's Strikers
+description: A simple pair of aether strikers for slaying Behemoths.
 icon: /assets/icons/weapons/generic/RecruitsStrikers.png
-type: Cestes Aethériques
+type: Aether Strikers
 damage: Blunt
 elemental: null
 cells: null
 power:
-  0: 80
+  0: 10

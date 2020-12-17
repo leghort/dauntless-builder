@@ -1,15 +1,15 @@
-name: Parasite
-slot: Défense
+name: Parasitic Cell
+slot: Defence
 variants:
-  "Parasite +1":
-    rarity: commun
+  "+1 Parasitic Cell":
+    rarity: uncommon
     perks:
-      Parasite: 1
-  "Parasite +2":
+      Parasitic: 1
+  "+2 Parasitic Cell":
     rarity: rare
     perks:
-      Parasite: 2
-  "Parasite +3":
-    rarity: épique
+      Parasitic: 2
+  "+3 Parasitic Cell":
+    rarity: epic
     perks:
-      Parasite: 3
+      Parasitic: 3

@@ -1,15 +1,15 @@
-name: Grâce
-slot: Mobilité
+name: Grace Cell
+slot: Mobility
 variants:
-  "Grâce +1":
-    rarity: commun
+  "+1 Grace Cell":
+    rarity: uncommon
     perks:
-      Grâce: 1
-  "Grâce +2":
+      Grace: 1
+  "+2 Grace Cell":
     rarity: rare
     perks:
-      Grâce: 2
-  "Grâce +3":
-    rarity: épique
+      Grace: 2
+  "+3 Grace Cell":
+    rarity: epic
     perks:
-      Grâce: 3
+      Grace: 3

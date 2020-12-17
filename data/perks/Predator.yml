@@ -1,23 +1,23 @@
-name: Prédateur
-description: Augmente les dégâts infligés après ne pas avoir été touché pendant une courte période.
+name: Predator
+description: Increases damage after avoiding damage for a short time.
 type: Technique
-key: EffectPrédateur
+key: EffectPredator
 effects:
   1:
-    description: Infligez 4% de dégâts supplémentaires après ne pas avoir été touché pendant 15 secondes. Ce bonus est perdu après avoir été touché.
+    description: Deal 4% increased damage after not getting hit for 15 seconds. Bonus removed when hit.
     value: 1.04
   2:
-    description: Infligez 8% de dégâts supplémentaires après ne pas avoir été touché pendant 15 secondes. Ce bonus est perdu après avoir été touché.
+    description: Deal 8% increased damage after not getting hit for 15 seconds. Bonus removed when hit.
     value: 1.08
   3:
-    description: Infligez 14% de dégâts supplémentaires après ne pas avoir été touché pendant 15 secondes. Ce bonus est perdu après avoir été touché.
+    description: Deal 14% increased damage after not getting hit for 15 seconds. Bonus removed when hit.
     value: 1.14
   4:
-    description: Infligez 20% de dégâts supplémentaires après ne pas avoir été touché pendant 15 secondes. Ce bonus est perdu après avoir été touché.
+    description: Deal 20% increased damage after not getting hit for 15 seconds. Bonus removed when hit.
     value: 1.2
   5:
-    description: Infligez 27% de dégâts supplémentaires après ne pas avoir été touché pendant 15 secondes. Ce bonus est perdu après avoir été touché.
+    description: Deal 27% increased damage after not getting hit for 15 seconds. Bonus removed when hit.
     value: 1.27
   6:
-    description: Infligez 35% de dégâts supplémentaires après ne pas avoir été touché pendant 15 secondes. Ce bonus est perdu après avoir été touché.
+    description: Deal 35% increased damage after not getting hit for 15 seconds. Bonus removed when hit.
     value: 1.35

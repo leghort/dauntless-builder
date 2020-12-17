@@ -1,15 +1,15 @@
-name: Évasion légère
-slot: Mobilité
+name: Nimble Cell
+slot: Mobility
 variants:
-  "Évasion légère +1":
-    rarity: commun
+  "+1 Nimble Cell":
+    rarity: uncommon
     perks:
-      Évasion légère: 1
-  "Évasion légère +2":
+      Nimble: 1
+  "+2 Nimble Cell":
     rarity: rare
     perks:
-      Évasion légère: 2
-  "Évasion légère +3":
-    rarity: épique
+      Nimble: 2
+  "+3 Nimble Cell":
+    rarity: epic
     perks:
-      Évasion légère: 3
+      Nimble: 3
