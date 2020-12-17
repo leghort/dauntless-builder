@@ -286,7 +286,7 @@ export default class ItemSelectModal extends React.Component {
     }
 
     getSlotOptions() {
-        const slots = ["Defence", "Mobility", "Power", "Technique", "Utility"];
+      const slots = ["Défense", "Mobilité", "Puissance", "Technique", "Utilitaire", "Prismatic"];
 
         return slots.filter(slot => {
             let items = this.getAvailableItems(["cells"]);
@@ -404,7 +404,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="rarityFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filter by rarity..."
+                        placeholder="Filtrer par Rareté..."
                         onChange={rarity => this.setState({rarityFilter: rarity})}
                         value={this.state.rarityFilter}
                         options={["commun", "Rare", "épique"].map(
@@ -486,7 +486,7 @@ export default class ItemSelectModal extends React.Component {
 
         if(items.length === 0) {
             items.push(
-                <div key="no-item-found" className="no-item-found">No items found matching your filter options.</div>
+                <div key="no-item-found" className="no-item-found">Aucun élément trouvé.</div>
             );
         }
 
@@ -514,7 +514,7 @@ export default class ItemSelectModal extends React.Component {
                                     this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
                                 Select&nbsp;<strong>No {this.props.data.filterOptions.__itemType}</strong>.
                             </button>
-                            <button className="button" onClick={() => this.onClose()}>Cancel</button>
+                            <button className="button" onClick={() => this.onClose()}>❌</button>
                         </div>
                     </footer>
                 </div>
