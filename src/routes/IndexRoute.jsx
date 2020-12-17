@@ -10,7 +10,7 @@ export default class IndexRoute extends React.Component {
                     <div className="column">
                         <Link to="/b/new">
                             <div className="notification is-success new-build-tile feature-tile">
-                                <p className="title">Make a new build</p>
+                                <p className="title">CRÉER UN BUILD</p>
                                 <div className="feature-tile-background">
                                     <i className="fas fa-plus"></i>
                                 </div>
@@ -23,7 +23,7 @@ export default class IndexRoute extends React.Component {
                     <div className="column">
                         <Link to="/favorites">
                             <div className="tile notification is-danger feature-tile">
-                                <p className="title">My Builds</p>
+                                <p className="title">Mes Builds</p>
                                 <div className="feature-tile-background">
                                     <i className="fas fa-folder-open"></i>
                                 </div>
@@ -32,9 +32,9 @@ export default class IndexRoute extends React.Component {
                     </div>
 
                     <div className="column">
-                        <a href="https://github.com/atomicptr/dauntless-builder" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/leghort/dauntless-builder/tree/french-hardcoded" target="_blank" rel="noopener noreferrer">
                             <div className="tile notification is-light feature-tile">
-                                <p className="title">Source Code</p>
+                                <p className="title">Code Source</p>
                                 <div className="feature-tile-background">
                                     <i className="fab fa-github"></i>
                                 </div>
@@ -47,7 +47,7 @@ export default class IndexRoute extends React.Component {
                     <div className="column">
                         <a href="https://reddit.com/r/dauntless" target="_blank" rel="noopener noreferrer">
                             <div className="tile notification is-light feature-tile">
-                                <p className="title">/r/dauntless</p>
+                                <p className="title">Reddit</p>
                                 <div className="feature-tile-background">
                                     <i className="fab fa-reddit"></i>
                                 </div>
@@ -56,9 +56,9 @@ export default class IndexRoute extends React.Component {
                     </div>
 
                     <div className="column">
-                        <a href="https://discord.gg/dauntless" target="_blank" rel="noopener noreferrer">
+                        <a href="https://top.gg/servers/search?q=dauntless%20fr" target="_blank" rel="noopener noreferrer">
                             <div className="tile notification is-light feature-tile">
-                                <p className="title">Dauntless Discord</p>
+                                <p className="title">Discord</p>
                                 <div className="feature-tile-background">
                                     <i className="fab fa-discord"></i>
                                 </div>
