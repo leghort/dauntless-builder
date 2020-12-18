@@ -1,0 +1,23 @@
+name: Discipline
+description: Réduit votre santé max de 50%. Augmente les chances de coup critiques.
+type: Puissance
+key: [CriticalStrikeChance, HealthLimited]
+effects:
+  1:
+    description: [+2.5% de chance de coup critique, La santé est limitée à 50% de la santé max]
+    value: [1.025, null]
+  2:
+    description: [+5.0% de chance de coup critique, La santé est limitée à 50% de la santé max]
+    value: [1.05, null]
+  3:
+    description: [+7.5% de chance de coup critique, La santé est limitée à 50% de la santé max]
+    value: [1.075, null]
+  4:
+    description: [+10.0% de chance de coup critique, La santé est limitée à 50% de la santé max]
+    value: [1.1, null]
+  5:
+    description: [+12.5% de chance de coup critique, La santé est limitée à 50% de la santé max]
+    value: [1.25, null]
+  6:
+    description: [+15% de chance de coup critique, La santé est limitée à 50% de la santé max]
+    value: [1.15, null]

@@ -1,0 +1,4 @@
+name: Gâchette à turbine
+icon: /assets/icons/parts/hammer/mods/TurbineTrigger.png
+part_effect:
+  - Amorcer des attaques augmente la vitesse d'attaque de 10% jusqu'à ce que le combo se termine. Cumulable.

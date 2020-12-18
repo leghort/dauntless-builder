@@ -1,0 +1,15 @@
+name: Acide
+slot: Technique
+variants:
+  "Acide +1":
+    rarity: commun
+    perks:
+      Acide: 1
+  "Acide +2":
+    rarity: rare
+    perks:
+      Acide: 2
+  "Acide +3":
+    rarity: épique
+    perks:
+      Acide: 3

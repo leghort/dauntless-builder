@@ -1,0 +1,4 @@
+name: Mires de démolition
+icon: /assets/icons/parts/repeaters/mods/DemolitionSights.png
+part_effect:
+  - Quand aetherochargé, +50% de dégâts aux objets créés par les Behemoths.

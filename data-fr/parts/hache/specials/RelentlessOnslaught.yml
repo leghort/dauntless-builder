@@ -1,0 +1,4 @@
+name: Assaul implacable
+icon: /assets/icons/parts/axe/specials/RelentlessOnslaught.png
+part_effect:
+  - Lancez la hache vers l'avant, infligeant des des dégâts aux ennemis sur sa trajectoire. Rattrapez la hache pour pouvoir la relancer jusqu'à 2 fois dans les 5 prochaines secondes, infligeant 500/600/1000 dégâts (encore accrue par la détermination). Ne charge pas la jauge.

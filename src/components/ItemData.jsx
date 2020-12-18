@@ -27,7 +27,7 @@ export default class ItemData extends React.Component {
             case "Weapon":
                 stats = <React.Fragment>
                     <div className="stat-data">
-                        <strong>Puissance</strong>: {this.props.item.power[this.props.level]} <ElementalAffinities item={this.props.item} />
+                        <strong>Power</strong>: {this.props.item.power[this.props.level]} <ElementalAffinities item={this.props.item} />
                     </div>
                     {perkElement}
                 </React.Fragment>;
@@ -51,11 +51,11 @@ export default class ItemData extends React.Component {
                 let hold = null;
 
                 if(this.props.item.lantern_ability.instant) {
-                    instant = <div><strong>Instantané</strong>: {this.props.item.lantern_ability.instant}</div>;
+                    instant = <div><strong>Instant</strong>: {this.props.item.lantern_ability.instant}</div>;
                 }
 
                 if(this.props.item.lantern_ability.hold) {
-                    hold = <div><strong>Maintenir</strong>: {this.props.item.lantern_ability.hold}</div>;
+                    hold = <div><strong>Hold</strong>: {this.props.item.lantern_ability.hold}</div>;
                 }
 
                 stats = <React.Fragment>

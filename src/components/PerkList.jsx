@@ -84,7 +84,7 @@ export default class PerkList extends React.Component {
         if(perks.length === 0) {
             perks.push(
                 <li key="no-perks-found" className="perk-level-5">
-                    <div className="perk-title">Aucun effet.</div>
+                    <div className="perk-title">Pas d'effets.</div>
                 </li>
             );
         }

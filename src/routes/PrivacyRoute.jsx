@@ -20,7 +20,7 @@ export default class PrivacyRoute extends React.Component {
             <ul>
                 <li>
                     <strong>Utilisation des données</strong> - lorsque vous naviguez sur notre site,
-                    nous recueillons certaines informations sur les pages que vous visitez, 
+                    nous recueillons certaines informations sur les pages que vous visitez,
                     l'appareil que vous utilisez (système d'exploitation, navigateur, résolution d'écran, langue, pays dans lequel vous vous trouvez) et
                     <a href="https://support.google.com/analytics/answer/6004245" target="_blank" rel="noopener noreferrer"> plus</a>.
                     Nous traitons ces données à des fins statistiques, afin d'améliorer notre site.

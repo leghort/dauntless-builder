@@ -1,0 +1,23 @@
+name: Chauffe
+description: Protège contre les effets de «Gelé» et «Ralenti».
+type: Défense
+key: [frozen_immunity, chilled_immunity]
+effects:
+  1:
+    description: [Réduit la durée de l'effet de statut « Gelé » de 30%, null]
+    value: [-0.3, null]
+  2:
+    description: [Réduit la durée de l'effet de statut « Gelé » de 60%, null]
+    value: [-0.6, null]
+  3:
+    description: [Immunité à l'effet de status « Gelé », null]
+    value: [-1, null]
+  4:
+    description: [Immunité à l'effet de status « Gelé », Réduit la durée de l'effet de statut « Ralenti » de 30%]
+    value: [-1, -0.3]
+  5:
+    description: [Immunité à l'effet de status « Gelé », Réduit la durée de l'effet de statut « Ralenti » de 60%]
+    value: [-1, -0.6]
+  6:
+    description: [Immunité à l'effet de status « Gelé », Immunité au ralentissement]
+    value: [-1, -1]

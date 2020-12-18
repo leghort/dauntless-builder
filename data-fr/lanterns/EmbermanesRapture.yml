@@ -1,0 +1,7 @@
+name: Embuscade de l'Embermane
+icon: /assets/icons/lanterns/EmbermanesRapture.png
+description: null
+cells: Utilitaire
+lantern_ability:
+  instant: 	Augmente la vitesse d'attaque de 25% pendant 8 secondes.
+  hold: Génère une boule de feu devant vous qui explose après 5 secondes, infligeant 850 points de dégâts de braise aux ennemis proches.

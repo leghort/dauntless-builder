@@ -1,0 +1,4 @@
+name: Mires de précision
+icon: /assets/icons/parts/repeaters/mods/PrecisionSights.png
+part_effect:
+  - Dégâts accrus de 5 lors d'attaques successives sur la même partie. se cumule jusqu'à 8 fois.

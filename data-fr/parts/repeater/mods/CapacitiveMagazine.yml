@@ -1,0 +1,4 @@
+name: Chargeur capacitif
+icon: /assets/icons/parts/repeaters/mods/CapacitiveMagazine.png
+part_effect:
+  - Utiliser une capacité rend 4 munitions standard au chargeur.

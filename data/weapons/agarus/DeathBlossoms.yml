@@ -7,24 +7,10 @@ elemental: Tellurique
 cells: [Prismatic, Prismatic]
 power:
   0: 100
-  1: 140
-  2: 180
-  3: 220
-  4: 260
-  5: 300
-  6: 340
-  7: 380
-  8: 420
-  9: 460
-  10: 500
-  11: 510
-  12: 520
-  13: 530
-  14: 540
-  15: 550
+  1: 120
 bond:
   elemental: Tellurique
 unique_effects:
   - name: AgarusLegendaryAbility
-    description: |
-      Capacité légendaire : [G] pour réanimer tous les Slayer dans un large rayon, leur octroyant du soin dans le temps et une immunité aux étourdissements. Utilisable à terre.
+    icon: /assets/icons/abilities/AgarusLegendaryWeaponAbility.png
+    description: "Capacité légendaire : [G] pour réanimer tous les Slayer dans un large rayon, leur octroyant du soin dans le temps et une immunité aux étourdissements. Utilisable à terre."

@@ -20,9 +20,9 @@ export default class WeaponPart extends React.Component {
                         <i className="fas fa-question no-item-icon"></i>
                         <div className="item-data">
                             <h3 className="subtitle">
-                                Aucun(e) <strong>{partType.capitalize().substring(0, partType.length - 1)}</strong> selectionné.
+                                No <strong>{partType.capitalize().substring(0, partType.length - 1)}</strong> selected.
                             </h3>
-                            <div>Cliquez pour séléctionner un(e) {partType.capitalize().substring(0, partType.length - 1)}.</div>
+                            <div>Cliquez pour ajouter.</div>
                         </div>
                     </div>
                 </div>

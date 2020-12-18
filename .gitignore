@@ -279,9 +279,3 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/go,node,linux,macos,windows,intellij+all,visualstudiocode
-data/weapons/charrogg/CharredCleaver.yml
-assets/icons/elements/Umbral.png
-assets/icons/elements/Terra.png
-assets/icons/elements/Shock.png
-assets/icons/elements/Frost.png
-assets/icons/elements/Blaze.png

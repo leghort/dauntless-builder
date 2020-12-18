@@ -1,0 +1,15 @@
+name: Fondue
+slot: Technique
+variants:
+  "Fondue +1":
+    rarity: commun
+    perks:
+      Fondu: 1
+  "Fondue +2":
+    rarity: rare
+    perks:
+      Fondu: 2
+  "Fondue +3":
+    rarity: épique
+    perks:
+      Fondu: 3

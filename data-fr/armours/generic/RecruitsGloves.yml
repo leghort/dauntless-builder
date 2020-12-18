@@ -1,0 +1,9 @@
+name: Gants de recrue
+description: Protection pour les bras et les mains de Slayer novice.
+icon: /assets/icons/armours/generic/RecruitsGloves.png
+type: Arms
+strength: null
+weakness: null
+cells: null
+resistance:
+  0: 20

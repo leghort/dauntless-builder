@@ -1,0 +1,15 @@
+name: Discipline
+slot: Puissance
+variants:
+  "Discipline +1":
+    rarity: commun
+    perks:
+      Discipline: 1
+  "Discipline +2":
+    rarity: rare
+    perks:
+      Discipline: 2
+  "Discipline +3":
+    rarity: épique
+    perks:
+      Discipline: 3

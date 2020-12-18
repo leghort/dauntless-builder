@@ -40,7 +40,7 @@ yarn build-dev
 yarn dev
 
 # La commande powershell que j'utilise pour compiler, faire un serveur web et ouvrir un onglet priver google chrome
-yarn ; yarn build ; [System.Diagnostics.Process]::Start("chrome.exe","--incognito http://localhost:4000/") ; yarn dev
+yarn ; yarn build ; [System.Diagnostics.Process]::Start("brave.exe","--incognito http://localhost:4000/") ; yarn dev
 ```
 
 ## Contact
