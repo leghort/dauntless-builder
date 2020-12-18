@@ -9,9 +9,8 @@ power:
   0: 100
   1: 120
 bond:
-  elemental: Blaze
+  elemental: Incandescant
 unique_effects:
   - name: TorgadoroLegendaryAbility
     icon: /assets/icons/abilities/TorgadoroLegendaryWeaponAbility.png
-    description: |
-      Capacité légendaire : utilisez [G] pour entrer en rage, gagnant de nouvelles attaques pour 15 secondes. Infligez +25% de dégats lorsque la cible est en dessous de 50% de vie. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth.
+    description: "Capacité légendaire : utilisez [G] pour entrer en rage, gagnant de nouvelles attaques pour 15 secondes. Infligez +25% de dégats lorsque la cible est en dessous de 50% de vie. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."

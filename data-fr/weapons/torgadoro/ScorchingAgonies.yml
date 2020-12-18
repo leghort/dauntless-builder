@@ -9,7 +9,7 @@ power:
   0: 100
   1: 120
 bond:
-  elemental: Blaze
+  elemental: Incandescant
 unique_effects:
   - name: TorgadoroLegendaryAbility
     icon: /assets/icons/abilities/TorgadoroLegendaryWeaponAbility.png
