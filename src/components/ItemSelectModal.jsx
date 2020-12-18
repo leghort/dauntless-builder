@@ -269,7 +269,7 @@ export default class ItemSelectModal extends React.Component {
     }
 
     getElementOptions() {
-        const elements = ["Blaze", "Frost", "Neutral", "Radiant", "Shock", "Terra", "Umbral" ];
+        const elements = ["Incandescant", "Givrant", "Neutral", "Radiant", "Foudroyant", "Tellurique", "Obscur" ];
         return elements.sort().map(element => ({value: element, label: element}));
     }
 
