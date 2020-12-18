@@ -357,7 +357,7 @@ export default class BuildRoute extends React.Component {
             parent={this}
             onItemClicked={this.onItemClicked.bind(this)}
             onCellClicked={this.onCellClicked.bind(this)}
-            title="Weapon" defaultType="Weapon"
+            title="Arme" defaultType="Weapon"
             item={weapon}
             level={this.state.build.weapon_level}
             cells={[
@@ -423,7 +423,7 @@ export default class BuildRoute extends React.Component {
         return <Item
             parent={this}
             onItemClicked={openBondItemModal}
-            title="Bond Weapon" defaultType="Weapon"
+            title="Lien" defaultType="Weapon"
             item={BuildModel.findWeapon(this.state.build.bond_weapon_name)}
             level={this.state.build.weapon_level}
             titlePrefix="Bond"
@@ -479,11 +479,11 @@ export default class BuildRoute extends React.Component {
             const weapon = BuildModel.findWeapon(this.state.build.weapon_name);
 
             if(weapon.icon) {
-                return `https://www.dauntless-builder.com${weapon.icon}`;
+                return `https://www.dauntless-builder.fr${weapon.icon}`;
             }
         }
 
-        return "https://www.dauntless-builder.com/assets/icon.png";
+        return "https://www.dauntless-builder.fr/assets/icon.png";
     }
 
     render() {
@@ -506,44 +506,44 @@ export default class BuildRoute extends React.Component {
                 <div className="qa-left">
                     <Link to="/b/new">
                         <button className="button is-light" onClick={() => this.loadBuild("new")}>
-                            <i className="fas fa-plus"></i>&nbsp;New
+                            <i className="fas fa-plus"></i>&nbsp;Nouveau
                         </button>
                     </Link>
                     <Link to="/favorites">
                         <button className="button is-light">
-                            <i className="fas fa-folder-open"></i>&nbsp;My builds
+                            <i className="fas fa-folder-open"></i>&nbsp;Mes Builds
                         </button>
                     </Link>
                 </div>
                 <div className="qa-right">
                     <CopyToClipboard text={window.location.origin + "/b/" + this.state.buildData} refs="copyButton"  onCopy={() => this.onCopyToClipboard()}>
-                        <button className="button is-light" data-tip="Copy to clipboard">
-                            <i className="fas fa-copy"></i><span className="only-on-very-small">&nbsp;Copy to clipboard</span>
+                        <button className="button is-light" data-tip="Copier">
+                            <i className="fas fa-copy"></i><span className="only-on-very-small">&nbsp;Copier</span>
                             <ReactTooltip globalEventOff="click" place="top" type="dark" effect="solid" />
                         </button>
                     </CopyToClipboard>
                     <button className="button is-light"
-                        data-tip={FavoriteBuildsModel.isFavorite(this.state.buildData) ? "Unfavorite build" : "Favorite build"}
+                        data-tip={FavoriteBuildsModel.isFavorite(this.state.buildData) ? "Supprimer des favoris" : "Ajouter aux favoris"}
                         onClick={() => this.toggleFavorite()}>
 
                         <i className={(FavoriteBuildsModel.isFavorite(this.state.buildData) ? "fas" : "far") + " fa-heart"}></i>
-                        <span className="only-on-very-small">&nbsp;Save to favorites</span>
+                        <span className="only-on-very-small">&nbsp;Ajouter au favoris</span>
                     </button>
                     <MenuDropdown label={
                         <React.Fragment>
                             <i className="fas fa-ellipsis-v" style={{margin: "0px 5px"}}></i>
-                            <span className="only-on-very-small">&nbsp;More</span>
+                            <span className="only-on-very-small">&nbsp;Plus</span>
                         </React.Fragment>
                     }>
                         <DarkModeToggle />
                         <a className="dropdown-item"
                             target="_blank" rel="noopener noreferrer"
                             href={DAUNTLESS_BUILD_COLLECTION_BASEURL + this.state.buildData}>
-                            <i className="fas fa-file-export"></i> Export to Dauntless Build Collection...
+                            <i className="fas fa-file-export"></i> Sauvegarder dans Dauntless Build Collection
                         </a>
                         <hr className="dropdown-divider" />
                         <a className="dropdown-item disabled">
-                            <i className="fas fa-cog"></i> Settings
+                            <i className="fas fa-cog"></i> Paramètres
                         </a>
                     </MenuDropdown>
                 </div>
@@ -558,7 +558,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Head Armour" defaultType="Head"
+                        title="Casque" defaultType="Head"
                         item={BuildModel.findArmour(this.state.build.head_name)}
                         level={this.state.build.head_level}
                         cells={[
@@ -569,7 +569,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Torso Armour" defaultType="Torso"
+                        title="Plastron" defaultType="Torso"
                         item={BuildModel.findArmour(this.state.build.torso_name)}
                         level={this.state.build.torso_level}
                         cells={[
@@ -580,7 +580,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Arms Armour" defaultType="Arms"
+                        title="Gants" defaultType="Arms"
                         item={BuildModel.findArmour(this.state.build.arms_name)}
                         level={this.state.build.arms_level}
                         cells={[
@@ -591,7 +591,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Legs Armour" defaultType="Legs"
+                        title="Bottes" defaultType="Legs"
                         item={BuildModel.findArmour(this.state.build.legs_name)}
                         level={this.state.build.legs_level}
                         cells={[
@@ -602,7 +602,7 @@ export default class BuildRoute extends React.Component {
                         parent={this}
                         onItemClicked={this.onItemClicked.bind(this)}
                         onCellClicked={this.onCellClicked.bind(this)}
-                        title="Lantern" defaultType="Lantern"
+                        title="Lanterne" defaultType="Lantern"
                         item={BuildModel.findLantern(this.state.build.lantern_name)}
                         cells={[
                             [this.state.build.lantern_cell, BuildModel.findCellByVariantName(this.state.build.lantern_cell)]
