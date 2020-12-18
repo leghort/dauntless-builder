@@ -21,7 +21,7 @@ export default class ItemSelectModal extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: {value: "épique", label: "épique"},
+            rarityFilter: {value: "épique", label: "Épique"},
             levelPickerValue: null
         };
 
@@ -32,7 +32,7 @@ export default class ItemSelectModal extends React.Component {
             perkFilter: null,
             weaponTypeFilter: null,
             slotFilter: null,
-            rarityFilter: {value: "épique", label: "épique"},
+            rarityFilter: {value: "épique", label: "Épique"},
             levelPickerValue: null
         };
     }
@@ -317,7 +317,7 @@ export default class ItemSelectModal extends React.Component {
                         autoFocus={window.innerWidth >= 700}
                         className="input"
                         type="text"
-                        placeholder="Search..."
+                        placeholder="Recherche..."
                         value={this.state.searchQuery}
                         onChange={e => this.setState({searchQuery: e.target.value})} />
                     <span className="icon is-small is-left">
@@ -348,7 +348,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="weaponTypeFilter" className="field">
                     <Select
-                        placeholder="Filter par type d'arme..."
+                        placeholder="type d'arme..."
                         onChange={weaponType => this.setState({weaponTypeFilter: weaponType})}
                         value={this.state.weaponTypeFilter}
                         options={options} />
@@ -404,10 +404,10 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="rarityFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filtrer par Rareté..."
+                        placeholder="Rareté..."
                         onChange={rarity => this.setState({rarityFilter: rarity})}
                         value={this.state.rarityFilter}
-                        options={["commun", "Rare", "épique"].map(
+                        options={["Commun", "Rare", "Épique"].map(
                             rarity => ({value: rarity.toLowerCase(), label: rarity}))} />
                 </div>
             );
@@ -512,7 +512,7 @@ export default class ItemSelectModal extends React.Component {
                                 className="button"
                                 onClick={() =>
                                     this.onItemSelected(this.props.data.filterOptions.__itemType, "")}>
-                                Select&nbsp;<strong>No {this.props.data.filterOptions.__itemType}</strong>.
+	                                Aucun(e)&nbsp;<strong>{this.props.data.filterOptions.__itemType}</strong>.
                             </button>
                             <button className="button" onClick={() => this.onClose()}>❌</button>
                         </div>
