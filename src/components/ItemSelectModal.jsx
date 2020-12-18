@@ -348,7 +348,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="weaponTypeFilter" className="field">
                     <Select
-                        placeholder="Filter by weapon type..."
+                        placeholder="Filter par type d'arme..."
                         onChange={weaponType => this.setState({weaponTypeFilter: weaponType})}
                         value={this.state.weaponTypeFilter}
                         options={options} />
@@ -363,7 +363,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="elementFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filter by element..."
+                        placeholder="Filter par élément..."
                         onChange={element => this.setState({elementFilter: element})}
                         value={this.state.elementFilter}
                         options={elementOptions} />
@@ -377,7 +377,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="perkFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filter by perk..."
+                        placeholder="Filter par effets..."
                         onChange={perk => this.setState({perkFilter: perk})}
                         value={this.state.perkFilter}
                         options={perkOptions} />
@@ -391,7 +391,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="slotFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filter by cell slot..."
+                        placeholder="Filter par type de cellule..."
                         onChange={slot => this.setState({slotFilter: slot})}
                         value={this.state.slotFilter}
                         options={slotOptions} />
