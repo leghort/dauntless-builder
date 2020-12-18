@@ -22,7 +22,7 @@ export default class WeaponPart extends React.Component {
                             <h3 className="subtitle">
                                 No <strong>{partType.capitalize().substring(0, partType.length - 1)}</strong> selected.
                             </h3>
-                            <div>Click here to select one.</div>
+                            <div>Cliquez pour ajouter.</div>
                         </div>
                     </div>
                 </div>
