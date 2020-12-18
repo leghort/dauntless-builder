@@ -117,7 +117,7 @@ export default class BondSelectModal extends React.Component {
                                 className="button"
                                 onClick={() =>
                                     this.onBondItemSelected(null, "")}>
-                                Aucun(e)&nbsp;<strong>Lien</strong>.
+                                Supprimer le&nbsp;<strong>Lien</strong>.
                             </button>
                             <button className="button" onClick={() => this.onClose()}>❌</button>
                         </div>
