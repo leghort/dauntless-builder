@@ -269,7 +269,7 @@ export default class ItemSelectModal extends React.Component {
     }
 
     getElementOptions() {
-        const elements = ["Incandescant", "Givrant", "Neutral", "Radiant", "Foudroyant", "Tellurique", "Obscur" ];
+        const elements = ["Foudroyant", "Givrant", "Incandescant", "Neutral", "Obscur", "Radiant", "Tellurique"];
         return elements.sort().map(element => ({value: element, label: element}));
     }
 
@@ -286,7 +286,7 @@ export default class ItemSelectModal extends React.Component {
     }
 
     getSlotOptions() {
-      const slots = ["Défense", "Mobilité", "Puissance", "Technique", "Utilitaire", "Prismatic"];
+      const slots = ["Défense", "Mobilité", "Prismatic", "Puissance", "Technique", "Utilitaire"];
 
         return slots.filter(slot => {
             let items = this.getAvailableItems(["cells"]);
@@ -363,7 +363,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="elementFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filter par élément..."
+                        placeholder="Filtrer par élément..."
                         onChange={element => this.setState({elementFilter: element})}
                         value={this.state.elementFilter}
                         options={elementOptions} />
@@ -377,7 +377,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="perkFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filter par effets..."
+                        placeholder="Filtrer par effets..."
                         onChange={perk => this.setState({perkFilter: perk})}
                         value={this.state.perkFilter}
                         options={perkOptions} />
@@ -391,7 +391,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="slotFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filter par type de cellule..."
+                        placeholder="Filtrer par type de cellule..."
                         onChange={slot => this.setState({slotFilter: slot})}
                         value={this.state.slotFilter}
                         options={slotOptions} />
