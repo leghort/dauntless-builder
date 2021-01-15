@@ -1,4 +1,0 @@
-name: Catalyseur d'extraction
-icon: /assets/icons/parts/repeaters/mods/ExtractionCatalyst.png
-part_effect:
-  - Réduit les délais de récupération de toutes les capacités de 2 secondes en esquivant à travers l'attaque d'un Behemoth.

@@ -1,4 +1,0 @@
-name: Chargeur chanceux
-icon: /assets/icons/parts/repeaters/mods/LuckyMagazine.png
-part_effect:
-  - Donne 2% de chance de coup critique pour chaque munition manquante dans le chargeur.

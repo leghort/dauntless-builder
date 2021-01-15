@@ -1,9 +1,0 @@
-name: Danse de la Faucheuse
-icon: /assets/icons/parts/chainblades/specials/ReapersDance.png
-part_effect:
-  - >-
-    De loin : vous tire vers votre cible et vous donne un point de Danse mortelle.
-    Au corps à corps : Vous poussez de votre cible, puis utilisez une attaque primaire
-    ou secondaire pour enchainer. Enchainer vers une attaque primaire donne un point
-    de Danse mortelle. Enchainer vers une attaque secondaire dépense des points et
-    augmente les dégâts de l'attaque de 40% par point dépensé

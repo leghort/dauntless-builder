@@ -1,9 +1,0 @@
-name: Hache de recrue
-description: Une hache de recrue.
-icon: /assets/icons/weapons/generic/RecruitsAxe.png
-type: Hache
-damage: Slashing
-elemental: null
-cells: null
-power:
-  0: 10

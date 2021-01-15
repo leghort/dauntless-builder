@@ -1,9 +1,0 @@
-name: Aetherolance de recrue
-description: Une aetherolance de recrue.
-icon: /assets/icons/weapons/generic/RecruitsWarPike.png
-type: Aéthérolance
-damage: Piercing
-elemental: null
-cells: null
-power:
-  0: 10

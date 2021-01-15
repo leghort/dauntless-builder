@@ -1,5 +1,0 @@
-name: Prisme tranchant
-description: The Primal Prism is part of a craftable weapon in Dauntless.
-icon: /assets/icons/parts/repeaters/prisms/PrimalPrism.png
-part_effect:
-  - Une fois chargée, la prochaine attaque libère des lames tourbillonnantes qui infligent 25 points de dégâts telluriques. Des attaques supplémentaires accélèrent les lames, qui explosent à la fin de leur durée et infligent des dégâts en fonction de la vitesse des lames.

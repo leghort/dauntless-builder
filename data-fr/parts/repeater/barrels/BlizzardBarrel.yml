@@ -1,9 +1,0 @@
-name: Canon blizzard
-description: The Blizzard Barrel is part of a craftable weapon in Dauntless.
-icon: /assets/icons/parts/repeaters/barrels/BlizzardBarrel.png
-elemental: Givrant
-power:
-  0: 60
-  1: 120
-part_effect:
-  - Les tirs et capacités infligent des dégâts de givre.

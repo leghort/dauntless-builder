@@ -1,6 +1,0 @@
-name: Poignée du saboteur
-description: The Saboteur's Grip is part of a craftable weapon in Dauntless.
-icon: /assets/icons/parts/repeaters/grips/SaboteursGrip.png
-part_effect:
-  - Lance une mine explosive qui inflige 400 points de dégâts. La mine s'amorce après une courte période, augmentant ses dégâts à 700.
-  - "Aethérochargé: Inflige 900 points de dégâts une fois amorcée et peut interrompre les Behemoths."

@@ -1,6 +1,0 @@
-name: Cyclone ardent
-icon: /assets/icons/parts/sword/specials/ArdentCyclone.png
-part_effect:
-  - >-
-    Activez à pleine jauge pour tourner, devenir insensible aux étourdissements et infliger constamment 50 points de dégâts au ennemis proches.
-    Confère 1 Vaillance toute les 4 secondes. Réactivez pour asséner un coup dans une direction, infligeant 450 + (10 x nombre de coups de rotation) au premiser ennemi touché.

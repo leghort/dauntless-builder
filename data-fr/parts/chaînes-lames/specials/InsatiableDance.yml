@@ -1,8 +1,0 @@
-name: Danse insatiable
-icon: /assets/icons/parts/chainblades/specials/InsatiableDance.png
-part_effect:
-  - >-
-    De loin : vous tire vers votre cible et vous donne un point de Danse Insatiable. Au corps à corps : 
-    Vous pouvez de votre cible, puis utilisez une attaque primaire ou secondaire pour enchainer.
-    Enchainer vers une attaque primaire donne un point de Danse Insatiable. Enchainer vers une attaque
-    secondaire dépense des points et crée un orbe par point dépensé restaurant 50 points de santé chacun

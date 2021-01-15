@@ -1,6 +1,0 @@
-name: Chambre à salve
-description: The Salvo Chamber is part of a craftable weapon in Dauntless.
-icon: /assets/icons/parts/repeaters/chambers/SalvoChamber.png
-part_effect:
-  - Tire un missile explosif en ligne droite qui, à l'impact, inflige 400 points de dégâts en zone.
-  - "Aethérochargé: Tire 3 missiles en éventail."
