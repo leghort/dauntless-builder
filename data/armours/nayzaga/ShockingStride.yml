@@ -9,11 +9,11 @@ resistance:
   0: 10
   1: 30
 perks:
-  - name: Isolant
+  - name: Charge
     value: 1
     from: 0
     to: 0
-  - name: Isolant
+  - name: Charge
     value: 3
     from: 1
     to: 1

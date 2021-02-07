@@ -1,0 +1,15 @@
+name: Cascade
+slot: Utilitaire
+variants:
+  "Cascade +1":
+    rarity: commun
+    perks:
+      Cascade: 1
+  "Cascade +2":
+    rarity: rare
+    perks:
+      Cascade: 2
+  "Cascade +3":
+    rarity: épique
+    perks:
+      Cascade: 3

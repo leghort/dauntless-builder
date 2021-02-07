@@ -1,0 +1,16 @@
+name: Givre permanent
+description: Une hache de Slayer forgée à partir de Urska.
+icon: /assets/icons/weapons/urska/PermanentFrost.png
+type: Hache
+damage: Slashing
+elemental: Givrant
+cells: [Prismatic, Prismatic]
+power:
+  0: 100
+  1: 120
+bond:
+  elemental: Givrant
+unique_effects:
+  - name: UrskaLegendaryAbility
+    icon: /assets/icons/abilities/UrskaLegendaryWeaponAbility.png
+    description: "Capacité légendaire : Créer un bouclier de givre qui bloque les projectiles hostile pendant 6 secondes. Blesse et gèle les Behemoths qui le touchent (peut interrompre)"

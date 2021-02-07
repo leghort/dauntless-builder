@@ -6,5 +6,5 @@ power:
   0: 100
   1: 120
 part_effect:
-  - "Capacité légendaire: utilisez [G] pour vous téléporte à un Behemoth, infligeant des dégats foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d´un Béhémoth."
+  - "Capacité légendaire: Vous téléporte à un Behemoth, infligeant des dégats foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d´un Béhémoth."
   - Les tirs et capacités infligent des dégâts foudroyants.

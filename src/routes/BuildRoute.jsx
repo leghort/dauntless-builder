@@ -48,9 +48,9 @@ export default class BuildRoute extends React.Component {
     componentDidMount() {
         let buildData = this.props.match.params.buildData;
 
-        // redirect all v1 builds to seperate v1 website
+        // redirect all v1 builds back to the start page
         if (BuildModel.version(buildData) === 1) {
-            window.location.href = "https://v1.dauntless-builder.com/b/" + buildData;
+            window.location.href = "https://www.dauntless-builder.com/";
         }
 
         if (BuildModel.version(buildData) === 2) {

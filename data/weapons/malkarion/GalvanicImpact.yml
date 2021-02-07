@@ -13,4 +13,4 @@ bond:
 unique_effects:
   - name: MalkarionLegendaryAbility
     icon: /assets/icons/abilities/MalkarionLegendaryWeaponAbility.png
-    description: "Capacité légendaire : utilisez [G] pour vous téléporter à un Behemoth, infligeant des dégâts foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."
+    description: "Capacité légendaire : Téléporter vous à un Behemoth, infligeant des dégâts foudroyants. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."

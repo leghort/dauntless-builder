@@ -6,5 +6,5 @@ power:
   0: 100
   1: 120
 part_effect:
-  - "Capacité légendaire: [G] pour réanimer tous les Slayers dans un large rayon, leur octroyant du soin dans le temps et une immunité aux étourdissements. Utilisable à terre"
+  - "Capacité légendaire: Réanimer tous les Slayers dans un large rayon, leur octroyant du soin dans le temps et une immunité aux étourdissements. Utilisable à terre"
   - Les tirs et capacités infligent des dégâts telluriques.

@@ -9,11 +9,11 @@ resistance:
   0: 20
   1: 30
 perks:
-  - name: Coagulation
+  - name: Grâce
     value: 1
     from: 0
     to: 0
-  - name: Coagulation
+  - name: Grâce
     value: 3
     from: 1
     to: 1

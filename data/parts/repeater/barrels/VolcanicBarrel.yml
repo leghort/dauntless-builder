@@ -6,5 +6,5 @@ power:
   0: 100
   1: 120
 part_effect:
-  - "Capacité légendaire: utilisez [G] pour entre en rage, gagnant de nouvelles attaques pour 15 secondes. Infligez +25% de dégâts lorsque la cible est en dessous de 50% de vie. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."
+  - "Capacité légendaire: Entre en rage, gagnant de nouvelles attaques pour 15 secondes. Infligez +25% de dégâts lorsque la cible est en dessous de 50% de vie. Utilisable une fois, mais se réinitialise lors de la mort d'un Behemoth."
   - Les tirs et capacités infligent des dégâts incandescents.

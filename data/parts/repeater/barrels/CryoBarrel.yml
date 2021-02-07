@@ -1,0 +1,10 @@
+name: Canon glacial
+description: The Cryo Barrel is part of a craftable weapon in Dauntless.
+icon: /assets/icons/parts/repeaters/barrels/CryoBarrel.png
+elemental: Givrant
+power:
+  0: 100
+  1: 120
+part_effect:
+  - "Capacité légendaire: Créer un bouclier de givre qui bloque les projectiles hostile pendant 6 secondes. Blesse et gèle les Behemoths qui le touchent (peut interrompre)"
+  - Les tirs et capacités infligent des dégâts de givre.

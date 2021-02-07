@@ -1,23 +1,23 @@
 name: Guérisseur
 description: Réduit les soins de flasques. L'utilisation de votre flasque restaure la santé des autres Slayers.
 type: Utilitaire
-key: [LessFlaskHealing, HealGroup]
+key: HealGroup
 effects:
   1:
-    description: [La flasque soigne 30 de moins, L'utilisation de votre flasque soigne également tous les autres Slayers de 45]
-    value: [30, 45]
+    description: "L'utilisation de votre flasque soigne également tous les autres Slayers de 45"
+    value: 45
   2:
-    description: [La flasque soigne 60 de moins, L'utilisation de votre flasque soigne également tous les autres Slayers de 90]
-    value: [60, 90]
+    description: "L'utilisation de votre flasque soigne également tous les autres Slayers de 90"
+    value: 90
   3:
-    description: [La flasque soigne 90 de moins, L'utilisation de votre flasque soigne également tous les autres Slayers de 135]
-    value: [90, 135]
+    description: "L'utilisation de votre flasque soigne également tous les autres Slayers de 135"
+    value: 135
   4:
-    description: [La flasque soigne 120 de moins, L'utilisation de votre flasque soigne également tous les autres Slayers de 180]
-    value: [120, 180]
+    description: "L'utilisation de votre flasque soigne également tous les autres Slayers de 180"
+    value: 180
   5:
-    description: [La flasque soigne 150 de moins, L'utilisation de votre flasque soigne également tous les autres Slayers de 225]
-    value: [150, 225]
+    description: "L'utilisation de votre flasque soigne également tous les autres Slayers de 225"
+    value: 225
   6:
-    description: [La flasque soigne 180 de moins, L'utilisation de votre flasque soigne également tous les autres Slayers de 270]
-    value: [180, 270]
+    description: "L'utilisation de votre flasque soigne également tous les autres Slayers de 270"
+    value: 270

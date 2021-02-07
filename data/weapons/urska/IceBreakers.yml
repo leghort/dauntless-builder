@@ -1,0 +1,16 @@
+name: Briseurs de glace
+description: Cestes aethériques de Slayers fabriqués à partir de trophés de Urska.
+icon: /assets/icons/weapons/urska/IceBreakers.png
+type: Cestes Aethériques
+damage: Blunt
+elemental: Givrant
+cells: [Prismatic, Prismatic]
+power:
+  0: 100
+  1: 120
+bond:
+  elemental: Givrant
+unique_effects:
+  - name: UrskaLegendaryAbility
+    icon: /assets/icons/abilities/UrskaLegendaryWeaponAbility.png
+    description: "Capacité légendaire : Créer un bouclier de givre qui bloque les projectiles hostile pendant 6 secondes. Blesse et gèle les Behemoths qui le touchent (peut interrompre)"

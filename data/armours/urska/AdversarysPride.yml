@@ -1,0 +1,19 @@
+name: Fierté de l'Adversaire
+description: Protection pour le torse forgée à partir de Urska.
+icon: /assets/icons/armours/urska/AdversarysPride.png
+type: Torso
+strength: Givrant
+weakness: Incandescant
+cells: Mobilité
+resistance:
+  0: 25
+  1: 30
+perks:
+  - name: Cascade
+    value: 2
+    from: 0
+    to: 0
+  - name: Cascade
+    value: 3
+    from: 1
+    to: 1

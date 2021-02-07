@@ -13,4 +13,4 @@ bond:
 unique_effects:
   - name: AgarusLegendaryAbility
     icon: /assets/icons/abilities/AgarusLegendaryWeaponAbility.png
-    description: "Capacité légendaire : [G] pour réanimer tous les Slayer dans un large rayon, leur octroyant du soin dans le temps et une immunité aux étourdissements. Utilisable à terre."
+    description: "Capacité légendaire : Réanimer tous les Slayer dans un large rayon, leur octroyant du soin dans le temps et une immunité aux étourdissements. Utilisable à terre."

@@ -1,0 +1,23 @@
+name: Cascade
+description: L'utilisation maintenue génére un effet aléatoire.
+type: Utilitaire
+key: LanternHoldRandomEffect
+effects:
+  1:
+    description: "L'utilisation maintenue de la lanterne, générez aléatoirement 1 des boosts suivants : guérison, endurance, puissance."
+    value: null
+  2:
+    description: "L'utilisation maintenue de la lanterne, générez aléatoirement 2 des boosts suivants : guérison, endurance, puissance."
+    value: null
+  3:
+    description: "L'utilisation maintenue de la lanterne, générez aléatoirement 3 des boosts suivants : guérison, endurance, puissance."
+    value: null
+  4:
+    description: "L'utilisation maintenue de la lanterne, générez aléatoirement 3 des boosts suivants : guérison, endurance, puissance. Durée du boost d'endurance accrue"
+    value: null
+  5:
+    description: "L'utilisation maintenue de la lanterne, générez aléatoirement 3 des boosts suivants : guérison, endurance, puissance. Boost de soin confère également des boucliers"
+    value: null
+  6:
+    description: "L'utilisation maintenue de la lanterne, générez aléatoirement 3 des boosts suivants : guérison, endurance, puissance. Durée du boost de puissance accrue Chance de génerer un bonus d'invicibilité"
+    value: null

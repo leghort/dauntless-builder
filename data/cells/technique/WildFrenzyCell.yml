@@ -4,12 +4,12 @@ variants:
   "Frénésie sauvage +1":
     rarity: commun
     perks:
-      Frénésie Sauvage: 1
+      Frénésie sauvage: 1
   "Frénésie sauvage +2":
     rarity: rare
     perks:
-      Frénésie Sauvage: 2
+      Frénésie sauvage: 2
   "Frénésie sauvage +3":
     rarity: épique
     perks:
-      Frénésie Sauvage: 3
+      Frénésie sauvage: 3

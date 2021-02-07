@@ -4,20 +4,20 @@ type: Technique
 key: AdrénalineDamage
 effects:
   1:
-    description: Donne +0.3% de dégâts par tranche de 10 Endurance manquante.
-    value: 1.003
+    description: Donne +0.5% de dégâts par tranche de 10 Endurance manquante.
+    value: 1.005
   2:
-    description: Donne +0.6% de dégâts par tranche de 10 Endurance manquante.
-    value: 1.006
+    description: Donne +1.0% de dégâts par tranche de 10 Endurance manquante.
+    value: 1.01
   3:
-    description: Donne +0.9% de dégâts par tranche de 10 Endurance manquante.
-    value: 1.009
-  4:
-    description: Donne +1.2% de dégâts par tranche de 10 Endurance manquante.
-    value: 1.012
-  5:
     description: Donne +1.5% de dégâts par tranche de 10 Endurance manquante.
     value: 1.015
+  4:
+    description: Donne +2.0% de dégâts par tranche de 10 Endurance manquante.
+    value: 1.02
+  5:
+    description: Donne +2.5% de dégâts par tranche de 10 Endurance manquante.
+    value: 1.025
   6:
-    description: Donne +1.8% de dégâts par tranche de 10 Endurance manquante.
-    value: 1.018
+    description: Donne +3.0% de dégâts par tranche de 10 Endurance manquante.
+    value: 1.03
