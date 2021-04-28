@@ -3,5 +3,5 @@ icon: /assets/icons/lanterns/SkarnsDefiance.png
 description: null
 cells: Utilitaire
 lantern_ability:
-  instant: Accorde un bouclier de 250 points pendant 6 secondes.
+  instant: Accorde un bouclier de 250 points pendant 12 secondes.
   hold: Vous entoure de rochers tourbillonants infligeant un total de 900 points de dégâts telluriques en 10 secondes aux ennemis proches.

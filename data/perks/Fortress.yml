@@ -4,20 +4,20 @@ type: Défense
 key: not_hit_health_shield
 effects:
   1:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 10 points
-    value: 10
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 75 points
+    value: 75
   2:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 20 points
-    value: 20
-  3:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 40 points
-    value: 40
-  4:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 60 points
-    value: 60
-  5:
-    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 80 points
-    value: 80
-  6:
     description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 100 points
     value: 100
+  3:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 125 points
+    value: 125
+  4:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 150 points
+    value: 150
+  5:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 175 points
+    value: 175
+  6:
+    description: Après 10 secondes sans recevoir de dégât, gagnez un bouclier de santé de 200 points
+    value: 200
