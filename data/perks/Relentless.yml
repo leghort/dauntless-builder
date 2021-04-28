@@ -1,0 +1,23 @@
+name: Implacable
+description: Augmente la durée de votre ruée aethérée
+type: Technique
+key: [aether_rush_duration, aether_rush_effect]
+effects:
+  1:
+    description: [Augmente la durée de ruée aethérée de 20%, null]
+    value: [1.2, null]
+  2:
+    description: [Augmente la durée de ruée aethérée de 30%, null]
+    value: [1.3, null]
+  3:
+    description: [Augmente la durée de ruée aethérée de 50%, null]
+    value: [1.5, null]
+  4:
+    description: [Augmente la durée de ruée aethérée de 50%, Augmente les effets de ruée aethérée de 20%]
+    value: [1.5, 1.2]
+  5:
+    description: [Augmente la durée de ruée aethérée de 50%, Augmente les effets de ruée aethérée de 30%]
+    value: [1.5, 1.3]
+  6:
+    description: [Augmente la durée de ruée aethérée de 50%, Augmente les effets de ruée aethérée de 50%]
+    value: [1.5, 1.5]

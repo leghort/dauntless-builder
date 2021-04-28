@@ -1,7 +1,7 @@
 name: Coureur
 description: Réduit l'endurance maximale. Augmente la vitesse de déplacement et réduit le coût du sprint.
 type: Mobilité
-key: Coureur
+key: Sprinter
 effects:
   1:
     description: "+5% de vitesse de déplacement et -5% de coût de sprint"

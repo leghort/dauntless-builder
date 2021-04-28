@@ -4,20 +4,20 @@ type: Défense
 key: part_break_heal
 effects:
   1:
-    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 50
+    description: Brisé une partie de behemoth vous soigne de 50 points de vie
     value: 50
   2:
-    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 100
+    description: Brisé une partie de behemoth vous soigne de 100 points de vie
     value: 100
   3:
-    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 150
+    description: Brisé une partie de behemoth vous soigne de 150 points de vie
     value: 150
   4:
-    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 200
+    description: Brisé une partie de behemoth vous soigne de 200 points de vie
     value: 200
   5:
-    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 250
+    description: Brisé une partie de behemoth vous soigne de 250 points de vie
     value: 250
   6:
-    description: Après avoir brisé une partie d'un Behemoth, vous vous soignez de 300
+    description: Brisé une partie de behemoth vous soigne de 300 points de vie
     value: 300

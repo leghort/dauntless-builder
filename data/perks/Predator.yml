@@ -1,7 +1,7 @@
 name: Prédateur
 description: Augmente les dégâts infligés après ne pas avoir été touché pendant une courte période.
 type: Technique
-key: EffectPrédateur
+key: EffectPredator
 effects:
   1:
     description: Infligez 4% de dégâts supplémentaires après ne pas avoir été touché pendant 15 secondes. Ce bonus est perdu après avoir été touché.

@@ -6,7 +6,7 @@ strength: null
 weakness: null
 cells: Mobilité
 resistance:
-  0: 20
+  0: 10
   1: 30
 perks:
   - name: Évasion
