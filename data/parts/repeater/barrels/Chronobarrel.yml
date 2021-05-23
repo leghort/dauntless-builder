@@ -1,0 +1,10 @@
+name: Canon tamporel
+description: The Chrono Barrel is part of a craftable weapon in Dauntless.
+icon: /assets/icons/parts/repeaters/barrels/ChronoBarrel.png
+elemental: Radiant
+power:
+  0: 100
+  1: 120
+part_effect:
+  - "Capacité légendaire: Retourne à ta position 3 secondes avant l'activation. Restaure la santé et l'endurance perdues pendant ce temps, supprime les débuffs. Devenez invulnérable et gagnez un bonus de vitesse de déplacement durant 6 secondes. Utilisable lorsque vous êtes à terre. Se réinitialise lorsque le Béhémoth est tué ou après 90 secondes"
+  - Les tirs et les capacités infligent des dégâts radiants.

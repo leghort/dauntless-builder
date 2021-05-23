@@ -1,0 +1,19 @@
+name: Chronomanchettes
+description: Protection pour les bras et les mains forgée à partir de Chronovore.
+icon: /assets/icons/armours/chronovore/Chronogrips.png
+type: Arms
+strength: Radiant
+weakness: Obscur
+cells: Défense
+resistance:
+  0: 25
+  1: 30
+perks:
+  - name: Pulsation
+    value: 2
+    from: 0
+    to: 0
+  - name: Pulsation
+    value: 3
+    from: 1
+    to: 1
