@@ -1,0 +1,15 @@
+name: Pulsation
+slot: Technique
+variants:
+  "Pulsation +1":
+    rarity: commun
+    perks:
+      Pulsation: 1
+  "Pulsation +2":
+    rarity: rare
+    perks:
+      Pulsation: 2
+  "Pulsation +3":
+    rarity: épique
+    perks:
+      Pulsation: 3

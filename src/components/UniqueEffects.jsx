@@ -23,7 +23,7 @@ export default class UniqueEffects extends React.Component {
                                     <img src={uniqueEffect.icon} />
                                 </LazyLoad>) : null}
                             <div className="item-data">
-                                <strong>{this.props.item.name} {uniqueEffect.title || "Unique Effect"}</strong>: <br/>
+                                <strong>{this.props.item.name} {uniqueEffect.title || "effet unique"}</strong>: <br/>
                                 {uniqueEffect.description}
                             </div>
                         </div>
