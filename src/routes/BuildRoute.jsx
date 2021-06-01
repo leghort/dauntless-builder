@@ -28,8 +28,6 @@ import WeaponPartSelectModal from "../components/WeaponPartSelectModal";
 import WeaponPart from "../components/WeaponPart";
 import BondSelectModal from "../components/BondSelectModal";
 
-const DAUNTLESS_BUILD_COLLECTION_BASEURL = "https://www.dauntless-build-collection.com/#/maintenance/create?hash=";
-
 export default class BuildRoute extends React.Component {
 
     constructor(props, context) {
@@ -536,11 +534,6 @@ export default class BuildRoute extends React.Component {
                         </React.Fragment>
                     }>
                         <DarkModeToggle />
-                        <a className="dropdown-item"
-                            target="_blank" rel="noopener noreferrer"
-                            href={DAUNTLESS_BUILD_COLLECTION_BASEURL + this.state.buildData}>
-                            <i className="fas fa-file-export"></i> Export to Dauntless Build Collection...
-                        </a>
                         <hr className="dropdown-divider" />
                         <a className="dropdown-item disabled">
                             <i className="fas fa-cog"></i> Settings
