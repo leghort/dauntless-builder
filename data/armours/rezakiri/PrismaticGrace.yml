@@ -1,5 +1,5 @@
 name: Grâce Prismatique
-description: Une pièce d'armure exotique forgée avec des trophées du Rezakiri.
+description: Une pièce d'armure forger à partir de Rezakiri.
 icon: /assets/icons/armours/rezakiri/PrismaticGrace.png
 type: Head
 strength: Radiant
@@ -9,6 +9,15 @@ rarity: exotic
 resistance:
   0: 20
   1: 30
+perks:
+  - name: Médecin
+    value: 2
+    from: 0
+    to: 0
+  - name: Médecin
+    value: 3
+    from: 1
+    to: 1
 unique_effects:
   - name: PrismaticGrâceRevivePrism
     description: Après avoir réanimé un autre joueur, lui donne un prisme rayonnant qui bloque les dégts reçu pendant 5 secondes.

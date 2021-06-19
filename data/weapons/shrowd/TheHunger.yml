@@ -4,12 +4,21 @@ icon: /assets/icons/weapons/shrowd/TheHunger.png
 type: Épée
 damage: Slashing
 elemental: Obscur
-cells: [Puissance, Utilitaire]
+cells: [Puissance, Prismatic]
 rarity: exotic
 restrict_specials: true
 power:
   0: 80
   1: 120
+perks:
+  - name: Chasse-rage
+    value: 2
+    from: 0
+    to: 0
+  - name: Chasse-rage
+    value: 3
+    from: 1
+    to: 1
 unique_effects:
   - name: TheHungerEffect
     icon: /assets/icons/parts/sword/specials/TheHunger.png

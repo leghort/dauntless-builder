@@ -4,12 +4,21 @@ icon: /assets/icons/weapons/rezakiri/TheGodhand.png
 type: Aéthérolance
 damage: Piercing
 elemental: Radiant
-cells: [Technique, Puissance]
+cells: [Puissance, Prismatic]
 rarity: exotic
 restrict_specials: true
 power:
   0: 80
   1: 120
+perks:
+  - name: Sauvagerie
+    value: 2
+    from: 0
+    to: 0
+  - name: Sauvagerie
+    value: 3
+    from: 1
+    to: 1
 unique_effects:
   - name: BeamChannelDamage
     icon: /assets/icons/parts/warpike/specials/TheGodhand.png
