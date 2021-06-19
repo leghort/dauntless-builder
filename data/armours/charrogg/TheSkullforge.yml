@@ -1,5 +1,5 @@
 name: Le Forgecrâne
-description: Une pièce d'armure exotique forgée avec des trophées du Charrogg Marqueflamme.
+description: Une pièce d'armure forger à partir de Charrogg Marqueflamme.
 icon: /assets/icons/armours/charrogg/TheSkullforge.png
 type: Head
 strength: Incandescant
@@ -9,6 +9,15 @@ rarity: exotic
 resistance:
   0: 10
   1: 30
+perks:
+  - name: Fondu
+    value: 2
+    from: 0
+    to: 0
+  - name: Fondu
+    value: 3
+    from: 1
+    to: 1
 unique_effects:
   - name: DamageStaminaShield
     description: 1,5% des dégâts infligés se convertissent en un bouclier d'endurance (50 max) qui s'épuise lentement après n'avoir pas infligé de dégâts pendant une courte période.

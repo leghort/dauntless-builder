@@ -1,0 +1,19 @@
+name: Casque de Tisseur du temps
+description: Protection pour la tête forgée à partir de Tisseur du temps.
+icon: /assets/icons/armours/timeweave/TimeweaveHelm.png
+type: Head
+strength: Radiant
+weakness: Obscur
+cells: Technique
+resistance:
+  0: 20
+  1: 30
+perks:
+  - name: Prédateur
+    value: 2
+    from: 0
+    to: 0
+  - name: Prédateur
+    value: 3
+    from: 1
+    to: 1
