@@ -13,11 +13,11 @@ effects:
     description: [Pendant le sprint, augmente la vitesse de déplacement jusqu'à 11%, null]
     value: [0.11, null]
   4:
-    description: [Pendant le sprint, augmente la vitesse de déplacement jusqu'à 14%, "Après un sprint, accorde de la vitesse d'attaque égale au bonus de vitesse de déplacement de Grâce pendant 10 secondes"]
+    description: ["Pendant le sprint, augmente la vitesse de déplacement jusqu'à 14%", "La moitier de votre bonus de vitesse de déplacement est covertit en vistess d'attaque pendant 40 secondes"]
     value: [0.14, 0.14]
   5:
-    description: [Pendant le sprint, augmente la vitesse de déplacement jusqu'à 17%, "Après un sprint, accorde de la vitesse d'attaque égale au bonus de vitesse de déplacement de Grâce pendant 10 secondes"]
+    description: ["Pendant le sprint, augmente la vitesse de déplacement jusqu'à 17%", "La moitier de votre bonus de vitesse de déplacement est covertit en vistess d'attaque pendant 40 secondes"]
     value: [0.17, 0.17]
   6:
-    description: [Pendant le sprint, augmente la vitesse de déplacement jusqu'à 20%, "Après un sprint, accorde de la vitesse d'attaque égale au bonus de vitesse de déplacement de Grâce pendant 10 secondes"]
+    description: ["Pendant le sprint, augmente la vitesse de déplacement jusqu'à 20%", "La moitier de votre bonus de vitesse de déplacement est covertit en vistess d'attaque pendant 40 secondes"]
     value: [0.2, 0.2]

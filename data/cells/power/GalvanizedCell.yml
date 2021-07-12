@@ -1,0 +1,15 @@
+name: Galvanisé
+slot: Puissance
+variants:
+  "Galvanisé +1":
+    rarity: commun
+    perks:
+      Galvanisé: 1
+  "Galvanisé +2":
+    rarity: rare
+    perks:
+      Galvanisé: 2
+  "Galvanisé +3":
+    rarity: épique
+    perks:
+      Galvanisé: 3

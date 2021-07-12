@@ -80,8 +80,10 @@ export default class Item extends React.Component {
         return <React.Fragment>
             {ueBefore}
             <div className="item-title-wrapper">
-                <h2 className="subtitle hidden-on-large-screens">{this.getItemType() + (this.props.item.type ? ` - ${this.props.item.type}` : "")}</h2>
-                <div className="item-wrapper">
+            {this.props.titlePrefix !== "Bond" ?
+                <h2 className="subtitle hidden-on-large-screens">
+                    {this.getItemType() + (this.props.item.type ? ` - ${this.props.item.type}` : "")}
+                </h2> : null}                <div className="item-wrapper">
                     <div className={"item"+ (!hasCells ? " no-cells" : "")} title={this.props.item.description} onClick={() => this.onClicked()}>
                         <ItemIcon item={this.props.item} defaultType={this.props.defaultType} />
                         <ItemData
