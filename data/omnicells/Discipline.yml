@@ -1,0 +1,11 @@
+name: Discipline
+icon: /assets/icons/omnicells/Discipline.png
+ability_icon: /assets/icons/omnicells/DisciplineAbility.png
+passive: >
+  Chances de coup critique et dégâts accrus de 10%. Soins réduit de 50%. Lorsque vous avez atteint le nombre maximal
+  de charges de Poing enflammé, vous devenez Discipliné, ce qui augmente vos chances de coup critique de 50%
+  pendant 40 secondes, mais les dégâts subis de 100%. Lorsque Discipliné prend fin, les charges disparaissent.
+active: >
+  Effectuez un rapide coup de poing de parades qui inflige 300 points de dégâts incandescents.
+  Parer une attaque inflige 300% de dégâts et confère une charges de Poing enflammé qui donne +6%
+  de dégâts critique. Cet effet est cumulable 4 fois. 15 secondes de rechargement.

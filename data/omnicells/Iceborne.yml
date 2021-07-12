@@ -1,0 +1,11 @@
+name: Sang froid
+icon: /assets/icons/omnicells/Iceborne.png
+ability_icon: /assets/icons/omnicells/IceborneAbility.png
+passive: >
+  Augmente la santé maximale de 100. Obtenez 1% de vol vie et 5% de dégâts en moins, puis tous les 150 points
+  de vie perdus. Subir des dégâts réduit le temps de rechargement de la capacité active de 5 secondes
+  (une fois seulement toutes les 5 secondes).
+active: >
+  Projetez une lance de glace qui inflige 1500 points de dégâts de givre et le double si vous la projetez avec
+  votre santé à fond. Vous empêche également d'être étourdi et vous confère +10% de vol de vie pendant 8 secondes.
+  60 secondes de rechargement.

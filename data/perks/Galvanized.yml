@@ -1,0 +1,23 @@
+name: Galvanisé
+description: Augmente les chances de coup critique en fonction du boucliers dont vous disposez. A rangs plus élevés augmente les dégâts des coups critiques.
+type: Puissance
+key: [stagger_damage, dodge_stagger_damage]
+effects:
+  1:
+    description: ["Pour chaque tranche de 150 boucliers, gagnez +1% de chances de coup critique.", null]
+    value: [150, 1.05]
+  2:
+    description: ["Pour chaque tranche de 125 boucliers, gagnez +1% de chances de coup critique.", null]
+    value: [125, 1.05]
+  3:
+    description: ["Pour chaque tranche de 100 boucliers, gagnez +1% de chances de coup critique.", null]
+    value: [100, 1.05]
+  4:
+    description: ["Pour chaque tranche de 85 boucliers, gagnez +1% de chances de coup critique.", "+5% de dégâts des coups critiques."]
+    value: [85, 1.05]
+  5:
+    description: ["Pour chaque tranche de 70 boucliers, gagnez +1% de chances de coup critique.", "+10% de dégâts des coups critiques."]
+    value: [70, 1.1]
+  6:
+    description: ["Pour chaque tranche de 50 boucliers, gagnez +1% de chances de coup critique.", "+15% de dégâts des coups critiques."]
+    value: [50, 1.15]

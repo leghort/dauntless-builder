@@ -51,11 +51,11 @@ export default class ItemData extends React.Component {
                 let hold = null;
 
                 if(this.props.item.lantern_ability.instant) {
-                    instant = <div><strong>Instant</strong>: {this.props.item.lantern_ability.instant}</div>;
+                    instant = <div><strong>Instantané</strong>: {this.props.item.lantern_ability.instant}</div>;
                 }
 
                 if(this.props.item.lantern_ability.hold) {
-                    hold = <div><strong>Hold</strong>: {this.props.item.lantern_ability.hold}</div>;
+                    hold = <div><strong>Maintenu</strong>: {this.props.item.lantern_ability.hold}</div>;
                 }
 
                 stats = <React.Fragment>
