@@ -13,11 +13,11 @@ effects:
     description: [25% de chance de ne pas consommer le puits, L'utilisation du puit donne +75 points de vie.]
     value: [0.25, 75]
   4:
-    description: [25% de chance de ne pas consommer le puits, L'utilisation du puit donne +100 points de vie.]
+    description: [25% de chance de ne pas consommer le puits, L'utilisation du puit donne +100 points de vie & passer en Ruée aethérée]
     value: [0.25, 100]
   5:
-    description: [25% de chance de ne pas consommer le puits, L'utilisation du puit donne +150 points de vie.]
+    description: [25% de chance de ne pas consommer le puits, L'utilisation du puit donne +150 points de vie & passer en Ruée aethérée]
     value: [0.25, 150]
   6:
-    description: [25% de chance de ne pas consommer le puits, L'utilisation du puit donne +200 points de vie.]
+    description: [25% de chance de ne pas consommer le puits, L'utilisation du puit donne +200 points de vie & passer en Ruée aethérée]
     value: [0.25, 200]

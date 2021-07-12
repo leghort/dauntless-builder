@@ -13,7 +13,7 @@ const Omnicell = ({onItemClicked, selected}) => {
                 <div className="item no-item" onClick={onItemClicked}>
                     <i className="fas fa-question no-item-icon"></i>
                     <div className="item-data">
-                        <h3 className="subtitle"><strong>Omnicell</strong></h3>
+                        <h3 className="subtitle"><strong>Omnicellule</strong></h3>
                         <div>Cliquez pour ajouter.</div>
                     </div>
                 </div>

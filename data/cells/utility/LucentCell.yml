@@ -4,12 +4,12 @@ variants:
   "Luminescente +1":
     rarity: commun
     perks:
-      Luminescent: 1
+      Luminescente: 1
   "Luminescente +2":
     rarity: rare
     perks:
-      Luminescent: 2
+      Luminescente: 2
   "Luminescente +3":
     rarity: épique
     perks:
-      Luminescent: 3
+      Luminescente: 3

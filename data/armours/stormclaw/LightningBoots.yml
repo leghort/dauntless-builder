@@ -4,16 +4,16 @@ icon: /assets/icons/armours/stormclaw/LightningBoots.png
 type: Legs
 strength: Foudroyant
 weakness: Tellurique
-cells: Mobilité
+cells: Technique
 resistance:
   0: 20
   1: 30
 perks:
-  - name: Frénésie aethérée
+  - name: Esquive aethérée
     value: 2
     from: 0
     to: 0
-  - name: Frénésie aethérée
+  - name: Esquive aethérée
     value: 3
     from: 1
     to: 1

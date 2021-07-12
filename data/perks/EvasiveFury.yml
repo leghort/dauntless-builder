@@ -4,20 +4,20 @@ type: Technique
 key: dodge_attack_speed
 effects:
   1:
-    description: Après avoir esquivé une attaque, gagnez +7.5% de vitesse d'attaque pendant 16 secondes
-    value: 0.075
+    description: Après avoir esquivé une attaque, gagnez +4% de vitesse d'attaque pendant 20 secondes
+    value: 0.04
   2:
-    description: Après avoir esquivé une attaque, gagnez +10% de vitesse d'attaque pendant 16 secondes
-    value: 0.1
+    description: Après avoir esquivé une attaque, gagnez +6% de vitesse d'attaque pendant 20 secondes
+    value: 0.06
   3:
-    description: Après avoir esquivé une attaque, gagnez +12.5% de vitesse d'attaque pendant 16 secondes
-    value: 0.125
+    description: Après avoir esquivé une attaque, gagnez +8% de vitesse d'attaque pendant 20 secondes
+    value: 0.20
   4:
-    description: Après avoir esquivé une attaque, gagnez +15% de vitesse d'attaque pendant 16 secondes
-    value: 0.15
+    description: Après avoir esquivé une attaque, gagnez +10% de vitesse d'attaque pendant 20 secondes
+    value: 0.10
   5:
-    description: Après avoir esquivé une attaque, gagnez +17.5% de vitesse d'attaque pendant 16 secondes
-    value: 0.175
+    description: Après avoir esquivé une attaque, gagnez +12.5% de vitesse d'attaque pendant 20 secondes
+    value: 0.125
   6:
-    description: Après avoir esquivé une attaque, gagnez +20% de vitesse d'attaque pendant 16 secondes
-    value: 0.2
+    description: Après avoir esquivé une attaque, gagnez +15% de vitesse d'attaque pendant 20 secondes
+    value: 0.15

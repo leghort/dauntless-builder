@@ -36,7 +36,7 @@ const OmnicellSelectModal = ({itemData, onSelected, onCanceled, isOpen}) => {
                         <button
                             className="button"
                             onClick={() => onSelected("")}>
-                            Retirer&nbsp;<strong>Omnicell</strong>
+                            Retirer&nbsp;<strong>Omnicellule</strong>
                         </button>
                         <button className="button" onClick={onCanceled}>❌</button>
                     </div>
