@@ -4,20 +4,20 @@ type: Défense
 key: shield_share
 effects:
   1:
-    description: +10% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
-    value: 10
+    description: +5% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
+    value: 0.5
   2:
-    description: +20% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
-    value: 20
+    description: +10% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
+    value: 0.1
   3:
-    description: +30% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
-    value: 30
+    description: +15% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
+    value: 0.15
   4:
-    description: +40% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
-    value: 40
+    description: +20% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
+    value: 0.2
   5:
-    description: +50% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
-    value: 50
+    description: +25% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
+    value: 0.25
   6:
-    description: +60% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
-    value: 60
+    description: +30% des boucliers de santé qui vous sont appliqués sont également appliqués à votre allié le plus proche pendant 15 secondes
+    value: 0.3

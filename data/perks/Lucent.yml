@@ -1,47 +1,23 @@
-name: Luminescent
+name: Luminescente
 description: La flasque soigne au cours du temps et charge la lanterne.
 type: Utilitaire
 key: [increased_healing, flat_lantern_charge]
 effects:
   1:
-    description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 8 de charge lanterne cheque seconde,
-      null
-    ]
-    value: [1.2, 8]
+    description: [Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%. Tant que le soin est actif accélère le rechargement de la capacité de votre lanterne de 15%]
+    value: [1.2, 0.15]
   2:
-    description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 16 de charge lanterne cheque seconde,
-      null
-    ]
-    value: [1.2, 16]
+    description: [Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%. Tant que le soin est actif accélère le rechargement de la capacité de votre lanterne de 25%]
+    value: [1.2, 0.25]
   3:
-    description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 25 de charge lanterne cheque seconde,
-      null
-    ]
-    value: [1.2, 25]
+    description: [Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%. Tant que le soin est actif accélère le rechargement de la capacité de votre lanterne de 35%]
+    value: [1.2, 0.35]
   4:
-    description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 37.5 de charge lanterne cheque seconde,
-      null
-    ]
-    value: [1.2, 37.5]
+    description: [Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%. Tant que le soin est actif accélère le rechargement de la capacité de votre lanterne de 40%]
+    value: [1.2, 0.4]
   5:
-    description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 50 de charge lanterne cheque seconde,
-      null
-    ]
-    value: [1.2, 50]
+    description: [Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%. Tant que le soin est actif accélère le rechargement de la capacité de votre lanterne de 45%]
+    value: [1.2, 0.45]
   6:
-    description: [
-      Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%.
-      Tant que le soin est actif, vous générez 75 de charge lanterne cheque seconde,
-      null
-    ]
-    value: [1.2, 75]
+    description: [Votre flasque soigne sur 20 secondes, mais avec un soin accru de 20%. Tant que le soin est actif accélère le rechargement de la capacité de votre lanterne de 50%]
+    value: [1.2, 0.5]
