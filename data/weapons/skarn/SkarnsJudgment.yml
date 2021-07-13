@@ -20,13 +20,13 @@ perks:
 unique_effects:
   - name: DamageChanceStackShield
     description: >-
-      Infliger des dégâts donne une chance (basée sur le montant de dégâts) de recevoir un bouclier de santé cumulable de 20 points pendant 12 secondes. Ce bouclier peut être réinitialisé
-    value: 20
+      Confère un bouclier cumulable de 175 points qui dure 25 secondes (maximum 600 boucliers) après utilisation de votre capacité de lanterne.
+    value: 175
     from: 0
     to: 0
   - name: DamageChanceStackShield
     description: >-
-      Infliger des dégâts donne une chance (basée sur le montant de dégâts) de recevoir un bouclier de santé cumulable de 40 points pendant 12 secondes. Ce bouclier peut être réinitialisé
-    value: 40
+      Confère un bouclier cumulable de 250 points qui dure 25 secondes (maximum 600 boucliers) après utilisation de votre capacité de lanterne.
+    value: 250
     from: 1
-    to: 15
+    to: 1
