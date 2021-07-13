@@ -348,7 +348,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="weaponTypeFilter" className="field">
                     <Select
-                        placeholder="type d'arme..."
+                        placeholder="Armes"
                         onChange={weaponType => this.setState({weaponTypeFilter: weaponType})}
                         value={this.state.weaponTypeFilter}
                         options={options} />
@@ -363,7 +363,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="elementFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filtrer par élément..."
+                        placeholder="Éléments"
                         onChange={element => this.setState({elementFilter: element})}
                         value={this.state.elementFilter}
                         options={elementOptions} />
@@ -377,7 +377,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="perkFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filtrer par effets..."
+                        placeholder="Effets"
                         onChange={perk => this.setState({perkFilter: perk})}
                         value={this.state.perkFilter}
                         options={perkOptions} />
@@ -391,7 +391,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="slotFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Filtrer par type de cellule..."
+                        placeholder="Cellules"
                         onChange={slot => this.setState({slotFilter: slot})}
                         value={this.state.slotFilter}
                         options={slotOptions} />
@@ -404,7 +404,7 @@ export default class ItemSelectModal extends React.Component {
             fields.push(
                 <div key="rarityFilter" className="field is-hidden-touch">
                     <Select
-                        placeholder="Rareté..."
+                        placeholder="Raretés"
                         onChange={rarity => this.setState({rarityFilter: rarity})}
                         value={this.state.rarityFilter}
                         options={["Commun", "Rare", "Épique"].map(
