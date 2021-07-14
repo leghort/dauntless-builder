@@ -3,5 +3,5 @@ icon: /assets/icons/lanterns/DrasksEye.png
 description: null
 cells: Utilitaire
 lantern_ability:
-  instant: Augmente les dégâts de 30% pendant 6 secondes.
-  hold: Tire un éclair infligeant 150 points de dégâts de foudre, peut frapper plusieurs fois lorsqu'il traverse des ennemis.
+  instant: null
+  hold: Tire un éclair infligeant 400 points de dégâts de foudre, peut frapper plusieur fois lorsqu'il traverse des ennemis.

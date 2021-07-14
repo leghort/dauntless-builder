@@ -3,5 +3,5 @@ icon: /assets/icons/lanterns/GenericLantern.png
 description: null
 cells: null
 lantern_ability:
-  instant: Octroie 50 points de bouclier (non cumulables).
-  hold: Disperse l'aether stocké pour permettre au Slayer de trouver le Béhémoth.
+  instant: null
+  hold: Accorde un bouclier de 300 points de vie qui dure 15 secondes.

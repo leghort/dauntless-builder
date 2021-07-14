@@ -3,5 +3,5 @@ icon: /assets/icons/lanterns/KoshaisBloom.png
 description: null
 cells: Utilitaire
 lantern_ability:
-  instant: 10% des dégâts infligés vous soigneront pendant 8 secondes.
-  hold: Vous projette dans une direction, infligeant 750 points de dégâts telluriques aux ennemis proches du point d'arrivée.
+  instant: null
+  hold: Vous projette dans une direction infligeant 2250 points de dégâts telluriques aux ennemis proches du point d'arrivée et couférant 15% de vol de vie pendant 10 secondes.
